@@ -1,0 +1,77 @@
+site: Seward Park
+date: 2020-08-08
+title: Magnficent Forest Damage and Repair 
+centerLat: 47.556042
+centerLon: -122.251299
+initialZoom: 15
+
+points:
+
+  - name: Fairy Tree
+    observer: PTS
+    group: Fairy Tree
+    date: 2020-08-08
+    lat:  47.552852
+    lon: -122.251255
+    color: red
+    radius: 8
+    details: http://localhost:9999/fairyTree
+    #details: http://pshannon.net/sewardParkRestoration/fairyTree
+
+  - name: st1
+    observer: PTS
+    group: social trails
+    date: 2020-07-27
+    #garminLon: -122.2508 
+    #garminLat: 47.56103
+    lat: 47.560973
+    lon: -122.250910
+    color: red
+    radius: 2
+    details: http://localhost:9999/st1
+    #details: http://pshannon.net/sewardParkRestoration/socialTrailClosing/st1.html
+
+
+  - name: st2
+    observer: PTS
+    group: social trails
+    date: 2020-07-31
+    #garminLon: -122.2518
+    #garminLat: 47.56140
+    lat: 47.561301
+    lon: -122.251884
+    color: red
+    radius: 2
+    details: http://pshannon.net/sewardParkRestoration/socialTrailClosing/st2.html
+
+
+  - name: clearing start
+    observer: PTS
+    group: clearings
+    date: 2020-07-13
+    lat: 47.554905
+    lon: -122.251418
+    color: blue
+    radius: 2
+    details: http://pshannon.net/sewardParkRestoration/socialTrailClosing/st2.html
+
+  - name: clearing elbow
+    observer: PTS
+    group: clearings
+    date: 2020-07-13
+    lat: 47.555379
+    lon: -122.251407
+    color: blue
+    radius: 2
+    details: http://pshannon.net/sewardParkRestoration/socialTrailClosing/st2.html
+
+  - name: clearing
+    observer: PTS
+    group: clearings
+    date: 2020-07-13
+    lat: 47.555469
+    lon: -122.251670
+    color: blue
+    radius: 6
+    details: http://pshannon.net/sewardParkRestoration/socialTrailClosing/st2.html
+
