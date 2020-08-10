@@ -24,7 +24,7 @@ ui <- fluidPage(
       sidebarPanel(
          #includeCSS("map.css"),
          selectInput("siteSelector", "Select Site", c("-", sort(tbl$label))),
-         actionButton("fullViewButton", "Full View"),
+         actionButton("fullViewButton", "Full Map"),
          br(), br(), br(),
          checkboxGroupInput("groupsSelector", "Category", choices = groups, selected = groups),
          width=2
@@ -81,12 +81,14 @@ server <- function(input, output, session) {
      lon <- event$lng
      printf("lat: %f  lon: %f", lat, lon)
      details.url <- subset(tbl, name==event$id)$details
-     print(details.url)
-     removeUI("#temporaryDiv")
-     insertUI("#foo", "beforeEnd", div(id="temporaryDiv"))
-     insertUI("#temporaryDiv", "beforeEnd",
-              div(id="detailsDiv", includeHTML(details.url)))
-     updateTabsetPanel(session, "mapTabs", selected="siteDetailsTab")    # provided by shiny
+     if(nchar(details.url) > 20){
+        print(details.url)
+        removeUI("#temporaryDiv")
+        insertUI("#foo", "beforeEnd", div(id="temporaryDiv"))
+        insertUI("#temporaryDiv", "beforeEnd",
+                 div(id="detailsDiv", includeHTML(details.url)))
+        updateTabsetPanel(session, "mapTabs", selected="siteDetailsTab")    # provided by shiny
+        }
      })
 
   output$map <- renderLeaflet({
@@ -99,7 +101,9 @@ server <- function(input, output, session) {
          setView(config$centerLon, config$centerLat, zoom=config$initialZoom) %>%
          addScaleBar()
      if(nrow(tbl.sub) > 0)
-        map <- addCircleMarkers(map, tbl.sub$lon, tbl.sub$lat, label=tbl.sub$label, color=tbl.sub$color, radius=tbl.sub$radius, layerId=tbl.sub$name)
+         map <- addCircleMarkers(map, tbl.sub$lon, tbl.sub$lat, label=tbl.sub$label,
+                                 color=tbl.sub$color, radius=tbl.sub$radius,
+                                 layerId=tbl.sub$name)
      map
      })
 }

@@ -2,6 +2,11 @@
 .Rhistory
 .Rapp.history
 
+*.jpg
+*.mov
+*.jpeg
+*.m4v
+
 # Session Data files
 .RData
 

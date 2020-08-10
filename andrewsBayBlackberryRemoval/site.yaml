@@ -1,0 +1,20 @@
+site: Seward Park
+date: 2020-08-08
+title: Magnficent Forest Damage and Repair 
+centerLat:  47.55243
+centerLon: -122.2566 
+initialZoom: 17
+
+points:
+
+  - name: Fairy Tree
+    observer: PTS
+    group: Fairy Tree
+    date: 2020-08-08
+    lat:  47.55228
+    lon: -122.2566 
+    color: red
+    radius: 8
+    details: http://pshannon.net/sewardParkRestoration/andrewsBayHBBexperiment
+
+

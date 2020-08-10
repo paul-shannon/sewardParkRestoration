@@ -1,8 +1,8 @@
 site: Seward Park
 date: 2020-08-08
-title: Magnficent Forest Damage and Repair 
-centerLat: 47.556042
-centerLon: -122.251299
+title: Magnficent Forest - Damage and Repair 
+centerLat: 47.556656
+centerLon: -122.250784
 initialZoom: 15
 
 points:
@@ -14,11 +14,11 @@ points:
     lat:  47.552852
     lon: -122.251255
     color: red
-    radius: 8
-    details: http://localhost:9999/fairyTree
-    #details: http://pshannon.net/sewardParkRestoration/fairyTree
+    radius: 6
+    #details: http://localhost:9999/fairyTree
+    details: http://pshannon.net/sewardParkRestoration/fairyTree
 
-  - name: st1
+  - name: "Social Trail #1"
     observer: PTS
     group: social trails
     date: 2020-07-27
@@ -28,11 +28,10 @@ points:
     lon: -122.250910
     color: red
     radius: 2
-    details: http://localhost:9999/st1
-    #details: http://pshannon.net/sewardParkRestoration/socialTrailClosing/st1.html
+    details: http://pshannon.net/sewardParkRestoration/socialTrail_001
 
 
-  - name: st2
+  - name: "Social Trail #2"
     observer: PTS
     group: social trails
     date: 2020-07-31
@@ -42,30 +41,9 @@ points:
     lon: -122.251884
     color: red
     radius: 2
-    details: http://pshannon.net/sewardParkRestoration/socialTrailClosing/st2.html
+    details: http://pshannon.net/sewardParkRestoration/socialTrail_002
 
-
-  - name: clearing start
-    observer: PTS
-    group: clearings
-    date: 2020-07-13
-    lat: 47.554905
-    lon: -122.251418
-    color: blue
-    radius: 2
-    details: http://pshannon.net/sewardParkRestoration/socialTrailClosing/st2.html
-
-  - name: clearing elbow
-    observer: PTS
-    group: clearings
-    date: 2020-07-13
-    lat: 47.555379
-    lon: -122.251407
-    color: blue
-    radius: 2
-    details: http://pshannon.net/sewardParkRestoration/socialTrailClosing/st2.html
-
-  - name: clearing
+  - name: Bar Mitzvah Destruction
     observer: PTS
     group: clearings
     date: 2020-07-13
@@ -73,5 +51,57 @@ points:
     lon: -122.251670
     color: blue
     radius: 6
-    details: http://pshannon.net/sewardParkRestoration/socialTrailClosing/st2.html
+    details: http://pshannon.net/sewardParkRestoration/barmitzvah
 
+
+  - name: HBB removal experiment
+    observer: PTS
+    group: restorations
+    date: 2020-08-08
+    lat: 47.552363
+    lon: -122.256431
+    color: green
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/andrewsBayHBBexperiment
+
+  - name: cherry snag
+    observer: PTS
+    group: snags
+    date: 2020-08-08
+    lat: 47.552289
+    lon: -122.256477
+    color: brown
+    radius: 2
+    details: nop
+
+  - name: cedar snag
+    observer: PTS
+    group: snags
+    date: 2020-08-08
+    lat: 47.552258
+    lon: -122.256310
+    color: brown
+    radius: 2
+    details: nop
+
+
+#  - name: clearing start
+#    observer: PTS
+#    group: clearings
+#    date: 2020-07-13
+#    lat: 47.554905
+#    lon: -122.251418
+#    color: blue
+#    radius: 2
+#    details: http://pshannon.net/sewardParkRestoration/socialTrailClosing/st2.html
+#
+#  - name: clearing elbow
+#    observer: PTS
+#    group: clearings
+#    date: 2020-07-13
+#    lat: 47.555379
+#    lon: -122.251407
+#    color: blue
+#    radius: 2
+#    details: http://pshannon.net/sewardParkRestoration/socialTrailClosing/st2.html
+#
