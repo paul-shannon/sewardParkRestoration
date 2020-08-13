@@ -7,6 +7,17 @@ initialZoom: 15
 
 points:
 
+  - name: Woodpecker Trail, multi-rooted maple
+    observer: CMA
+    group: overuse
+    date: 2020-08-12
+    lat:  47.553538
+    lon: -122.251254
+    color: red
+    radius: 6
+    details: http://pshannon.net/sewardParkRestoration/woodpeckerTrail_multirootedTree
+
+
   - name: Fairy Tree
     observer: PTS
     group: Fairy Tree
