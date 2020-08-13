@@ -7,6 +7,17 @@ initialZoom: 15
 
 points:
 
+  - name: Salal Decline 001
+    observer: PTS
+    group: salal decline?
+    date: 2020-08-12
+    lat: 47.559997
+    lon: -122.250396
+    color: brown
+    radius: 6
+    details: http://pshannon.net/sewardParkRestoration/salalDecline_001
+
+
   - name: Woodpecker Trail, multi-rooted maple
     observer: CMA
     group: overuse

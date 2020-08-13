@@ -6,10 +6,9 @@ server:
 	python3 -m http.server 9999 &
 
 
-
-ID = 09jul2020
+ID = 13jul2020
 APP_IMAGE_NAME = sewardmap_app_$(ID)
-BASE_IMAGE_NAME = map_app_$(ID)
+BASE_IMAGE_NAME = map_app_09jul2020
 
 
 build:
@@ -22,6 +21,7 @@ build.base:
 bash:
 	docker run -it \
            -p 3838:6789 \
+           -v ~/github/sewardParkRestoration/allSites/:/appData \
            --entrypoint /bin/bash \
            $(APP_IMAGE_NAME)
 
