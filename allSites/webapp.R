@@ -6,8 +6,10 @@ printf <- function(...) print(noquote(sprintf(...)))
 #----------------------------------------------------------------------------------------------------
 library(yaml)
 
-#config.file <- "site.yaml"                       # for local use, no docker
 config.file <- "/appData/site.yaml"               # for site.yaml loaded in docker
+if(Sys.info()[["sysname"]] == "Darwin")
+  config.file <- "site.yaml"                       # for local use, no docker
+
 config <-  yaml.load(readLines(config.file))
 
 points <- config$points
