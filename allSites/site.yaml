@@ -25,8 +25,18 @@ points:
     lat:  47.553538
     lon: -122.251254
     color: red
-    radius: 6
+    radius: 4
     details: http://pshannon.net/sewardParkRestoration/woodpeckerTrail_multirootedTree
+
+  - name: Woodpecker Trail, Stone Steps
+    observer: CMA
+    group: overuse
+    date: 2020-08-12
+    lat: 47.554008
+    lon: -122.251148
+    color: red
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/woodpeckerTrail_steps
 
 
   - name: Fairy Tree
