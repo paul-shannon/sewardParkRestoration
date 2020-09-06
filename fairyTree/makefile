@@ -1,4 +1,5 @@
 DEST=paulshannnon@pshannon.net:public_html/pshannon.net/sewardParkRestoration/fairyTree/
+SITE=fairyTree
 
 default: html
 
@@ -12,5 +13,7 @@ html:
 
 all: jpg html
 
+view:
+	open http://pshannon.net/sewardParkRestoration/$(SITE)
 
 
