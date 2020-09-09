@@ -54,8 +54,6 @@ points:
     observer: PTS
     group: social trails
     date: 2020-07-27
-    #garminLon: -122.2508 
-    #garminLat: 47.56103
     lat: 47.560973
     lon: -122.250910
     color: red
@@ -67,10 +65,38 @@ points:
     observer: PTS
     group: social trails
     date: 2020-07-31
-    #garminLon: -122.2518
-    #garminLat: 47.56140
     lat: 47.561301
     lon: -122.251884
+    color: red
+    radius: 2
+    details: http://pshannon.net/sewardParkRestoration/socialTrail_002
+
+  - name: "Social Trail #3"
+    observer: PTS
+    group: social trails
+    date: 2020-07-31
+    lat: 47.561453
+    lon: -122.252394
+    color: red
+    radius: 2
+    details: http://pshannon.net/sewardParkRestoration/socialTrail_002
+
+  - name: "Social Trail #4"
+    observer: PTS
+    group: social trails
+    date: 2020-07-31
+    lat: 47.561388
+    lon: -122.252158
+    color: red
+    radius: 2
+    details: http://pshannon.net/sewardParkRestoration/socialTrail_002
+
+  - name: "Social Trail #5"
+    observer: PTS
+    group: social trails
+    date: 2020-07-31
+    lat: 47.561341
+    lon: -122.252024
     color: red
     radius: 2
     details: http://pshannon.net/sewardParkRestoration/socialTrail_002
