@@ -75,8 +75,8 @@ points:
     observer: PTS
     group: social trails
     date: 2020-07-31
-    lat: 47.561453
-    lon: -122.252394
+    lat: 47.561412
+    lon: -122.252411
     color: red
     radius: 2
     details: http://pshannon.net/sewardParkRestoration/socialTrail_002
@@ -85,8 +85,8 @@ points:
     observer: PTS
     group: social trails
     date: 2020-07-31
-    lat: 47.561388
-    lon: -122.252158
+    lat: 47.561361
+    lon: -122.252173
     color: red
     radius: 2
     details: http://pshannon.net/sewardParkRestoration/socialTrail_002
@@ -95,8 +95,8 @@ points:
     observer: PTS
     group: social trails
     date: 2020-07-31
-    lat: 47.561341
-    lon: -122.252024
+    lat: 47.561331
+    lon: -122.252030
     color: red
     radius: 2
     details: http://pshannon.net/sewardParkRestoration/socialTrail_002
