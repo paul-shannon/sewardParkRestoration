@@ -155,7 +155,7 @@ points:
     radius: 2
     details: nop
 
-  - name: cistern grafitti
+  - name: cistern graffiti
     id: id_014
     observer: PTS
     group: grafitti
