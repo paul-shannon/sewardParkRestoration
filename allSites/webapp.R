@@ -16,6 +16,7 @@ points <- config$points
 tbl <- do.call(rbind, lapply(points, as.data.frame))
 tbl$name <- as.character(tbl$name)
 tbl$details <- as.character(tbl$details)
+tbl$id <- as.character(tbl$id)
 # center.lat <- min(tbl$lat) + ((max(tbl$lat) - min(tbl$lat))/2)
 # center.lon <- min(tbl$lon) + ((max(tbl$lon) - min(tbl$lon))/2)
 tbl$label <- tbl$name; # with(tbl, sprintf("%s %s (%s)", name, date, observer))
@@ -30,7 +31,8 @@ ui <- fluidPage(
          selectInput("siteSelector", "Select Site", c("-", sort(tbl$label))),
          actionButton("fullViewButton", "Full Map"),
          br(), br(), br(),
-         checkboxGroupInput("groupsSelector", "Category", choices = groups, selected = groups),
+         checkboxGroupInput("groupsSelector", "Category", choices = groups, selected=groups),
+         #actionButton("clientInfoButton", "URL"),
          width=2
          ),
       mainPanel(
@@ -45,6 +47,24 @@ ui <- fluidPage(
 )
 #----------------------------------------------------------------------------------------------------
 server <- function(input, output, session) {
+
+  observe({  # with no reactive values included here, this seems to run only at startup.
+    searchTerm <- session$clientData$url_search
+    printf("-- starting up, search term?")
+    searchTerm <- sub("?", "", searchTerm, fixed=TRUE)
+    print(searchTerm)
+    if(nchar(searchTerm) > 0){
+      tbl.sub <- subset(tbl, id==searchTerm)
+      printf("sites found matching searchTerm: %d", nrow(tbl.sub))
+      if(nrow(tbl.sub) == 1){
+        lat <- tbl.sub$lat
+        lon <- tbl.sub$lon
+        isolate({
+          leafletProxy('map') %>% setView(lon, lat, zoom=18)
+          })
+         } # nrow
+        } # nchar
+    })
 
   observeEvent(input$fullViewButton, ignoreInit=TRUE, {
      isolate({
@@ -67,6 +87,12 @@ server <- function(input, output, session) {
               setView(lon, lat, zoom=18)
           })
          } # nrow
+    })
+
+  observeEvent(input$clientInfoButton, ignoreInit=FALSE,{
+    searchTerm <- session$clientData$url_search
+    printf("-- starting up, search term?")
+    print(searchTerm)
     })
 
   observe({

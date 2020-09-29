@@ -8,6 +8,7 @@ initialZoom: 15
 points:
 
   - name: Salal Decline 001
+    id: id_001
     observer: PTS
     group: salal decline?
     date: 2020-08-12
@@ -19,6 +20,7 @@ points:
 
 
   - name: Woodpecker Trail, multi-rooted maple
+    id: id_002
     observer: CMA
     group: overuse
     date: 2020-08-12
@@ -29,6 +31,7 @@ points:
     details: http://pshannon.net/sewardParkRestoration/woodpeckerTrail_multirootedTree
 
   - name: Woodpecker Trail, Stone Steps
+    id: id_003
     observer: CMA
     group: overuse
     date: 2020-08-12
@@ -40,6 +43,7 @@ points:
 
 
   - name: Fairy Tree
+    id: id_004
     observer: PTS
     group: Fairy Tree
     date: 2020-08-08
@@ -51,6 +55,7 @@ points:
     details: http://pshannon.net/sewardParkRestoration/fairyTree
 
   - name: "Social Trail #1"
+    id: id_005
     observer: PTS
     group: social trails
     date: 2020-07-27
@@ -62,6 +67,7 @@ points:
 
 
   - name: "Social Trail #2"
+    id: id_006
     observer: PTS
     group: social trails
     date: 2020-07-31
@@ -72,6 +78,7 @@ points:
     details: http://pshannon.net/sewardParkRestoration/socialTrail_002
 
   - name: "Social Trail #3"
+    id: id_007
     observer: PTS
     group: social trails
     date: 2020-07-31
@@ -82,6 +89,7 @@ points:
     details: http://pshannon.net/sewardParkRestoration/socialTrail_002
 
   - name: "Social Trail #4"
+    id: id_008
     observer: PTS
     group: social trails
     date: 2020-07-31
@@ -92,6 +100,7 @@ points:
     details: http://pshannon.net/sewardParkRestoration/socialTrail_002
 
   - name: "Social Trail #5"
+    id: id_009
     observer: PTS
     group: social trails
     date: 2020-07-31
@@ -102,6 +111,7 @@ points:
     details: http://pshannon.net/sewardParkRestoration/socialTrail_002
 
   - name: Bar Mitzvah Destruction
+    id: id_010
     observer: PTS
     group: clearings
     date: 2020-07-13
@@ -113,6 +123,7 @@ points:
 
 
   - name: HBB removal experiment
+    id: id_011
     observer: PTS
     group: restorations
     date: 2020-08-08
@@ -123,6 +134,7 @@ points:
     details: http://pshannon.net/sewardParkRestoration/andrewsBayHBBexperiment
 
   - name: cherry snag
+    id: id_012
     observer: PTS
     group: snags
     date: 2020-08-08
@@ -133,6 +145,7 @@ points:
     details: nop
 
   - name: cedar snag
+    id: id_013
     observer: PTS
     group: snags
     date: 2020-08-08
@@ -141,6 +154,18 @@ points:
     color: brown
     radius: 2
     details: nop
+
+  - name: cistern grafitti
+    id: id_014
+    observer: PTS
+    group: grafitti
+    date: 2020-09-26
+    lat: 47.555406
+    lon: -122.250561
+    color: brown
+    radius: 2
+    details: http://pshannon.net/sewardParkRestoration/cisternAtJunction
+
 
 
 #  - name: clearing start
