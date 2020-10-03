@@ -20,7 +20,7 @@ tbl$id <- as.character(tbl$id)
 # center.lat <- min(tbl$lat) + ((max(tbl$lat) - min(tbl$lat))/2)
 # center.lon <- min(tbl$lon) + ((max(tbl$lon) - min(tbl$lon))/2)
 tbl$label <- tbl$name; # with(tbl, sprintf("%s %s (%s)", name, date, observer))
-groups <- sort(unique(tbl$group))
+markerCategories <- sort(unique(tbl$group))
 #----------------------------------------------------------------------------------------------------
 ui <- fluidPage(
 
@@ -31,8 +31,9 @@ ui <- fluidPage(
          selectInput("siteSelector", "Select Site", c("-", sort(tbl$label))),
          actionButton("fullViewButton", "Full Map"),
          br(), br(), br(),
-         checkboxGroupInput("groupsSelector", "Category", choices = groups, selected=groups),
-         #actionButton("clientInfoButton", "URL"),
+         checkboxGroupInput("groupsSelector", "Category", choices = markerCategories, selected=markerCategories),
+         div(actionButton("selectAllCategoriesButton", "All"), style="display: inline-block;vertical-align:top; width: 50px;"),
+         div(actionButton("selectNoCategoriesButton", "None"), style="display: inline-block;vertical-align:top; width: 50px;"),
          width=2
          ),
       mainPanel(
@@ -60,7 +61,7 @@ server <- function(input, output, session) {
         lat <- tbl.sub$lat
         lon <- tbl.sub$lon
         isolate({
-          leafletProxy('map') %>% setView(lon, lat, zoom=18)
+          leafletProxy('map') %>% setView(lon, lat, zoom=19)
           })
          } # nrow
         } # nchar
@@ -88,6 +89,14 @@ server <- function(input, output, session) {
           })
          } # nrow
     })
+
+  observeEvent(input$selectAllCategoriesButton, ignoreInit=TRUE,{
+     updateCheckboxGroupInput(session, "groupsSelector", selected=markerCategories)
+     })
+
+  observeEvent(input$selectNoCategoriesButton, ignoreInit=TRUE,{
+     updateCheckboxGroupInput(session, "groupsSelector", selected=character(0))
+     })
 
   observeEvent(input$clientInfoButton, ignoreInit=FALSE,{
     searchTerm <- session$clientData$url_search
