@@ -10,7 +10,6 @@ html:
 
 jpg:
 	- scp *.jpg $(DEST)
-	- scp *.jpeg $(DEST)
 
 view:
 	open http://pshannon.net/sewardParkRestoration/$(SITE)

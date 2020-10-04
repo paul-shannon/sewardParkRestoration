@@ -28,12 +28,12 @@ ui <- fluidPage(
   sidebarLayout(
       sidebarPanel(
          #includeCSS("map.css"),
-         selectInput("siteSelector", "Select Site", c("-", sort(tbl$label))),
-         actionButton("fullViewButton", "Full Map"),
-         br(), br(), br(),
+         #selectInput("siteSelector", "Select Site", c("-", sort(tbl$label))),
          checkboxGroupInput("groupsSelector", "Category", choices = markerCategories, selected=markerCategories),
          div(actionButton("selectAllCategoriesButton", "All"), style="display: inline-block;vertical-align:top; width: 50px;"),
          div(actionButton("selectNoCategoriesButton", "None"), style="display: inline-block;vertical-align:top; width: 50px;"),
+         br(), br(), br(),
+         actionButton("fullViewButton", "Full Map"),
          width=2
          ),
       mainPanel(
@@ -68,11 +68,11 @@ server <- function(input, output, session) {
     })
 
   observeEvent(input$fullViewButton, ignoreInit=TRUE, {
+     updateTabsetPanel(session, "mapTabs", selected="mapTab")
      isolate({
         leafletProxy('map') %>%
            setView(lng=config$centerLon, lat=config$centerLat, zoom=config$initialZoom)
         })
-      updateTabsetPanel(session, "mapTabs", selected="mapTab")
       })
 
   observe({
@@ -91,10 +91,12 @@ server <- function(input, output, session) {
     })
 
   observeEvent(input$selectAllCategoriesButton, ignoreInit=TRUE,{
+     updateTabsetPanel(session, "mapTabs", selected="mapTab")
      updateCheckboxGroupInput(session, "groupsSelector", selected=markerCategories)
      })
 
   observeEvent(input$selectNoCategoriesButton, ignoreInit=TRUE,{
+     updateTabsetPanel(session, "mapTabs", selected="mapTab")
      updateCheckboxGroupInput(session, "groupsSelector", selected=character(0))
      })
 

@@ -9,7 +9,6 @@ jpg: jpeg
 
 jpeg:
 	scp *.jpg $(DEST)
-	scp *.jpeg $(DEST)
 
 all: html jpg
 

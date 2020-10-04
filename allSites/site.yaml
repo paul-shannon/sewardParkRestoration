@@ -86,7 +86,7 @@ points:
     lon: -122.252411
     color: red
     radius: 2
-    details: http://pshannon.net/sewardParkRestoration/socialTrail_002
+    details: http://pshannon.net/sewardParkRestoration/socialTrail_003_northeast
 
   - name: "Social Trail #4"
     id: id_008
@@ -97,7 +97,7 @@ points:
     lon: -122.252173
     color: red
     radius: 2
-    details: http://pshannon.net/sewardParkRestoration/socialTrail_002
+    details: http://pshannon.net/sewardParkRestoration/socialTrail_004_northeast
 
   - name: "Social Trail #5"
     id: id_009
@@ -108,7 +108,7 @@ points:
     lon: -122.252030
     color: red
     radius: 2
-    details: http://pshannon.net/sewardParkRestoration/socialTrail_002
+    details: http://pshannon.net/sewardParkRestoration/socialTrail_005_northeast
 
   - name: Bar Mitzvah Destruction
     id: id_010
@@ -165,6 +165,18 @@ points:
     color: brown
     radius: 2
     details: http://pshannon.net/sewardParkRestoration/cisternAtJunction
+
+  - name: High ground die-off
+    id: id_015
+    observer: PTS
+    group: new 2020 die-off
+    date: 2020-10-02
+    lat: 47.556631
+    lon: -122.251311
+    color: black
+    radius: 2
+    details: http://pshannon.net/sewardParkRestoration/highGroundFernDieoff
+
 
 
 
