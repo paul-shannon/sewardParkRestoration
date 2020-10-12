@@ -1,3 +1,8 @@
+ID = 12oct2020
+APP_IMAGE_NAME = sewardmap_app_$(ID)
+BASE_IMAGE_NAME = map_app_09jul2020
+
+
 default:
 	R -f webapp.R
 
@@ -5,10 +10,6 @@ default:
 server:
 	python3 -m http.server 9999 &
 
-
-ID = 13jul2020
-APP_IMAGE_NAME = sewardmap_app_$(ID)
-BASE_IMAGE_NAME = map_app_09jul2020
 
 
 build:
