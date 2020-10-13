@@ -57,15 +57,13 @@ MapApp = R6Class("MapAppClass",
           private$map <- with(private$tbl, addCircleMarkers(private$map,
                                                             lon, lat,
                                                             label=label,
-                                                            color=color, radius=radius,
+                                                            color=color,
+                                                            radius=radius,
                                                             layerId=name,
-                                                            group=group))
-
-          #private$map <- addCircleMarkers(private$map,
-          #                                lng = runif(10),
-          #                                lat = runif(10),
-          #                                layerId = paste0("marker", 1:10))
-
+                                                            group=group,
+                                                            labelOptions=labelOptions(
+                                                                style=list("font-size"="20px"))
+                                                            ))
           }, # initialize
        #--------------------------------------------------------------------------------
        ui = function(){
@@ -107,6 +105,22 @@ MapApp = R6Class("MapAppClass",
 
          output$sewardMap <- renderLeaflet(private$map)
          private$proxy <- leafletProxy("sewardMap", session)
+
+         observe({  # with no reactive values included here, this seems to run only at startup.
+            printf("--- starting up, search term?")
+            searchTerm <- session$clientData$url_search
+            searchTerm <- sub("?", "", searchTerm, fixed=TRUE)
+            print(searchTerm)
+            if(nchar(searchTerm) > 0){
+              tbl.sub <- subset(private$tbl, id==searchTerm)
+              printf("sites found matching searchTerm: %d", nrow(tbl.sub))
+              if(nrow(tbl.sub) == 1){
+                 lat <- tbl.sub$lat
+                 lon <- tbl.sub$lon
+                 isolate({setView(private$proxy, lon, lat, zoom=18)})
+                 } # nrow
+              } # nchar
+            })
 
          observe({
             req(input$sewardMap_marker_click)
