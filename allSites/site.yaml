@@ -14,7 +14,7 @@ points:
     date: 2020-08-12
     lat: 47.559997
     lon: -122.250396
-    color: brown
+    color: grey
     radius: 6
     details: http://pshannon.net/sewardParkRestoration/salalDecline_001
 
@@ -176,6 +176,84 @@ points:
     color: black
     radius: 2
     details: http://pshannon.net/sewardParkRestoration/highGroundFernDieoff
+
+  - name: tree.036
+    observer: PTS
+    id: dougFir.36
+    group: old doug firs
+    date: 2020-10-17
+    lon: -122.2526
+    lat: 47.56166
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.036
+
+  - name: tree.037
+    observer: PTS
+    id: waypoint.37
+    group: old doug firs
+    date: 2020-10-17
+    lon: -122.2521
+    lat: 47.56164
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.037
+
+  - name: tree.038
+    observer: PTS
+    id: waypoint.38
+    group: old doug firs
+    date: 2020-10-17
+    lon: -122.2518
+    lat:  47.56173
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.038
+
+  - name: tree.039
+    observer: PTS
+    id: waypoint.39
+    group: old doug firs
+    date: 2020-10-17
+    lat: 47.560721
+    lon: -122.250737
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.039
+
+  - name: tree.040
+    observer: PTS
+    id: waypoint.40
+    group: old doug firs
+    date: 2020-10-17
+    lon: -122.2501
+    lat: 47.55988
+    color: brown
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.040
+
+
+  - name: tree.041
+    observer: PTS
+    id: waypoint.41
+    group: old doug firs
+    date: 2020-10-17
+    lon: -122.2497
+    lat: 47.56016
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.041
+
+  - name: tree.042
+    observer: PTS
+    id: waypoint.42
+    group: old doug firs
+    date: 2020-10-17
+    lon: -122.2494
+    lat: 47.55996
+    color: brown
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.042
 
 
 
