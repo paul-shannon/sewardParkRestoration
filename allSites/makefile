@@ -21,7 +21,7 @@ build.base:
 
 bash:
 	docker run -it \
-           -p 3838:6789 \
+           -p 4444:6789 \
            -v ~/github/sewardParkRestoration/allSites/:/appData \
            --entrypoint /bin/bash \
            $(APP_IMAGE_NAME)
