@@ -1,4 +1,4 @@
-ID = 12oct2020
+ID = 23oct2020
 APP_IMAGE_NAME = sewardmap_app_$(ID)
 BASE_IMAGE_NAME = map_app_09jul2020
 
