@@ -263,7 +263,7 @@ points:
     date: 2020-10-25
     lon: -122.24874
     lat: 47.55229
-    color: darkgreen
+    color: black
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/dougFir.042
 
@@ -275,7 +275,7 @@ points:
     date: 2020-10-25
     lon: -122.25169
     lat: 47.55611
-    color: darkgreen
+    color: black
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/dougFir.042
 
@@ -287,7 +287,7 @@ points:
     date: 2020-10-25
     lon: -122.25197
     lat: 47.55722
-    color: darkgreen
+    color: black
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/dougFir.042
 
@@ -299,7 +299,7 @@ points:
     date: 2020-10-25
     lon: -122.25033
     lat: 47.55973
-    color: darkgreen
+    color: black
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/dougFir.042
 
