@@ -273,8 +273,8 @@ points:
     id: waypoint.44
     group: old doug firs
     date: 2020-10-25
-    lon: -122.25169
-    lat: 47.55611
+    lat: 47.556276
+    lon: -122.251682
     color: black
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/dougFir.044
@@ -302,6 +302,53 @@ points:
     color: black
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/dougFir.046
+
+
+  - name: tree.047
+    observer: PTS
+    id: waypoint.47
+    group: old doug firs
+    date: 2020-11-02
+    lat: 47.55732
+    lon: -122.24829
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.047
+
+
+  - name: tree.048
+    observer: PTS
+    id: waypoint.48
+    group: old doug firs
+    date: 2020-11-02
+    lat: 47.55791
+    lon: -122.24916
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.048
+
+
+  - name: tree.049
+    observer: PTS
+    id: waypoint.49
+    group: old doug firs
+    date: 2020-11-02
+    lat: 47.55781
+    lon: -122.24956
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.049
+
+  - name: tree.050
+    observer: PTS
+    id: waypoint.50
+    group: old doug firs
+    date: 2020-11-02
+    lat: 47.55791
+    lon: -122.24966
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.050
 
 
 
