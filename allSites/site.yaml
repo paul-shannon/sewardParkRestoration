@@ -350,26 +350,25 @@ points:
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/dougFir.050
 
+  - name: tree.051
+    observer: PTS
+    id: waypoint.51
+    group: old doug firs
+    date: 2020-11-12
+    lat: 47.55795
+    lon: -122.24990
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.051
 
+  - name: tree.052
+    observer: PTS
+    id: waypoint.52
+    group: old doug firs
+    date: 2020-11-12
+    lat: 47.55809
+    lon: -122.24986
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.052
 
-
-#  - name: clearing start
-#    observer: PTS
-#    group: clearings
-#    date: 2020-07-13
-#    lat: 47.554905
-#    lon: -122.251418
-#    color: blue
-#    radius: 2
-#    details: http://pshannon.net/sewardParkRestoration/socialTrailClosing/st2.html
-#
-#  - name: clearing elbow
-#    observer: PTS
-#    group: clearings
-#    date: 2020-07-13
-#    lat: 47.555379
-#    lon: -122.251407
-#    color: blue
-#    radius: 2
-#    details: http://pshannon.net/sewardParkRestoration/socialTrailClosing/st2.html
-#
