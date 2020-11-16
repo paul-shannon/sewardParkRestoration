@@ -1,4 +1,4 @@
-SITE=dougFir.052
+SITE=dougFir.056b
 DEST=paulshannnon@pshannon.net:public_html/pshannon.net/sewardParkRestoration/$(SITE)/
 
 default:  html
