@@ -64,6 +64,11 @@ MapApp = R6Class("MapAppClass",
                                                             labelOptions=labelOptions(
                                                                 style=list("font-size"="20px"))
                                                             ))
+          private$map <- addPolygons(private$map,
+                                     lng=c(-122.248120,  -122.248710,  -122.248673,  -122.248045),
+                                     lat=c(47.557476,     47.557541,    47.557295,    47.557338),
+                                     fillColor="red")
+
           }, # initialize
        #--------------------------------------------------------------------------------
        ui = function(){

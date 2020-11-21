@@ -416,7 +416,7 @@ points:
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.056b
 
-  - name: herbRobert.057
+  - name: herbRobert.001
     observer: PTS
     id: waypoint.57
     group: invasives
@@ -425,5 +425,16 @@ points:
     lon: -122.24921
     color: red
     radius: 4
-    details: http://pshannon.net/sewardParkRestoration/herbRobert.057
+    details: http://pshannon.net/sewardParkRestoration/herbRobert.001
+
+  - name: ivyPatch.002
+    observer: PTS
+    id: waypoint.60
+    group: invasives
+    date: 2020-11-20
+    lat: 47.559281
+    lon: -122.248909
+    color: red
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/ivyPatch.002
 
