@@ -438,3 +438,58 @@ points:
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/ivyPatch.002
 
+  - name: tree.61
+    observer: PTS
+    id: waypoint.61
+    group: old doug firs
+    date: 2020-11-21
+    lat: 47.55925
+    lon: -122.24886
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.061
+
+  - name: tree.62a
+    observer: PTS
+    id: waypoint.62a
+    group: old doug firs
+    date: 2020-11-21
+    lat: 47.55948
+    lon: -122.24942
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.062a
+
+  - name: tree.62b
+    observer: PTS
+    id: waypoint.62b
+    group: old doug firs
+    date: 2020-11-21
+    lat: 47.55948
+    lon: -122.249426
+    color: brown
+    radius: 1
+    details: http://pshannon.net/sewardParkRestoration/dougFir.062b
+
+  - name: tree.63
+    observer: PTS
+    id: waypoint.63
+    group: old doug firs
+    date: 2020-11-21
+    lat: 47.55981
+    lon: -122.24955
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.063
+
+  - name: tree.64
+    observer: PTS
+    id: waypoint.64
+    group: old doug firs
+    date: 2020-11-21
+    lat: 47.55959
+    lon: -122.24942
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.064
+
