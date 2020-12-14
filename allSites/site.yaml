@@ -180,7 +180,7 @@ points:
   - name: tree.036
     observer: PTS
     id: dougFir.36
-    group: old doug firs
+    group: big trees
     date: 2020-10-17
     lon: -122.2526
     lat: 47.56166
@@ -191,7 +191,7 @@ points:
   - name: tree.037
     observer: PTS
     id: waypoint.37
-    group: old doug firs
+    group: big trees
     date: 2020-10-17
     lon: -122.2521
     lat: 47.56164
@@ -202,7 +202,7 @@ points:
   - name: tree.038
     observer: PTS
     id: waypoint.38
-    group: old doug firs
+    group: big trees
     date: 2020-10-17
     lon: -122.2518
     lat:  47.56173
@@ -213,7 +213,7 @@ points:
   - name: tree.039
     observer: PTS
     id: waypoint.39
-    group: old doug firs
+    group: big trees
     date: 2020-10-17
     lat: 47.560721
     lon: -122.250737
@@ -224,7 +224,7 @@ points:
   - name: tree.040
     observer: PTS
     id: waypoint.40
-    group: old doug firs
+    group: big trees
     date: 2020-10-17
     lon: -122.2501
     lat: 47.55988
@@ -236,7 +236,7 @@ points:
   - name: tree.041
     observer: PTS
     id: waypoint.41
-    group: old doug firs
+    group: big trees
     date: 2020-10-17
     lon: -122.2497
     lat: 47.56016
@@ -247,7 +247,7 @@ points:
   - name: tree.042
     observer: PTS
     id: waypoint.42
-    group: old doug firs
+    group: big trees
     date: 2020-10-17
     lon: -122.2494
     lat: 47.55996
@@ -259,7 +259,7 @@ points:
   - name: tree.043
     observer: PTS
     id: waypoint.43
-    group: old doug firs
+    group: big trees
     date: 2020-10-25
     lon: -122.24874
     lat: 47.55229
@@ -271,7 +271,7 @@ points:
   - name: tree.044
     observer: PTS
     id: waypoint.44
-    group: old doug firs
+    group: big trees
     date: 2020-10-25
     lat: 47.556276
     lon: -122.251682
@@ -283,7 +283,7 @@ points:
   - name: tree.045
     observer: PTS
     id: waypoint.45
-    group: old doug firs
+    group: big trees
     date: 2020-10-25
     lon: -122.25197
     lat: 47.55722
@@ -295,7 +295,7 @@ points:
   - name: tree.046
     observer: PTS
     id: waypoint.46
-    group: old doug firs
+    group: big trees
     date: 2020-10-25
     lon: -122.25033
     lat: 47.55973
@@ -307,7 +307,7 @@ points:
   - name: tree.047
     observer: PTS
     id: waypoint.47
-    group: old doug firs
+    group: big trees
     date: 2020-11-02
     lat: 47.55732
     lon: -122.24829
@@ -319,7 +319,7 @@ points:
   - name: tree.048
     observer: PTS
     id: waypoint.48
-    group: old doug firs
+    group: big trees
     date: 2020-11-02
     lat: 47.55791
     lon: -122.24916
@@ -331,7 +331,7 @@ points:
   - name: tree.049
     observer: PTS
     id: waypoint.49
-    group: old doug firs
+    group: big trees
     date: 2020-11-02
     lat: 47.55781
     lon: -122.24956
@@ -342,7 +342,7 @@ points:
   - name: tree.050
     observer: PTS
     id: waypoint.50
-    group: old doug firs
+    group: big trees
     date: 2020-11-02
     lat: 47.55791
     lon: -122.24966
@@ -353,7 +353,7 @@ points:
   - name: tree.051
     observer: PTS
     id: waypoint.51
-    group: old doug firs
+    group: big trees
     date: 2020-11-12
     lat: 47.55795
     lon: -122.24990
@@ -364,7 +364,7 @@ points:
   - name: tree.052
     observer: PTS
     id: waypoint.52
-    group: old doug firs
+    group: big trees
     date: 2020-11-12
     lat: 47.55809
     lon: -122.24986
@@ -375,7 +375,7 @@ points:
   - name: tree.054
     observer: PTS
     id: waypoint.54
-    group: old doug firs
+    group: big trees
     date: 2020-11-14
     lat: 47.55835
     lon: -122.24947
@@ -386,7 +386,7 @@ points:
   - name: tree.055
     observer: PTS
     id: waypoint.55
-    group: old doug firs
+    group: big trees
     date: 2020-11-14
     lat: 47.55855
     lon: -122.24972
@@ -397,7 +397,7 @@ points:
   - name: tree.056
     observer: PTS
     id: waypoint.56
-    group: old doug firs
+    group: big trees
     date: 2020-11-14
     lat: 47.55828
     lon: -122.24934
@@ -408,7 +408,7 @@ points:
   - name: tree.056b
     observer: PTS
     id: waypoint.56b
-    group: old doug firs
+    group: big trees
     date: 2020-11-14
     lat: 47.558279
     lon: -122.249324
@@ -441,7 +441,7 @@ points:
   - name: tree.61
     observer: PTS
     id: waypoint.61
-    group: old doug firs
+    group: big trees
     date: 2020-11-21
     lat: 47.55925
     lon: -122.24886
@@ -452,7 +452,7 @@ points:
   - name: tree.62a
     observer: PTS
     id: waypoint.62a
-    group: old doug firs
+    group: big trees
     date: 2020-11-21
     lat: 47.55948
     lon: -122.24942
@@ -463,7 +463,7 @@ points:
   - name: tree.62b
     observer: PTS
     id: waypoint.62b
-    group: old doug firs
+    group: big trees
     date: 2020-11-21
     lat: 47.55948
     lon: -122.249426
@@ -474,7 +474,7 @@ points:
   - name: tree.63
     observer: PTS
     id: waypoint.63
-    group: old doug firs
+    group: big trees
     date: 2020-11-21
     lat: 47.55981
     lon: -122.24955
@@ -485,11 +485,66 @@ points:
   - name: tree.64
     observer: PTS
     id: waypoint.64
-    group: old doug firs
+    group: big trees
     date: 2020-11-21
     lat: 47.55959
     lon: -122.24942
     color: black
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.064
+
+  - name: tree.65
+    observer: PTS
+    id: waypoint.65
+    group: big trees
+    date: 2020-12-10
+    lat: 47.55746
+    lon: -122.25016
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.065
+
+  - name: tree.67
+    observer: PTS
+    id: waypoint.67
+    group: big trees
+    date: 2020-12-10
+    lat: 47.55699
+    lon: -122.25083
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.067
+
+  - name: tree.68
+    observer: PTS
+    id: waypoint.68
+    group: big trees
+    date: 2020-12-12
+    lat: 47.55682
+    lon: -122.25073
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.068
+
+  - name: tree.69
+    observer: PTS
+    id: waypoint.69
+    group: big trees
+    date: 2020-12-12
+    lat: 47.55671
+    lon: -122.25063
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.069
+
+  - name: tree.70
+    observer: PTS
+    id: waypoint.70
+    group: big trees
+    date: 2020-12-12
+    lat: 47.55619
+    lon: -122.24984
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.070
 
