@@ -1,0 +1,121 @@
+site: big doug firs
+date: 2020-07-31
+title: Doug Firs with Burned Bark
+centerLat: 47.555731
+centerLon: -122.250807
+
+initialZoom: 16
+
+points:
+
+  - name: tree.01
+    observer: PTS
+    id: waypoint.26
+    group: old doug firs
+    date: 2020-07-27
+    lon: -122.2542
+    lat: 47.56091
+    color: brown
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/andrewsBayHBBexperiment/hbb1.html
+
+  - name: tree.02
+    observer: PTS
+    id: waypoint.27
+    group: old doug firs
+    date: 2020-07-27
+    lon: -122.2538
+    lat: 47.55996
+    color: brown
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/andrewsBayHBBexperiment/hbb1.html
+
+  - name: tree.03
+    observer: PTS
+    id: waypoint.28
+    group: old doug firs
+    date: 2020-07-27
+    lon: -122.2534
+    lat: 47.56019
+    color: brown
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/andrewsBayHBBexperiment/hbb1.html
+
+  - name: tree.036
+    observer: PTS
+    id: waypoint.36
+    group: old doug firs
+    date: 2020-10-17
+    lon: -122.2526
+    lat: 47.56166
+    color: brown
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/andrewsBayHBBexperiment/hbb1.html
+
+  - name: tree.037
+    observer: PTS
+    id: waypoint.37
+    group: old doug firs
+    date: 2020-10-17
+    lon: -122.2521
+    lat: 47.56164
+    color: brown
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/andrewsBayHBBexperiment/hbb1.html
+
+  - name: tree.038
+    observer: PTS
+    id: waypoint.38
+    group: old doug firs
+    date: 2020-10-17
+    lon: -122.2518
+    lat:  47.56173
+    color: brown
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/andrewsBayHBBexperiment/hbb1.html
+
+  - name: tree.039
+    observer: PTS
+    id: waypoint.39
+    group: old doug firs
+    date: 2020-10-17
+    lon: -122.2505
+    lat:  47.56081
+    color: brown
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/andrewsBayHBBexperiment/hbb1.html
+
+  - name: tree.040
+    observer: PTS
+    id: waypoint.40
+    group: old doug firs
+    date: 2020-10-17
+    lon: -122.2501
+    lat: 47.55988
+    color: brown
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/andrewsBayHBBexperiment/hbb1.html
+
+
+  - name: tree.041
+    observer: PTS
+    id: waypoint.41
+    group: old doug firs
+    date: 2020-10-17
+    lon: -122.2497
+    lat: 47.56016
+    color: brown
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/andrewsBayHBBexperiment/hbb1.html
+
+  - name: tree.042
+    observer: PTS
+    id: waypoint.42
+    group: old doug firs
+    date: 2020-10-17
+    lon: -122.2494
+    lat: 47.55996
+    color: brown
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/andrewsBayHBBexperiment/hbb1.html
+

@@ -177,7 +177,7 @@ points:
     radius: 2
     details: http://pshannon.net/sewardParkRestoration/highGroundFernDieoff
 
-  - name: tree.036
+  - name: dougFir.036
     observer: PTS
     id: dougFir.36
     group: big trees
@@ -188,7 +188,7 @@ points:
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/dougFir.036
 
-  - name: tree.037
+  - name: dougFir.037
     observer: PTS
     id: waypoint.37
     group: big trees
@@ -199,7 +199,7 @@ points:
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/dougFir.037
 
-  - name: tree.038
+  - name: dougFir.038
     observer: PTS
     id: waypoint.38
     group: big trees
@@ -210,7 +210,7 @@ points:
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/dougFir.038
 
-  - name: tree.039
+  - name: dougFir.039
     observer: PTS
     id: waypoint.39
     group: big trees
@@ -221,7 +221,7 @@ points:
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/dougFir.039
 
-  - name: tree.040
+  - name: dougFir.040
     observer: PTS
     id: waypoint.40
     group: big trees
@@ -233,7 +233,7 @@ points:
     details: http://pshannon.net/sewardParkRestoration/dougFir.040
 
 
-  - name: tree.041
+  - name: dougFir.041
     observer: PTS
     id: waypoint.41
     group: big trees
@@ -244,7 +244,7 @@ points:
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/dougFir.041
 
-  - name: tree.042
+  - name: dougFir.042
     observer: PTS
     id: waypoint.42
     group: big trees
@@ -256,7 +256,7 @@ points:
     details: http://pshannon.net/sewardParkRestoration/dougFir.042
 
 
-  - name: tree.043
+  - name: dougFir.043
     observer: PTS
     id: waypoint.43
     group: big trees
@@ -268,7 +268,7 @@ points:
     details: http://pshannon.net/sewardParkRestoration/dougFir.043
 
 
-  - name: tree.044
+  - name: dougFir.044
     observer: PTS
     id: waypoint.44
     group: big trees
@@ -280,7 +280,7 @@ points:
     details: http://pshannon.net/sewardParkRestoration/dougFir.044
 
 
-  - name: tree.045
+  - name: dougFir.045
     observer: PTS
     id: waypoint.45
     group: big trees
@@ -292,7 +292,7 @@ points:
     details: http://pshannon.net/sewardParkRestoration/dougFir.045
 
 
-  - name: tree.046
+  - name: dougFir.046
     observer: PTS
     id: waypoint.46
     group: big trees
@@ -304,7 +304,7 @@ points:
     details: http://pshannon.net/sewardParkRestoration/dougFir.046
 
 
-  - name: tree.047
+  - name: dougFir.047
     observer: PTS
     id: waypoint.47
     group: big trees
@@ -316,7 +316,7 @@ points:
     details: http://pshannon.net/sewardParkRestoration/dougFir.047
 
 
-  - name: tree.048
+  - name: dougFir.048
     observer: PTS
     id: waypoint.48
     group: big trees
@@ -328,7 +328,7 @@ points:
     details: http://pshannon.net/sewardParkRestoration/dougFir.048
 
 
-  - name: tree.049
+  - name: dougFir.049
     observer: PTS
     id: waypoint.49
     group: big trees
@@ -339,7 +339,7 @@ points:
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/dougFir.049
 
-  - name: tree.050
+  - name: dougFir.050
     observer: PTS
     id: waypoint.50
     group: big trees
@@ -350,7 +350,7 @@ points:
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/dougFir.050
 
-  - name: tree.051
+  - name: dougFir.051
     observer: PTS
     id: waypoint.51
     group: big trees
@@ -361,7 +361,7 @@ points:
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/dougFir.051
 
-  - name: tree.052
+  - name: dougFir.052
     observer: PTS
     id: waypoint.52
     group: big trees
@@ -372,7 +372,7 @@ points:
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/dougFir.052
 
-  - name: tree.054
+  - name: dougFir.054
     observer: PTS
     id: waypoint.54
     group: big trees
@@ -383,7 +383,7 @@ points:
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/dougFir.054
 
-  - name: tree.055
+  - name: dougFir.055
     observer: PTS
     id: waypoint.55
     group: big trees
@@ -394,7 +394,7 @@ points:
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/dougFir.055
 
-  - name: tree.056
+  - name: dougFir.056
     observer: PTS
     id: waypoint.56
     group: big trees
@@ -405,7 +405,7 @@ points:
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.056
 
-  - name: tree.056b
+  - name: dougFir.056b
     observer: PTS
     id: waypoint.56b
     group: big trees
@@ -438,7 +438,7 @@ points:
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/ivyPatch.002
 
-  - name: tree.61
+  - name: dougFir.61
     observer: PTS
     id: waypoint.61
     group: big trees
@@ -449,7 +449,7 @@ points:
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.061
 
-  - name: tree.62a
+  - name: dougFir.62a
     observer: PTS
     id: waypoint.62a
     group: big trees
@@ -460,7 +460,7 @@ points:
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.062a
 
-  - name: tree.62b
+  - name: dougFir.62b
     observer: PTS
     id: waypoint.62b
     group: big trees
@@ -471,7 +471,7 @@ points:
     radius: 1
     details: http://pshannon.net/sewardParkRestoration/dougFir.062b
 
-  - name: tree.63
+  - name: dougFir.63
     observer: PTS
     id: waypoint.63
     group: big trees
@@ -482,7 +482,7 @@ points:
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.063
 
-  - name: tree.64
+  - name: dougFir.64
     observer: PTS
     id: waypoint.64
     group: big trees
@@ -493,18 +493,29 @@ points:
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.064
 
-  - name: tree.65
+  - name: dougFir.65
     observer: PTS
     id: waypoint.65
     group: big trees
     date: 2020-12-10
-    lat: 47.55746
+    lat: 47.55747
     lon: -122.25016
     color: black
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.065
 
-  - name: tree.67
+  - name: dougFir.66
+    observer: PTS
+    id: waypoint.65
+    group: big trees
+    date: 2020-12-10
+    lat: 47.55743
+    lon: -122.25016
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.065
+
+  - name: cedar.67
     observer: PTS
     id: waypoint.67
     group: big trees
@@ -513,9 +524,9 @@ points:
     lon: -122.25083
     color: black
     radius: 3
-    details: http://pshannon.net/sewardParkRestoration/dougFir.067
+    details: http://pshannon.net/sewardParkRestoration/cedar.067
 
-  - name: tree.68
+  - name: dougFir.68
     observer: PTS
     id: waypoint.68
     group: big trees
@@ -526,7 +537,7 @@ points:
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.068
 
-  - name: tree.69
+  - name: dougFir.69
     observer: PTS
     id: waypoint.69
     group: big trees
@@ -537,7 +548,7 @@ points:
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.069
 
-  - name: tree.70
+  - name: dougFir.70
     observer: PTS
     id: waypoint.70
     group: big trees

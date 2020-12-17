@@ -1,0 +1,25 @@
+library(leaflet)
+names = c("point1", "point2", "point3")
+lat = c(46.67933, 46.67940, 46.67941)
+long <- c(7.310553, 7.310570, 7.310565)
+
+long <- c(-122.2487,
+          -122.2486,
+          -122.2486)
+
+lat <- c(47.55503
+         47.55507
+         47.55510)
+
+
+
+
+data <- as.data.frame(cbind(names, as.numeric(lat), as.numeric(long)))
+colnames(data) <- c("names", "lat", "long")
+
+m <- leaflet() %>%
+  addProviderTiles('Esri.WorldImagery', options = providerTileOptions(maxNativeZoom=19,maxZoom=100)) %>%
+  addMarkers(data = data, lat = ~lat, ~long, popup = data$names, label = data$names)
+
+m
+
