@@ -559,3 +559,13 @@ points:
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.070
 
+  - name: Delfino Live Stakes #1
+    observer: delfino
+    id: delfino.001
+    group: Delfino's Restorations
+    lat: 47.556054
+    lon: -122.252564
+    color: green
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/delfinoPlanting.001
+    
