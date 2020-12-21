@@ -559,9 +559,10 @@ points:
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.070
 
-  - name: Delfino Live Stakes #1
+  - name: "Delfino Live Stakes 12/20"
     observer: delfino
     id: delfino.001
+    date: 2020-12-19
     group: Delfino's Restorations
     lat: 47.556054
     lon: -122.252564
