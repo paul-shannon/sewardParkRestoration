@@ -559,6 +559,131 @@ points:
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.070
 
+  - name: dougFir.71
+    observer: PTS
+    id: waypoint.71
+    group: big trees
+    date: 2020-12-19
+    lat: 47.56125
+    lon: -122.25328
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.071
+
+  - name: cedar.72
+    observer: PTS
+    id: waypoint.72
+    group: big trees
+    date: 2020-12-19
+    lat: 47.56088
+    lon: -122.25315
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cedar.072
+
+  - name: cedar.72b
+    observer: PTS
+    id: waypoint.72b
+    group: big trees
+    date: 2020-12-19
+    lat: 47.560893
+    lon: -122.253126
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cedar.072b
+
+  - name: dougFir.73
+    observer: PTS
+    id: waypoint.73
+    group: big trees
+    date: 2020-12-12
+    lat: 47.56097
+    lon: -122.25410
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.073
+
+  - name: cedar.74
+    observer: PTS
+    id: waypoint.70
+    group: big trees
+    date: 2020-12-19
+    lat: 47.56023
+    lon: -122.25417
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cedar.074
+
+  - name: dougFir.75
+    observer: PTS
+    id: waypoint.75
+    group: big trees
+    date: 2020-12-19
+    lat: 47.56013
+    lon: -122.25373
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.075
+
+  - name: dougFir.76
+    observer: PTS
+    id: waypoint.76
+    group: big trees
+    date: 2020-12-23
+    lat: 47.56007
+    lon: -122.25291
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.076
+    
+
+  - name: dougFir.77
+    observer: PTS
+    id: waypoint.77
+    group: big trees
+    date: 2020-12-23
+    lat: 47.55988
+    lon: -122.25291
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.077
+    
+  - name: dougFir.78
+    observer: PTS
+    id: waypoint.78
+    group: big trees
+    date: 2020-12-23
+    lat: 47.559514
+    lon: -122.252492
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.078
+    
+  - name: dougFir.79
+    observer: PTS
+    id: waypoint.79
+    group: big trees
+    date: 2020-12-23
+    lat: 47.559486
+    lon: -122.252348
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.079
+    
+  - name: cedar.80
+    observer: PTS
+    id: waypoint.80
+    group: big trees
+    date: 2020-12-23
+    lat: 47.559512
+    lon: -122.252551
+    color: brown
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cedar.080
+    
+
+
+
   - name: "Delfino Live Stakes 12/20"
     observer: delfino
     id: delfino.001
