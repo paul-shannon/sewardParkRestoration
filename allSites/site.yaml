@@ -133,27 +133,27 @@ points:
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/andrewsBayHBBexperiment
 
-  - name: cherry snag
-    id: id_012
-    observer: PTS
-    group: snags
-    date: 2020-08-08
-    lat: 47.552289
-    lon: -122.256477
-    color: brown
-    radius: 2
-    details: nop
-
-  - name: cedar snag
-    id: id_013
-    observer: PTS
-    group: snags
-    date: 2020-08-08
-    lat: 47.552258
-    lon: -122.256310
-    color: brown
-    radius: 2
-    details: nop
+#  - name: cherry snag
+#    id: id_012
+#    observer: PTS
+#    group: snags
+#    date: 2020-08-08
+#    lat: 47.552289
+#    lon: -122.256477
+#    color: brown
+#    radius: 2
+#    details: nop
+#
+#  - name: cedar snag
+#    id: id_013
+#    observer: PTS
+#    group: snags
+#    date: 2020-08-08
+#    lat: 47.552258
+#    lon: -122.256310
+#    color: brown
+#    radius: 2
+#    details: nop
 
   - name: cistern graffiti
     id: id_014
@@ -386,7 +386,7 @@ points:
   - name: dougFir.055
     observer: PTS
     id: waypoint.55
-    group: big trees
+    group: big trees (needs work)
     date: 2020-11-14
     lat: 47.55855
     lon: -122.24972
@@ -419,7 +419,7 @@ points:
   - name: herbRobert.001
     observer: PTS
     id: waypoint.57
-    group: invasives
+    group: invasive herb robert
     date: 2020-11-14
     lat: 47.55820
     lon: -122.24921
@@ -427,16 +427,16 @@ points:
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/herbRobert.001
 
-  - name: ivyPatch.002
-    observer: PTS
-    id: waypoint.60
-    group: invasives
-    date: 2020-11-20
-    lat: 47.559281
-    lon: -122.248909
-    color: red
-    radius: 4
-    details: http://pshannon.net/sewardParkRestoration/ivyPatch.002
+#  - name: ivyPatch.002
+#    observer: PTS
+#    id: waypoint.60
+#    group: invasives
+#    date: 2020-11-20
+#    lat: 47.559281
+#    lon: -122.248909
+#    color: red
+#    radius: 4
+#    details: http://pshannon.net/sewardParkRestoration/ivyPatch.002
 
   - name: dougFir.61
     observer: PTS
@@ -675,8 +675,8 @@ points:
     id: waypoint.80
     group: big trees
     date: 2020-12-23
-    lat: 47.559512
-    lon: -122.252551
+    lat: 47.55955
+    lon: -122.25257
     color: brown
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/cedar.080
@@ -694,4 +694,3 @@ points:
     color: green
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/delfinoPlanting.001
-    
