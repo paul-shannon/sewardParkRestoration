@@ -4,7 +4,7 @@ BASE_IMAGE_NAME = map_app_09jul2020
 
 
 default:
-	R -f webapp.R
+	R -f app.R
 
 
 server:

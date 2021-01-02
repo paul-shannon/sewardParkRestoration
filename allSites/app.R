@@ -157,6 +157,19 @@ MapApp = R6Class("MapAppClass",
          output$sewardMap <- renderLeaflet(private$map)
          private$proxy <- leafletProxy("sewardMap", session)
 
+         query_modal <- modalDialog(
+            title = "Usage Tips",
+            div(tags$ul(tags$li("Select one or more Groups at left: markers will be displayed."),
+                        tags$li("Click any marker on the map:  see site details (photos, text, video)."),
+                        tags$li("'Map' tab displays the map."),
+                        tags$li("'Site Details'tab displays site-specific information.")
+                        ),
+                style="font-size: 16px;"),
+            easyClose = TRUE
+           )
+
+         showModal(query_modal)
+
          observe({  # with no reactive values included here, this seems to run only at startup.
             printf("--- starting up, search term?")
             searchTerm <- session$clientData$url_search
@@ -251,10 +264,9 @@ MapApp = R6Class("MapAppClass",
        ) # public
     ) # class
 #----------------------------------------------------------------------------------------------------
-app <- MapApp$new()
+deploy <- function(){
+  deployApp(account="paulshannon", appName="sewardMap", appFiles=c("app.R", "site.yaml", "regions.yaml"))
+  }
 
-if(grepl("hogfish", Sys.info()[["nodename"]])){
-   runApp(shinyApp(app$ui(), app$server), port=1123)
-   } else {
-   shinyApp(app$ui(), app$server)
-   }
+app <- MapApp$new()
+shinyApp(app$ui(), app$server)
