@@ -159,14 +159,19 @@ MapApp = R6Class("MapAppClass",
 
          query_modal <- modalDialog(
             title = "Usage Tips",
-            div(tags$ul(tags$li("Select one or more Groups at left: markers will be displayed."),
-                        tags$li("Click any marker on the map:  see site details (photos, text, video)."),
-                        tags$li("'Map' tab displays the map."),
-                        tags$li("'Site Details'tab displays site-specific information.")
-                        ),
-                style="font-size: 16px;"),
-            easyClose = TRUE
-           )
+            div(
+                tags$head(tags$style(".modal-dialog{ width:1000px}")),
+                # tags$head(tags$style(".modal-body{ min-height:700px}")),
+                HTML(
+                "<ul><li>Select one or more Groups at left: markers will be displayed on the map.
+                     <li>Click any marker:  see site details (photos, text, video).
+                     <li>The <font color='blue'>Map</font> tab displays the map.
+                     <li>The <font color='blue'>Site Details</font> tab displays site-specific information.
+                     <li>User your mouse to pan (click &amp; drag) and zoom (mouse wheel).
+                     </ul>"),
+                style="font-size: 24px; width: 900px;"),
+            easyClose = TRUE,
+            )
 
          showModal(query_modal)
 
@@ -269,4 +274,10 @@ deploy <- function(){
   }
 
 app <- MapApp$new()
-shinyApp(app$ui(), app$server)
+# shinyApp(app$ui(), app$server)
+
+if(grepl("hagfish", Sys.info()[["nodename"]]) & !interactive()){
+   runApp(shinyApp(app$ui(), app$server), port=1123)
+   } else {
+   shinyApp(app$ui(), app$server)
+   }

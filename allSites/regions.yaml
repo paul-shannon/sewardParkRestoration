@@ -40,3 +40,41 @@ regions:
     lon: [-122.248960, -122.248871,  -122.248858, -122.248938]
     details: http://pshannon.net/sewardParkRestoration/ivyPatch.002
 
+  - name: GZ+ contractor planting 2019 Q1
+    id: planting.001
+    observer: Paul Shannon
+    group: restorations
+    date: 2019-01-15
+    fillColor: green
+    borderColor: blue
+    borderWidth: 3
+    opacity: 0.5
+    lat: [47.555348,     47.555435,   47.555486,   47.554928,   47.554848,   47.555312]
+    lon: [-122.250043, -122.249324, -122.248348, -122.248455, -122.249657, -122.250172]
+    details: http://pshannon.net/sewardParkRestoration/ivyPatch.002
+
+  - name: FoSP 5-year fern survival experiment, GZ
+    id: planting.002
+    observer: Paul Shannon
+    group: experiments
+    date: 2018-02-01
+    fillColor: green
+    borderColor: blue
+    borderWidth: 3
+    opacity: 0.5
+    lat: [47.555352, 47.555381, 47.555320, 47.555292]
+    lon: [-122.249064, -122.248672, -122.248666, -122.249060]
+    details: http://pshannon.net/sewardParkRestoration/5yearFernSurvivalExperiment
+
+  - name: FoSP 5-year fern survival experiment, ADZ
+    id: planting.003
+    observer: Paul Shannon
+    group: experiments
+    date: 2018-02-01
+    fillColor: green
+    borderColor: blue
+    borderWidth: 3
+    opacity: 0.5
+    lat: [47.556246,   47.556246,   47.556050,   47.556050]
+    lon: [-122.250101, -122.250060, -122.250060, -122.250101]
+    details: http://pshannon.net/sewardParkRestoration/5yearFernSurvivalExperiment
