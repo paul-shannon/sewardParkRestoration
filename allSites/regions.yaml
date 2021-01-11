@@ -14,18 +14,18 @@ regions:
     details: http://pshannon.net/sewardParkRestoration/ivy.001
 
 
-  - name: Invasive Ivy on the Blakeley Cliffs
-    id: ivy.002
-    observer: Paul Shannon
-    group: invasive ivy
-    date: 2021-01-01
-    fillColor: black
-    borderColor: red
-    borderWidth: 3
-    opacity: 0.5
-    lat: [47.553130, 47.553080, 47.553156, 47.553319]
-    lon: [-122.254397, -122.254338, -122.254220, -122.254172]
-    details: http://pshannon.net/sewardParkRestoration/ivy.002
+#  - name: Invasive Ivy on the Blakeley Cliffs
+#    id: ivy.002
+#    observer: Paul Shannon
+#    group: invasive ivy
+#    date: 2021-01-01
+#    fillColor: black
+#    borderColor: red
+#    borderWidth: 3
+#    opacity: 0.5
+#    lat: [47.553130, 47.553080, 47.553156, 47.553319]
+#    lon: [-122.254397, -122.254338, -122.254220, -122.254172]
+#    details: http://pshannon.net/sewardParkRestoration/ivy.002
 
   - name: Invasive Ivy NE slope
     id: ivyPatch.002

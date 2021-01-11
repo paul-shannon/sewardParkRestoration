@@ -427,16 +427,7 @@ points:
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/herbRobert.001
 
-#  - name: ivyPatch.002
-#    observer: PTS
-#    id: waypoint.60
-#    group: invasives
-#    date: 2020-11-20
-#    lat: 47.559281
-#    lon: -122.248909
-#    color: red
-#    radius: 4
-#    details: http://pshannon.net/sewardParkRestoration/ivyPatch.002
+
 
   - name: dougFir.61
     observer: PTS
@@ -694,3 +685,60 @@ points:
     color: green
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/delfinoPlanting.001
+
+
+  - name: cliffIvy.001
+    observer: PTS
+    id: waypoint.80
+    group: invasive ivy
+    date: 2021-01-10
+    lat: 47.55218
+    lon: -122.25647
+    color: red
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cliffIvy.001
+
+  - name: cliffIvy.002
+    observer: PTS
+    id: waypoint.81
+    group: invasive ivy
+    date: 2021-01-10
+    lat: 47.552487
+    lon: -122.255816
+    color: red
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cliffIvy.002
+
+  - name: cliffIvy.003
+    observer: PTS
+    id: waypoint.82
+    group: invasive ivy
+    date: 2021-01-10
+    lat: 47.55268
+    lon: -122.25532
+    color: red
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cliffIvy.003
+
+  - name: cliffIvy.004
+    observer: PTS
+    id: waypoint.83
+    group: invasive ivy
+    date: 2021-01-10
+    lat: 47.55284
+    lon: -122.25494
+    color: red
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cliffIvy.004
+
+  - name: dougFir.85
+    observer: PTS
+    id: waypoint.85
+    group: big trees
+    date: 2020-12-23
+    lat: 47.55932
+    lon: -122.25335
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.085
+    
