@@ -78,3 +78,17 @@ regions:
     lat: [47.556246,   47.556246,   47.556050,   47.556050]
     lon: [-122.250101, -122.250060, -122.250060, -122.250101]
     details: http://pshannon.net/sewardParkRestoration/5yearFernSurvivalExperiment
+
+  - name: Andrews Bay Elbow Blackberry Patch
+    id: blackberry.003
+    observer: Paul Shannon
+    group: invasive blackberry
+    date: 2021-01-10
+    fillColor: green
+    borderColor: blue
+    borderWidth: 3
+    opacity: 0.5
+    lat: [47.553086, 47.553343, 47.553249, 47.553075]
+    lon: [-122.254424, -122.254102, -122.254102, -122.254322]
+    details: http://pshannon.net/sewardParkRestoration/andrewsBayHBBatElbow
+
