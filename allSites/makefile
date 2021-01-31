@@ -2,10 +2,19 @@ ID = 23oct2020
 APP_IMAGE_NAME = sewardmap_app_$(ID)
 BASE_IMAGE_NAME = map_app_09jul2020
 
-
 default:
-	R -f app.R
+	@echo targets: runLocal.localConfig, runLocal.remoteConfig, updateConfig
 
+runLocal.localConfig:
+	(export localConfig=TRUE; R -f app.R)
+
+runLocal.remoteConfig:
+	(export localConfig=FALSE; R -f app.R)
+
+
+updateConfig:
+	scp site.yaml paulshannnon@pshannon.net:public_html/pshannon.net/sewardParkRestoration/config/
+	scp regions.yaml paulshannnon@pshannon.net:public_html/pshannon.net/sewardParkRestoration/config/
 
 server:
 	python3 -m http.server 9999 &

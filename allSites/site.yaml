@@ -180,7 +180,7 @@ points:
   - name: dougFir.036
     observer: PTS
     id: dougFir.36
-    group: big trees
+    group: big burned trees
     date: 2020-10-17
     lon: -122.2526
     lat: 47.56166
@@ -191,7 +191,7 @@ points:
   - name: dougFir.037
     observer: PTS
     id: waypoint.37
-    group: big trees
+    group: big burned trees
     date: 2020-10-17
     lon: -122.2521
     lat: 47.56164
@@ -202,7 +202,7 @@ points:
   - name: dougFir.038
     observer: PTS
     id: waypoint.38
-    group: big trees
+    group: big burned trees
     date: 2020-10-17
     lon: -122.2518
     lat:  47.56173
@@ -213,7 +213,7 @@ points:
   - name: dougFir.039
     observer: PTS
     id: waypoint.39
-    group: big trees
+    group: big burned trees
     date: 2020-10-17
     lat: 47.560721
     lon: -122.250737
@@ -224,7 +224,7 @@ points:
   - name: dougFir.040
     observer: PTS
     id: waypoint.40
-    group: big trees
+    group: big unburned trees
     date: 2020-10-17
     lon: -122.2501
     lat: 47.55988
@@ -236,7 +236,7 @@ points:
   - name: dougFir.041
     observer: PTS
     id: waypoint.41
-    group: big trees
+    group: big burned trees
     date: 2020-10-17
     lon: -122.2497
     lat: 47.56016
@@ -247,7 +247,7 @@ points:
   - name: dougFir.042
     observer: PTS
     id: waypoint.42
-    group: big trees
+    group: big unburned trees
     date: 2020-10-17
     lon: -122.2494
     lat: 47.55996
@@ -259,7 +259,7 @@ points:
   - name: dougFir.043
     observer: PTS
     id: waypoint.43
-    group: big trees
+    group: big burned trees
     date: 2020-10-25
     lon: -122.24874
     lat: 47.55229
@@ -271,7 +271,7 @@ points:
   - name: dougFir.044
     observer: PTS
     id: waypoint.44
-    group: big trees
+    group: big burned trees
     date: 2020-10-25
     lat: 47.556276
     lon: -122.251682
@@ -283,7 +283,7 @@ points:
   - name: dougFir.045
     observer: PTS
     id: waypoint.45
-    group: big trees
+    group: big burned trees
     date: 2020-10-25
     lon: -122.25197
     lat: 47.55722
@@ -295,7 +295,7 @@ points:
   - name: dougFir.046
     observer: PTS
     id: waypoint.46
-    group: big trees
+    group: big burned trees
     date: 2020-10-25
     lon: -122.25033
     lat: 47.55973
@@ -307,7 +307,7 @@ points:
   - name: dougFir.047
     observer: PTS
     id: waypoint.47
-    group: big trees
+    group: big burned trees
     date: 2020-11-02
     lat: 47.55732
     lon: -122.24829
@@ -319,7 +319,7 @@ points:
   - name: dougFir.048
     observer: PTS
     id: waypoint.48
-    group: big trees
+    group: big burned trees
     date: 2020-11-02
     lat: 47.55791
     lon: -122.24916
@@ -331,7 +331,7 @@ points:
   - name: dougFir.049
     observer: PTS
     id: waypoint.49
-    group: big trees
+    group: big burned trees
     date: 2020-11-02
     lat: 47.55781
     lon: -122.24956
@@ -342,7 +342,7 @@ points:
   - name: dougFir.050
     observer: PTS
     id: waypoint.50
-    group: big trees
+    group: big burned trees
     date: 2020-11-02
     lat: 47.55791
     lon: -122.24966
@@ -353,7 +353,7 @@ points:
   - name: dougFir.051
     observer: PTS
     id: waypoint.51
-    group: big trees
+    group: big burned trees
     date: 2020-11-12
     lat: 47.55795
     lon: -122.24990
@@ -364,7 +364,7 @@ points:
   - name: dougFir.052
     observer: PTS
     id: waypoint.52
-    group: big trees
+    group: big burned trees
     date: 2020-11-12
     lat: 47.55809
     lon: -122.24986
@@ -375,7 +375,7 @@ points:
   - name: dougFir.054
     observer: PTS
     id: waypoint.54
-    group: big trees
+    group: big burned trees
     date: 2020-11-14
     lat: 47.55835
     lon: -122.24947
@@ -386,7 +386,7 @@ points:
   - name: dougFir.055
     observer: PTS
     id: waypoint.55
-    group: big trees (needs work)
+    group: big burned trees (needs work)
     date: 2020-11-14
     lat: 47.55855
     lon: -122.24972
@@ -397,7 +397,7 @@ points:
   - name: dougFir.056
     observer: PTS
     id: waypoint.56
-    group: big trees
+    group: big burned trees
     date: 2020-11-14
     lat: 47.55828
     lon: -122.24934
@@ -408,7 +408,7 @@ points:
   - name: dougFir.056b
     observer: PTS
     id: waypoint.56b
-    group: big trees
+    group: big burned trees
     date: 2020-11-14
     lat: 47.558279
     lon: -122.249324
@@ -432,7 +432,7 @@ points:
   - name: dougFir.61
     observer: PTS
     id: waypoint.61
-    group: big trees
+    group: big burned trees
     date: 2020-11-21
     lat: 47.55925
     lon: -122.24886
@@ -443,7 +443,7 @@ points:
   - name: dougFir.62a
     observer: PTS
     id: waypoint.62a
-    group: big trees
+    group: big burned trees
     date: 2020-11-21
     lat: 47.55948
     lon: -122.24942
@@ -454,7 +454,7 @@ points:
   - name: dougFir.62b
     observer: PTS
     id: waypoint.62b
-    group: big trees
+    group: big unburned trees
     date: 2020-11-21
     lat: 47.55948
     lon: -122.249426
@@ -465,7 +465,7 @@ points:
   - name: dougFir.63
     observer: PTS
     id: waypoint.63
-    group: big trees
+    group: big burned trees
     date: 2020-11-21
     lat: 47.55981
     lon: -122.24955
@@ -476,7 +476,7 @@ points:
   - name: dougFir.64
     observer: PTS
     id: waypoint.64
-    group: big trees
+    group: big burned trees
     date: 2020-11-21
     lat: 47.55959
     lon: -122.24942
@@ -487,7 +487,7 @@ points:
   - name: dougFir.65
     observer: PTS
     id: waypoint.65
-    group: big trees
+    group: big burned trees
     date: 2020-12-10
     lat: 47.55747
     lon: -122.25016
@@ -498,7 +498,7 @@ points:
   - name: dougFir.66
     observer: PTS
     id: waypoint.65
-    group: big trees
+    group: big burned trees
     date: 2020-12-10
     lat: 47.55743
     lon: -122.25016
@@ -509,18 +509,18 @@ points:
   - name: cedar.67
     observer: PTS
     id: waypoint.67
-    group: big trees
+    group: big burned trees
     date: 2020-12-10
     lat: 47.55699
     lon: -122.25083
-    color: black
+    color: brown
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/cedar.067
 
   - name: dougFir.68
     observer: PTS
     id: waypoint.68
-    group: big trees
+    group: big burned trees
     date: 2020-12-12
     lat: 47.55682
     lon: -122.25073
@@ -531,7 +531,7 @@ points:
   - name: dougFir.69
     observer: PTS
     id: waypoint.69
-    group: big trees
+    group: big burned trees
     date: 2020-12-12
     lat: 47.55671
     lon: -122.25063
@@ -542,7 +542,7 @@ points:
   - name: dougFir.70
     observer: PTS
     id: waypoint.70
-    group: big trees
+    group: big burned trees
     date: 2020-12-12
     lat: 47.55619
     lon: -122.24984
@@ -553,7 +553,7 @@ points:
   - name: dougFir.71
     observer: PTS
     id: waypoint.71
-    group: big trees
+    group: big burned trees
     date: 2020-12-19
     lat: 47.56125
     lon: -122.25328
@@ -564,29 +564,29 @@ points:
   - name: cedar.72
     observer: PTS
     id: waypoint.72
-    group: big trees
+    group: big burned trees
     date: 2020-12-19
     lat: 47.56088
     lon: -122.25315
-    color: black
+    color: brown
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/cedar.072
 
   - name: cedar.72b
     observer: PTS
     id: waypoint.72b
-    group: big trees
+    group: big burned trees
     date: 2020-12-19
     lat: 47.560893
     lon: -122.253126
-    color: black
+    color: brown
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/cedar.072b
 
   - name: dougFir.73
     observer: PTS
     id: waypoint.73
-    group: big trees
+    group: big burned trees
     date: 2020-12-12
     lat: 47.56097
     lon: -122.25410
@@ -597,18 +597,18 @@ points:
   - name: cedar.74
     observer: PTS
     id: waypoint.70
-    group: big trees
+    group: big burned trees
     date: 2020-12-19
     lat: 47.56023
     lon: -122.25417
-    color: black
+    color: brown
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/cedar.074
 
   - name: dougFir.75
     observer: PTS
     id: waypoint.75
-    group: big trees
+    group: big burned trees
     date: 2020-12-19
     lat: 47.56013
     lon: -122.25373
@@ -619,7 +619,7 @@ points:
   - name: dougFir.76
     observer: PTS
     id: waypoint.76
-    group: big trees
+    group: big burned trees
     date: 2020-12-23
     lat: 47.56007
     lon: -122.25291
@@ -631,7 +631,7 @@ points:
   - name: dougFir.77
     observer: PTS
     id: waypoint.77
-    group: big trees
+    group: big burned trees
     date: 2020-12-23
     lat: 47.55988
     lon: -122.25291
@@ -642,7 +642,7 @@ points:
   - name: dougFir.78
     observer: PTS
     id: waypoint.78
-    group: big trees
+    group: big burned trees
     date: 2020-12-23
     lat: 47.559514
     lon: -122.252492
@@ -653,7 +653,7 @@ points:
   - name: dougFir.79
     observer: PTS
     id: waypoint.79
-    group: big trees
+    group: big burned trees
     date: 2020-12-23
     lat: 47.559486
     lon: -122.252348
@@ -664,7 +664,7 @@ points:
   - name: cedar.80
     observer: PTS
     id: waypoint.80
-    group: big trees
+    group: big burned trees
     date: 2020-12-23
     lat: 47.55955
     lon: -122.25257
@@ -734,7 +734,7 @@ points:
   - name: dougFir.85
     observer: PTS
     id: waypoint.85
-    group: big trees
+    group: big burned trees
     date: 2020-12-23
     lat: 47.55932
     lon: -122.25335
@@ -742,3 +742,164 @@ points:
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.085
     
+  - name: dougFir.86
+    observer: PTS, Leo, Alex
+    id: waypoint.86
+    group: big burned trees
+    date: 2021-01-23
+    lat: 47.55919
+    lon: -122.25359
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.086
+    
+
+  - name: dougFir.87
+    observer: PTS, Leo, Alex
+    id: waypoint.87
+    group: big burned trees
+    date: 2021-01-23
+    lat: 47.55911
+    lon: -122.25372
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.087
+    
+  - name: dougFir.88
+    observer: PTS, Leo, Alex
+    id: waypoint.88
+    group: big unburned trees
+    date: 2021-01-23
+    lat: 47.55867
+    lon: -122.25433
+    color: brown
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.088
+    
+  - name: dougFir.89
+    observer: PTS, Leo, Alex
+    id: waypoint.89
+    group: big burned trees
+    date: 2021-01-23
+    lat: 47.55815
+    lon: -122.25402
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.089
+    
+
+  - name: dougFir.90
+    observer: PTS, Leo, Alex
+    id: waypoint.90
+    group: big burned trees
+    date: 2021-01-23
+    lat: 47.55804
+    lon: -122.25327
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.090
+    
+
+  - name: dougFir.91
+    observer: PTS, Leo, Alex
+    id: waypoint.91
+    group: big burned trees
+    date: 2021-01-23
+    lat: 47.55822
+    lon: -122.25332
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.091
+    
+
+# new on 31 jan 2021
+
+  - name: dougFir.92
+    observer: Paul
+    id: waypoint.92
+    group: big burned trees
+    date: 2021-01-30
+    lat: 47.56046
+    lon: -122.25094
+    color: orange
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.092
+    
+  - name: dougFir.94
+    observer: Paul
+    id: waypoint.94
+    group: big burned trees
+    date: 2021-01-31
+    lat: 47.56000
+    lon: -122.25178
+    color: orange
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.094
+    
+  - name: dougFir.95
+    observer: Paul
+    id: waypoint.95
+    group: big burned trees
+    date: 2021-01-30
+    lat: 47.55976
+    lon: -122.25188
+    color: orange
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.095
+    
+  - name: dougFir.96
+    observer: Paul
+    id: waypoint.96
+    group: big burned trees
+    date: 2021-01-30
+    lat: 47.55964
+    lon: -122.25150
+    color: orange
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.096
+    
+  - name: dougFir.98
+    observer: Paul
+    id: waypoint.98
+    group: big burned trees
+    date: 2021-01-30
+    lat: 47.55963
+    lon: -122.25154
+    color: orange
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.098
+    
+  - name: cedar.93
+    observer: Paul
+    id: waypoint.93
+    group: big burned trees
+    date: 2021-01-30
+    lat: 47.56032
+    lon: -122.25163
+    color: magenta
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cedar.093
+    
+  - name: cedar.97
+    observer: Paul
+    id: waypoint.97
+    group: big burned trees
+    date: 2021-01-30
+    lat: 47.55980
+    lon: -122.25148
+    color: magenta
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cedar.097
+    
+  - name: cedar.99
+    observer: Paul
+    id: waypoint.99
+    group: big burned trees
+    date: 2021-01-30
+    lat: 47.55958
+    lon: -122.25144
+    color: magenta
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cedar.099
+    
+

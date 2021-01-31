@@ -9,8 +9,21 @@ printf <- function(...) print(noquote(sprintf(...)))
 #----------------------------------------------------------------------------------------------------
 Sys.setlocale("LC_ALL", "C")
 #----------------------------------------------------------------------------------------------------
-config.file <- "site.yaml"               # for site.yaml loaded in docker
-regions.yaml.file <- "regions.yaml"
+
+if(Sys.getenv("localConfig") == "TRUE"){
+   localConfig <- TRUE
+   printf("--- using local versions of site.yaml and regions.yaml");
+   config.file <- "site.yaml"
+   regions.yaml.file <- "regions.yaml"
+} else {
+   localConfig <- FALSE
+   config.file <- "https://pshannon.net/sewardParkRestoration/config/site.yaml"
+   regions.yaml.file <- "https://pshannon.net/sewardParkRestoration/config/regions.yaml"
+   }
+
+printf("---         localConfig? %s",  localConfig)
+printf("---    site config file: %s", config.file)
+printf("--- regions config file: %s", regions.yaml.file)
 
 #if(Sys.info()[["sysname"]] == "Darwin"){
 #  config.file <- "site.yaml"                       # for local use, no docker
@@ -72,10 +85,11 @@ MapApp = R6Class("MapAppClass",
           private$readConfigurationAndMarkers(config.file)
 
           regionCategories <- c()
-          if(file.exists(regions.yaml.file)){
-             private$tbl.regions <- private$extractRegionsTable(regions.yaml.file)
-             regionCategories <- unique(private$tbl.regions$group)
-             }
+          #if (file.exists(regions.yaml.file)){
+          private$tbl.regions <- private$extractRegionsTable(regions.yaml.file)
+          regionCategories <- unique(private$tbl.regions$group)
+          #printf("--- tbl.regions")
+          #print(private$tbl.regions)
 
           markerCategories <- unique(private$tbl$group)
           private$featureGroups <- sort(unique(c(markerCategories, regionCategories)))
@@ -89,6 +103,8 @@ MapApp = R6Class("MapAppClass",
           private$map <- addTiles(private$map, options=options.tile)
 
           private$map <- addScaleBar(private$map)
+          #printf("--- private$tbl")
+          #print(private$tbl)
           private$map <- with(private$tbl, addCircleMarkers(private$map,
                                                             lon, lat,
                                                             label=label,
@@ -106,10 +122,10 @@ MapApp = R6Class("MapAppClass",
                  id <-  private$tbl.regions$id[r]
                  group <- private$tbl.regions$group[r]
                  borderWidth <- as.numeric(private$tbl.regions$borderWidth[r])
-                 printf("borderWidth: %d", borderWidth)
-                 printf("fillColor: %s", private$tbl.regions$fillColor[r])
+                 #printf("borderWidth: %d", borderWidth)
+                 #printf("fillColor: %s", private$tbl.regions$fillColor[r])
                  opacity <- as.numeric(private$tbl.regions$opacity[r])
-                 printf("opacity: %f", opacity)
+                 #printf("opacity: %f", opacity)
                  private$map <- addPolygons(private$map,
                                             lng=lon, lat=lat,
                                             fillColor=private$tbl.regions$fillColor[r],

@@ -14,19 +14,6 @@ regions:
     details: http://pshannon.net/sewardParkRestoration/ivy.001
 
 
-#  - name: Invasive Ivy on the Blakeley Cliffs
-#    id: ivy.002
-#    observer: Paul Shannon
-#    group: invasive ivy
-#    date: 2021-01-01
-#    fillColor: black
-#    borderColor: red
-#    borderWidth: 3
-#    opacity: 0.5
-#    lat: [47.553130, 47.553080, 47.553156, 47.553319]
-#    lon: [-122.254397, -122.254338, -122.254220, -122.254172]
-#    details: http://pshannon.net/sewardParkRestoration/ivy.002
-
   - name: Invasive Ivy NE slope
     id: ivyPatch.002
     observer: Paul Shannon
@@ -43,7 +30,7 @@ regions:
   - name: GZ+ contractor planting 2019 Q1
     id: planting.001
     observer: Paul Shannon
-    group: restorations
+    group: monitored plantings
     date: 2019-01-15
     fillColor: green
     borderColor: blue
@@ -51,12 +38,12 @@ regions:
     opacity: 0.5
     lat: [47.555348,     47.555435,   47.555486,   47.554928,   47.554848,   47.555312]
     lon: [-122.250043, -122.249324, -122.248348, -122.248455, -122.249657, -122.250172]
-    details: http://pshannon.net/sewardParkRestoration/ivyPatch.002
+    details: http://pshannon.net/sewardParkRestoration/grounZeroContractorPlanting2019.Q1
 
   - name: FoSP 5-year fern survival experiment, GZ
     id: planting.002
     observer: Paul Shannon
-    group: experiments
+    group: experimental plantings
     date: 2018-02-01
     fillColor: green
     borderColor: blue
@@ -69,7 +56,7 @@ regions:
   - name: FoSP 5-year fern survival experiment, ADZ
     id: planting.003
     observer: Paul Shannon
-    group: experiments
+    group: experimental plantings
     date: 2018-02-01
     fillColor: green
     borderColor: blue
@@ -78,6 +65,19 @@ regions:
     lat: [47.556246,   47.556246,   47.556050,   47.556050]
     lon: [-122.250101, -122.250060, -122.250060, -122.250101]
     details: http://pshannon.net/sewardParkRestoration/5yearFernSurvivalExperiment
+
+  - name: Sword Fern Survival at Ground Zero
+    id: swordFernResearch.001
+    observer: Paul Shannon
+    group: fern research
+    date: 2019-05-18
+    fillColor: green
+    borderColor: blue
+    borderWidth: 3
+    opacity: 0.5
+    lat: [47.556246,   47.556246,   47.556050,   47.556050]
+    lon: [-122.250101, -122.250060, -122.250060, -122.250101]
+    details: http://pshannon.net/sewardParkRestoration/groundZeroUnassistedSurvival
 
   - name: Andrews Bay Elbow Blackberry Patch
     id: blackberry.003
