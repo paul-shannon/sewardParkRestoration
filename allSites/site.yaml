@@ -821,7 +821,7 @@ points:
     date: 2021-01-30
     lat: 47.56046
     lon: -122.25094
-    color: orange
+    color: black
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.092
     
@@ -832,7 +832,7 @@ points:
     date: 2021-01-31
     lat: 47.56000
     lon: -122.25178
-    color: orange
+    color: black
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.094
     
@@ -843,7 +843,7 @@ points:
     date: 2021-01-30
     lat: 47.55976
     lon: -122.25188
-    color: orange
+    color: black
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.095
     
@@ -854,7 +854,7 @@ points:
     date: 2021-01-30
     lat: 47.55964
     lon: -122.25150
-    color: orange
+    color: black
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.096
     
@@ -865,7 +865,7 @@ points:
     date: 2021-01-30
     lat: 47.55963
     lon: -122.25154
-    color: orange
+    color: black
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.098
     
@@ -876,7 +876,7 @@ points:
     date: 2021-01-30
     lat: 47.56032
     lon: -122.25163
-    color: magenta
+    color: brown
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/cedar.093
     
@@ -887,7 +887,7 @@ points:
     date: 2021-01-30
     lat: 47.55980
     lon: -122.25148
-    color: magenta
+    color: brown
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/cedar.097
     
@@ -898,7 +898,7 @@ points:
     date: 2021-01-30
     lat: 47.55958
     lon: -122.25144
-    color: magenta
+    color: brown
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/cedar.099
     
