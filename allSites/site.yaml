@@ -386,11 +386,11 @@ points:
   - name: dougFir.055
     observer: PTS
     id: waypoint.55
-    group: big burned trees (needs work)
+    group: big unburned trees
     date: 2020-11-14
     lat: 47.55855
     lon: -122.24972
-    color: black
+    color: brown
     radius: 4
     details: http://pshannon.net/sewardParkRestoration/dougFir.055
 
