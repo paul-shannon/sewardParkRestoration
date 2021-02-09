@@ -11,7 +11,7 @@ regions:
     opacity: 0.5
     lat: [47.5573972799,    47.5573957711,   47.5574039016,    47.5573979504,  47.5574380998,    47.5574949291,   47.5575332344,   47.5575832743,  47.5576318894,   47.5577128585,   47.557743201,     47.5576871261,  47.5576784927,   47.5577761419,   47.5578237511,   47.5578618888,   47.5578719471,   47.5578044727,   47.5578426942,   47.5578716956,   47.5578186382,   47.5578895491,   47.5579264294,   47.5578614697,   47.5578323845,   47.5577306282,     47.5576685183,  47.5576972682,   47.5576328114, 47.55757045, 47.5574639998,           47.5574339088,   47.5573618244,      47.557312,  47.5573186576]
     lon: [-122.2485912591, -122.2485913429, -122.2487238608, -122.2488163132, -122.2489453945, -122.2490027267, -122.2489564586, -122.248994261, -122.2490202449, -122.2490342427, -122.2490499169,  -122.249145722, -122.2493075766, -122.2492390964, -122.2491707839, -122.2491478175, -122.2490277886, -122.2489582188, -122.2488595638, -122.2487569693, -122.2486739885, -122.2486050893, -122.2485893313, -122.2485298198, -122.2485034168, -122.24838892,      -122.248223545, -122.2481738403, -122.2481705714, -122.2481650393, -122.2480776161, -122.2481429949, -122.248278195,      -122.248288, -122.2484037559]
-    details: http://pshannon.net/sewardParkRestoration/ivy.001
+    details: https://pshannon.net/sewardParkRestoration/ivy.001
 
 
   - name: Invasive Ivy NE slope
@@ -25,7 +25,7 @@ regions:
     opacity: 0.5
     lat: [47.559316, 47.559316, 47.559249, 47.559241 ]
     lon: [-122.248960, -122.248871,  -122.248858, -122.248938]
-    details: http://pshannon.net/sewardParkRestoration/ivyPatch.002
+    details: https://pshannon.net/sewardParkRestoration/ivyPatch.002
 
   - name: GZ+ contractor planting 2019 Q1
     id: planting.001
@@ -38,7 +38,7 @@ regions:
     opacity: 0.5
     lat: [47.555348,     47.555435,   47.555486,   47.554928,   47.554848,   47.555312]
     lon: [-122.250043, -122.249324, -122.248348, -122.248455, -122.249657, -122.250172]
-    details: http://pshannon.net/sewardParkRestoration/grounZeroContractorPlanting2019.Q1
+    details: https://pshannon.net/sewardParkRestoration/groundZeroContractorPlanting2019.Q1
 
   - name: FoSP 5-year fern survival experiment, GZ
     id: planting.002
@@ -51,7 +51,7 @@ regions:
     opacity: 0.5
     lat: [47.555352, 47.555381, 47.555320, 47.555292]
     lon: [-122.249064, -122.248672, -122.248666, -122.249060]
-    details: http://pshannon.net/sewardParkRestoration/5yearFernSurvivalExperiment
+    details: https://pshannon.net/sewardParkRestoration/5yearFernSurvivalExperiment
 
   - name: FoSP 5-year fern survival experiment, ADZ
     id: planting.003
@@ -64,7 +64,7 @@ regions:
     opacity: 0.5
     lat: [47.556246,   47.556246,   47.556050,   47.556050]
     lon: [-122.250101, -122.250060, -122.250060, -122.250101]
-    details: http://pshannon.net/sewardParkRestoration/5yearFernSurvivalExperiment
+    details: https://pshannon.net/sewardParkRestoration/5yearFernSurvivalExperiment
 
   - name: Sword Fern Survival at Ground Zero
     id: swordFernResearch.001
@@ -77,7 +77,7 @@ regions:
     opacity: 0.5
     lat: [47.556246,   47.556246,   47.556050,   47.556050]
     lon: [-122.250101, -122.250060, -122.250060, -122.250101]
-    details: http://pshannon.net/sewardParkRestoration/groundZeroUnassistedSurvival
+    details: https://pshannon.net/sewardParkRestoration/groundZeroUnassistedSurvival
 
   - name: Andrews Bay Elbow Blackberry Patch
     id: blackberry.003
@@ -90,5 +90,5 @@ regions:
     opacity: 0.5
     lat: [47.553086, 47.553343, 47.553249, 47.553075]
     lon: [-122.254424, -122.254102, -122.254102, -122.254322]
-    details: http://pshannon.net/sewardParkRestoration/andrewsBayHBBatElbow
+    details: https://pshannon.net/sewardParkRestoration/andrewsBayHBBatElbow
 
