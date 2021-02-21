@@ -92,3 +92,18 @@ regions:
     lon: [-122.254424, -122.254102, -122.254102, -122.254322]
     details: https://pshannon.net/sewardParkRestoration/andrewsBayHBBatElbow
 
+
+  - name: Invasive Ivy NE slope #1
+    id: ivyPatch.100
+    observer: Paul Shannon
+    group: invasive ivy
+    date: 2021-02-20
+    fillColor: black
+    borderColor: red
+    borderWidth: 3
+    opacity: 0.5
+    lat: [47.557827, 47.557816, 47.557730, 47.557730]
+    lon: [-122.248073, -122.247967, -122.247969, -122.248055]
+    details: https://pshannon.net/sewardParkRestoration/ivyPatch.100
+
+
