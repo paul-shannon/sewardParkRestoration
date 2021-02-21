@@ -196,6 +196,7 @@ MapApp = R6Class("MapAppClass",
             searchTerm <- session$clientData$url_search
             searchTerm <- sub("?", "", searchTerm, fixed=TRUE)
             print(searchTerm)
+            print(private$tbl)
             if(nchar(searchTerm) > 0){
               tbl.sub <- subset(private$tbl, id==searchTerm)
               printf("sites found matching searchTerm: %d", nrow(tbl.sub))

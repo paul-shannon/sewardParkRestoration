@@ -2,6 +2,7 @@
 .Rhistory
 .Rapp.history
 
+*.png
 *.jpg
 *.mov
 *.jpeg
