@@ -1,4 +1,4 @@
-SITE=XXXX
+SITE=ivyPatch.100
 DEST=paulshannnon@pshannon.net:public_html/pshannon.net/sewardParkRestoration/$(SITE)/
 
 default:  html
