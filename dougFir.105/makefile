@@ -1,4 +1,4 @@
-SITE=XXXX
+SITE=dougFir.105
 DEST=paulshannnon@pshannon.net:public_html/pshannon.net/sewardParkRestoration/$(SITE)/
 
 default:  html
