@@ -98,7 +98,7 @@ regions:
     observer: Paul Shannon
     group: invasive ivy
     date: 2021-02-20
-    fillColor: black
+    fillColor: red
     borderColor: red
     borderWidth: 3
     opacity: 0.5
