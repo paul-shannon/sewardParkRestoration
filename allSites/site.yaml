@@ -980,3 +980,84 @@ points:
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.107
     
+  - name: dougFir.108
+    observer: Paul
+    id: waypoint.108
+    group: big burned trees
+    date: 2021-02-28
+    lat: 47.55898
+    lon: -122.25079
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.108
+    
+    
+  - name: dougFir.109
+    observer: Paul
+    id: waypoint.109
+    group: big burned trees
+    date: 2021-02-28
+    lat: 47.55870
+    lon: -122.25105
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.109
+    
+    
+  - name: dougFir.110
+    observer: Paul
+    id: waypoint.110
+    group: big burned trees
+    date: 2021-02-28
+    lat: 47.55853
+    lon: -122.25072
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.110
+    
+    
+  - name: dougFir.111
+    observer: Paul
+    id: waypoint.111
+    group: big burned trees
+    date: 2021-02-28
+    lat: 47.55795
+    lon: -122.25147
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.111
+    
+    
+  - name: dougFir.112
+    observer: Paul
+    id: waypoint.112
+    group: big burned trees
+    date: 2021-02-28
+    lat: 47.55793
+    lon: -122.25171
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.112
+    
+  - name: cedar.113
+    observer: Pail
+    id: waypoint.113
+    group: big burned trees
+    date: 2021-02-28
+    lat: 47.556547
+    lon: -122.251512
+    color: brown
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cedar.113
+
+  - name: cedar.114
+    observer: Pail
+    id: waypoint.114
+    group: big burned trees
+    date: 2021-02-28
+    lat: 47.556515
+    lon: -122.251468
+    color: brown
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cedar.113
+
