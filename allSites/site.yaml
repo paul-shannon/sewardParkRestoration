@@ -1061,3 +1061,113 @@ points:
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/cedar.113
 
+  - name: dougFir.114a
+    observer: Paul, Tia, Catherine
+    id: waypoint.114a
+    group: big burned trees
+    date: 2021-03-07
+    lat: 47.55862
+    lon: -122.25253
+    color: red
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.114a
+    
+  - name: dougFir.115
+    observer: Paul, Tia, Catherine
+    id: waypoint.115
+    group: big burned trees
+    date: 2021-03-07
+    lat: 47.55835
+    lon: -122.25240
+    color: red
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.115
+    
+  - name: dougFir.116
+    observer: Paul, Tia, Catherine
+    id: waypoint.116
+    group: big burned trees
+    date: 2021-03-07
+    lat: 47.55814
+    lon: -122.25266
+    color: red
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.116
+    
+  - name: dougFir.117
+    observer: Paul, Tia, Catherine
+    id: waypoint.117
+    group: big burned trees
+    date: 2021-03-07
+    lat: 47.55802
+    lon: -122.25235
+    color: red
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.117
+    
+  - name: dougFir.119
+    observer: Paul, Tia, Catherine
+    id: waypoint.119
+    group: big burned trees
+    date: 2021-03-07
+    lat: 47.55790
+    lon: -122.25251
+    color: red
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.119
+    
+  - name: dougFir.120
+    observer: Paul, Tia, Catherine
+    id: waypoint.120
+    group: big burned trees
+    date: 2021-03-07
+    lat: 47.55773
+    lon: -122.25278
+    color: red
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.120
+    
+  - name: dougFir.121
+    observer: Paul, Tia, Catherine
+    id: waypoint.121
+    group: big burned trees
+    date: 2021-03-07
+    lat: 47.55764
+    lon: -122.25270
+    color: red
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.121
+    
+  - name: dougFir.122
+    observer: Paul, Tia, Catherine
+    id: waypoint.122
+    group: big burned trees
+    date: 2021-03-07
+    lat: 47.55774
+    lon: -122.25315
+    color: red
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.122
+    
+  - name: dougFir.123
+    observer: Paul, Tia, Catherine
+    id: waypoint.123
+    group: big burned trees
+    date: 2021-03-07
+    lat: 47.55783
+    lon: -122.25317
+    color: red
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.123
+    
+  - name: dougFir.124
+    observer: Paul, Tia, Catherine
+    id: waypoint.124
+    group: big burned trees
+    date: 2021-03-07
+    lat: 47.557620
+    lon: -122.253104
+    color: red
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.124
+    
