@@ -12,7 +12,7 @@ jpg:
 	- scp *.jpg $(DEST)
 
 view:
-	open https://pshannon.net/sewardParkRestoration/$(SITE)
+	open https://pshannon.net/sewardParkRestoration/$(SITE) 
 
 mkdir:
 	ssh paulshannnon@pshannon.net mkdir public_html/pshannon.net/sewardParkRestoration/$(SITE)/
