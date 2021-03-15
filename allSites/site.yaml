@@ -1068,7 +1068,7 @@ points:
     date: 2021-03-07
     lat: 47.55862
     lon: -122.25253
-    color: red
+    color: black
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.114a
     
@@ -1079,7 +1079,7 @@ points:
     date: 2021-03-07
     lat: 47.55835
     lon: -122.25240
-    color: red
+    color: black
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.115
     
@@ -1090,7 +1090,7 @@ points:
     date: 2021-03-07
     lat: 47.55814
     lon: -122.25266
-    color: red
+    color: black
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.116
     
@@ -1101,7 +1101,7 @@ points:
     date: 2021-03-07
     lat: 47.55802
     lon: -122.25235
-    color: red
+    color: black
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.117
     
@@ -1112,7 +1112,7 @@ points:
     date: 2021-03-07
     lat: 47.55790
     lon: -122.25251
-    color: red
+    color: black
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.119
     
@@ -1123,7 +1123,7 @@ points:
     date: 2021-03-07
     lat: 47.55773
     lon: -122.25278
-    color: red
+    color: black
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.120
     
@@ -1134,7 +1134,7 @@ points:
     date: 2021-03-07
     lat: 47.55764
     lon: -122.25270
-    color: red
+    color: black
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.121
     
@@ -1145,7 +1145,7 @@ points:
     date: 2021-03-07
     lat: 47.55774
     lon: -122.25315
-    color: red
+    color: black
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.122
     
@@ -1156,7 +1156,7 @@ points:
     date: 2021-03-07
     lat: 47.55783
     lon: -122.25317
-    color: red
+    color: black
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.123
     
@@ -1167,7 +1167,7 @@ points:
     date: 2021-03-07
     lat: 47.557620
     lon: -122.253104
-    color: red
+    color: black
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.124
     
