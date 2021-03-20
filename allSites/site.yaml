@@ -1192,7 +1192,7 @@ points:
     lon: -122.25346
     color: red
     radius: 3
-    details: http://pshannon.net/sewardParkRestoration/dougFir.127
+    details: http://pshannon.net/sewardParkRestoration/dougFir.128
 
     
   - name: dougFir.129
@@ -1204,7 +1204,7 @@ points:
     lon: -122.25256
     color: red
     radius: 3
-    details: http://pshannon.net/sewardParkRestoration/dougFir.127
+    details: http://pshannon.net/sewardParkRestoration/dougFir.129
 
   - name: start here next time
     observer: Paul, Tia, Catherine
@@ -1215,5 +1215,5 @@ points:
     lon: -122.25220
     color: red
     radius: 10
-    details: http://pshannon.net/sewardParkRestoration/dougFir.127
+    details: http://pshannon.net/sewardParkRestoration/dougFir.129
 
