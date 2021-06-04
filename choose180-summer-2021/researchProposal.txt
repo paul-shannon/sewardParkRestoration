@@ -1,137 +1,92 @@
 Introduction
 
-Informal inspection of Western Hemlocks (Tsuga heterophylla, TSHE) in the
-one hundred acre old-growth forest at Seward Park suggests that they
-are diseased and dying at higher than historical and background rates.
-We propose a formal, staged inspection of a central five acre section
-of the forest, to achieve three goals:
+Informal inspection of Western Hemlocks (Tsuga heterophylla, TSHE) in the one hundred acre
+old-growth forest at Seward Park, on April 9th 2021, by GSP forest steward and Friends of Seward
+Park (FoSP) board member Paul Shannon, accompanied and supervised by WSU plant pathologist Marianne
+Elliott, and UW ecologist Tim Billo, found that the hemlocks are diseased and dying at higher than
+historical and background rates.
 
-  1) Establish the current count, size and health status
-     of Tsuga heterophylla.
+FoSP has allied with CHOOSE 180, a community-centered effort in partnership with the King County
+Prosecuting Attorney's Office to reduce race-based and economic disproportionality in incarceration,
+to keep youth out of the juvenile justice system, and to break the school-to-prison pipeline.
 
-  2) Introduce two to five at-risk Choose 180 youth into the methods of field
-     biology and data analysis.
+Together FoSP and CHOOSE 180, were awarded a $4500 Department of Neighborhoods (DoN) Small Sparks
+Fund grant to employ a small group of at-risk youth to survey hemlock status in a large sample plot
+at Seward Park during the summer of 2021, supervised pro bono by Shannon, under the scientific
+guidance of Elliott, Billo, with the advice and consent of Seattle Parks plant ecologists.
 
-  3) Provide affected plant tissue to WSU plant pathologist
-     Dr. Marianne Elliott for analysis.
+DoN funding will pay minimum wage to 2-5 youth selected by CHOOSE 180, for 4-6 weeks, 4 hours a day, four
+days a week, and for the purchase of a GPS device and a clinometer.  We propose a formal, staged
+inspection of a central four and a half acre (1.8 hectare) section of the forest, compatible with
+the methods and data standards of the US Forest Service Inventory and Analysis (FIA) program, to
+achieve these five goals:
 
-Background
+  1) Establish the current count, size and health status of Tsuga heterophylla in this
+     large, central and representative plot.
 
-Our goal is to establish the current state of hemlocks and to provide
-a baseline for repeat assays in subsequent years.   Three
-inter-related topics arise:
+  2) Introduce two to five at-risk Choose 180 youth into the methods of field biology and data
+     analysis.
 
-  1) sampling strategy
-  2) monitoring protocol to be applied to selected samples
-  3) compatibility with regional and national programs with similar aims
+  3) Provide affected plant tissue to WSU plant pathologist Dr. Marianne Elliott for analysis.
 
-A recently published high-profile journal article provides a basis
-with which to address these topics:
+  4) Contribute our observations to the WSU-afffilated Forest Health Watch project
 
-  "Over half of western United States' most abundant tree species in
-   decline", Stanke et al, Nature Communications, January 2021.
+  5) Contribute to the long-term ecological monitoring of Seward Park's rare old-growth forest.
 
-This study uses repeat measures of trees in 24,000 US Forest Service
-Inventory and Analysis (FIA) plots.  The authors propose a relative
-tree density assay in which current ("absolute") densities
-are compared to the "maximum theoretical density the stand could
-achieve given its ovserved tree size-distribution".  FIA data and a
-simple model provide the theoretical density; field measurements
-determine the current absolute density.  Our goal in this project is
-to make a first contribution to the historical record, providing tree
-height, diameter, crown characteristics and health estimates of
-Western Hemlock at Seward Park.  By collecting standard Phase 3 FIA
-data, the tracking and management of Seward's forest will
-benefit from its compatibility with ongoing FIA research. 
-
-Unlike the FIA, which uses sampling techniques and frequencies adapted
-to a continental scale and budget constraints, the Seward Park hemlock
-project will use a trail-enclosed 4.5 acre (1.8 hectare) section in
-the center of Seward's old-growth forest.  Preliminary data show that
-this area has classic old-growth confirmation, with multiple species
-of a range of ages and health status, includng approximately 80
-hemlocks of various status and size.
-
-A traditional FAI strategy suggests a different approach: four closely
-spaced 48' diameter circles, totalling one-sixth of an acre,
-constitute a plot.  On average, one of these is created for every
-96,000 acres.  Twenty-seven such FIA "Phase 3" plots could replace our
-single 4.5 acre plots.  However, given the heterogeneity of the 4.5
-acre plot, its centrality within the forest, and the completeness of
-the survey we propose, this will provide an excellent baseline, and
-the opportunity for repeatable measures in eyears to come.
-
-(https://www.fia.fs.fed.us/library/fact-sheets/data-collections/Sampling%20and%20Plot%20Design.pdf)
-
-The single 4.5 acre plot has two advantages.  First, this selected
-region of Seward's forest is representative of the older, generally
-healthier regions of the one hundred acre forest.  Due to its size  -
-27 times the standard FIA plot - and the nature of Seward's forest,
-more representative heterogeneity is obtained.  Large Douglas firs
-and cedars as well as hemlock and maple are present in good number
-here. The sword fern die-off is not yet pervasive.  The area is central to the
-forest and thus maximally removed from forest edge effects, of human
-visitors and ambient pollution.   This region of the forest is
-possibly the healthiest in the forest, despite having dead and dying
-hemlocks and the early stages of sword fern decline.  
-
-Didactive concerns also strongly recommend this large single-site
-approach.  Our project will be staffed by young workers who are new to
-the woods and untrained in field biology.  By sticking with one large
-site, they will acquire detailed knowledge by visiting it many times a
-week over 4-6 weeks.  They are expected to progress from 
-species recognition skills, to mastery of GPS and clinometer readings,
-of diameter measurements and crown description, of needle photography
-and sample collection for Marianne Elliott's lab at WSU Puyallup.
-
-For all of these reasons, this 4.5 acre plot provides the optimum
-balance of baseline measurement and educational virtues.
+The context for, and the urgency of this project is captured in a recent study published in the
+journal Nature: "Over half of western United States' most abundant tree species in decline" (Stanke
+et al, Nature Communications, January 2021).  PNW tree species are in apparent decline as well
+(Bigleaf Maple, Western Redcedar, and - of immediate concern at Seward - the Western Hemlock). We
+will emulate the FIA and Stankeprojects, measuring the same standard FIA attributes, though adapting
+the FIA plot selection protocol to Seward's forest and the educational needs of the CHOOSE 180
+youth.
 
 Methods
 
-The apparent hemlock decline may be related to other PNW areal tree
-decline (Western Redcedar and Bigleaf Maple).  Methods and context for
-the proposed study are provided by research just published in Nature
-Communications: "Over half of western United States most abundant tree
-species in decline." <fn1>  We propose to collect data consistent with
-the Forest Stability Index (FSI) developed in this paper, which 
-draws in turn upon 24,000 repeated censuses of the US Forest Service Forest
-Inventory and Analysis Plots (FAI).
+We propose to collect data consistent with FAI surveys, which to date include 24,000 repeated
+censuses over several decades.  See https://www.fia.fs.fed.us.
 
-FAI plot surveys are executed quickly by professional foresters, on
-1-acre sample plots and adjacent subplots, measuring all trees of
-target species > 1" DBH.
+FAI plot surveys are executed quickly by professional foresters, on 1/6 acre sample plots and
+subplots, measuring all trees of target species > 1" DBH. We shall collect the same per-tree data on
+hemlocks in a single large, central, representative plot.  This contiguous single area is 4.6 acres
+(1.8 hectare) and thus differs from FIA's standard, randomized 1/6 acre, four subplot scheme.  FIA's
+plots are motivated by scarce labor and a continental scale, factors not applicable at
+Seward. Nonetheless, standard FIA "TPA" or "TPH" summaries (trees per acre or hectare) will be
+provided at the conclusion of our study.
 
-The proposed Seward TSHE survey is not constrained by the FAI need for
-efficiency at scale.  Though our workers will be initially
-scientifically naive, we have the luxury of ample time: a City of
-Seattle Department of Neighborhoods grant provides funding for at least 4
-weeks, 16 hours per week for 2-5 youths, led by GSP Forest Steward
-Paul Shannon pro bono.   This permits two modifications of the FAI protocol:
+Our Seward TSHE survey is not constrained by the FAI need for efficiency at scale, but is instead
+shaped by the nature of our work force.  These youths will be initially scientifically naive.
+However, and incontrast to FIA, we have the luxury of ample time: the DoN grant provides funding for
+at least 4 weeks, 16 hours per week for 2-5 youths.  This permits two modifications of the FAI
+protocol, in plot selection, and in methodology:
 
-  1) We will survey a 4.5 acre (1.8 hectare) region of Seward's
-     Forest, contained by the Windfall and sqebeqd trails, in which
-     approximately 80 TSHE are found, of all sizes and health status.
+  1) We will survey a 4.5 acre (1.8 hectare) region of Seward's Forest, contained by the Windfall
+     and sqebeqd trails, in which approximately 80 TSHE are found, of all sizes and health status.
 
-  2) We propose a staged methodology:
+  2) We will use a slow, staged methodology, with careful instruction at each stage, including
      a) Species identification
      b) Temporary tree flagging
-     c) DBH measurement, height estimation
-     d) health assessment:  needle distribution (crown, middle, base),
-        needle health
-     e) needle & twig sample selection and collection
-        
+     c) DBH and height measurement of approximately 80 trees, all sizes, dead and alive
+     d) Health assessment via needle distribution (crown, middle, base) adapting (per Marianne
+        Elliott) the Dwarf Mistletoe Rating system (DMR), substituting defoliation for mistletoe
+        infection.  See https://forestpathology.org/parasitic-plants/dwarf-mistletoe/ecology/
+     e) Reporting affected trees to Marianne Elliott for subsequent needle and twig collection,
+        and laboratory analysis
+
 Deliverables
 
-Total, per-acre and per-hectare statistics fully consistent with the
-data schema of the US Forest Service Forest Inventory and Analysis
-Plots.  This enables successive surveys, and surveys elsewhere at
-Seward, to be employed with the standardized forest demographic index
-from Stanke et al, to track change over time.
+At the conclusion of the study, we will produce and archive  per-acre and per-hectare (TPA and
+TPH) statistics consistent with the data schema of the US Forest Service Forest Inventory and
+Analysis Plots.  
+
+These data set up and enable future repeat surveys of the plot, as well as other possible surveys at Seward,
+using the forest stability index (FSI) proposed by Stanke et al, to track change over time, or some
+similar metric.
+
+In addition, we hope to submit a research note to Douglasia, the journal of the Washington Native Plant
+Society.
+
+Affected hemlock needle and tissue samples will be provided to Marianne Elliott for analysis in the WSU
+Puyallup Plant Pathology laboratory, possibly leading to greater understanding of the hemlock decline.
 
 
-
-fn1: Stanke, Hunter, Andrew O. Finley, Grant M. Domke, Aaron S. Weed, and
-David W. MacFarlane. "Over half of western United States' most
-abundant tree species in decline." Nature Communications 12, no. 1
-(2021): 1-11.
