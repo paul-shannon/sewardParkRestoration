@@ -1,10 +1,36 @@
 Introduction
 
-Informal inspection of Western Hemlocks (Tsuga heterophylla, TSHE) in the one hundred acre
-old-growth forest at Seward Park, on April 9th 2021, by GSP forest steward and Friends of Seward
-Park (FoSP) board member Paul Shannon, accompanied and supervised by WSU plant pathologist Marianne
-Elliott, and UW ecologist Tim Billo, found that the hemlocks are diseased and dying at higher than
-historical and background rates.
+Western Hemlocks (Tsuga heterophylla, TSHE) old-growth forest at Seward Park appear to be diseased
+and dying at higher than historical and background rates.  WSU plant pathologist Marianne
+Elliott, and UW ecologist Tim Billo, and forest steward Paul Shannon toured the forest on April 9th
+2021, formulating the hemlock survey here proposed.  The survey will establish the current state of
+hemlocks in a central and representative 1.8 hectare plot, and provide a baseline against which to
+measure future changes.
+
+The decline of Seward Park hemlocks is not an isolated event.  Western Redcedar is the focus
+of WSU Joseph Hulbert's Forest Watch project.  Broad regional effects are described in Stanke et al,
+"Over half of western United States' most abundant tree species in decline", Nature Communications
+2021.  These two projects provide field protocols and reporting mechanisms which we will employ and
+adapt in the current study.
+
+Environmental decline is not our only concern.  The last year has focused our minds, and the minds
+of many, on the historical roots and persistence of racism and systematic inequity.  This problem
+takes many forms, including high incarceration rates and social immobility - the "new Jim Crow". 
+It is manifest in a dearth of young people of color in science and engineering programs and
+professions.
+
+The Friends of Seward Park (FoSP) has joined with CHOOSE 180 to secure a $4500 Department of
+Neighborhoods grant.  90% of these funds will be used to hire youths from CHOOSE 180's jail
+diversion program, training them in methods of forest monitoring and data analysis.  Supervised by
+FoSP board member, and Green Seattle Partnership forest steward Paul Shannon, advised by plant
+pathologist Elliott and ecologist Billo, the group will spend four weeks surveying in Seward's
+forest, following USFS Forest Inventory and Analysis project (FIA) protocols, provide diseased
+tissue samples to Marianne Elliott's lab, reporting results in standard formats, and individual
+trees to the Western Hemlock Health Watch.
+
+
+
+
 
 FoSP has allied with CHOOSE 180, a community-centered effort in partnership with the King County
 Prosecuting Attorney's Office to reduce race-based and economic disproportionality in incarceration,
