@@ -1178,7 +1178,7 @@ points:
     date: 2021-03-19
     lat: 47.55891
     lon: -122.25297
-    color: red
+    color: black
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.127
 
@@ -1190,7 +1190,7 @@ points:
     date: 2021-03-19
     lat: 47.55831
     lon: -122.25346
-    color: red
+    color: black
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.128
 
@@ -1202,18 +1202,63 @@ points:
     date: 2021-03-19
     lat: 47.55722
     lon: -122.25256
-    color: red
+    color: black
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.129
 
-  - name: start here next time
-    observer: Paul, Tia, Catherine
-    id: waypoint.130
+  - name: dougFir.131
+    observer: Paul,  Catherine
+    id: waypoint.131
     group: big burned trees
-    date: 2021-03-19
-    lat: 47.55692
-    lon: -122.25220
-    color: red
-    radius: 10
-    details: http://pshannon.net/sewardParkRestoration/dougFir.129
+    date: 2021-04-11
+    lat: 47.55650
+    lon: -122.25189
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.131
+
+  - name: dougFir.132
+    observer: Paul,  Catherine
+    id: waypoint.132
+    group: big burned trees
+    date: 2021-04-11
+    lat: 47.55643
+    lon: -122.25172
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.132
+
+  - name: dougFir.133
+    observer: Paul,  Catherine
+    id: waypoint.133
+    group: big burned trees
+    date: 2021-04-11
+    lat: 47.55625
+    lon: -122.25207
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.133
+
+  - name: dougFir.134
+    observer: Paul,  Catherine
+    id: waypoint.134
+    group: big burned trees
+    date: 2021-04-11
+    lat: 47.556184
+    lon: -122.251967
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.134
+
+
+  - name: hemlockDecline.001
+    observer: Paul
+    id: waypoint.140
+    group: Hemlock Decline
+    date: 2021-07-05
+    lat:  47.55835
+    lon: -122.25080
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.001
 
