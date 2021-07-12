@@ -1,0 +1,16 @@
+(4 jul 2021) tshe 140
+cbh 31.5"
+
+(5 jul 2021)
+cbh 33"
+
+
+base    clin   onTree
+29'8"    150     4'2"
+43'5"    100     7'2"
+
+first heavy branch
+27'4"    85/55  4'
+
+tan(x) = L/h   (land base/height
+h = Lpw/tan(x)
