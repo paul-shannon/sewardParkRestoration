@@ -1253,7 +1253,7 @@ points:
 # hemlock decline study starts here
 
   - name: hemlock.001
-    observer: paul shannon
+    observer: pshannon
     id: waypoint.140
     group: Hemlock Decline
     date: '2021-07-05'
@@ -1347,28 +1347,158 @@ points:
     id: waypoint.152
     group: Hemlock Decline
     date: '2021-07-14'
-    lat: 47.55786
-    lon: -122.25094
+    lat: 47.55812
+    lon: -122.25134
     color: black
     radius: 3.0
     details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.010
-  - name: hemlock.011
+  - name: hemlock.014
     observer: all
     id: waypoint.153
     group: Hemlock Decline
-    date: '2021-07-14'
-    lat: 47.557871
-    lon: -122.250943
+    date: '2021-07-15'
+    lat: 47.55804
+    lon: -122.25145
     color: black
     radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.011
-  - name: hemlock.012
+    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.014
+  - name: hemlock.015
     observer: all
     id: waypoint.154
     group: Hemlock Decline
-    date: '2021-07-14'
-    lat: 47.5581
-    lon: -122.2511
+    date: '2021-07-15'
+    lat: 47.55792
+    lon: -122.25169
     color: black
     radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.012
+    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.015
+  - name: hemlock.016
+    observer: all
+    id: waypoint.162
+    group: Hemlock Decline
+    date: '2021-07-15'
+    lat: 47.55784
+    lon: -122.25197
+    color: black
+    radius: 3.0
+    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.016
+  - name: hemlock.017
+    observer: all
+    id: waypoint.162
+    group: Hemlock Decline
+    date: '2021-07-15'
+    lat: 47.55786
+    lon: -122.25196
+    color: black
+    radius: 3.0
+    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.017
+  - name: hemlock.018
+    observer: all
+    id: waypoint.162
+    group: Hemlock Decline
+    date: '2021-07-15'
+    lat: 47.55788
+    lon: -122.25195
+    color: black
+    radius: 3.0
+    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.018
+  - name: hemlock.019
+    observer: all
+    id: waypoint.156
+    group: Hemlock Decline
+    date: '2021-07-15'
+    lat: 47.55796
+    lon: -122.25182
+    color: black
+    radius: 3.0
+    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.019
+  - name: hemlock.025
+    observer: all
+    id: waypoint.161
+    group: Hemlock Decline
+    date: '2021-07-19'
+    lat: 47.55797
+    lon: -122.2514
+    color: black
+    radius: 3.0
+    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.025
+  - name: hemlock.026
+    observer: pshannon
+    id: waypoint.163
+    group: Hemlock Decline
+    date: '2021-07-19'
+    lat: 47.5577
+    lon: -122.25167
+    color: black
+    radius: 3.0
+    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.026
+  - name: hemlock.027
+    observer: all
+    id: waypoint.164
+    group: Hemlock Decline
+    date: '2021-07-19'
+    lat: 47.55772
+    lon: -122.25148
+    color: black
+    radius: 3.0
+    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.027
+  - name: hemlock.028
+    observer: all
+    id: waypoint.164
+    group: Hemlock Decline
+    date: '2021-07-19'
+    lat: 47.5577
+    lon: -122.2515
+    color: black
+    radius: 3.0
+    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.028
+  - name: hemlock.029
+    observer: all
+    id: waypoint.164
+    group: Hemlock Decline
+    date: '2021-07-19'
+    lat: 47.55765
+    lon: -122.25153
+    color: black
+    radius: 3.0
+    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.029
+  - name: hemlock.030
+    observer: all
+    id: waypoint.166
+    group: Hemlock Decline
+    date: '2021-07-10'
+    lat: 47.55689
+    lon: -122.25172
+    color: black
+    radius: 3.0
+    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.030
+  - name: hemlock.031
+    observer: all
+    id: waypoint.166
+    group: Hemlock Decline
+    date: '2021-07-10'
+    lat: 47.55688
+    lon: -122.25171
+    color: black
+    radius: 3.0
+    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.031
+  - name: hemlock.032
+    observer: all
+    id: waypoint.166
+    group: Hemlock Decline
+    date: '2021-07-10'
+    lat: 47.55689
+    lon: -122.2517
+    color: black
+    radius: 3.0
+    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.032
+  - name: hemlock.033
+    observer: all
+    id: waypoint.166
+    group: Hemlock Decline
+    date: '2021-07-10'
+    lat: 47.5569
+    lon: -122.25171
+    color: black
+    radius: 3.0
+    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.033
