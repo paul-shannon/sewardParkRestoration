@@ -1,5 +1,5 @@
 
-id	gpsID	lat	lon	height	dbh	firstDead	firstLive	dmr1	dmr2	dmr3	date	observer	notes
+	id	gpsID	lat	lon	height	dbh	firstDead	firstLive	dmr1	dmr2	dmr3	date	observer	notes
 hemlock.001	140	47.558333	-122.250825	45	10.5	11	21	2	1	0	2021-07-05	pshannon	
 hemlock.002	144	47.55855	-122.25139	31	10	12	16	2	0	0	2021-07-14	all	
 hemlock.003	145	47.558316	-122.250828	121	35	47	52	2	1	0	2021-07-14	all	
@@ -28,4 +28,29 @@ hemlock.030	166	47.55689	-122.25172	49	6	5	8	1	0	0	2021-07-10	all	group of 4
 hemlock.031	166	47.55688	-122.25171	64	8	3	10	1	0	0	2021-07-10	all	group of 4
 hemlock.032	166	47.55689	-122.25170	75	8	4	10	1	0	0	2021-07-10	all	group of 4
 hemlock.033	166	47.55690	-122.25171	73	8	3	14	1	0	0	2021-07-10	all	group of 4
-
+hemlock.035	167	47.55674	-122.25143	36	6	5	9	0	0	0	2021-07-22	all	35-37 in a triangle, see sheet 37
+hemlock.036	167	47.55674	-122.25143	94	29	6	49	2	2	1	2021-07-22	all      35 w, 37 e, 36 s
+hemlock.037	167	47.55674	-122.25143	100	13	9	62	2	1	0	2021-07-22	all
+hemlock.038	168	47.55690	-122.25131	115	36	8	69	2	2	1	2021-07-22	all
+hemlock.039	169	47.55696	-122.25105	123	20	10	41	2	1	0	2021-07-22	all	remeasure diameter, seems too small
+hemlock.040	169	47.44		-122.25		113	14	7	28	1	1	0	2021-07-22	all
+hemlock.041	170	47.55704	-122.25092	20	8	6	12	2	2	1	2021-07-22	all
+hemlock.042	170					125	23	10	50	2	2	1	2021-07-22	all
+hemlock.043	171	47.55721	-122.25097	101	27	9	22	2	2	1	2021-07-22	all
+hemlock.044	171					6	1	NA	NA	2	2	2	2021-07-22	all	little snag, 44 is west of 43
+hemlock.045	171					7	1
+hemlock.046	172	47.55697	-122.25134	129	29	12	97	1	1	0	2021-07-22	all
+hemlock.047	173	47.55697	-122.25134	96	29	25	60	-1	-1	-1	2021-07-22	all	needs dmr, south 15'
+hemlock.048	173					21	36	NA	NA	-1	-1	-1	2021-07-22	all	snag, east 29'
+hemlock.049	173					17	23	NA	NA	-1	-1	-1	2021-07-22	all	snag, south 7'
+hemlock.050	173					58	36	NA	NA	-1	-1	-1	2021-07-22	all	probably snag: check. west 29'
+hemlock.051	173					47	17	10	31	-1	-1	-1	2021-07-22	all	probably snag: check. northwest 29'
+hemlock.052	173					144	-1	8	121	-1	-1	-1	2021-07-22	all	remeasure csh, north 33
+hemlock.053	173					192	28	8	45	-1	-1	-1	2021-07-22	all	north 55'
+hemlock.054	175	47.55708	-122.25144					78	11	6	10	2	2	0	2021-07-26	all	disance between 1st healthy & second is 50'
+hemlock.055	176	47.55765	-122.25109	120	52	25	81	0	0	0	2021-07-27	all	very healthy
+hemlock.056	177	47.55770	-122.25110	38	4	4	4	2	1	0	2021-07-27	all	south 8'
+hemlock.057	177					38	7	-1	-1	0	0	0	2021-07-27	all	north 8'
+hemlock.058	178	47.55770	-122.25.088	28	4	2	7	2	1	0	2021-07-27	all	southeast 8'
+hemlock.059	178					35	7	6	10	2	1	0	2021-07-27	all	northwest 8'
+								
