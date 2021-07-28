@@ -31,7 +31,7 @@ toStandardForm <- function(tbl.in)
 } # toStandardForm
 #----------------------------------------------------------------------------------------------------
 library(yaml)
-tbl <- read.table("hemlocks.tsv", sep="\t", as.is=TRUE, header=TRUE)
+tbl <- read.table("hemlocks.tsv", sep="\t", as.is=TRUE, header=TRUE, quote="")
 tbl.ready <- toStandardForm(tbl)
 head(tbl.ready)
 write_yaml(tbl.ready, file="tmp.yaml", column.major=FALSE, indent=4)
