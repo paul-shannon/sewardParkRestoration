@@ -93,8 +93,8 @@ MapApp = R6Class("MapAppClass",
 
           markerCategories <- unique(private$tbl$group)
           private$featureGroups <- sort(unique(c(markerCategories, regionCategories)))
-          printf("--- markerCategories")
-          print(private$featureGroups)
+          #printf("--- markerCategories")
+          #print(private$featureGroups)
 
           private$map <- leaflet()
           private$map <- setView(private$map, private$centerLon, private$centerLat, zoom=private$initialZoom)
@@ -196,7 +196,7 @@ MapApp = R6Class("MapAppClass",
             searchTerm <- session$clientData$url_search
             searchTerm <- sub("?", "", searchTerm, fixed=TRUE)
             print(searchTerm)
-            print(private$tbl)
+            #print(private$tbl)
             if(nchar(searchTerm) > 0){
               tbl.sub <- subset(private$tbl, id==searchTerm)
               printf("sites found matching searchTerm: %d", nrow(tbl.sub))
@@ -234,7 +234,7 @@ MapApp = R6Class("MapAppClass",
             #printf("--- map_marker_click: %s", event$id)
             lat <- event$lat
             lon <- event$lng
-            print(private$tbl.regions)
+            #print(private$tbl.regions)
             details.url <- subset(private$tbl.regions, id==event$id)$details
             if(nchar(details.url) > 20){
                 removeUI("#temporaryDiv")

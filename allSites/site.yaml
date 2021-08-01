@@ -1259,8 +1259,8 @@ points:
     lat: 47.558333
     lon: -122.250825
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.001
+    radius: 2.0
+    details: NA
   - name: hemlock.002
     observer: all
     id: waypoint.144
@@ -1269,8 +1269,8 @@ points:
     lat: 47.55855
     lon: -122.25139
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.002
+    radius: 2.0
+    details: NA
   - name: hemlock.003
     observer: all
     id: waypoint.145
@@ -1279,8 +1279,8 @@ points:
     lat: 47.558316
     lon: -122.250828
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.003
+    radius: 5.0
+    details: NA
   - name: hemlock.004
     observer: all
     id: waypoint.146
@@ -1289,8 +1289,8 @@ points:
     lat: 47.55785
     lon: -122.25077
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.004
+    radius: 2.0
+    details: NA
   - name: hemlock.005
     observer: all
     id: waypoint.147
@@ -1299,8 +1299,8 @@ points:
     lat: 47.557763
     lon: -122.250862
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.005
+    radius: 2.0
+    details: NA
   - name: hemlock.006
     observer: all
     id: waypoint.148
@@ -1309,8 +1309,8 @@ points:
     lat: 47.55779
     lon: -122.250823
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.006
+    radius: 4.0
+    details: NA
   - name: hemlock.007
     observer: all
     id: waypoint.149
@@ -1319,8 +1319,8 @@ points:
     lat: 47.55788
     lon: -122.25083
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.007
+    radius: 4.0
+    details: NA
   - name: hemlock.008
     observer: all
     id: waypoint.150
@@ -1329,8 +1329,8 @@ points:
     lat: 47.557862
     lon: -122.250839
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.008
+    radius: 5.0
+    details: NA
   - name: hemlock.009
     observer: all
     id: waypoint.151
@@ -1339,8 +1339,8 @@ points:
     lat: 47.557847
     lon: -122.250935
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.009
+    radius: 1.0
+    details: NA
   - name: hemlock.010
     observer: all
     id: waypoint.152
@@ -1349,8 +1349,8 @@ points:
     lat: 47.55812
     lon: -122.25134
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.010
+    radius: 1.0
+    details: NA
   - name: hemlock.014
     observer: all
     id: waypoint.153
@@ -1360,7 +1360,7 @@ points:
     lon: -122.25145
     color: black
     radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.014
+    details: NA
   - name: hemlock.015
     observer: all
     id: waypoint.154
@@ -1370,7 +1370,7 @@ points:
     lon: -122.25169
     color: black
     radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.015
+    details: NA
   - name: hemlock.016
     observer: all
     id: waypoint.162
@@ -1379,8 +1379,8 @@ points:
     lat: 47.55784
     lon: -122.25197
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.016
+    radius: 1.0
+    details: NA
   - name: hemlock.017
     observer: all
     id: waypoint.162
@@ -1389,8 +1389,8 @@ points:
     lat: 47.55786
     lon: -122.25196
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.017
+    radius: 1.0
+    details: NA
   - name: hemlock.018
     observer: all
     id: waypoint.162
@@ -1399,8 +1399,8 @@ points:
     lat: 47.55788
     lon: -122.25195
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.018
+    radius: 1.0
+    details: NA
   - name: hemlock.019
     observer: all
     id: waypoint.156
@@ -1409,8 +1409,8 @@ points:
     lat: 47.55796
     lon: -122.25182
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.019
+    radius: 1.0
+    details: NA
   - name: hemlock.025
     observer: all
     id: waypoint.161
@@ -1419,8 +1419,8 @@ points:
     lat: 47.55797
     lon: -122.2514
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.025
+    radius: 1.0
+    details: NA
   - name: hemlock.026
     observer: pshannon
     id: waypoint.163
@@ -1429,8 +1429,8 @@ points:
     lat: 47.5577
     lon: -122.25167
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.026
+    radius: 6.0
+    details: NA
   - name: hemlock.027
     observer: all
     id: waypoint.164
@@ -1439,8 +1439,8 @@ points:
     lat: 47.55772
     lon: -122.25148
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.027
+    radius: 2.0
+    details: NA
   - name: hemlock.028
     observer: all
     id: waypoint.164
@@ -1449,8 +1449,8 @@ points:
     lat: 47.5577
     lon: -122.2515
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.028
+    radius: 2.0
+    details: NA
   - name: hemlock.029
     observer: all
     id: waypoint.164
@@ -1460,7 +1460,7 @@ points:
     lon: -122.25153
     color: black
     radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.029
+    details: NA
   - name: hemlock.030
     observer: all
     id: waypoint.166
@@ -1469,8 +1469,8 @@ points:
     lat: 47.55689
     lon: -122.25172
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.030
+    radius: 1.0
+    details: NA
   - name: hemlock.031
     observer: all
     id: waypoint.166
@@ -1479,8 +1479,8 @@ points:
     lat: 47.55688
     lon: -122.25171
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.031
+    radius: 2.0
+    details: NA
   - name: hemlock.032
     observer: all
     id: waypoint.166
@@ -1489,8 +1489,8 @@ points:
     lat: 47.55689
     lon: -122.2517
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.032
+    radius: 2.0
+    details: NA
   - name: hemlock.033
     observer: all
     id: waypoint.166
@@ -1499,8 +1499,8 @@ points:
     lat: 47.5569
     lon: -122.25171
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.033
+    radius: 2.0
+    details: NA
   - name: hemlock.035
     observer: all
     id: waypoint.167
@@ -1509,8 +1509,8 @@ points:
     lat: 47.55674
     lon: -122.25143
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.035
+    radius: 1.0
+    details: NA
   - name: hemlock.036
     observer: all
     id: waypoint.167
@@ -1519,8 +1519,8 @@ points:
     lat: 47.55674
     lon: -122.25143
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.036
+    radius: 4.0
+    details: NA
   - name: hemlock.037
     observer: all
     id: waypoint.167
@@ -1530,7 +1530,7 @@ points:
     lon: -122.25143
     color: black
     radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.037
+    details: NA
   - name: hemlock.038
     observer: all
     id: waypoint.168
@@ -1539,8 +1539,8 @@ points:
     lat: 47.5569
     lon: -122.25131
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.038
+    radius: 5.0
+    details: NA
   - name: hemlock.039
     observer: all
     id: waypoint.169
@@ -1550,7 +1550,7 @@ points:
     lon: -122.25105
     color: black
     radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.039
+    details: NA
   - name: hemlock.040
     observer: all
     id: waypoint.169
@@ -1560,7 +1560,7 @@ points:
     lon: -122.25105
     color: black
     radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.040
+    details: NA
   - name: hemlock.041
     observer: all
     id: waypoint.170
@@ -1569,8 +1569,8 @@ points:
     lat: 47.557048
     lon: -122.250969
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.041
+    radius: 2.0
+    details: NA
   - name: hemlock.042
     observer: all
     id: waypoint.170
@@ -1579,8 +1579,8 @@ points:
     lat: 47.557053
     lon: -122.250983
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.042
+    radius: 4.0
+    details: NA
   - name: hemlock.043
     observer: all
     id: waypoint.171
@@ -1589,8 +1589,8 @@ points:
     lat: 47.557215
     lon: -122.250998
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.043
+    radius: 4.0
+    details: NA
   - name: hemlock.044
     observer: all
     id: waypoint.171
@@ -1599,8 +1599,8 @@ points:
     lat: 47.557209
     lon: -122.250989
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.044
+    radius: 1.0
+    details: NA
   - name: hemlock.045
     observer: all
     id: waypoint.171
@@ -1609,8 +1609,8 @@ points:
     lat: 47.557199
     lon: -122.250986
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.045
+    radius: 1.0
+    details: NA
   - name: hemlock.046
     observer: all
     id: waypoint.172
@@ -1619,8 +1619,8 @@ points:
     lat: 47.55697
     lon: -122.25134
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.046
+    radius: 4.0
+    details: NA
   - name: hemlock.047
     observer: all
     id: waypoint.173
@@ -1629,8 +1629,8 @@ points:
     lat: 47.556944
     lon: -122.251338
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.047
+    radius: 4.0
+    details: NA
   - name: hemlock.048
     observer: all
     id: waypoint.173
@@ -1639,8 +1639,8 @@ points:
     lat: 47.556972
     lon: -122.251306
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.048
+    radius: 5.0
+    details: NA
   - name: hemlock.049
     observer: all
     id: waypoint.173
@@ -1649,8 +1649,8 @@ points:
     lat: 47.556963
     lon: -122.25134
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.049
+    radius: 4.0
+    details: NA
   - name: hemlock.050
     observer: all
     id: waypoint.173
@@ -1659,8 +1659,8 @@ points:
     lat: 47.556969
     lon: -122.251373
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.050
+    radius: 5.0
+    details: NA
   - name: hemlock.051
     observer: all
     id: waypoint.173
@@ -1670,7 +1670,7 @@ points:
     lon: -122.251364
     color: black
     radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.051
+    details: NA
   - name: hemlock.052
     observer: all
     id: waypoint.173
@@ -1679,8 +1679,8 @@ points:
     lat: 47.556988
     lon: -122.251338
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.052
+    radius: 4.0
+    details: NA
   - name: hemlock.053
     observer: all
     id: waypoint.173
@@ -1689,8 +1689,8 @@ points:
     lat: 47.55697
     lon: -122.25134
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.053
+    radius: 4.0
+    details: NA
   - name: hemlock.054
     observer: all
     id: waypoint.175
@@ -1699,8 +1699,8 @@ points:
     lat: 47.55708
     lon: -122.25144
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.054
+    radius: 2.0
+    details: NA
   - name: hemlock.055
     observer: all
     id: waypoint.176
@@ -1709,8 +1709,8 @@ points:
     lat: 47.55765
     lon: -122.25109
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.055
+    radius: 6.0
+    details: NA
   - name: hemlock.056
     observer: all
     id: waypoint.177
@@ -1719,8 +1719,8 @@ points:
     lat: 47.5577
     lon: -122.2511
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.056
+    radius: 1.0
+    details: NA
   - name: hemlock.057
     observer: all
     id: waypoint.177
@@ -1729,8 +1729,8 @@ points:
     lat: 47.5577
     lon: -122.2511
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.057
+    radius: 2.0
+    details: NA
   - name: hemlock.058
     observer: all
     id: waypoint.178
@@ -1739,8 +1739,8 @@ points:
     lat: 47.5577
     lon: -122.25088
     color: black
-    radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.058
+    radius: 1.0
+    details: NA
   - name: hemlock.059
     observer: all
     id: waypoint.178
@@ -1749,5 +1749,75 @@ points:
     lat: 47.5577
     lon: -122.25088
     color: black
+    radius: 2.0
+    details: NA
+  - name: hemlock.060
+    observer: all
+    id: waypoint.179
+    group: Hemlock Decline
+    date: '2021-07-29'
+    lat: 47.55724
+    lon: -122.25193
+    color: black
+    radius: 2.0
+    details: NA
+  - name: hemlock.061
+    observer: all
+    id: waypoint.180
+    group: Hemlock Decline
+    date: '2021-07-29'
+    lat: 47.557259
+    lon: -122.251957
+    color: black
+    radius: 2.0
+    details: NA
+  - name: hemlock.062
+    observer: all
+    id: waypoint.180
+    group: Hemlock Decline
+    date: '2021-07-29'
+    lat: 47.557282
+    lon: -122.251935
+    color: black
+    radius: 1.0
+    details: NA
+  - name: hemlock.063
+    observer: all
+    id: waypoint.180
+    group: Hemlock Decline
+    date: '2021-07-29'
+    lat: 47.557283
+    lon: -122.251931
+    color: black
     radius: 3.0
-    details: http://pshannon.net/sewardParkRestoration/hemlocks/hemlock.059
+    details: NA
+  - name: hemlock.064
+    observer: all
+    id: waypoint.180
+    group: Hemlock Decline
+    date: '2021-07-29'
+    lat: 47.557214
+    lon: -122.25193
+    color: black
+    radius: 3.0
+    details: NA
+  - name: hemlock.065
+    observer: all
+    id: waypoint.180
+    group: Hemlock Decline
+    date: '2021-07-29'
+    lat: 47.557201
+    lon: -122.25193
+    color: black
+    radius: 5.0
+    details: NA
+  - name: hemlock.066
+    observer: all
+    id: waypoint.180
+    group: Hemlock Decline
+    date: '2021-07-29'
+    lat: 47.55719
+    lon: -122.251928
+    color: black
+    radius: 3.0
+    details: NA
