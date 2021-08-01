@@ -26,7 +26,7 @@ toStandardForm <- function(tbl.in)
     radii[radii==0] <- 1
     tbl.out$radius <- radii
     tbl.out$id <- sprintf("waypoint.%s", tbl.out$id)
-    tbl.out$details <- sprintf("%s/%s", tbl.out$details, tbl.out$name)
+    tbl.out$details <- "NA"
 
     tbl.out
 
