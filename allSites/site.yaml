@@ -1250,6 +1250,8 @@ points:
     radius: 3
     details: http://pshannon.net/sewardParkRestoration/dougFir.134
 
+
+
 # hemlock decline study starts here
   - name: hemlock.001
     observer: pshannon
@@ -1258,8 +1260,8 @@ points:
     date: '2021-07-05'
     lat: 47.558333
     lon: -122.250825
-    color: black
-    radius: 2.0
+    color: '#007F00'
+    radius: 3.0
     details: NA
   - name: hemlock.002
     observer: all
@@ -1268,8 +1270,8 @@ points:
     date: '2021-07-14'
     lat: 47.55855
     lon: -122.25139
-    color: black
-    radius: 2.0
+    color: '#00AA00'
+    radius: 3.0
     details: NA
   - name: hemlock.003
     observer: all
@@ -1278,8 +1280,8 @@ points:
     date: '2021-07-14'
     lat: 47.558316
     lon: -122.250828
-    color: black
-    radius: 5.0
+    color: '#007F00'
+    radius: 6.0
     details: NA
   - name: hemlock.004
     observer: all
@@ -1288,8 +1290,8 @@ points:
     date: '2021-07-14'
     lat: 47.55785
     lon: -122.25077
-    color: black
-    radius: 2.0
+    color: '#002A00'
+    radius: 3.0
     details: NA
   - name: hemlock.005
     observer: all
@@ -1298,8 +1300,8 @@ points:
     date: '2021-07-14'
     lat: 47.557763
     lon: -122.250862
-    color: black
-    radius: 2.0
+    color: '#000000'
+    radius: 3.0
     details: NA
   - name: hemlock.006
     observer: all
@@ -1308,8 +1310,8 @@ points:
     date: '2021-07-14'
     lat: 47.55779
     lon: -122.250823
-    color: black
-    radius: 4.0
+    color: '#007F00'
+    radius: 5.0
     details: NA
   - name: hemlock.007
     observer: all
@@ -1318,8 +1320,8 @@ points:
     date: '2021-07-14'
     lat: 47.55788
     lon: -122.25083
-    color: black
-    radius: 4.0
+    color: '#007F00'
+    radius: 5.0
     details: NA
   - name: hemlock.008
     observer: all
@@ -1328,8 +1330,8 @@ points:
     date: '2021-07-14'
     lat: 47.557862
     lon: -122.250839
-    color: black
-    radius: 5.0
+    color: '#007F00'
+    radius: 6.0
     details: NA
   - name: hemlock.009
     observer: all
@@ -1338,8 +1340,8 @@ points:
     date: '2021-07-14'
     lat: 47.557847
     lon: -122.250935
-    color: black
-    radius: 1.0
+    color: '#007F00'
+    radius: 2.0
     details: NA
   - name: hemlock.010
     observer: all
@@ -1348,8 +1350,8 @@ points:
     date: '2021-07-14'
     lat: 47.55812
     lon: -122.25134
-    color: black
-    radius: 1.0
+    color: '#007F00'
+    radius: 2.0
     details: NA
   - name: hemlock.014
     observer: all
@@ -1358,8 +1360,8 @@ points:
     date: '2021-07-15'
     lat: 47.55804
     lon: -122.25145
-    color: black
-    radius: 3.0
+    color: '#002A00'
+    radius: 4.0
     details: NA
   - name: hemlock.015
     observer: all
@@ -1368,8 +1370,8 @@ points:
     date: '2021-07-15'
     lat: 47.55792
     lon: -122.25169
-    color: black
-    radius: 3.0
+    color: '#007F00'
+    radius: 4.0
     details: NA
   - name: hemlock.016
     observer: all
@@ -1378,8 +1380,8 @@ points:
     date: '2021-07-15'
     lat: 47.55784
     lon: -122.25197
-    color: black
-    radius: 1.0
+    color: '#00FF00'
+    radius: 2.0
     details: NA
   - name: hemlock.017
     observer: all
@@ -1388,8 +1390,8 @@ points:
     date: '2021-07-15'
     lat: 47.55786
     lon: -122.25196
-    color: black
-    radius: 1.0
+    color: '#00FF00'
+    radius: 2.0
     details: NA
   - name: hemlock.018
     observer: all
@@ -1398,8 +1400,8 @@ points:
     date: '2021-07-15'
     lat: 47.55788
     lon: -122.25195
-    color: black
-    radius: 1.0
+    color: '#00FF00'
+    radius: 2.0
     details: NA
   - name: hemlock.019
     observer: all
@@ -1408,7 +1410,7 @@ points:
     date: '2021-07-15'
     lat: 47.55796
     lon: -122.25182
-    color: black
+    color: '#00D400'
     radius: 1.0
     details: NA
   - name: hemlock.025
@@ -1418,7 +1420,7 @@ points:
     date: '2021-07-19'
     lat: 47.55797
     lon: -122.2514
-    color: black
+    color: '#00FF00'
     radius: 1.0
     details: NA
   - name: hemlock.026
@@ -1428,8 +1430,8 @@ points:
     date: '2021-07-19'
     lat: 47.5577
     lon: -122.25167
-    color: black
-    radius: 6.0
+    color: '#002A00'
+    radius: 7.0
     details: NA
   - name: hemlock.027
     observer: all
@@ -1438,8 +1440,8 @@ points:
     date: '2021-07-19'
     lat: 47.55772
     lon: -122.25148
-    color: black
-    radius: 2.0
+    color: '#00D400'
+    radius: 3.0
     details: NA
   - name: hemlock.028
     observer: all
@@ -1448,8 +1450,8 @@ points:
     date: '2021-07-19'
     lat: 47.5577
     lon: -122.2515
-    color: black
-    radius: 2.0
+    color: '#00D400'
+    radius: 3.0
     details: NA
   - name: hemlock.029
     observer: all
@@ -1458,8 +1460,8 @@ points:
     date: '2021-07-19'
     lat: 47.55765
     lon: -122.25153
-    color: black
-    radius: 3.0
+    color: '#000000'
+    radius: 4.0
     details: NA
   - name: hemlock.030
     observer: all
@@ -1468,8 +1470,8 @@ points:
     date: '2021-07-10'
     lat: 47.55689
     lon: -122.25172
-    color: black
-    radius: 1.0
+    color: '#00D400'
+    radius: 2.0
     details: NA
   - name: hemlock.031
     observer: all
@@ -1478,8 +1480,8 @@ points:
     date: '2021-07-10'
     lat: 47.55688
     lon: -122.25171
-    color: black
-    radius: 2.0
+    color: '#00D400'
+    radius: 3.0
     details: NA
   - name: hemlock.032
     observer: all
@@ -1488,8 +1490,8 @@ points:
     date: '2021-07-10'
     lat: 47.55689
     lon: -122.2517
-    color: black
-    radius: 2.0
+    color: '#00D400'
+    radius: 3.0
     details: NA
   - name: hemlock.033
     observer: all
@@ -1498,8 +1500,8 @@ points:
     date: '2021-07-10'
     lat: 47.5569
     lon: -122.25171
-    color: black
-    radius: 2.0
+    color: '#00D400'
+    radius: 3.0
     details: NA
   - name: hemlock.035
     observer: all
@@ -1508,8 +1510,8 @@ points:
     date: '2021-07-22'
     lat: 47.55674
     lon: -122.25143
-    color: black
-    radius: 1.0
+    color: '#00FF00'
+    radius: 2.0
     details: NA
   - name: hemlock.036
     observer: all
@@ -1518,8 +1520,8 @@ points:
     date: '2021-07-22'
     lat: 47.55674
     lon: -122.25143
-    color: black
-    radius: 4.0
+    color: '#002A00'
+    radius: 5.0
     details: NA
   - name: hemlock.037
     observer: all
@@ -1528,8 +1530,8 @@ points:
     date: '2021-07-22'
     lat: 47.55674
     lon: -122.25143
-    color: black
-    radius: 3.0
+    color: '#007F00'
+    radius: 4.0
     details: NA
   - name: hemlock.038
     observer: all
@@ -1538,8 +1540,8 @@ points:
     date: '2021-07-22'
     lat: 47.5569
     lon: -122.25131
-    color: black
-    radius: 5.0
+    color: '#002A00'
+    radius: 6.0
     details: NA
   - name: hemlock.039
     observer: all
@@ -1548,8 +1550,8 @@ points:
     date: '2021-07-22'
     lat: 47.55696
     lon: -122.25105
-    color: black
-    radius: 3.0
+    color: '#007F00'
+    radius: 4.0
     details: NA
   - name: hemlock.040
     observer: all
@@ -1558,8 +1560,8 @@ points:
     date: '2021-07-22'
     lat: 47.55696
     lon: -122.25105
-    color: black
-    radius: 3.0
+    color: '#00AA00'
+    radius: 4.0
     details: NA
   - name: hemlock.041
     observer: all
@@ -1568,8 +1570,8 @@ points:
     date: '2021-07-22'
     lat: 47.557048
     lon: -122.250969
-    color: black
-    radius: 2.0
+    color: '#002A00'
+    radius: 3.0
     details: NA
   - name: hemlock.042
     observer: all
@@ -1578,8 +1580,8 @@ points:
     date: '2021-07-22'
     lat: 47.557053
     lon: -122.250983
-    color: black
-    radius: 4.0
+    color: '#002A00'
+    radius: 5.0
     details: NA
   - name: hemlock.043
     observer: all
@@ -1588,8 +1590,8 @@ points:
     date: '2021-07-22'
     lat: 47.557215
     lon: -122.250998
-    color: black
-    radius: 4.0
+    color: '#002A00'
+    radius: 5.0
     details: NA
   - name: hemlock.044
     observer: all
@@ -1598,7 +1600,7 @@ points:
     date: '2021-07-22'
     lat: 47.557209
     lon: -122.250989
-    color: black
+    color: '#000000'
     radius: 1.0
     details: NA
   - name: hemlock.045
@@ -1608,7 +1610,7 @@ points:
     date: '2021-07-22'
     lat: 47.557199
     lon: -122.250986
-    color: black
+    color: '#000000'
     radius: 1.0
     details: NA
   - name: hemlock.046
@@ -1618,8 +1620,8 @@ points:
     date: '2021-07-22'
     lat: 47.55697
     lon: -122.25134
-    color: black
-    radius: 4.0
+    color: '#00AA00'
+    radius: 5.0
     details: NA
   - name: hemlock.047
     observer: all
@@ -1628,8 +1630,8 @@ points:
     date: '2021-07-22'
     lat: 47.556944
     lon: -122.251338
-    color: black
-    radius: 4.0
+    color: red
+    radius: 5.0
     details: NA
   - name: hemlock.048
     observer: all
@@ -1638,8 +1640,8 @@ points:
     date: '2021-07-22'
     lat: 47.556972
     lon: -122.251306
-    color: black
-    radius: 5.0
+    color: red
+    radius: 6.0
     details: NA
   - name: hemlock.049
     observer: all
@@ -1648,8 +1650,8 @@ points:
     date: '2021-07-22'
     lat: 47.556963
     lon: -122.25134
-    color: black
-    radius: 4.0
+    color: red
+    radius: 5.0
     details: NA
   - name: hemlock.050
     observer: all
@@ -1658,8 +1660,8 @@ points:
     date: '2021-07-22'
     lat: 47.556969
     lon: -122.251373
-    color: black
-    radius: 5.0
+    color: red
+    radius: 6.0
     details: NA
   - name: hemlock.051
     observer: all
@@ -1668,8 +1670,8 @@ points:
     date: '2021-07-22'
     lat: 47.556986
     lon: -122.251364
-    color: black
-    radius: 3.0
+    color: red
+    radius: 4.0
     details: NA
   - name: hemlock.052
     observer: all
@@ -1678,8 +1680,8 @@ points:
     date: '2021-07-22'
     lat: 47.556988
     lon: -122.251338
-    color: black
-    radius: 4.0
+    color: red
+    radius: 5.0
     details: NA
   - name: hemlock.053
     observer: all
@@ -1688,8 +1690,8 @@ points:
     date: '2021-07-22'
     lat: 47.55697
     lon: -122.25134
-    color: black
-    radius: 4.0
+    color: red
+    radius: 5.0
     details: NA
   - name: hemlock.054
     observer: all
@@ -1698,8 +1700,8 @@ points:
     date: '2021-07-26'
     lat: 47.55708
     lon: -122.25144
-    color: black
-    radius: 2.0
+    color: '#005500'
+    radius: 3.0
     details: NA
   - name: hemlock.055
     observer: all
@@ -1708,8 +1710,8 @@ points:
     date: '2021-07-27'
     lat: 47.55765
     lon: -122.25109
-    color: black
-    radius: 6.0
+    color: '#00FF00'
+    radius: 7.0
     details: NA
   - name: hemlock.056
     observer: all
@@ -1718,8 +1720,8 @@ points:
     date: '2021-07-27'
     lat: 47.5577
     lon: -122.2511
-    color: black
-    radius: 1.0
+    color: '#007F00'
+    radius: 2.0
     details: NA
   - name: hemlock.057
     observer: all
@@ -1728,8 +1730,8 @@ points:
     date: '2021-07-27'
     lat: 47.5577
     lon: -122.2511
-    color: black
-    radius: 2.0
+    color: '#00FF00'
+    radius: 3.0
     details: NA
   - name: hemlock.058
     observer: all
@@ -1738,8 +1740,8 @@ points:
     date: '2021-07-27'
     lat: 47.5577
     lon: -122.25088
-    color: black
-    radius: 1.0
+    color: '#007F00'
+    radius: 2.0
     details: NA
   - name: hemlock.059
     observer: all
@@ -1748,8 +1750,8 @@ points:
     date: '2021-07-27'
     lat: 47.5577
     lon: -122.25088
-    color: black
-    radius: 2.0
+    color: '#007F00'
+    radius: 3.0
     details: NA
   - name: hemlock.060
     observer: all
@@ -1758,8 +1760,8 @@ points:
     date: '2021-07-29'
     lat: 47.55724
     lon: -122.25193
-    color: black
-    radius: 2.0
+    color: '#00AA00'
+    radius: 3.0
     details: NA
   - name: hemlock.061
     observer: all
@@ -1768,8 +1770,8 @@ points:
     date: '2021-07-29'
     lat: 47.557259
     lon: -122.251957
-    color: black
-    radius: 2.0
+    color: '#005500'
+    radius: 3.0
     details: NA
   - name: hemlock.062
     observer: all
@@ -1778,8 +1780,8 @@ points:
     date: '2021-07-29'
     lat: 47.557282
     lon: -122.251935
-    color: black
-    radius: 1.0
+    color: '#00D400'
+    radius: 2.0
     details: NA
   - name: hemlock.063
     observer: all
@@ -1788,8 +1790,8 @@ points:
     date: '2021-07-29'
     lat: 47.557283
     lon: -122.251931
-    color: black
-    radius: 3.0
+    color: '#00AA00'
+    radius: 4.0
     details: NA
   - name: hemlock.064
     observer: all
@@ -1798,8 +1800,8 @@ points:
     date: '2021-07-29'
     lat: 47.557214
     lon: -122.25193
-    color: black
-    radius: 3.0
+    color: '#007F00'
+    radius: 4.0
     details: NA
   - name: hemlock.065
     observer: all
@@ -1808,8 +1810,8 @@ points:
     date: '2021-07-29'
     lat: 47.557201
     lon: -122.25193
-    color: black
-    radius: 5.0
+    color: '#00FF00'
+    radius: 6.0
     details: NA
   - name: hemlock.066
     observer: all
@@ -1818,6 +1820,6 @@ points:
     date: '2021-07-29'
     lat: 47.55719
     lon: -122.251928
-    color: black
-    radius: 3.0
+    color: '#007F00'
+    radius: 4.0
     details: NA
