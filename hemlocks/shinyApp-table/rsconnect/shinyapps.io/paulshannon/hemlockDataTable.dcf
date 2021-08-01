@@ -1,0 +1,11 @@
+name: hemlockDataTable
+title:
+username:
+account: paulshannon
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4446223
+bundleId: 4878101
+url: https://paulshannon.shinyapps.io/hemlockDataTable/
+when: 1627861139.57219
+lastSyncTime: 1627861139.5722

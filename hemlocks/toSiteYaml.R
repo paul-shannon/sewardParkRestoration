@@ -14,10 +14,16 @@ toStandardForm <- function(tbl.in)
 {
     tbl.in$group <- "Hemlock Decline"
     health <- rowSums(tbl[, c("dmr1", "dmr2", "dmr3")])
-    colors <-  colorRampPalette(c("green", "black"))(7)  # "#00FF00" "#00D400" "#00AA00" "#007F00" "#005500" "#002A00" "#000000"
     missing.colors <- which(health < 0)
-    health[health < 0] <- 0
-    color.values <- colors[health+1]
+
+    health.compressed <- rep(0, length(health))
+    health.compressed[health<= 2] <- 1
+    health.compressed[health > 2] <- 2
+    health.compressed[health > 5] <- 3
+
+    colors <-  c("green", "grey", "black")
+
+    color.values <- colors[health.compressed]
     tbl.in$color <- color.values
     tbl.in$color[missing.colors] <- "red"
     tbl.in$details <- "http://pshannon.net/sewardParkRestoration/hemlocks"
@@ -30,7 +36,7 @@ toStandardForm <- function(tbl.in)
 
     radii <- round(sqrt(tbl$dbh)) # - 1
     radii[radii==0] <- 1
-    tbl.out$radius <- radii
+    tbl.out$radius <- radii * 3
     tbl.out$id <- sprintf("waypoint.%s", tbl.out$id)
     tbl.out$details <- "NA"
 

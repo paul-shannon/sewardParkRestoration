@@ -1,3 +1,14 @@
+site: Seward Park
+date: 2020-08-08
+title: Magnficent Forest - Damage and Repair 
+centerLat: 47.556656
+centerLon: -122.250784
+initialZoom: 15
+initialGroups: ["Hemlock Decline"]
+points:
+
+# hemlock decline study starts here
+
   - name: hemlock.001
     observer: pshannon
     id: waypoint.140
