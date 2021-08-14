@@ -65,8 +65,6 @@ MapApp = R6Class("MapAppClass",
           regionCategories <- c()
           markerCategories <- unique(private$tbl$group)
           private$featureGroups <- sort(unique(c(markerCategories)))
-          #printf("--- markerCategories")
-          #print(private$featureGroups)
 
           private$map <- leaflet()
           private$map <- setView(private$map, private$centerLon, private$centerLat, zoom=private$initialZoom)
@@ -75,8 +73,7 @@ MapApp = R6Class("MapAppClass",
           private$map <- addTiles(private$map, options=options.tile)
 
           private$map <- addScaleBar(private$map)
-          printf("--- private$tbl")
-          # print(private$tbl)
+          # self$addCircleMarkers()
           private$map <- with(private$tbl, addCircleMarkers(private$map,
                                                             lon, lat,
                                                             label=label,
@@ -90,6 +87,7 @@ MapApp = R6Class("MapAppClass",
                                                             group=group,
                                                             opacity=1,
                                                             labelOptions=tooltip.labelOptions
+                                                            #clusterOptions = markerClusterOptions()
                                                             ))
           if(is.data.frame(private$tbl.regions)){
              for(r in seq_len(nrow(private$tbl.regions))){
@@ -186,6 +184,11 @@ MapApp = R6Class("MapAppClass",
             )
 
          #showModal(query_modal)
+         observeEvent(
+           eventExpr = input$sewardMap_zoom, {
+           current.zoom <- input$sewardMap_zoom
+           printf("current.zoom: %f", current.zoom)
+           })
 
          observe({  # with no reactive values included here, this seems to run only at startup.
             #printf("--- starting up, search term?")
