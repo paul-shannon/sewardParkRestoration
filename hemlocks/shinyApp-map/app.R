@@ -31,6 +31,7 @@ MapApp = R6Class("MapAppClass",
         map = NULL,
         proxy = NULL,
         tbl = NULL,
+        currentZoom = NULL,
         centerLon = NULL,
         centerLat = NULL,
         initialZoom = NULL,
@@ -49,6 +50,7 @@ MapApp = R6Class("MapAppClass",
            private$centerLon <- config$centerLon
            private$centerLat <- config$centerLat
            private$initialZoom <- config$initialZoom
+           private$currentZoom <- private$initialZoom
            private$initialGroups <- config$initialGroups
            #printf("-------- initial groups")
            #print(private$initialGroups)
@@ -73,22 +75,7 @@ MapApp = R6Class("MapAppClass",
           private$map <- addTiles(private$map, options=options.tile)
 
           private$map <- addScaleBar(private$map)
-          # self$addCircleMarkers()
-          private$map <- with(private$tbl, addCircleMarkers(private$map,
-                                                            lon, lat,
-                                                            label=label,
-                                                            color=color, # "black",
-                                                            stroke=TRUE,
-                                                            weight=2,
-                                                            fillColor=color,
-                                                            fillOpacity=1,
-                                                            radius=radius,
-                                                            layerId=name,
-                                                            group=group,
-                                                            opacity=1,
-                                                            labelOptions=tooltip.labelOptions
-                                                            #clusterOptions = markerClusterOptions()
-                                                            ))
+          self$addMarkers(private$initialZoom)
           if(is.data.frame(private$tbl.regions)){
              for(r in seq_len(nrow(private$tbl.regions))){
                  lat <- private$tbl.regions$lat[r][[1]]
@@ -135,6 +122,38 @@ MapApp = R6Class("MapAppClass",
 
           }, # initialize
        #--------------------------------------------------------------------------------
+       addMarkers = function(currentZoom){
+           map.obj <- private$map
+           if(!is.null(private$proxy))
+              map.obj <- private$proxy
+           zoom.factor <- 1/(14-(currentZoom/2))
+           zoom.levels <- c (0:23)
+           zoom.factors <- c(0.11, 0.105, 0.100, 0.095, 0.090, 0.095, 0.100, 0.105, 0.110, 0.115,
+                             0.1, 0.11, 0.125, 0.14, 0.15, 0.16, 0.18, 0.20,  0.30, 0.450, 0.60, 0.75, 0.8, 0.95)
+
+
+           tbl.zoomFactors <- data.frame(zoom=zoom.levels, factor=zoom.factors)
+
+           zoomFactor <- subset(tbl.zoomFactors, zoom == currentZoom)$factor
+           printf("------ executing addMarkers, %dx, %f factor", currentZoom, zoomFactor)
+           with(private$tbl,
+                        addCircleMarkers(map.obj,
+                                         lon, lat,
+                                         label=label,
+                                         color=color, # "black",
+                                         stroke=TRUE,
+                                         weight=2,
+                                         fillColor=color,
+                                         fillOpacity=1,
+                                         radius=radius*zoomFactor,
+                                         layerId=name,
+                                         group=group,
+                                         opacity=1,
+                                         labelOptions=tooltip.labelOptions
+                                        #clusterOptions = markerClusterOptions()
+                                         ))
+          }, # addMarkers
+
        ui = function(){
           fluidPage(
              titlePanel(private$config$title),
@@ -186,9 +205,10 @@ MapApp = R6Class("MapAppClass",
          #showModal(query_modal)
          observeEvent(
            eventExpr = input$sewardMap_zoom, {
-           current.zoom <- input$sewardMap_zoom
-           printf("current.zoom: %f", current.zoom)
-           })
+              clearMarkers(private$proxy)
+              private$currentZoom <- input$sewardMap_zoom
+              self$addMarkers(private$currentZoom)
+              })
 
          observe({  # with no reactive values included here, this seems to run only at startup.
             #printf("--- starting up, search term?")
