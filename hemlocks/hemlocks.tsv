@@ -63,53 +63,94 @@ hemlock.063	180	47.557283	-122.251931	78	19	14	25	2	0	0	2021-07-29	all	n 46
 hemlock.064	180	47.557214	-122.251930	87	13	8	30	2	1	0	2021-07-29	all	s 13
 hemlock.065	180	47.557201	-122.25193	114	32	NA	40	0	0	0	2021-07-29	all	s 21
 hemlock.066	180	47.557190	-122.251928	80	13	3	10	2	1	0	2021-07-29	all	s 34
+hemlock.100	NA	47.553219	-122.250113	112	23	-1	-1	2	1	0	2021-08-03	all	
+hemlock.101	NA	47.553777	-122.250264	105	17	-1	-1	-1	-1	-1	021-08-03	all	need dmr
+#hemlock.102	NA	47.553775	-122.250264	-1	7	-1	-1	-1	-1	-1	2021-08-03	all 	
+hemlock.103	NA	47.554240	-122.250231	103	9	-1	-1	2	2	2	2021-08-03	all		
+# 104-109 > 60' from trail
+hemlock.110	NA	47.554356	-122.251337	64	9	-1	-1	1	1	0	2021-08-03	all	
+hemlock.111	NA	47.554675	-122.251294	26	4	-1	-1	1	0	0	2021-08-03	all	
+hemlock.112	NA	47.555044	-122.250628	45	7	-1	-1	1	0	0	2021-08-03	all	
+hemlock.113	NA	47.554935	-122.250940	148	32	-1	-1	1	1	0	2021-08-03	all	
+hemlock.114	NA	47.554501	-122.251079	78	21	-1	-1	2	2	2	2021-08-03	all	dead, next to stump
+hemlock.115	NA	47.554537	-122.251111	8	21	-1	-1	2	2	2	2021-08-03	all	stump
+hemlock.116	NA	47.554414	-122.251111	15	30	-1	-1	-1	-1	-1	2021-08-04	all	1' from trail, dead
+hemlock.117	NA	47.553733	-122.250950	29	5	-1	-1	1	1	0	2021-08-04	all	
+hemlock.118	NA	47.553762	-122.251068	10	1	-1	-1	0	1	0	2021-08-04	all	
+hemlock.119	NA	47.553893	-122.251036	10	1	-1	-1	0	1	0	2021-08-04	all	
+hemlock.120	NA	47.554157	-122.251051	146	23	-1	-1	2	1	1	2021-08-04	all	10'9" from trail
+hemlock.121	NA	47.554205	-122.250966	38	6	-1	-1	1	1	1	2021-08-04	all		
+hemlock.122	NA	47.554201	-122.251041	45	4	-1	-1	2	2	1	2021-08-04	all		
+hemlock.123	NA	47.554223	-122.251185	132	19	-1	-1	2	1	0	2021-08-04	all	36'11" from trail
+# hemlock.124	NA					19	4	-1	-1	0	0	0	2021-08-04		growing out of a 2' doug fir
+# hemlock.125	NA					93	17	-1	-1	1	1	0	2021-08-04		13'7" from trail
+# hemlock.126	NA					66	15	-1	-1	1	1	0	2021-08-04		21'4" from trail
+# hemlock.127	NA					7	2	-1	-1	2	2	0	2021-08-04		26'9" from trail
+# hemlock.128	NA					16	3	-1	-1	2	1	0	2021-08-04		37'8" from trail
+# hemlock.129	NA					85	11	-1	-1	1	2	2	2021-08-04		7'10" from trail
+# hemlock.130	NA					30	6	-1	-1	1	1	1	2021-08-04		
+# hemlock.131	NA					23	4	-1	-1	2	1	1	2021-08-04		
+# hemlock.132	NA					99	21	-1	-1	2	2	2	2021-08-04		42'2" from trail
+# hemlock.133	NA					163	46	-1	-1	1	1	1	2021-08-04		53'7" from trail
+# hemlock.134	NA					20	5	-1	-1	-1	-1	-1	2021-08-04		47'3" from trail
+# hemlock.135	NA					30	5	-1	-1	2	2	2	2021-08-04		36'10" from trail
+# hemlock.136	NA					8	3	-1	-1	2	2	1	2021-08-04		
+# hemlock.137	NA					33	6	-1	-1	1	0	2	2021-08-04		
+# hemlock.138	NA					32	6	-1	-1	1	1	1	2021-08-04		
+# hemlock.139	NA					7	-1	-1	-1	0	0	0	2021-08-04		3' from trail
+# hemlock.140	NA					5	3	-1	-1	-1	-1	-1	2021-08-04		12' from trail
+# hemlock.141	NA					12	2	-1	-1	1	1	2	2021-08-04		2' from trail, 2 stems, growing out of old doug fir log
+hemlock.142	NA	47.559343	-122.251620	135	28	-1	-1	2	2	1	2021-08-09	all	15'11" from trail
+hemlock.143	NA	47.559320	-122.251663	19	4	-1	-1	2	2	2	2021-08-09	all	9'9" from trail
+hemlock.144	NA	47.559300	-122.251614	32	5	-1	-1	2	1	0	2021-08-09	all	4'1" from trail
+hemlock.145	NA	47.559267	-122.251617	59	8	-1	-1	1	1	0	2021-08-09	all	37'8" from trail
+hemlock.146	NA	47.559274	-122.251660	32	5	-1	-1	2	2	2	2021-08-09	all	26'9" from trail, 2 trunks with the same DBH
+hemlock.147	NA	47.559277 	-122.251875	102	38	-1	-1	2	2	1	2021-08-09	all	22'3" from trail
+hemlock.148	NA	47.559321	-122.251864	53	28	-1	-1	2	2	2	2021-08-09	all	1' from trail
+hemlock.149	NA	47.559332	-122.251894	17	3	-1	-1	2	2	2	2021-08-09	all	11'11" from trail
+hemlock.150 	NA	47.559279	-122.252023	85	20	-1	-1	2	2	2	2021-08-09	all	13'1" from trail
+hemlock.151	NA	47.559359	-122.251880	126	16	-1	-1	2	2	1	2021-08-09	all	50'7" from trail
+hemlock.152	NA	47.559338	-122.251983	136	29	-1	-1	2	2	1	2021-08-09	all	36'3" from trail
+hemlock.153	NA	47.559261	-122.252442	143	27	-1	-1	2	2	1	2021-08-09		40' from trail
+hemlock.154	NA	47.559133	-122.252354	101	29	-1	-1	1	1	0	2021-08-09		22' from trail
+hemlock.155	NA	47.559165	-122.252501	135	27	-1	-1	1	1	1	2021-08-09		2' from trail
+hemlock.156	NA	47.559141	-122.252536	90	28	-1	-1	2	2	1	2021-08-09		24' from trail
+hemlock.157	NA	47.559113	-122.252661	84	14	-1	-1	1	2	1	2021-08-09		4' from trail
+hemlock.158	NA	47.559083	-122.252709	129	29	-1	-1	2	1	0	2021-08-09	all	4' from trail
+hemlock.159	NA	47.559194	-122.252687	32	23	-1	-1	2	2	2	2021-08-09	all	snag, 4' from trail
+hemlock.160	NA	47.559182	-122.252800	119	16	-1	-1	2	2	2	2021-08-09	all	12' from trail
+hemlock.161	NA	47.559134	-122.252798	53	7	-1	-1	2	2	2	2021-08-09		14' from trail
+hemlock.162	NA	47.559123	-122.252860	70	12	-1	-1	1	1	1	2021-08-10	all	30' from trail
+hemlock.163	NA	47.559186	-122.252865	128	19	-1	-1	2	2	2	2021-08-09	all	5' from trail
+hemlock.164	NA	47.559361	-122.252708	98	11	-1	-1	2	2	1	2021-08-11	all	15' from trail
+hemlock.164a	NA	47.559366	-122.252720	2	6	-1	-1	2	2	2	2021-08-11	all	small snag
+hemlock.164b	NA	47.559375	-122.252731	6	11	-1	-1	2	2	2	2021-08-11	all	small snag
+hemlock.165	NA	47.559464	-122.252635	143	28	-1	-1	2	2	1	2021-08-11	all	29' from trail
+hemlock.166	NA	47.559381	-122.252743	78	10	-1	-1	2	2	2	2021-08-11	all	34' from trail
+hemlock.167	NA	47.559494	-122.252541	77	9	-1	-1	2	1	1	2021-08-11	all	4' from trail
+hemlock.168	NA	47.559514	-122.252321	125	28	-1	-1	2	1	1	2021-08-11	all	16' from trail
+hemlock.169	NA	47.559563	-122.252409	24	28	-1	-1	2	2	2	2021-08-11	all	27' from trail, snag
+hemlock.170	NA	47.559602	-122.252491	106	19	-1	-1	2	1	0	2021-08-11	all	60' from trail, snag
+hemlock.171	NA	47.559626	-122.252296	30	40	-1	-1	2	2	2	2021-08-11	all	5' from trail, snag
+hemlock.172	NA	47.559659	-122.252337	121	22	-1	-1	2	2	1	2021-08-11	all	48' from trail, snag
+hemlock.173	NA	47.559630	-122.251876 	101	31	-1	-1	2	2	1	2021-08-11	all	13' from trail, snag
 
-hemlock.100						112	23			2	1	0	2021-08-03	all
-hemlock.101						105	17			-1	-1	-1	2021-08-03	all	need dmr
-hemlock.102						-1	-1			-1	-1	-1	2021-08-03	all
-hemlock.103						103	9			2	2	2	2021-08-03	all
-hemlock.110						64	9			1	1	0	2021-08-03	all
-hemlock.111						26	4			1	0	0	2021-08-03	all
-hemlock.112						45	7			1	0	0	2021-08-03	all
-hemlock.113						148	32			1	1	0	2021-08-03	all
-hemlock.114						78	21			2	2	2	2021-08-03	all	dead, next to stump
-hemlock.115						8	21			2	2	2	2021-08-03	all	stump
 
-hemlock.142						135	28			2	2	1	2021-08-09		15'11" from trail
-hemlock.143						19	4			2	2	2	2021-08-09		9'9" from trail
-hemlock.144						32	5			2	1	0	2021-08-09		4'1" from trail
-hemlock.145						59	8			1	1	0	2021-08-09		37'8" from trail
-hemlock.146						32	5			2	2	2	2021-08-09		26'9" from trail, 2 trunks with the same DBH
-hemlock.147						102	38			2	2	1	2021-08-09		22'3" from trail
-hemlock.148						53	28			2	2	2	2021-08-09		1' from trail
-hemlock.149						17	3			2	2	2	2021-08-09		11'11" from trail
-hemlock.150						85	20			2	2	2	2021-08-09		13'1" from trail
-hemlock.151						126	16			2	2	1	2021-08-09		50'7" from trail
-hemlock.152						136	29			2	2	1	2021-08-09		36'3" from trail
-
-hemlock.116						15	30						2021-08-04		1' from trail, dead
-hemlock.117						29	5			1	1	0	2021-08-04
-hemlock.118						10	1			0	1	0	2021-08-04
-hemlock.119						10	1			0	1	0	2021-08-04
-hemlock.120						146	23			2	1	1	2021-08-04		10'9" from trail
-hemlock.121						38	6			1	1	1	2021-08-04		
-hemlock.122						45	4			2	2	1	2021-08-04		
-hemlock.123						132	19			2	1	0	2021-08-04		36'11" from trail
-hemlock.124						19	4			0	0	0	2021-08-04		growing out of a 2' doug fir
-hemlock.125						93	17			1	1	0	2021-08-04		13'7" from trail
-hemlock.126						66	15			1	1	0	2021-08-04		21'4" from trail
-hemlock.127						7	2			2	2	0	2021-08-04		26'9" from trail
-hemlock.128						16	3			2	1	0	2021-08-04		37'8" from trail
-hemlock.129						85	11			1	2	2	2021-08-04		7'10" from trail
-hemlock.130						30	6			1	1	1	2021-08-04		
-hemlock.131						23	4			2	1	1	2021-08-04		
-hemlock.132						99	21			2	2	2	2021-08-04		42'2" from trail
-hemlock.133						163	46			1	1	1	2021-08-04		53'7" from trail
-hemlock.134						20	5			-1	-1	-1	2021-08-04		47'3" from trail
-hemlock.135						30	5			2	2	2	2021-08-04		36'10" from trail
-hemlock.136						8	3			2	2	1	2021-08-04		
-hemlock.137						33	6			1	0	2	2021-08-04		
-hemlock.138						32	6			1	1	1	2021-08-04		
-hemlock.139						7	-1			0	0	0	2021-08-04		3' from trail
-hemlock.140						5	3			-1	-1	-1	2021-08-04		12' from trail
-hemlock.141						12	2			1	1	2	2021-08-04		2' from trail, 2 stems, growing out of old doug fir log
+#
+# 
+# hemlock.152	NA	47.559121	-122.2529894	143	27	-1	-1	2	2	1	2021-08-09		40' from trail
+# 
+# 
+# 
+# little tree 1 is 3 feet nw of 164, 6" diameter, 2 feet snag (top lying right beside)
+# little tree 2 is 10 feet nw of 164, 11" diameter, 6 feet, snag
+# hemlock.163 to be restored from paper 47.559231 -122.252876
+# hemlock.165	NA  47.559464  -122.252635	143	28	-1	-1	2	2	1	2021-08-11		29' from trail
+# hemlock.167	NA	47.559494	-122.252541	77	9	-1	-1	2	1	1	2021-08-11		4' from trail
+# hemlock.168	47.		-122.			125	28	-1	-1	2	1	1	2021-08-11		16' from trail
+# 
+# 
+# 
+# hemlock.172	47.		-122.			121	22	-1	-1	2	2	1	2021-08-11		48' from trail, snag
+# hemlock.173	NA		47.559630		-122.251876 101	30	-1	-1	2	2	1	2021-08-11		13' from trail, snag
+# 

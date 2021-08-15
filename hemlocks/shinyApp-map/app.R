@@ -129,9 +129,7 @@ MapApp = R6Class("MapAppClass",
            zoom.factor <- 1/(14-(currentZoom/2))
            zoom.levels <- c (0:23)
            zoom.factors <- c(0.11, 0.105, 0.100, 0.095, 0.090, 0.095, 0.100, 0.105, 0.110, 0.115,
-                             0.1, 0.11, 0.125, 0.14, 0.15, 0.16, 0.18, 0.20,  0.30, 0.450, 0.60, 0.75, 0.8, 0.95)
-
-
+                             0.1, 0.11, 0.125, 0.14, 0.15, 0.16, 0.18, 0.20,  0.30, 0.60, 0.70, 0.85, 1.05, 1.25)
            tbl.zoomFactors <- data.frame(zoom=zoom.levels, factor=zoom.factors)
 
            zoomFactor <- subset(tbl.zoomFactors, zoom == currentZoom)$factor
