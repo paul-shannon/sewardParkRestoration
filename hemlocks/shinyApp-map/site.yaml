@@ -302,8 +302,8 @@ points:
     id: waypoint.169
     group: Hemlock Decline
     date: '2021-07-22'
-    lat: 47.55696
-    lon: -122.25105
+    lat: 47.55695
+    lon: -122.25104
     color: grey
     radius: 12.0
     details: NA
@@ -312,8 +312,8 @@ points:
     id: waypoint.169
     group: Hemlock Decline
     date: '2021-07-22'
-    lat: 47.55696
-    lon: -122.25105
+    lat: 47.55697
+    lon: -122.25106
     color: green
     radius: 12.0
     details: NA
@@ -384,7 +384,17 @@ points:
     date: '2021-07-22'
     lat: 47.556944
     lon: -122.251338
-    color: red
+    color: green
+    radius: 15.0
+    details: NA
+  - name: hemlock.049
+    observer: all
+    id: waypoint.173
+    group: Hemlock Decline
+    date: '2021-07-22'
+    lat: 47.556963
+    lon: -122.25134
+    color: black
     radius: 15.0
     details: NA
   - name: hemlock.048
@@ -394,18 +404,8 @@ points:
     date: '2021-07-22'
     lat: 47.556972
     lon: -122.251306
-    color: red
+    color: black
     radius: 18.0
-    details: NA
-  - name: hemlock.049
-    observer: all
-    id: waypoint.173
-    group: Hemlock Decline
-    date: '2021-07-22'
-    lat: 47.556963
-    lon: -122.25134
-    color: red
-    radius: 15.0
     details: NA
   - name: hemlock.050
     observer: all
@@ -414,7 +414,7 @@ points:
     date: '2021-07-22'
     lat: 47.556969
     lon: -122.251373
-    color: red
+    color: black
     radius: 18.0
     details: NA
   - name: hemlock.051
@@ -424,7 +424,7 @@ points:
     date: '2021-07-22'
     lat: 47.556986
     lon: -122.251364
-    color: red
+    color: grey
     radius: 12.0
     details: NA
   - name: hemlock.052
@@ -434,7 +434,7 @@ points:
     date: '2021-07-22'
     lat: 47.556988
     lon: -122.251338
-    color: red
+    color: grey
     radius: 15.0
     details: NA
   - name: hemlock.053
@@ -442,9 +442,9 @@ points:
     id: waypoint.173
     group: Hemlock Decline
     date: '2021-07-22'
-    lat: 47.55697
-    lon: -122.25134
-    color: red
+    lat: 47.556952
+    lon: -122.251341
+    color: grey
     radius: 15.0
     details: NA
   - name: hemlock.054
@@ -594,7 +594,7 @@ points:
     date: 021-08-03
     lat: 47.553777
     lon: -122.250264
-    color: red
+    color: green
     radius: 12.0
     details: NA
   - name: hemlock.103
@@ -674,7 +674,7 @@ points:
     date: '2021-08-04'
     lat: 47.554414
     lon: -122.251111
-    color: red
+    color: black
     radius: 15.0
     details: NA
   - name: hemlock.117
@@ -1086,4 +1086,74 @@ points:
     lon: -122.251876
     color: grey
     radius: 18.0
+    details: NA
+  - name: hemlock.174
+    observer: all
+    id: waypoint.NA
+    group: Hemlock Decline
+    date: '2021-08-17'
+    lat: 47.559595
+    lon: -122.251842
+    color: black
+    radius: 15.0
+    details: NA
+  - name: hemlock.175
+    observer: all
+    id: waypoint.NA
+    group: Hemlock Decline
+    date: '2021-08-17'
+    lat: 47.559465
+    lon: -122.25186
+    color: black
+    radius: 18.0
+    details: NA
+  - name: hemlock.175b
+    observer: all
+    id: waypoint.NA
+    group: Hemlock Decline
+    date: '2021-08-17'
+    lat: 47.559477
+    lon: -122.251871
+    color: black
+    radius: 12.0
+    details: NA
+  - name: hemlock.176
+    observer: all
+    id: waypoint.NA
+    group: Hemlock Decline
+    date: '2021-08-17'
+    lat: 47.559555
+    lon: -122.251649
+    color: grey
+    radius: 12.0
+    details: NA
+  - name: hemlock.177
+    observer: all
+    id: waypoint.NA
+    group: Hemlock Decline
+    date: '2021-08-17'
+    lat: 47.559549
+    lon: -122.251559
+    color: grey
+    radius: 6.0
+    details: NA
+  - name: hemlock.178
+    observer: all
+    id: waypoint.NA
+    group: Hemlock Decline
+    date: '2021-08-17'
+    lat: 47.559449
+    lon: -122.251643
+    color: grey
+    radius: 15.0
+    details: NA
+  - name: hemlock.179
+    observer: all
+    id: waypoint.NA
+    group: Hemlock Decline
+    date: '2021-08-17'
+    lat: 47.559427
+    lon: -122.251622
+    color: grey
+    radius: 12.0
     details: NA

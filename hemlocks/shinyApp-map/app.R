@@ -311,7 +311,7 @@ MapApp = R6Class("MapAppClass",
 #----------------------------------------------------------------------------------------------------
 deploy <- function(){
     deployApp(account="paulshannon", appName="hemlockMap",
-              appFiles=c("app.R", "site.yaml"))
+              appFiles=c("app.R"))
   }
 
 app <- MapApp$new()

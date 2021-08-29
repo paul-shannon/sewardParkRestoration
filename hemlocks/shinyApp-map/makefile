@@ -1,7 +1,10 @@
 ID = 01aug2021
 APP_IMAGE_NAME = hemlockmap_app_$(ID)
 default:
-	@echo targets: runLocal.localConfig, runLocal.remoteConfig, updateConfig
+	@echo targets:
+	@echo make runLocal.localConfig
+	@echo make runLocal.remoteConfig
+	@echo make updateConfig
 
 runLocal.localConfig:
 	(export localConfig=TRUE; R -f app.R)
