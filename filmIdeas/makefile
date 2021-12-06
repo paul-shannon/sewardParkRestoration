@@ -10,6 +10,10 @@ publish:
 	scp *.pdf paulshannnon@pshannon.net:public_html/pshannon.net/nextSteps
 	scp *.png paulshannnon@pshannon.net:public_html/pshannon.net/nextSteps
 
+html:
+	scp *.html paulshannnon@pshannon.net:public_html/pshannon.net/nextSteps
+	scp bobEdmonds/*.html paulshannnon@pshannon.net:public_html/pshannon.net/nextSteps
+
 open:
 	open https://pshannon.net/nextSteps/overview.html
 
