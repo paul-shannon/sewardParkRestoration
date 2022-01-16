@@ -1,5 +1,5 @@
 default:
-	@echo targets: mkdir publish
+	@echo targets: mkdir publish view
 
 mkdir:
 	ssh paulshannnon@pshannon.net mkdir public_html/pshannon.net/nextSteps
@@ -10,10 +10,12 @@ publish:
 	scp *.pdf paulshannnon@pshannon.net:public_html/pshannon.net/nextSteps
 	scp *.png paulshannnon@pshannon.net:public_html/pshannon.net/nextSteps
 
-html:
-	scp *.html paulshannnon@pshannon.net:public_html/pshannon.net/nextSteps
-	scp bobEdmonds/*.html paulshannnon@pshannon.net:public_html/pshannon.net/nextSteps
+html: overview
+	scp bobEdmonds-source/*.html paulshannnon@pshannon.net:public_html/pshannon.net/nextSteps
 
-open:
+overview:
+	scp overview.html paulshannnon@pshannon.net:public_html/pshannon.net/nextSteps
+
+view:
 	open https://pshannon.net/nextSteps/overview.html
 
