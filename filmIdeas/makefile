@@ -19,3 +19,6 @@ overview:
 view:
 	open https://pshannon.net/nextSteps/overview.html
 
+water:
+	open https://pshannon.net/nextSteps/overview.html#waterDeficit
+
