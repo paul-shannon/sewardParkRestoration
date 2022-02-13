@@ -10,11 +10,17 @@ publish:
 	scp *.pdf paulshannnon@pshannon.net:public_html/pshannon.net/nextSteps
 	scp *.png paulshannnon@pshannon.net:public_html/pshannon.net/nextSteps
 
-html: overview
+html: overview narrative proposedResearch
 	scp bobEdmonds-source/*.html paulshannnon@pshannon.net:public_html/pshannon.net/nextSteps
 
 overview:
 	scp overview.html paulshannnon@pshannon.net:public_html/pshannon.net/nextSteps
+
+narrative:
+	scp narrative.html paulshannnon@pshannon.net:public_html/pshannon.net/nextSteps
+
+proposedResearch:
+	scp proposedResearch.html paulshannnon@pshannon.net:public_html/pshannon.net/nextSteps
 
 view:
 	open https://pshannon.net/nextSteps/overview.html
