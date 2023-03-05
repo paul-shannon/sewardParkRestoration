@@ -18,18 +18,6 @@ points:
     radius: 6
     details: http://pshannon.net/sewardParkRestoration/salalDecline_001
 
-
-  - name: Woodpecker Trail, multi-rooted maple
-    id: id_002
-    observer: CMA
-    group: overuse
-    date: 2020-08-12
-    lat:  47.553538
-    lon: -122.251254
-    color: red
-    radius: 4
-    details: http://pshannon.net/sewardParkRestoration/woodpeckerTrail_multirootedTree
-
   - name: Woodpecker Trail, Stone Steps
     id: id_003
     observer: CMA
@@ -1509,7 +1497,7 @@ points:
     group: Hemlock Decline
     date: '2021-07-22'
     lat: 47.55674
-    lon: -122.25143
+    lon: -122.25144
     color: '#00FF00'
     radius: 2.0
     details: NA
@@ -1518,7 +1506,7 @@ points:
     id: waypoint.167
     group: Hemlock Decline
     date: '2021-07-22'
-    lat: 47.55674
+    lat: 47.55673
     lon: -122.25143
     color: '#002A00'
     radius: 5.0
@@ -1529,7 +1517,7 @@ points:
     group: Hemlock Decline
     date: '2021-07-22'
     lat: 47.55674
-    lon: -122.25143
+    lon: -122.25141
     color: '#007F00'
     radius: 4.0
     details: NA

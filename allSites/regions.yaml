@@ -1,5 +1,44 @@
 regions:
 
+  - name: Woodpecker Trail, multi-rooted maple
+    id: overuse.001
+    observer:  Paul Shannon
+    group: overuse
+    date: 2023-03-04
+    fillColor: red
+    borderColor: red
+    borderWidth: 3
+    opacity: 0.5
+    lat: [47.553571,    47.553554,  47.553506,    47.553504, 47.553545]
+    lon: [-122.251186, -122.251170,  -122.251212, -122.251254, -122.251258]
+    details: http://pshannon.net/sewardParkRestoration/woodpeckerTrail_multirootedTree
+
+  - name: Erratic/sqebeqsed Dead Zone
+    id: overuse.002
+    observer:  Paul Shannon
+    group: overuse
+    date: 2023-03-04
+    fillColor: red
+    borderColor: red
+    borderWidth: 3
+    opacity: 0.5
+    lat: [47.556309,  47.556310,   47.556240]
+    lon: [-122.251304,-122.251191, -122.251242]
+    details: http://pshannon.net/sewardParkRestoration/sqebeqsed-erratic-dead-zone
+
+  - name: sqebeqsed-lostLake Dead Zone
+    id: overuse.003
+    observer:  Paul Shannon
+    group: overuse
+    date: 2022-03-04
+    fillColor: red
+    borderColor: red
+    borderWidth: 3
+    opacity: 0.5
+    lat: [47.552978,  47.553040, 47.553014, 47.552946]
+    lon: [-122.250564, -122.250514, -122.250467,  -122.250509]
+    details: http://pshannon.net/sewardParkRestoration/sqebeqsed-lostLake-dead-zone
+
   - name: Invasive Ivy, north of Hatchery
     id: ivy.001
     observer: Leo Shannon, Paul Shannon
