@@ -5,6 +5,7 @@ account: paulshannon
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 3439058
-bundleId: 4167458
+bundleId: 5213907
 url: https://paulshannon.shinyapps.io/sewardMap/
-when: 1612193366.1177
+when: 1636048638.96977
+lastSyncTime: 1636048638.96979

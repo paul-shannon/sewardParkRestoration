@@ -2,11 +2,15 @@ zone	year	f1	f2	f3	f4	f5	f6	f7	f8	f9	f10	f11	f12	notes
 adz	2019	0	7	0	10	13	8	7	10	12	15	8	8	21 apr 2019, north -> south, reconstructed estimates, from above file
 adz	2020	0	2	0	8	0	0	7	5	2	7	4	5	21 apr 2020, north -> south, pshannon
 adz	2021	0	4	0	9	0	0	11	11	0	11	8	3	22 may 2021, north -> south, final report for spring 2021
+adz	2022	0	4	0	7	0	0	8	11	0	7	10	0	10 apr 2022, north -> south, pshannon
+#
 gzn	2020	10	16	5	1	16	12	8	6	16	16	10	14	21 apr 2020, west -> east, jeff and bonnie
-gzs	2020	16	21	12	5	18	12	8	8	12	15	5	8	21 apr 2020, west -> east, jeff and bonnie
 gzn	2021	7	16	6	0	15	15	8	6	15	16	12	13	19 apr 2021, west -> east, jeff and bonnie
+gzn	2022	11	16	8	6	10	16	10	6	14	12	11	15	10 apr 2022, west -> east after reversal of notes, pshannon
+#
+gzs	2020	16	21	12	5	18	12	8	8	12	15	5	8	21 apr 2020, west -> east, jeff and bonnie
 gzs	2021	11	18	14	7	17	12	10	8	14	15	8	8	19 apr 2021, west -> east, jeff and bonnie
-
+gzs	2022	12	16	14	7	12	11	7	8	7	7	8	8	10 apr 2022, west -> east after reversal of notes, pshannon
 
 
 

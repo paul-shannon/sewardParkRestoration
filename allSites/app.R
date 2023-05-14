@@ -290,10 +290,18 @@ MapApp = R6Class("MapAppClass",
        ) # public
     ) # class
 #----------------------------------------------------------------------------------------------------
-deploy <- function(){
-  deployApp(account="paulshannon", appName="sewardMap", appFiles=c("app.R", "site.yaml", "regions.yaml"))
-  }
+deploy <- function()
+{
+   require(devtools)
+   install_github("rspatial/terra", force=TRUE)
+   Sys.setenv("R_REMOTES_NO_ERRORS_FROM_WARNINGS" = "true")
 
+
+   deployApp(account="paulshannon", appName="sewardMap",
+             appFiles=c("app.R", "site.yaml", "regions.yaml"))
+
+} # deploy
+#----------------------------------------------------------------------------------------------------
 app <- MapApp$new()
 # shinyApp(app$ui(), app$server)
 

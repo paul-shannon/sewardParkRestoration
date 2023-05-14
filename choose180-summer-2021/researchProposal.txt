@@ -1,51 +1,106 @@
 Introduction
+------------
 
-Western Hemlocks (Tsuga heterophylla, TSHE) old-growth forest at Seward Park appear to be diseased
-and dying at higher than historical and background rates.  WSU plant pathologist Marianne
-Elliott, and UW ecologist Tim Billo, and forest steward Paul Shannon toured the forest on April 9th
-2021, formulating the hemlock survey here proposed.  The survey will establish the current state of
-hemlocks in a central and representative 1.8 hectare plot, and provide a baseline against which to
-measure future changes.
+Western Hemlocks (Tsuga heterophylla, TSHE) in old-growth forest at Seward Park appear to be
+diseased and dying at higher than historical and background rates.  WSU plant pathologist Marianne
+Elliott, UW ecologist Tim Billo, and forest steward Paul Shannon toured the forest on April 9th
+2021, formulating the hemlock survey here proposed. 
 
-The decline of Seward Park hemlocks is not an isolated event.  Western Redcedar is the focus
+The decline of Seward Park hemlocks is not an isolated event.  Western Redcedar declineis the focus
 of WSU Joseph Hulbert's Forest Watch project.  Broad regional effects are described in Stanke et al,
 "Over half of western United States' most abundant tree species in decline", Nature Communications
-2021.  These two projects provide field protocols and reporting mechanisms which we will employ and
-adapt in the current study.
+2021, in which USFS Forest Inventory and Analysis data are complemented by FSI, the author's
+proposed Forest Stability Index.  The proposed Seward Hemlock survey is inspired by, will adopt
+methods from both, and offer reports to both of these ongoing efforts.
 
 Environmental decline is not our only concern.  The last year has focused our minds, and the minds
-of many, on the historical roots and persistence of racism and systematic inequity.  This problem
-takes many forms, including high incarceration rates and social immobility - the "new Jim Crow". 
-It is manifest in a dearth of young people of color in science and engineering programs and
-professions.
+of many, on the historical roots and persistence of racism and systematic inequity in the United
+States.  This problem takes many forms, including high incarceration rates and social immobility -
+the "new Jim Crow".  It is manifest in the low number of young people of color in science and
+engineering educational programs and professions.
 
-The Friends of Seward Park (FoSP) has joined with CHOOSE 180 to secure a $4500 Department of
-Neighborhoods grant.  90% of these funds will be used to hire youths from CHOOSE 180's jail
-diversion program, training them in methods of forest monitoring and data analysis.  Supervised by
-FoSP board member, and Green Seattle Partnership forest steward Paul Shannon, advised by plant
-pathologist Elliott and ecologist Billo, the group will spend four weeks surveying in Seward's
-forest, following USFS Forest Inventory and Analysis project (FIA) protocols, provide diseased
-tissue samples to Marianne Elliott's lab, reporting results in standard formats, and individual
-trees to the Western Hemlock Health Watch.
+As a minor but not inconsequential effort to contribute on both of these fronts, The Friends of
+Seward Park (FoSP) has joined with CHOOSE 180 - a King County jail diversion program for at-risk
+youth.  We secured a $4500 Department of Neighborhoods grant, 90% of which will be used to hire
+youths from CHOOSE 180's jail diversion program.  We will train them in methods of forest monitoring
+and data analysis.  We will introduce them to PNW forest natural history.  Four to six young adults
+will be supervised by FoSP board member, and Green Seattle Partnership forest steward Paul Shannon,
+advised by plant pathologist Elliott and ecologist Billo, spending four to six weeks
+surveying in Seward's forest.
+
+Site Selection
+--------------
+
+The USFS Forest Inventory and Analsysis Program, and some Seattle Parks forest inventory projects
+typically use small randomly placed circular plots for their surveys.  The FIA protocol combines 4
+subplots within a larger circle, totaling 1/6 of an acre, sometimes also containing microplots.  GSP
+plots at Seward employ circles with a 10m radius.  Some Earth Corps projects at Seward have used
+transects.
+
+Our site selection is driven by three goals, leading us to choose a single large (4.6 acre),
+trail-bounded, heart-shaped region at the center of the forest.  The three goals, adumbrated above,
+are to:
+
+  1) Establish a hemlock demographic baseline in a hemlock-rich area with both healthy and diseased trees.
+  2) Obtain affected plant tissue for analysis by Marianne Elliot from short, easily-reached hemlock boughs.
+  3) Offer a mostly intact, hetergeneous and ecologically rich forest area, of limited size, in
+     which students can learn many aspects of the natural history of an old-growth PNW lowland forest.
+
+The selected site meets all three criteria.  It is 4.6 acres (1.8 hectare), mostly flat, bounded
+neatly by the sqebeqsed and Windfall trails.  This centrally located forest region is somewhat
+isolated from forces associated with edge effects and user impact, reducing a multitude of
+confounding variables that might affect the dynamics of Seward's forest.  It should give us a
+reliable, if conservative, estimate of the extent of disease in Seward Park's hemlocks.  The
+peninsula-wide sword fern die-off has thus far had a low impact in this area (2% mortality as of
+January 2019).  Douglass squirrels, evergreen huckleberry, and large fallen doug firs identify it as
+a good representative of the early old growth lowland forest.
+
+Methods
+-------
+
+Our Seward Hemlock survey will be shaped by the nature of our work force.  Young adults from CHOOSE
+180 will likely be scientifically naive at the start of the project.  We have, however, the luxury of
+ample time: the DoN grant provides funding for at least 4 weeks, 16 hours per week for 2-5 youths.
+
+Consequently, we will use a slow, staged methodology, with careful instruction at each stage, including
+
+     a) Species identification
+     b) Temporary tree flagging
+     c) DBH and height measurement of approximately 80 trees, all sizes, dead and alive (FIA protocol)
+     d) Health assessment via needle distribution (crown, middle, base) adapting (per Marianne
+        Elliott) the Dwarf Mistletoe Rating system (DMR), substituting defoliation for mistletoe
+        infection.  See https://forestpathology.org/parasitic-plants/dwarf-mistletoe/ecology/
+     e) Close observations of affected needles and twigs by measurments, counts, text description
+        and photography, identifying affected samples for Marianne Elliott which she will use for
+	for subsequent needle and twig collection and laboratory analysis.  Insight into the nature
+        of the decline may result.
+
+Deliverables
+------------
+
+At the conclusion of the study, we will produce and archive per-acre and per-hectare (TPA and TPH)
+statistics following the data schema of the US Forest Service Forest Inventory and Analysis Project.
+
+These data will thereby set up and enable future repeat surveys of the plot, as well as other
+possible surveys at Seward, using the forest stability index (FSI) proposed by Stanke et al, to
+track change over time, or some similar metric.
+
+In addition, we hope to submit a research note to Douglasia, the journal of the Washington Native Plant
+Society.  Such a submission would be a fitting capstone to the CHOOSE 180 youths' summer.
+
+
+
+References
+----------
 
 
 
 
-
-FoSP has allied with CHOOSE 180, a community-centered effort in partnership with the King County
-Prosecuting Attorney's Office to reduce race-based and economic disproportionality in incarceration,
-to keep youth out of the juvenile justice system, and to break the school-to-prison pipeline.
-
-Together FoSP and CHOOSE 180, were awarded a $4500 Department of Neighborhoods (DoN) Small Sparks
-Fund grant to employ a small group of at-risk youth to survey hemlock status in a large sample plot
-at Seward Park during the summer of 2021, supervised pro bono by Shannon, under the scientific
-guidance of Elliott, Billo, with the advice and consent of Seattle Parks plant ecologists.
-
-DoN funding will pay minimum wage to 2-5 youth selected by CHOOSE 180, for 4-6 weeks, 4 hours a day, four
-days a week, and for the purchase of a GPS device and a clinometer.  We propose a formal, staged
-inspection of a central four and a half acre (1.8 hectare) section of the forest, compatible with
-the methods and data standards of the US Forest Service Inventory and Analysis (FIA) program, to
-achieve these five goals:
+DoN funding will pay a minimum wage to 2-5 youth selected by CHOOSE 180, for 4-6 weeks, 4 hours a
+day, four days a week, and for the purchase of a GPS device and a clinometer.  We propose a formal,
+staged inspection and inventory of hemlocks in the site, compatible with the methods and data
+standards of the US Forest Service Inventory and Analysis (FIA) program, to achieve these five
+goals:
 
   1) Establish the current count, size and health status of Tsuga heterophylla in this
      large, central and representative plot.
@@ -114,5 +169,19 @@ Society.
 
 Affected hemlock needle and tissue samples will be provided to Marianne Elliott for analysis in the WSU
 Puyallup Plant Pathology laboratory, possibly leading to greater understanding of the hemlock decline.
+
+
+
+
+
+
+FoSP has allied with CHOOSE 180, a community-centered effort in partnership with the King County
+Prosecuting Attorney's Office to reduce race-based and economic disproportionality in incarceration,
+to keep youth out of the juvenile justice system, and to break the school-to-prison pipeline.
+
+Together FoSP and CHOOSE 180, were awarded a $4500 Department of Neighborhoods (DoN) Small Sparks
+Fund grant to employ a small group of at-risk youth to survey hemlock status in a large sample plot
+at Seward Park during the summer of 2021, supervised pro bono by Shannon, under the scientific
+guidance of Elliott, Billo, with the advice and consent of Seattle Parks plant ecologists.
 
 

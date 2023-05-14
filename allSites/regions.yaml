@@ -1,9 +1,9 @@
 regions:
 
-  - name: Woodpecker Trail, multi-rooted maple
+  - name: Woodpecker Trail, Hollow Tree
     id: overuse.001
     observer:  Paul Shannon
-    group: overuse
+    group: Deep Mulching
     date: 2023-03-04
     fillColor: red
     borderColor: red
@@ -11,7 +11,7 @@ regions:
     opacity: 0.5
     lat: [47.553571,    47.553554,  47.553506,    47.553504, 47.553545]
     lon: [-122.251186, -122.251170,  -122.251212, -122.251254, -122.251258]
-    details: http://pshannon.net/sewardParkRestoration/woodpeckerTrail_multirootedTree
+    details: http://pshannon.net/sewardParkRestoration/woodpeckerTrailHollowTree
 
   - name: Erratic/sqebeqsed Dead Zone
     id: overuse.002
@@ -29,7 +29,7 @@ regions:
   - name: sqebeqsed-lostLake Dead Zone
     id: overuse.003
     observer:  Paul Shannon
-    group: overuse
+    group: Deep Mulching
     date: 2022-03-04
     fillColor: red
     borderColor: red
@@ -38,6 +38,32 @@ regions:
     lat: [47.552978,  47.553040, 47.553014, 47.552946]
     lon: [-122.250564, -122.250514, -122.250467,  -122.250509]
     details: http://pshannon.net/sewardParkRestoration/sqebeqsed-lostLake-dead-zone
+
+  - name: Five tree dungeon
+    id: overuse.004
+    observer:  Paul Shannon
+    group: Deep Mulching
+    date: 2022-05-06
+    fillColor: red
+    borderColor: red
+    borderWidth: 3
+    opacity: 0.5
+    lat: [47.554755, 47.554755, 47.554708, 47.554695]
+    lon: [-122.250091, -122.250032, -122.250024, -122.250083]
+    details: http://pshannon.net/sewardParkRestoration/fiveTreeDungeon
+
+  - name: West-side triangle
+    id: overuse.005
+    observer:  Paul Shannon
+    group: Deep Mulching
+    date: 2022-05-06
+    fillColor: red
+    borderColor: red
+    borderWidth: 3
+    opacity: 0.5
+    lat: [47.554184, 47.554224, 47.554166]
+    lon: [-122.250232, -122.250142, -122.250148]
+    details: http://pshannon.net/sewardParkRestoration/westSideTriangle
 
   - name: Invasive Ivy, north of Hatchery
     id: ivy.001

@@ -1,25 +1,13 @@
-SITE=dougFir.109
+SITE=dougFir.127
 mkdir $SITE
 scp paulshannnon@pshannon.net:public_html/pshannon.net/sewardParkRestoration/siteTemplate/* $SITE
 
-SITE=dougFir.110
+SITE=dougFir.128
 mkdir $SITE
 scp paulshannnon@pshannon.net:public_html/pshannon.net/sewardParkRestoration/siteTemplate/* $SITE
 
-SITE=dougFir.111
+SITE=dougFir.129
 mkdir $SITE
 scp paulshannnon@pshannon.net:public_html/pshannon.net/sewardParkRestoration/siteTemplate/* $SITE
 
-SITE=dougFir.112
-mkdir $SITE
-scp paulshannnon@pshannon.net:public_html/pshannon.net/sewardParkRestoration/siteTemplate/* $SITE
-
-SITE=cedar.113
-mkdir $SITE
-scp paulshannnon@pshannon.net:public_html/pshannon.net/sewardParkRestoration/siteTemplate/* $SITE
-
-
-SITE=cedar.114
-mkdir $SITE
-scp paulshannnon@pshannon.net:public_html/pshannon.net/sewardParkRestoration/siteTemplate/* $SITE
 

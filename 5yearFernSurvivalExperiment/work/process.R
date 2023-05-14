@@ -8,6 +8,14 @@ adzMean <- sum(y3.adzCounts)/12
 gzsMean <- sum(y3.gzsCounts)/12
 gznMean <- sum(y3.gznCounts)/12
 
+y4.adzCounts <- as.integer(tbl[4, 3:14])
+y4.gznCounts <- as.integer(tbl[7, 3:14])
+y4.gzsCounts <- as.integer(tbl[10, 3:14])
+
+
+boxplot(y4.adzCounts, y4.gznCounts, y4.gzsCounts, main="Frond Counts May 2022 (50 months)", xlab="zone",
+        ylab="fronds per fern", names=c("ADZ", "GZN", "GZS"))
+
 boxplot(y3.adzCounts, y3.gznCounts, y3.gzsCounts, main="Frond Counts May 2021 (38 months)", xlab="zone",
         ylab="fronds per fern", names=c("ADZ", "GZN", "GZS"))
 
