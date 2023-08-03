@@ -18,7 +18,7 @@ table.from.files <- function()
        suppressWarnings({json <- readLines(con=file)})
        tbl.raw <- fromJSON(json, flatten=TRUE)
        #tbl <- tbl.raw$body
-       #coi <- c("received", grep("body.S", colnames(tbl.raw), v=TRUE))
+       coi <- c("received", grep("body.S", colnames(tbl.raw), v=TRUE))
        head(tbl.raw[, coi])
        head(subset(tbl.raw[, coi], !is.na(body.SB)))
        tbl <- subset(tbl.raw[, coi], !is.na(body.SB))
@@ -44,16 +44,24 @@ table.from.files <- function()
 } # table.from.files
 #--------------------------------------------------------------------------------
 tbl <- table.from.files()
+  # tbl <- tbl[grep("06-22", tbl$timestamp),]
+
+  # see the days.  we restarted 06-22
+unique(as.character(lapply(strsplit(tbl$timestamp, " "), "[", 1)))
+head(grep("06-23", tbl$timestamp), n=1)  # 799
+nrow(tbl) # 1304
+tbl <- tbl[799:1640,]
+
 
 date.range <- sprintf("from %s to %s", head(tbl$timestamp, n=1), tail(tbl$timestamp, n=1))
-plot(tbl$received, tbl$SM1, xaxt="n", , ylim=c(0,2500), type="l",
+plot(tbl$received, tbl$SM1, xaxt="n", , ylim=c(-1000,2500), type="l",
      col="darkblue", xlab="time", ylab="moisture",
      main=sprintf("Seward Soil Moisture %s", date.range))
 lines(tbl$received, tbl$SM2, col="darkgreen")
 min.x <- min(tbl$received)
 max.x <- max(tbl$received)
 delta.x <- max.x - min.x
-x <- min.x + 0.98 * delta.x
+x <- min.x + 0.90 * delta.x
 legend(x, 2550, c("SM1", "SM2"), c("darkblue", "darkgreen"))
 
 # plot temperature

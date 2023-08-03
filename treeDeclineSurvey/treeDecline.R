@@ -1,11 +1,16 @@
+options(digits=12)
 degrees.per.radian <- 57.2958
 feet.per.lat.degree <- 364320
 feet.per.lon.degree <- 245520   # at seattle's latitude of 47.5
 
+#f <- "treeDecline.tsv"
+#f <- "trees3-clean.tsv"
+f <- "trees-day2-clean.tsv"
 #tbl <- read.table("treeDecline.tsv", header=TRUE, sep="\t")
-tbl <- read.table("trees3-clean.tsv", header=TRUE, sep="\t")
+tbl <- read.table(f, header=TRUE, sep="\t")
 tbl$latCorrected <- rep(0, nrow(tbl))
 tbl$lonCorrected <- rep(0, nrow(tbl))
+dim(tbl)
 
 for(r in seq_len(nrow(tbl))){
     lat <- tbl$lat[r]
@@ -43,5 +48,5 @@ for(r in seq_len(nrow(tbl))){
                         color=color,
                         radius=radius,
                         details=details))
-   print(yaml)
+   write(yaml, file="trees.yaml", append=TRUE)
    }

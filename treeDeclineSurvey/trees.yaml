@@ -1,0 +1,1363 @@
+  - name: hemlock.decline.0001
+    observer: ISB.esore
+    id: hemlock.decline.0001
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.553742660274
+    lon: -122.250183332644
+    color: '#00AA00'
+    radius: 4.0
+    details: diseased
+    
+  - name: grandFir.decline.0002
+    observer: ISB.esore
+    id: grandFir.decline.0002
+    group: grandFir.decline.assay
+    date: '2023-08-01'
+    lat: 47.553140437677
+    lon: -122.250469487173
+    color: '#007100'
+    radius: 2.0
+    details: diseased
+    
+  - name: alder.decline.0003
+    observer: ISB.esore
+    id: alder.decline.0003
+    group: alder.decline.assay
+    date: '2023-08-01'
+    lat: 47.552989880309
+    lon: -122.250656874786
+    color: '#000000'
+    radius: 4.0
+    details: dead
+    
+  - name: cedar.decline.0004
+    observer: ISB.esore
+    id: cedar.decline.0004
+    group: cedar.decline.assay
+    date: '2023-08-01'
+    lat: 47.553114306537
+    lon: -122.25041084507
+    color: '#005500'
+    radius: 6.0
+    details: diseased
+    
+  - name: cedar.decline.0005
+    observer: ISB.esore
+    id: cedar.decline.0005
+    group: cedar.decline.assay
+    date: '2023-08-01'
+    lat: 47.553060624193
+    lon: -122.250386800907
+    color: '#007100'
+    radius: 8.0
+    details: diseased
+    
+  - name: cedar.decline.0006
+    observer: ISB.esore
+    id: cedar.decline.0006
+    group: cedar.decline.assay
+    date: '2023-08-01'
+    lat: 47.553763373298
+    lon: -122.250146999833
+    color: '#000000'
+    radius: 6.0
+    details: snag
+    
+  - name: cherry.decline.0007
+    observer: ISB.esore
+    id: cherry.decline.0007
+    group: cherry.decline.assay
+    date: '2023-08-01'
+    lat: 47.553671109321
+    lon: -122.250081274433
+    color: '#003800'
+    radius: 2.0
+    details: diseased
+    
+  - name: dougFir.decline.0008
+    observer: ISB.esore
+    id: dougFir.decline.0008
+    group: dougFir.decline.assay
+    date: '2023-08-01'
+    lat: 47.553922265475
+    lon: -122.250208780008
+    color: '#000000'
+    radius: 12.0
+    details: snag
+    
+  - name: madrone.decline.0009
+    observer: ISB.esore
+    id: madrone.decline.0009
+    group: madrone.decline.assay
+    date: '2023-08-01'
+    lat: 47.555693906839
+    lon: -122.250791403272
+    color: '#005500'
+    radius: 4.0
+    details: diseased
+    
+  - name: hemlock.decline.0010
+    observer: ISB.esore
+    id: hemlock.decline.0010
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.553742660274
+    lon: -122.250183332644
+    color: '#000000'
+    radius: 12.0
+    details: snag
+    
+  - name: yew.decline.0011
+    observer: ISB.esore
+    id: yew.decline.0011
+    group: yew.decline.assay
+    date: '2023-08-01'
+    lat: 47.55321812221
+    lon: -122.250468533891
+    color: '#003800'
+    radius: 1.0
+    details: diseased
+    
+  - name: hemlock.decline.0012
+    observer: ISB.esore
+    id: hemlock.decline.0012
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.55323335331
+    lon: -122.250324372947
+    color: '#007100'
+    radius: 4.0
+    details: diseased
+    
+  - name: madrone.decline.0013
+    observer: ISB.esore
+    id: madrone.decline.0013
+    group: madrone.decline.assay
+    date: '2023-08-01'
+    lat: 47.555889474277
+    lon: -122.251199281386
+    color: '#000000'
+    radius: 4.0
+    details: dead
+    
+  - name: dougFir.decline.0014
+    observer: ISB.esore
+    id: dougFir.decline.0014
+    group: dougFir.decline.assay
+    date: '2023-08-01'
+    lat: 47.555080342614
+    lon: -122.249953222489
+    color: '#000000'
+    radius: 6.0
+    details: snag
+    
+  - name: maple.decline.0015
+    observer: ISB.esore
+    id: maple.decline.0015
+    group: maple.decline.assay
+    date: '2023-08-01'
+    lat: 47.554864843633
+    lon: -122.250349333282
+    color: '#001C00'
+    radius: 2.0
+    details: dead
+    
+  - name: madrone.decline.0016
+    observer: ISB.esore
+    id: madrone.decline.0016
+    group: madrone.decline.assay
+    date: '2023-08-01'
+    lat: 47.556039956334
+    lon: -122.25089558721
+    color: '#000000'
+    radius: 2.0
+    details: dead
+    
+  - name: maple.decline.0017
+    observer: ISB.esore
+    id: maple.decline.0017
+    group: maple.decline.assay
+    date: '2023-08-01'
+    lat: 47.554744719339
+    lon: -122.250102929479
+    color: '#001C00'
+    radius: 2.0
+    details: diseased
+    
+  - name: hemlock.decline.0018
+    observer: ISB.esore
+    id: hemlock.decline.0018
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.554142866405
+    lon: -122.250108163864
+    color: '#000000'
+    radius: 2.0
+    details: dead
+    
+  - name: hemlock.decline.0019
+    observer: ISB.esore
+    id: hemlock.decline.0019
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.553584640927
+    lon: -122.250248862035
+    color: '#007100'
+    radius: 2.0
+    details: diseased
+    
+  - name: maple.decline.0020
+    observer: ISB.esore
+    id: maple.decline.0020
+    group: maple.decline.assay
+    date: '2023-08-01'
+    lat: 47.558673302537
+    lon: -122.251215891687
+    color: '#005500'
+    radius: 1.0
+    details: diseased
+    
+  - name: hemlock.decline.0021
+    observer: ISB.esore
+    id: hemlock.decline.0021
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.558412243032
+    lon: -122.251123122203
+    color: '#003800'
+    radius: 2.0
+    details: diseased
+    
+  - name: maple.decline.0022
+    observer: ISB.esore
+    id: maple.decline.0022
+    group: maple.decline.assay
+    date: '2023-08-01'
+    lat: 47.558273797831
+    lon: -122.250744808822
+    color: '#000000'
+    radius: 0.5
+    details: dead
+    
+  - name: hemlock.decline.0023
+    observer: ISB.esore
+    id: hemlock.decline.0023
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.558310073006
+    lon: -122.250773197004
+    color: '#000000'
+    radius: 5.0
+    details: stump
+    
+  - name: alder.decline.0024
+    observer: ISB.esore
+    id: alder.decline.0024
+    group: alder.decline.assay
+    date: '2023-08-01'
+    lat: 47.558089718258
+    lon: -122.250564065777
+    color: '#000000'
+    radius: 4.0
+    details: dead
+    
+  - name: dougFir.decline.0025
+    observer: ISB.esore
+    id: dougFir.decline.0025
+    group: dougFir.decline.assay
+    date: '2023-08-01'
+    lat: 47.558278281633
+    lon: -122.250067388875
+    color: '#001C00'
+    radius: 10.0
+    details: stump
+    
+  - name: alder.decline.0026
+    observer: ISB.esore
+    id: alder.decline.0026
+    group: alder.decline.assay
+    date: '2023-08-01'
+    lat: 47.558281945341
+    lon: -122.250058137143
+    color: '#000000'
+    radius: 3.0
+    details: stump
+    
+  - name: hemlock.decline.0027
+    observer: ISB.esore
+    id: hemlock.decline.0027
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.558406286937
+    lon: -122.249826989198
+    color: '#001C00'
+    radius: 4.0
+    details: diseased
+    
+  - name: cedar.decline.0028
+    observer: ISB.esore
+    id: cedar.decline.0028
+    group: cedar.decline.assay
+    date: '2023-08-01'
+    lat: 47.558429278282
+    lon: -122.249917880369
+    color: '#000000'
+    radius: 5.0
+    details: dead
+    
+  - name: maple.decline.0029
+    observer: ISB.esore
+    id: maple.decline.0029
+    group: maple.decline.assay
+    date: '2023-08-01'
+    lat: 47.558803174559
+    lon: -122.249851113454
+    color: '#007100'
+    radius: 10.0
+    details: diseased
+    
+  - name: hemlock.decline.0030
+    observer: ISB.esore
+    id: hemlock.decline.0030
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.558937846292
+    lon: -122.249780311218
+    color: '#003800'
+    radius: 1.0
+    details: diseased
+    
+  - name: hemlock.decline.0031
+    observer: ISB.esore
+    id: hemlock.decline.0031
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.559634826246
+    lon: -122.249939216917
+    color: '#005500'
+    radius: 1.0
+    details: diseased
+    
+  - name: hemlock.decline.0032
+    observer: ISB.esore
+    id: hemlock.decline.0032
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.558937846292
+    lon: -122.249780311218
+    color: '#003800'
+    radius: 0.84
+    details: diseased
+    
+  - name: hemlock.decline.0033
+    observer: ISB.esore
+    id: hemlock.decline.0033
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.559634826246
+    lon: -122.249939216917
+    color: '#005500'
+    radius: 1.0
+    details: diseased
+    
+  - name: hemlock.decline.0034
+    observer: ISB.esore
+    id: hemlock.decline.0034
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.558896682916
+    lon: -122.24976799997
+    color: '#005500'
+    radius: 12.0
+    details: diseased
+    
+  - name: cedar.decline.0035
+    observer: ISB.esore
+    id: cedar.decline.0035
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.559432596061
+    lon: -122.249957485094
+    color: '#00AA00'
+    radius: 6.0
+    details: diseased
+    
+  - name: hemlock.decline.0036
+    observer: ISB.esore
+    id: hemlock.decline.0036
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.559288236789
+    lon: -122.249875431201
+    color: '#008D00'
+    radius: 0.5
+    details: diseased
+    
+  - name: dougFir.decline.0037
+    observer: ISB.esore
+    id: dougFir.decline.0037
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.332512931626
+    lon: -122.157060246366
+    color: '#005500'
+    radius: 1.34
+    details: diseased
+    
+  - name: cedar.decline.0038
+    observer: ISB.esore
+    id: cedar.decline.0038
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: .na.real
+    lon: .na.real
+    color: '#00AA00'
+    radius: 7.0
+    details: diseased
+    
+  - name: dougFir.decline.0039
+    observer: ISB.esore
+    id: dougFir.decline.0039
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.560440248531
+    lon: -122.250299711513
+    color: '#000000'
+    radius: 4.0
+    details: snag
+    
+  - name: hemlock.decline.0040
+    observer: ISB.esore
+    id: hemlock.decline.0040
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.332766625733
+    lon: -122.156962049621
+    color: '#00AA00'
+    radius: 3.0
+    details: diseased
+    
+  - name: cedar.decline.0041
+    observer: ISB.esore
+    id: cedar.decline.0041
+    group: cedar.decline.assay
+    date: '2023-08-01'
+    lat: 47.560593453051
+    lon: -122.2505286208
+    color: '#005500'
+    radius: 4.0
+    details: diseased
+    
+  - name: dougFir.decline.0042
+    observer: ISB.esore
+    id: dougFir.decline.0042
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: .na.real
+    lon: .na.real
+    color: '#000000'
+    radius: 10.0
+    details: snag
+    
+  - name: cottonwood.decline.0043
+    observer: ISB.esore
+    id: cottonwood.decline.0043
+    group: cottonwood.decline.assay
+    date: '2023-08-02'
+    lat: 47.332631732811
+    lon: -122.157068327728
+    color: '#000000'
+    radius: 5.0
+    details: dead
+    
+  - name: madrone.decline.0044
+    observer: ISB.esore
+    id: madrone.decline.0044
+    group: madrone.decline.assay
+    date: '2023-08-02'
+    lat: 47.333041667755
+    lon: -122.157974188528
+    color: '#005500'
+    radius: 4.0
+    details: diseased
+    
+  - name: hemlock.decline.0045
+    observer: ISB.esore
+    id: hemlock.decline.0045
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.555061891915
+    lon: -122.251191018715
+    color: '#005500'
+    radius: 5.0
+    details: diseased
+    
+  - name: maple.decline.0046
+    observer: ISB.esore
+    id: maple.decline.0046
+    group: maple.decline.assay
+    date: '2023-08-02'
+    lat: 47.555299496228
+    lon: -125.250991238128
+    color: '#000000'
+    radius: 4.0
+    details: dead
+    
+  - name: hemlock.decline.0047
+    observer: ISB.esore
+    id: hemlock.decline.0047
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.554986527498
+    lon: -122.25107651013
+    color: '#000000'
+    radius: 2.0
+    details: dead
+    
+  - name: cedar.decline.0048
+    observer: ISB.esore
+    id: cedar.decline.0048
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.554862130725
+    lon: -122.252286419709
+    color: '#00C600'
+    radius: 4.0
+    details: diseased
+    
+  - name: dougFir.decline.0049
+    observer: ISB.esore
+    id: dougFir.decline.0049
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.556128372369
+    lon: -122.251492323454
+    color: '#007100'
+    radius: 4.0
+    details: diseased
+    
+  - name: cedar.decline.0050
+    observer: ISB.esore
+    id: cedar.decline.0050
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555062984346
+    lon: -122.252742626105
+    color: '#00FF00'
+    radius: 3.0
+    details: diseased
+    
+  - name: hemlock.decline.0051
+    observer: ISB.esore
+    id: hemlock.decline.0051
+    group: hemlock.decline.assay
+    date: ''
+    lat: 47.552870897708
+    lon: -122.252948110364
+    color: '#000000'
+    radius: 2.0
+    details: snag
+    
+  - name: hemlock.decline.0052
+    observer: ISB.esore
+    id: hemlock.decline.0052
+    group: hemlock.decline.assay
+    date: ''
+    lat: 47.555455448388
+    lon: -122.252685453772
+    color: '#000000'
+    radius: 2.0
+    details: snag
+    
+  - name: cedar.decline.0053
+    observer: ISB.esore
+    id: cedar.decline.0053
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555437056399
+    lon: -122.249838925962
+    color: '#00C600'
+    radius: 7.0
+    details: diseased
+    
+  - name: dougFir.decline.0054
+    observer: ISB.esore
+    id: dougFir.decline.0054
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555271407859
+    lon: -122.250020320962
+    color: '#00AA00'
+    radius: 3.0
+    details: diseased
+    
+  - name: dougFir.decline.0055
+    observer: ISB.esore
+    id: dougFir.decline.0055
+    group: dougFir.decline.assay
+    date: ''
+    lat: 47.555496693951
+    lon: -122.253056863216
+    color: '#000000'
+    radius: 9.0
+    details: snag
+    
+  - name: dougFir.decline.0056
+    observer: ISB.esore
+    id: dougFir.decline.0056
+    group: dougFir.decline.assay
+    date: ''
+    lat: 47.555527719843
+    lon: -122.253062498318
+    color: '#00C600'
+    radius: 6.0
+    details: diseased
+    
+  - name: maple.decline.0057
+    observer: ISB.esore
+    id: maple.decline.0057
+    group: maple.decline.assay
+    date: ''
+    lat: 47.555472930991
+    lon: -122.252730601845
+    color: '#000000'
+    radius: 5.0
+    details: snag
+    
+  - name: dougFir.decline.0058
+    observer: ISB.esore
+    id: dougFir.decline.0058
+    group: dougFir.decline.assay
+    date: ''
+    lat: 47.555379580225
+    lon: -122.252745358061
+    color: '#000000'
+    radius: 4.0
+    details: dead
+    
+  - name: dougFir.decline.0059
+    observer: ISB.esore
+    id: dougFir.decline.0059
+    group: dougFir.decline.assay
+    date: ''
+    lat: 47.555508908415
+    lon: -122.253063208745
+    color: '#000000'
+    radius: 5.0
+    details: snag
+    
+  - name: maple.decline.0060
+    observer: ISB.esore
+    id: maple.decline.0060
+    group: maple.decline.assay
+    date: ''
+    lat: 47.555523437039
+    lon: -122.253293813782
+    color: '#005500'
+    radius: 2.0
+    details: diseased
+    
+  - name: cedar.decline.0061
+    observer: ISB.esore
+    id: cedar.decline.0061
+    group: cedar.decline.assay
+    date: ''
+    lat: 47.555499553999
+    lon: -122.253625771695
+    color: '#00C600'
+    radius: 6.0
+    details: diseased
+    
+  - name: dougFir.decline.0062
+    observer: ISB.esore
+    id: dougFir.decline.0062
+    group: dougFir.decline.assay
+    date: ''
+    lat: 47.555445678753
+    lon: -122.253543236483
+    color: '#005500'
+    radius: 2.0
+    details: diseased
+    
+  - name: cedar.decline.0063
+    observer: ISB.esore
+    id: cedar.decline.0063
+    group: cedar.decline.assay
+    date: ''
+    lat: 47.555532701335
+    lon: -122.253565714887
+    color: '#005500'
+    radius: 4.0
+    details: diseased
+    
+  - name: maple.decline.0064
+    observer: ISB.esore
+    id: maple.decline.0064
+    group: maple.decline.assay
+    date: ''
+    lat: 47.555695012234
+    lon: -122.253538083175
+    color: '#008D00'
+    radius: 2.0
+    details: diseased
+    
+  - name: madrone.decline.0065
+    observer: ISB.esore
+    id: madrone.decline.0065
+    group: madrone.decline.assay
+    date: ''
+    lat: 47.555604662519
+    lon: -122.253539343234
+    color: '#005500'
+    radius: 3.0
+    details: diseased
+    
+  - name: maple.decline.0066
+    observer: ISB.esore
+    id: maple.decline.0066
+    group: maple.decline.assay
+    date: ''
+    lat: 47.555572546287
+    lon: -122.253397721372
+    color: '#008D00'
+    radius: 3.0
+    details: diseased
+    
+  - name: cedar.decline.0067
+    observer: ISB.esore
+    id: cedar.decline.0067
+    group: cedar.decline.assay
+    date: ''
+    lat: 47.555512946569
+    lon: -122.253358816345
+    color: '#00E200'
+    radius: 6.0
+    details: diseased
+    
+  - name: dougFir.decline.0068
+    observer: ISB.esore
+    id: dougFir.decline.0068
+    group: dougFir.decline.assay
+    date: ''
+    lat: 47.555196093207
+    lon: -122.253383744326
+    color: '#005500'
+    radius: 8.0
+    details: diseased
+    
+  - name: maple.decline.0069
+    observer: ISB.esore
+    id: maple.decline.0069
+    group: maple.decline.assay
+    date: ''
+    lat: 47.555638725288
+    lon: -122.253829360667
+    color: '#005500'
+    radius: 1.0
+    details: diseased
+    
+  - name: cedar.decline.0070
+    observer: ISB.esore
+    id: cedar.decline.0070
+    group: cedar.decline.assay
+    date: ''
+    lat: 47.555648665703
+    lon: -122.253391183923
+    color: '#007100'
+    radius: 3.0
+    details: diseased
+    
+  - name: dougFir.decline.0071
+    observer: ISB.esore
+    id: dougFir.decline.0071
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555322703597
+    lon: -122.790097491564
+    color: '#00C600'
+    radius: 3.0
+    details: diseased
+    
+  - name: cedar.decline.0072
+    observer: ISB.esore
+    id: cedar.decline.0072
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.55537819393
+    lon: -122.249990958804
+    color: '#005500'
+    radius: 8.0
+    details: diseased
+    
+  - name: dougFir.decline.0073
+    observer: ISB.esore
+    id: dougFir.decline.0073
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555438152767
+    lon: -122.249733707097
+    color: '#005500'
+    radius: 1.0
+    details: diseased
+    
+  - name: dougFir.decline.0074
+    observer: ISB.esore
+    id: dougFir.decline.0074
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555323037251
+    lon: -122.249674888843
+    color: '#007100'
+    radius: 2.0
+    details: diseased
+    
+  - name: dougFir.decline.0075
+    observer: ISB.esore
+    id: dougFir.decline.0075
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555335871887
+    lon: -122.249747681971
+    color: '#001C00'
+    radius: 1.0
+    details: dead
+    
+  - name: cedar.decline.0076
+    observer: ISB.esore
+    id: cedar.decline.0076
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555470616788
+    lon: -122.249560944457
+    color: '#00C600'
+    radius: 8.0
+    details: diseased
+    
+  - name: cedar.decline.0077
+    observer: ISB.esore
+    id: cedar.decline.0077
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.55551800012
+    lon: -122.24983084653
+    color: '#005500'
+    radius: 8.0
+    details: diseased
+    
+  - name: maple.decline.0078
+    observer: ISB.esore
+    id: maple.decline.0078
+    group: maple.decline.assay
+    date: '2023-08-02'
+    lat: 47.555420395242
+    lon: -122.249881936582
+    color: '#000000'
+    radius: 4.0
+    details: snag
+    
+  - name: dougFir.decline.0079
+    observer: ISB.esore
+    id: dougFir.decline.0079
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555528640648
+    lon: -122.249736281547
+    color: '#000000'
+    radius: 0.66
+    details: dead
+    
+  - name: dougFir.decline.0080
+    observer: ISB.esore
+    id: dougFir.decline.0080
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555552854939
+    lon: -122.249701982037
+    color: '#000000'
+    radius: 0.5
+    details: dead
+    
+  - name: cedar.decline.0081
+    observer: ISB.esore
+    id: cedar.decline.0081
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555242328365
+    lon: -122.249869192482
+    color: '#008D00'
+    radius: 4.4
+    details: diseased
+    
+  - name: cedar.decline.0082
+    observer: ISB.esore
+    id: cedar.decline.0082
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555608819369
+    lon: -122.249593059365
+    color: '#007100'
+    radius: 5.0
+    details: diseased
+    
+  - name: dougFir.decline.0083
+    observer: ISB.esore
+    id: dougFir.decline.0083
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555543120843
+    lon: -122.249017257197
+    color: '#008D00'
+    radius: 3.4
+    details: diseased
+    
+  - name: hemlock.decline.0084
+    observer: ISB.esore
+    id: hemlock.decline.0084
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.555519565801
+    lon: -122.249437847926
+    color: '#007100'
+    radius: 2.0
+    details: diseased
+    
+  - name: cedar.decline.0085
+    observer: ISB.esore
+    id: cedar.decline.0085
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555458994788
+    lon: -122.249248112116
+    color: '#000000'
+    radius: 7.0
+    details: snag
+    
+  - name: cedar.decline.0086
+    observer: ISB.esore
+    id: cedar.decline.0086
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555631695684
+    lon: -122.249257586553
+    color: '#00AA00'
+    radius: 7.0
+    details: diseased
+    
+  - name: cedar.decline.0087
+    observer: ISB.esore
+    id: cedar.decline.0087
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555512929551
+    lon: -122.249310556783
+    color: '#007100'
+    radius: 7.0
+    details: diseased
+    
+  - name: hemlock.decline.0088
+    observer: ISB.esore
+    id: hemlock.decline.0088
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.555494820245
+    lon: -122.249201921938
+    color: '#000000'
+    radius: 1.34
+    details: snag
+    
+  - name: cedar.decline.0089
+    observer: ISB.esore
+    id: cedar.decline.0089
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555816179652
+    lon: -122.248974172954
+    color: '#000000'
+    radius: 8.0
+    details: snag
+    
+  - name: dougFir.decline.0090
+    observer: ISB.esore
+    id: dougFir.decline.0090
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555523522665
+    lon: -122.249118281662
+    color: '#007100'
+    radius: 1.0
+    details: dead
+    
+  - name: madrone.decline.0091
+    observer: ISB.esore
+    id: madrone.decline.0091
+    group: madrone.decline.assay
+    date: ''
+    lat: 47.555569650676
+    lon: -122.254289473749
+    color: '#005500'
+    radius: 2.0
+    details: diseased
+    
+  - name: maple.decline.0092
+    observer: ISB.esore
+    id: maple.decline.0092
+    group: maple.decline.assay
+    date: ''
+    lat: 47.555727818042
+    lon: -122.253299841652
+    color: '#000000'
+    radius: 3.0
+    details: dead
+    
+  - name: cedar.decline.0093
+    observer: ISB.esore
+    id: cedar.decline.0093
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555654600326
+    lon: -122.248387415938
+    color: '#000000'
+    radius: 3.0
+    details: snag
+    
+  - name: hemlock.decline.0094
+    observer: ISB.esore
+    id: hemlock.decline.0094
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.555630853135
+    lon: -122.248251265188
+    color: '#000000'
+    radius: 2.0
+    details: dead
+    
+  - name: cedar.decline.0095
+    observer: ISB.esore
+    id: cedar.decline.0095
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555658103924
+    lon: -122.248648121713
+    color: '#008D00'
+    radius: 6.0
+    details: diseased
+    
+  - name: cedar.decline.0096
+    observer: ISB.esore
+    id: cedar.decline.0096
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555695727004
+    lon: -122.248811535411
+    color: '#003800'
+    radius: 4.0
+    details: diseased
+    
+  - name: hemlock.decline.0097
+    observer: ISB.esore
+    id: hemlock.decline.0097
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.555544757035
+    lon: -122.21452512222
+    color: '#000000'
+    radius: 3.0
+    details: snag
+    
+  - name: dougFir.decline.0098
+    observer: ISB.esore
+    id: dougFir.decline.0098
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555497073185
+    lon: -122.24865957547
+    color: '#00AA00'
+    radius: 3.0
+    details: dead
+    
+  - name: cedar.decline.0099
+    observer: ISB.esore
+    id: cedar.decline.0099
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555298552731
+    lon: -122.248799302556
+    color: '#003800'
+    radius: 2.0
+    details: diseased
+    
+  - name: hemlock.decline.0100
+    observer: ISB.esore
+    id: hemlock.decline.0100
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.55541333302
+    lon: -122.248896318196
+    color: '#000000'
+    radius: 4.0
+    details: snag
+    
+  - name: cedar.decline.0101
+    observer: ISB.esore
+    id: cedar.decline.0101
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555691832716
+    lon: -122.249033750564
+    color: '#000000'
+    radius: 4.0
+    details: snag
+    
+  - name: cedar.decline.0102
+    observer: ISB.esore
+    id: cedar.decline.0102
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555599610958
+    lon: -122.248506006808
+    color: '#000000'
+    radius: 3.0
+    details: snag
+    
+  - name: cedar.decline.0103
+    observer: ISB.esore
+    id: cedar.decline.0103
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555667429623
+    lon: -122.248390267264
+    color: '#005500'
+    radius: 5.0
+    details: snag
+    
+  - name: dougFir.decline.0104
+    observer: ISB.esore
+    id: dougFir.decline.0104
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555780509435
+    lon: -122.247986390875
+    color: '#007100'
+    radius: 4.0
+    details: diseased
+    
+  - name: dougFir.decline.0105
+    observer: ISB.esore
+    id: dougFir.decline.0105
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.55589341324
+    lon: -122.248296491789
+    color: '#003800'
+    radius: 4.4
+    details: diseased
+    
+  - name: cedar.decline.0106
+    observer: ISB.esore
+    id: cedar.decline.0106
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555678642541
+    lon: -122.248112713953
+    color: '#008D00'
+    radius: 5.4
+    details: diseased
+    
+  - name: dougFir.decline.0107
+    observer: ISB.esore
+    id: dougFir.decline.0107
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555616822291
+    lon: -122.248182218039
+    color: '#007100'
+    radius: 3.0
+    details: diseased
+    
+  - name: dougFir.decline.0108
+    observer: ISB.esore
+    id: dougFir.decline.0108
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.55570044254
+    lon: -122.248184603364
+    color: '#007100'
+    radius: 2.0
+    details: diseased
+    
+  - name: dougFir.decline.0109
+    observer: ISB.esore
+    id: dougFir.decline.0109
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555646969753
+    lon: -122.248183131878
+    color: '#005500'
+    radius: 1.0
+    details: diseased
+    
+  - name: cedar.decline.0110
+    observer: ISB.esore
+    id: cedar.decline.0110
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555711491908
+    lon: -122.248225761964
+    color: '#008D00'
+    radius: 5.0
+    details: diseased
+    
+  - name: cedar.decline.0111
+    observer: ISB.esore
+    id: cedar.decline.0111
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555631790423
+    lon: -122.248214659534
+    color: '#000000'
+    radius: 2.5
+    details: snag
+    
+  - name: maple.decline.0112
+    observer: ISB.esore
+    id: maple.decline.0112
+    group: maple.decline.assay
+    date: '2023-08-02'
+    lat: 47.555635198033
+    lon: -122.247885689833
+    color: '#001C00'
+    radius: 2.0
+    details: dead
+    
+  - name: dougFir.decline.0113
+    observer: ISB.esore
+    id: dougFir.decline.0113
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555733012316
+    lon: -122.248132989566
+    color: '#008D00'
+    radius: 2.0
+    details: diseased
+    
+  - name: dougFir.decline.0114
+    observer: ISB.esore
+    id: dougFir.decline.0114
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555829054453
+    lon: -122.248212783419
+    color: '#005500'
+    radius: 2.0
+    details: diseased
+    
+  - name: dougFir.decline.0115
+    observer: ISB.esore
+    id: dougFir.decline.0115
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555157104165
+    lon: -122.248062657957
+    color: '#00FF00'
+    radius: 3.0
+    details: diseased
+    
+  - name: dougFir.decline.0116
+    observer: ISB.esore
+    id: dougFir.decline.0116
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555929503113
+    lon: -122.248288229386
+    color: '#008D00'
+    radius: 2.0
+    details: diseased
+    
+  - name: cedar.decline.0117
+    observer: ISB.esore
+    id: cedar.decline.0117
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555861230601
+    lon: -122.247960748464
+    color: '#000000'
+    radius: 3.0
+    details: snag
+    
+  - name: dougFir.decline.0118
+    observer: ISB.esore
+    id: dougFir.decline.0118
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555870093431
+    lon: -122.247950955566
+    color: '#003800'
+    radius: 0.8
+    details: dead
+    
+  - name: cedar.decline.0119
+    observer: ISB.esore
+    id: cedar.decline.0119
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555880689578
+    lon: -122.248060104316
+    color: '#005500'
+    radius: 3.0
+    details: diseased
+    
+  - name: cedar.decline.0120
+    observer: ISB.esore
+    id: cedar.decline.0120
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.55558056977
+    lon: -122.248025436767
+    color: '#008D00'
+    radius: 5.0
+    details: diseased
+    
+  - name: cedar.decline.0121
+    observer: ISB.esore
+    id: cedar.decline.0121
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555867360399
+    lon: -122.248028481
+    color: '#003800'
+    radius: 3.0
+    details: diseased
+    
+  - name: maple.decline.0122
+    observer: ISB.esore
+    id: maple.decline.0122
+    group: maple.decline.assay
+    date: '2023-08-02'
+    lat: 47.555972872567
+    lon: -122.24811114086
+    color: '#001C00'
+    radius: 1.4
+    details: diseased
+    
+  - name: dougFir.decline.0123
+    observer: ISB.esore
+    id: dougFir.decline.0123
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555897477687
+    lon: -122.247679733351
+    color: '#000000'
+    radius: 0.8
+    details: dead
+    
+  - name: dougFir.decline.0124
+    observer: ISB.esore
+    id: dougFir.decline.0124
+    group: dougFir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555506272711
+    lon: -122.248451275488
+    color: '#000000'
+    radius: 6.0
+    details: dead
