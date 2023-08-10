@@ -1,3 +1,4 @@
+library(yaml)
 options(digits=12)
 degrees.per.radian <- 57.2958
 feet.per.lat.degree <- 364320
@@ -5,8 +6,9 @@ feet.per.lon.degree <- 245520   # at seattle's latitude of 47.5
 
 #f <- "treeDecline.tsv"
 #f <- "trees3-clean.tsv"
-f <- "trees-day2-clean.tsv"
+#f <- "trees-day2-clean.tsv"
 #tbl <- read.table("treeDecline.tsv", header=TRUE, sep="\t")
+f <- "treeDecline-final--clean.tsv"
 tbl <- read.table(f, header=TRUE, sep="\t")
 tbl$latCorrected <- rep(0, nrow(tbl))
 tbl$lonCorrected <- rep(0, nrow(tbl))
@@ -36,6 +38,7 @@ for(r in seq_len(nrow(tbl))){
    vitality <- with(tbl[r,], low + mid + high) # 0-9
    colors <- rev(colorRampPalette(c("green", "black"))(10))
    color <- colors[vitality+1]
+   #printf("%d", r)
    radius <- tbl$dbh[r] * 2
    details <- tbl$status[r]
    yaml <- as.yaml(list(name=name,
