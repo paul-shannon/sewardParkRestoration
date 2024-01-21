@@ -1,0 +1,25 @@
+id,lat,lon,dbh,h1,h2,h3,apsect,slope,date,comments,observer
+1,47.560123,-122.252269,36,NA,0,0,-1,-1,2024-01-18,snag; heavy woodpecker damage; yellow and brown moss up high,muwei
+2,47.560078,-122.251997,22,NA,2,3,-1,-1,2024-01-18,middle section has only a few good branches,muwei
+3,47.560222,-122.251542,30,NA,0,1,-1,-1,2024-01-18,,muwei
+4,47.560238,-122.251492,27,1,1,2,300,10,2024-01-20,,muwei
+5,47.560243,-122.251862,25,0,0,0,250,15,2024-01-20,40 foot snag; NW of trail junction; surrounded by salal; evidence of woodpeckers,eric
+6,47.560185,-122.251651,31,NA,0,2,275,20,2024-01-20,,nate
+7,47.560467,-122.252022,31,NA,0,1,300,10,2024-01-20,,muwei
+2001,47.560190,-122.251801,30,NA,0,1,280,10,2024-01-20,,nate
+8,47.560378,-122.252334,30,NA,0,0,NA,0,2024-01-20,,muwei
+2002,47.560123,122.251439,25,NA,1,2,295,5,2024-01-20,,nate
+2003,47.560077,-122.251421,28,0,0,1,300,10,2024-01-20,woodpecker damage on trunk,nate
+9,47.560608,122.252472,23,0,0,0,300,5,2024-01-20,,muwei
+2004,47.560082,-122.251506,27,0,0,0,260,10,2024-01-20,8 foot snag,nate
+2005,47.559895,-122.251352,8,0,0,0,300,15,2024-01-20,very recent fall;fewneedles;lots of moss;woodpecker damage,nate
+2006,47.559777,-122.251322,7,0,0,2,300,10,2024-01-20,,nate
+2007,47.559765,-122.251321,9,1,1.5,2,275,5,2024-01-20,,nate
+10,47.559978,-122.252067,31,0,2,3,300,15,2024-01-20,,muwei
+2008,47.559593,-122.251197,28,0,1,3,320,10,2024-01-20,low bottom score may be due to self-pruning after canopy breakthrough,nate
+2009,47.559647,-122.251397,19,2,2.5,3,320,10,2024-01-20,possible self-pruing on south side,nate
+11,47.559773,-122.252059,30,NA,0,0,300,12,2024-01-20,many small branches and cones; no needles; probably died last year,muwei
+2010,47.559513,-122.251344,7,0,0,0,315,5,2024-01-20,,nate
+2011,47.559422,-122.251409,NA,1,2.5,27,290,5,2024-01-20,,nate
+
+

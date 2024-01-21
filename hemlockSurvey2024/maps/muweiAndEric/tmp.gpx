@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<gpx xmlns="http://www.topografix.com/GPX/1/1">
+	<wpt lat="47.554518" lon="-122.249237">
+		<ele>34.800000</ele>
+		<time>2023-12-02T21:58:42.000Z</time>
+		<name>POI 2</name>
+		<hdop>1.100000</hdop>
+	</wpt>
+</gpx>
+
