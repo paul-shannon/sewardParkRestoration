@@ -1,4 +1,4 @@
-id,lat,lon,dbh,h1,h2,h3,apsect,slope,date,comments,observer
+id,lat,lon,dbh,h1,h2,h3,aspect,slope,date,comments,observer
 1,47.560123,-122.252269,36,NA,0,0,-1,-1,2024-01-18,snag; heavy woodpecker damage; yellow and brown moss up high,muwei
 2,47.560078,-122.251997,22,NA,2,3,-1,-1,2024-01-18,middle section has only a few good branches,muwei
 3,47.560222,-122.251542,30,NA,0,1,-1,-1,2024-01-18,,muwei
