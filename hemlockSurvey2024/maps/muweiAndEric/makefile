@@ -1,11 +1,11 @@
-PORT = 8080
+PORT = 8088
 
 default:
 	@echo venv
 	@echo server
 	@echo viewLocal
 	@echo publish
-	@echo openLocal
+	@echo viewRemote
 
 venv:
 	@echo source /Users/paul/github/slexil2/py3105slexil/bin/activate
@@ -24,7 +24,7 @@ publish:
 	scp map.css $(DEST)/
 	scp trees.json $(DEST)/
 
-openRemote:
+viewRemote:
 	open https://pshannon.net/hemlockSurvey2024
 
 
