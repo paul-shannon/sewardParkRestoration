@@ -1,6 +1,6 @@
 options(digits=10)
 library(jsonlite)
-
+library(RColorBrewer)
 #--------------------------------------------------------------------------------
 toMarkerAndInfoWindow <- function(row)
 {
@@ -21,6 +21,16 @@ toMarkerAndInfoWindow <- function(row)
 } # toMarker
 #--------------------------------------------------------------------------------
 tbl <- read.table("trees.csv", sep=",", header=TRUE, as.is=TRUE, nrow=-1)
-toJSON(tbl, na="string")
+healthSums <- apply(tbl[, c("h1", "h2", "h3")], 1, sum, na.rm=TRUE)
+goodValues <- apply(tbl[, c("h1", "h2", "h3")], 1, function(row) length(which(!is.na(row))))
+overallHealth <- round(healthSums/goodValues, digits=2)
+hist(overallHealth)
+tbl$h <- overallHealth
+preferredColumnOrder <- c("id","lat","lon","dbh","h1","h2","h3","h","aspect","slope","date","comments","observer")
+tbl <- tbl[, preferredColumnOrder]
+print(dim(tbl))
+jsonText = toJSON(tbl, na="string", digits=6)
+writeLines(jsonText, con="hemlocks.json")
+printf("wrote %d lines to hemlock.json", nrow(tbl))
 #for(i in 1:5)  # nrow(tbl))
 #    writeLines(toMarkerAndInfoWindow(tbl[i,]))

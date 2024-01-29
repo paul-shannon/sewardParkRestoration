@@ -11,6 +11,10 @@
 let mapCenter = {lat: 47.55935, lng: -122.2529};
 var locationMarker;
 
+$.getJSON( "hemlocks.json", function( json ) {
+   window.trees = json
+   });
+
 //--------------------------------------------------------------------------------
 function printClickPoint(event){
    var lat = event.latLng["lat"]()
@@ -19,37 +23,17 @@ function printClickPoint(event){
    }
 //--------------------------------------------------------------------------------
 function calculateHealthColor(tree){
-      var healthScore = 0;
-      var scoreCount = 0
-      if(tree["h1"] != "NA"){
-         healthScore += tree["h1"]
-         scoreCount += 1
-         }
-      if(tree["h2"] != "NA"){
-         healthScore += tree["h2"]
-         scoreCount += 1
-         }
-      if(tree["h3"] != "NA"){
-         healthScore += tree["h3"]
-         scoreCount += 1
-         }
-      healthScore = healthScore / scoreCount
-      if (healthScore >= 2.0){
-         return("green")
-      }
-      else if (healthScore >= 1.5){
-          return("lightGreen")
-      }
-      else if (healthScore >= 1.0){
-          return ("#B6D8B0") // grayGreen
-      }
-      else if (healthScore >= 0.5){
-          return("darkgrey") // "#C9CFC7")
-      }
-      else{
-          return("black")
-      }
-  } // calculateHealthColo
+    // R:  rev(colorRampPalette(c("green", "gray", "black"))(7))
+    var colors = ["#000000","#3F3F3F","#7E7E7E","#BEBEBE","#7ED37E","#3FE93F","#00FF00"]
+    var healthScore = tree["h"]
+    var breaks = [0.5,1.0,1.5,2.0,2.5,3.0,3.5]
+    // R:round(seq(0,3,length.out=7), digits=2)
+    for(let i=0; i < breaks.length; i++){
+       if(healthScore < breaks[i]){
+          return(colors[i])
+          }
+       } // for i
+    } // calculateHealthColo
 
 //--------------------------------------------------------------------------------
 async function initMap(){
@@ -223,28 +207,34 @@ var map = initMap();
 function drawTrees(map){
   console.log("tree count: " + trees.length)
   trees.forEach(function(tree){
+      var size = tree["dbh"]/2;
+      if(size < 5){
+         size = 5;
+         }
        const icon = {path: google.maps.SymbolPath.CIRCLE,
-                  scale: tree["dbh"] / 2,
-                  fillOpacity: 1,
-                  strokeWeight: 1,
-                  fillColor: calculateHealthColor(tree),
-                  strokeColor: '#000',
-                 }
+                     scale: size,
+                     fillOpacity: 1,
+                     strokeWeight: 1,
+                     fillColor: calculateHealthColor(tree),
+                     strokeColor: '#000',
+                     }
        let marker = new google.maps.Marker({
            position: {lat:  tree["lat"], lng: tree["lon"]},
            map, title: Number.toString(tree["id"]),
            icon: icon
            })
        let infoWindow = new google.maps.InfoWindow({
-           content: "<ul>" +
-               "<li> tree #" + tree["id"] +
+           content: "<h4> tree #" + tree["id"] + "</h4>" +
+             "<ul>" +
                "<li> dbh: " + tree["dbh"] +
                "<li> h1: " + tree["h1"] +
                "<li> h2: " + tree["h2"] +
                "<li> h3: " + tree["h3"] +
+               "<li> overall health: " + tree["h"] +
                "<li> aspect: " + tree["aspect"] +
                "<li> slope: " + tree["slope"] + 
-               "</ul>"
+               "</ul>" +
+               tree["comments"]
            })
        marker.addListener("click", () => {
           infoWindow.open({
