@@ -20,7 +20,7 @@ toMarkerAndInfoWindow <- function(row)
 
 } # toMarker
 #--------------------------------------------------------------------------------
-tbl <- read.table("trees.csv", sep=",", header=TRUE, as.is=TRUE, nrow=-1)
+tbl <- read.table("hemlocks.csv", sep=",", header=TRUE, as.is=TRUE, nrow=-1)
 healthSums <- apply(tbl[, c("h1", "h2", "h3")], 1, sum, na.rm=TRUE)
 goodValues <- apply(tbl[, c("h1", "h2", "h3")], 1, function(row) length(which(!is.na(row))))
 overallHealth <- round(healthSums/goodValues, digits=2)

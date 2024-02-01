@@ -220,11 +220,16 @@ function drawTrees(map){
                      }
        let marker = new google.maps.Marker({
            position: {lat:  tree["lat"], lng: tree["lon"]},
-           map, title: Number.toString(tree["id"]),
+           map,
+           title: tree["id"].toString(),
            icon: icon
            })
+       //let label = {text: tree["id"].toString,
+       //             color: "black",
+       //             fontSize: "32px"}
+       //marker.setLabel(label)
        let infoWindow = new google.maps.InfoWindow({
-           content: "<h4> tree #" + tree["id"] + "</h4>" +
+           content: "<h4> tree #" + tree["id"] + " (" + tree["observer"] + ")</h4>" +
              "<ul>" +
                "<li> dbh: " + tree["dbh"] +
                "<li> h1: " + tree["h1"] +
@@ -236,6 +241,9 @@ function drawTrees(map){
                "</ul>" +
                tree["comments"]
            })
+       //marker.addListener("mouseover", () => {
+       //  console.log(tree["id"])
+       //  })
        marker.addListener("click", () => {
           infoWindow.open({
              anchor: marker,

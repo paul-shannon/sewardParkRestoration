@@ -41,4 +41,11 @@ id,lat,lon,dbh,h1,h2,h3,aspect,slope,date,comments,observer
 29,47.559895,-122.252509,25,NA,NA,0,320,5,2024-01-28,snag 14 feet tall,eric
 30,47.559737,-122.252634,30,1.5,3,3,340,10,2024-01-28,lichen and moss near the bottom; moss and needles adjacent on the same branch, eric
 31,47.559842,-122.252709,5,0,0.5,2,340,10,2024-01-28,top is sparse but looks healthy, eric
+32,47.559772,-122.262986,18,0,0,0,340,10,2024-01-28,fallen tree; very healthy branches near top but fell over,eric
+33,47.559547,-122.253046,0.0.5,1,340,5,2024-01-28,,eric
+34,47.559607,-122.2626854,9,0,0,0,340,10,2024-01-28,four foot snag,eric
+35,47.559563,-122.252702,11,NA,NA,0,340,10,2024-01-28,six foot snag,eric
+36,47.559548,-122.252695,26,NA,0,1.5,340,5,2024-01-28,,eric
+# 37,-1,-1,6,NA,NA,0,340,10,2024-01-28,stump; missing lat long,eric
+38,47.559439,-122.252669,16,340,5,2024-01-28,fallen tree; no healthy branches,eric
 
