@@ -24,7 +24,8 @@ function printClickPoint(event){
 //--------------------------------------------------------------------------------
 function calculateHealthColor(tree){
     // R:  rev(colorRampPalette(c("green", "gray", "black"))(7))
-    var colors = ["#000000","#3F3F3F","#7E7E7E","#BEBEBE","#7ED37E","#3FE93F","#00FF00"]
+    //var colors = ["#000000","#3F3F3F","#7E7E7E","#BEBEBE","#7ED37E","#3FE93F","#00FF00"]
+    var colors = ["#000000","#5F5F5F","#BEBEBE","#A7D6A7","#90EE90","#48F648","#00FF00"]
     var healthScore = tree["h"]
     var breaks = [0.5,1.0,1.5,2.0,2.5,3.0,3.5]
     // R:round(seq(0,3,length.out=7), digits=2)

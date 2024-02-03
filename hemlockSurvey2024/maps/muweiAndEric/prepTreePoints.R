@@ -34,3 +34,12 @@ writeLines(jsonText, con="hemlocks.json")
 printf("wrote %d lines to hemlock.json", nrow(tbl))
 #for(i in 1:5)  # nrow(tbl))
 #    writeLines(toMarkerAndInfoWindow(tbl[i,]))
+exploreColors <- function()
+{
+    colors <- rev(colorRampPalette(c("green", "lightgreen", "gray", "black"))(7))
+    breaks <- c(0.5,1.0,1.5,2.0,2.5,3.0,3.5)
+
+    plot(breaks, y=rep(10, length(breaks)), cex=8, xlim=c(0, 4), bg=colors,pch=21)
+
+} # exploreColors
+#----------------------------------------------------------------------------------------------------
