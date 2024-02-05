@@ -34,6 +34,7 @@ writeLines(jsonText, con="hemlocks.json")
 printf("wrote %d lines to hemlock.json", nrow(tbl))
 #for(i in 1:5)  # nrow(tbl))
 #    writeLines(toMarkerAndInfoWindow(tbl[i,]))
+#----------------------------------------------------------------------------------------------------
 exploreColors <- function()
 {
     colors <- rev(colorRampPalette(c("green", "lightgreen", "gray", "black"))(7))
@@ -42,4 +43,14 @@ exploreColors <- function()
     plot(breaks, y=rep(10, length(breaks)), cex=8, xlim=c(0, 4), bg=colors,pch=21)
 
 } # exploreColors
-#----------------------------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------
+exploreContrasrts <- function()
+{
+   midpoint <- 47.556020
+   dim(tbl)
+   tbl.n <- subset(tbl, lat >= midpoint)
+   tbl.s <- subset(tbl, lat < midpoint)
+   boxplot(tbl.n$h, tbl.s$h)
+
+}
+#--------------------------------------------------------------------------------
