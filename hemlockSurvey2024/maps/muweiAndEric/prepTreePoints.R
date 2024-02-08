@@ -50,7 +50,8 @@ exploreContrasrts <- function()
    dim(tbl)
    tbl.n <- subset(tbl, lat >= midpoint)
    tbl.s <- subset(tbl, lat < midpoint)
-   boxplot(tbl.n$h, tbl.s$h)
+   boxplot(tbl.n$h, tbl.s$h, names=c("graveyard", "garden"), main="Hemlock Health scaled 0-3")
+   boxplot(tbl.n$dbh, tbl.s$dbh, names=c("graveyard", "garden"), main="Hemlock Diameter (DBH inches)")
 
 }
 #--------------------------------------------------------------------------------

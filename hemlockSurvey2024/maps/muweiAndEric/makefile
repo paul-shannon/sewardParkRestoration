@@ -26,7 +26,7 @@ publish:
 	scp mapWithTabs.html $(DEST)/index.html
 	scp map.js $(DEST)/
 	scp map.css $(DEST)/
-	scp *.json $(DEST)/
+	scp hemlocks.json $(DEST)/
 
 viewRemote:
 	open https://pshannon.net/hemlockSurvey2024

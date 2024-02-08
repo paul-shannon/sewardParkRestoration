@@ -10,10 +10,31 @@
 //let map;
 let mapCenter = {lat: 47.55935, lng: -122.2529};
 var locationMarker;
+var map;
 
-$.getJSON( "hemlocks.json", function( json ) {
-   window.trees = json
-   });
+function readTreeData(){
+  console.log("entering readTreeData")
+  $.getJSON( "hemlocks.json", function(json) {
+      window.trees = json
+     })
+   .done(function(){
+      console.log("getJSON done")
+      console.log("tree count: " + window.trees.length)
+      map = initMap();
+      })
+   .fail(function(){
+       console.log("getJSON failure")
+       })
+   }
+
+
+await readTreeData()
+
+$(document).ready(function(){
+  readTreeData()
+});
+
+
 
 //--------------------------------------------------------------------------------
 function printClickPoint(event){
@@ -138,76 +159,18 @@ async function initMap(){
      printClickPoint(mapsMouseEvent);
      })
                   
-
-
-/****************
-  var marker;
-  var infoWindow;
-
-   marker = new google.maps.Marker({
-      position: {lat:  47.560123, lng: -122.252269}, 
-      map, title: '1',
-      icon: defaultTreeMarker
-      })
-   infoWindow = new google.maps.InfoWindow({
-       content: '1'
-       })
-
-    marker.addListener("click", () => {
-       infoWindow.open({
-          anchor: marker,
-          map,
-         });
-       });
-
-
-   marker = new google.maps.Marker({
-      position: {lat:  47.560078, lng: -122.251997}, 
-      map, title: '2',
-      icon: defaultTreeMarker
-      })
-   infoWindow = new google.maps.InfoWindow({
-   content: '2'
-    })
-   marker = new google.maps.Marker({
-      position: {lat:  47.560222, lng: -122.251542}, 
-      map, title: '3',
-      icon: defaultTreeMarker
-      })
-   infoWindow = new google.maps.InfoWindow({
-   content: '3'
-    })
-   marker = new google.maps.Marker({
-      position: {lat:  47.560238, lng: -122.251492}, 
-      map, title: '4',
-      icon: defaultTreeMarker
-      })
-   infoWindow = new google.maps.InfoWindow({
-   content: '4'
-    })
-   marker = new google.maps.Marker({
-      position: {lat:  47.560243, lng: -122.251862}, 
-      map, title: '5',
-      icon: defaultTreeMarker
-      })
-   infoWindow = new google.maps.InfoWindow({
-   content: '5'
-    })
-****************/
-
     drawTrees(map)
     return(map)
 
 } // initMap function
 
-var map = initMap();
-
 //map.addListener('tilesloaded', function () { // ... })
 //$(document).ready(function(){
 
-function drawTrees(map){
-  console.log("tree count: " + trees.length)
-  trees.forEach(function(tree){
+async function drawTrees(map){
+  //await readTreeData();
+  console.log("tree count: " + window.trees.length)
+  window.trees.forEach(function(tree){
       var size = tree["dbh"]/2;
       if(size < 5){
          size = 5;
