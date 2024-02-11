@@ -19,6 +19,7 @@
   <link rel="stylesheet" type="text/css" href="./map.css" />
   <!-- script src="./trees.json"></script -->
   <script type="module" src="./map.js"></script>
+  <script src="https://cdn.datatables.net/buttons/2.4.2/js/buttons.html5.min.js"></script>
 
   <script>
 
@@ -26,7 +27,8 @@
     $("#tabs").tabs();
         $('#tableId').DataTable({
             bInfo: true,
-            sDom: '<"header">frtip<"footer">',
+            sDom: '<"header">Bfrtip<"footer">',
+            buttons: ['copy', 'csv', 'excel', 'pdf'],
             pageLength: 1000,
             ajax: {
                 url: 'hemlocks.json',

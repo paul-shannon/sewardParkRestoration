@@ -1,14 +1,14 @@
 PORT = 8088
 
 default:
-	@echo toJSON
+	@echo json
 	@echo venv
 	@echo server
 	@echo viewLocal
 	@echo publish
 	@echo viewRemote
 
-toJSON:
+json:
 	R -f prepTreePoints.R
 
 venv:
@@ -27,6 +27,7 @@ publish:
 	scp map.js $(DEST)/
 	scp map.css $(DEST)/
 	scp hemlocks.json $(DEST)/
+	scp tblFinal.csv $(DEST)/
 
 viewRemote:
 	open https://pshannon.net/hemlockSurvey2024

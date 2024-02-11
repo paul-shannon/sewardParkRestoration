@@ -28,6 +28,10 @@ hist(overallHealth)
 tbl$h <- overallHealth
 preferredColumnOrder <- c("id","lat","lon","dbh","h1","h2","h3","h","aspect","slope","date","comments","observer")
 tbl <- tbl[, preferredColumnOrder]
+
+# tbl <- subset(tbl, date=="2024-02-10") # & observer=="paul")
+
+write.table(tbl, "tblFinal.csv", sep=",", quote=FALSE, row.names=FALSE)
 print(dim(tbl))
 jsonText = toJSON(tbl, na="string", digits=6)
 writeLines(jsonText, con="hemlocks.json")
