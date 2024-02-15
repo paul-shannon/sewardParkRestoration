@@ -118,17 +118,18 @@ async function initMap(){
     fillOpacity: 0.05,
     });
 
-
   map = new Map(document.getElementById("map"),
                 {center: {lat: 47.55935, lng: -122.2529},
                  zoom: 16,
                 });
 
+   /*******
   graveyard.setMap(map);
   graveyard.addListener("click", (event) => {
      printClickPoint(event)
      })
 
+   ******/
 
    /***************
   const bigCircleNorth = new google.maps.Circle({
@@ -138,8 +139,9 @@ async function initMap(){
       fillColor: "#FFFFFF",
       fillOpacity: 0.00,
       map,
-      center: {lat: 47.559674, lng: -122.251877},
-      radius: 130
+      center: {lat: 47.559258, lng: -122.251877},
+      //center: {lat: 47.559674, lng: -122.251877},
+      radius: 160
       });
 
   const bigCircleSouth = new google.maps.Circle({
@@ -150,7 +152,7 @@ async function initMap(){
       fillOpacity: 0.00,
       map,
       center: {lat: 47.554286, lng: -122.249140},
-      radius: 130
+      radius: 160
       });
       *********/
 
