@@ -1,4 +1,4 @@
-id,lat,lon,dbh,h1,h2,h3,aspect,slope,date,comments,wp,canopy,dfRooted,observer
+id,lat,lon,dbh,h1,h2,h3,aspect,slope,date,comments,wp,canopy,dfAssociated,observer
 1,47.560123,-122.252269,36,NA,0,0,-1,-1,2024-01-18,snag; heavy woodpecker damage; yellow and brown moss up high,,,,muwei
 2,47.560078,-122.251997,22,NA,2,3,-1,-1,2024-01-18,middle section has only a few good branches,,,,muwei
 3,47.560222,-122.251542,30,NA,0,1,-1,-1,2024-01-18,,,,,muwei
@@ -14,13 +14,13 @@ id,lat,lon,dbh,h1,h2,h3,aspect,slope,date,comments,wp,canopy,dfRooted,observer
 2004,47.560082,-122.251506,27,0,0,0,260,10,2024-01-20,8 foot snag,,,,nate
 2005,47.559895,-122.251352,8,0,0,0,300,15,2024-01-20,very recent fall;few needles;lots of moss;woodpecker damage,,,,nate
 2006,47.559777,-122.251322,7,0,0,2,300,10,2024-01-20,,,,,nate
-2007,47.559765,-122.251321,9,1,1.5,2,275,5,2024-01-20,,,,,nate
+2007,47.55982,-122.25123,9,1,1.5,2,275,5,2024-01-20,,,,,nate
 10,47.559978,-122.252067,31,0,2,3,300,15,2024-01-20,,,,,muwei
-2008,47.559593,-122.251197,28,0,1,3,320,10,2024-01-20,low bottom score may be due to self-pruning after canopy breakthrough,,,,nate
-2009,47.559647,-122.251397,19,2,2.5,3,320,10,2024-01-20,possible self-pruing on south side,,,,nate
+2008,47.55959,-122.25143,28,0,1,3,320,10,2024-01-20,low bottom score may be due to self-pruning after canopy breakthrough,,,,nate
+2009,47.5595838,-122.2512926,19,NA,1.5,3,320,10,2024-01-20,possible self-pruing on south side,,,,nate
 11,47.559773,-122.252059,30,NA,0,0,300,12,2024-01-20,many small branches and cones; no needles; probably died last year,,,,muwei
-2010,47.559513,-122.251344,7,0,0,0,315,5,2024-01-20,,,,,nate
-2011,47.559422,-122.251409,27,NA,1,2.5,290,5,2024-01-20,,,,,nate
+2010,47.5595602,-122.2513868,7,0,0,0,315,5,2024-01-20,,,,,nate
+2011,47.55960,-122.25137,27,NA,1,2.5,290,5,2024-01-20,,,,,nate
 12,47.560333,-122.251901,22,0,0,0,270,25,2024-01-23,8 foot snag,,,,muwei
 13,47.560467,-122.251817,32,NA,0,NA,270,25,2024-01-23,30 foot snag;recently died,,,,muwei
 14,47.560448,-122.251568,29,NA,0,1.5,NA,0,2024-01-23,,,,,paul
@@ -86,11 +86,11 @@ id,lat,lon,dbh,h1,h2,h3,aspect,slope,date,comments,wp,canopy,dfRooted,observer
 66,47.559487,-122.252597,3.5,1,2,2.5,300,10,2024-01-30,wp 0,,,,muwei
 67,47.559477,-122.252587,2,2,2,1.4,300,10,2024-01-30,wp 0,,,,muwei
 68,47.559452,-122.251594,4,0,2,3,300,5,2024-01-30,wp 0,,,,muwei
-69,47.559545,-122.251516,5,0,0,0,300,10,2024-01-30,wp 0,,,,muwei
+69,47.55945,-122.25149,5,0,0,0,300,10,2024-01-30,wp 0,,,,muwei
 70,47.559405,-122.251426,2,0,0,0,300,10,2024-01-30,wp 0,,,,muwei
 71,47.559043,-122.251384,5,0,0,0,300,15,2024-01-30,wp 0,,,,muwei
 72,47.559983,-122.251934,1,2.5,3,3,330,20,2024-01-30,wp 0; sapling 5 ft high,,,,muwei
-73,47.559493,-122.251461,32,0.5,0,1.5,350,4,2024-02-03,,,,,eric
+73,47.55953,-122.25157,32,0.5,0,1.5,350,4,2024-02-03,,,,,eric
 3009,47.559310,-122.252001,37,NA,NA,2.5,315,5,2024-02-03,,,,,paul
 74,47.559173,-122.251279,18,1.5,2.5,3,350,5,2024-02-03,,,,,eric
 3010,47.559085,-122.251994,4,0,1.5,3,330,4,2024-02-03,,,,,paul
@@ -222,4 +222,51 @@ id,lat,lon,dbh,h1,h2,h3,aspect,slope,date,comments,wp,canopy,dfRooted,observer
 4033,47.5541260,-122.2496122,29,0,0,0,NA,0,2024-02-13,too old to include? log quite decayed,,,,paul
 2015,47.5599455,-122.2516510,45,0,1.5,2.5,270,20,2024-02-13,wp0;stump no;canopy tree;broken 40 feet above the ground,,,,muwei
 2016,47.5599012,-122.2514874,30,0,0,0,300,15,2024-02-13,wp4;stump no;canopy tree;40 ft snag,,,,muwei
-
+4050,47.5597489,-122.2508416,8,2.5,2.5,2.5,305,10,2024-02-17,two feet north of a healthy cedar which shades out all but easterly branches,,,,paul
+2017,47.5597933,-122.2510421,3,0,0,0,300,15,202 4-02-17,,wp0,False,False,muwei
+4051,47.5596424,-122.2508487,19,0,0,0,345,0,2024-02-17,14 ft snag; very old; log not evident,,,,
+2018,47.55949,-122.25071,14,0,0,1.5,30,5,2024-02-17,,wp0,False,False,eric
+2019,47.55949,-122.25068,3.5,1,2,2,30,5,2024-02-17,,wp0,True,False,eric
+4052,47.5592344,-122.2505654,40,NA,NA,3,10,,52024-02-17,one dead branch vz2 south facing,,,,nate
+4053,47.5592405,-122.2504842,6,0,1.5,3,35,5,2024-02-17,,,,,nate
+4054,47.5592007, -122.2504222,9,0,1,2.5,60,5,2024-02-17,,,,,nate
+2020,47.55938,-122.25032,0.5,3,3,3,30,5,2024-02-17,one of 3 young trees growing out of a log w/in 5 ft,wp0,False,True,eric
+2021,47.55933,-122.25032,1,3,3,3,30,5,2024-02-17,one of 3 young trees growing out of a log w/in 5 ft,wp0,False,True,eric
+2022,47.55928,-122.25032,1,3,3,3,30,5,2024-02-17,one of 3 young trees growing out of a log w/in 5 ft,wp0,False,True,eric
+2023,47.55963,-122.25039,7,0,0,2,30,5,2024-02-17,,wp0,False,False,eric
+2024,47.55939,-122.25051,2.5,0,0,0,30,5,2024-02-17,fallen tree,0,False,False,eric
+2025,47.55937,-122.25047,8,0,0,0,30,5,2024-02-17,knocked down two feet above ground; no healthy branched,wp0,False,False,eric
+4055,47.5591964,-122.2501583,8,2,3,3,70,5,2024-02-17,recently falled df damaged one side,,,,nate
+4056,47.5591776,-122.2501272,8,0,1,2,50,10,2024-02-17,doubtful to include; mostly killed by falling df,,,,nate
+2026,47.55921,-122.25010,7,0,0.5,0.5,30,5,2024-02-17,,wp0,False,False,eric
+2027,47.55900,-122.250000,1.5,1,2,3,30,10,2024-02-17,on df at sqebeqsed trail; in 5-cluster looking healthier than the numbers,wp0,False,True,
+2028,47.55900,-122.250020,2,1,2.5,3,30,10,2024-02-17,on df at sqebeqsed trail; in 5-cluster looking healthier than the numbers,wp0,False,True,
+2029,47.55900,-122.250040,0.5,0,0,0,30,10,2024-02-17,on df at sqebeqsed trail; in 5-cluster looking healthier than the numbers,wp0,False,True,
+2030,47.55900,-122.250060,1,0,0,2.5,30,10,2024-02-17,on df at sqebeqsed trail; in 5-cluster looking healthier than the numbers,wp0,False,True,
+2031,47.55900,-122.250080,9.5,1,3,3,30,10,2024-02-17,on df at sqebeqsed trail; in 5-cluster looking healthier than the numbers,wp0,False,True,
+4059,47.5589043,-122.2499397,12,0.5,0,0.5,70,5,2024-02-17,,,,,nate
+4060,47.5589030,-122.2498801,5,0,1,2.5,85,10,2024-02-17,,,,,nate
+4061,47.5588392,-122.2500061,17,1.5,2,3,80,5,2024-02-17,,,,,nate
+4062,47.5587342,-122.2500148,6,0,0,2,65,5,2024-02-17,,,,,nate
+2032,47.5586301,-122.2500504,35,NA,NA,3,60,5,2024-02-17,,wp0,True,False,muwei
+4063,47.5586699,-122.2501738,19,0,0,3,55,5,2024-02-17,fine branchlets at bottom: dz? self-pruning?,,,,nate
+4064,47.5585043,-122.2500393,28,NA,1,2,70,5,2024-02-17,,wp0,,,nate
+2032,47.55843,-122.25008,3,0,0,0,30,10,2024-02-17,growing out of a cedar stump,wp0,False,False,eric
+4065,47.5582473,-122.2501449,26,0,0,0,100,5,2024-02-17,wp5,,,,nate
+2033,47.55825,-122.25027,25,0,0,0,30,10,2024-02-17,next to 20 ft log which was its top,wp5,False,False,eric
+# id,lat,lon,dbh,h1,h2,h3,aspect,slope,date,comments,wp,canopy,dfAssociated,observer
+4066,47.5582511,-122.2504598,15,0,0,0,65,5,2024-02-17,2006 annosus,,,,nate
+4067,47.5582498,-122.2504215,30,0,0,0,80,5,2024-02-17,2006 annosus,wp3,,,nate
+4068,47.5582485,-122.25043,30,0,0,0,60,5,2024-01-17,snag 7 feet;2006 annosus?,wp5,,,eric
+4069,47.5582484,-122.2504088,16,0,0,0,70,5,2024-02-17,2006 annosus?,,,,nate
+# ,,,,,,,2024-02-17,,,,,
+# ,,,,,,,2024-02-17,,,,,
+# ,,,,,,,2024-02-17,,,,,
+# ,,,,,,,2024-02-17,,,,,
+# ,,,,,,,2024-02-17,,,,,
+# ,,,,,,,2024-02-17,,,,,
+# ,,,,,,,2024-02-17,,,,,
+# ,,,,,,,2024-02-17,,,,,
+# ,,,,,,,2024-02-17,,,,,
+# ,,,,,,,2024-02-17,,,,,
+# ,,,,,,,2024-02-17,,,,,

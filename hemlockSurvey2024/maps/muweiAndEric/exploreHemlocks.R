@@ -9,6 +9,7 @@ mapMidpoint  <- 47.556575
 
 tbl.north <- subset(tbl, lat >= mapMidpoint)
 tbl.south <- subset(tbl, lat < mapMidpoint)
+par(mfrow = c(1, 2))
 boxplot(tbl.north$h, tbl.south$h, names=c("graveyard", "garden"), main="Hemlock Health scaled 0-3")
 boxplot(tbl.north$dbh, tbl.south$dbh, names=c("graveyard", "garden"), main="Hemlock Diameter (DBH inches)")
 
