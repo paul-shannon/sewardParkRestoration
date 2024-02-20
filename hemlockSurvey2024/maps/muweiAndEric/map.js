@@ -120,7 +120,7 @@ async function initMap(){
 
   map = new Map(document.getElementById("map"),
                 {center: {lat: 47.55935, lng: -122.2529},
-                 zoom: 16,
+                 zoom: 16.5,
                 });
 
    /*******
@@ -131,7 +131,10 @@ async function initMap(){
 
    ******/
 
-   /***************
+   /***************/
+  //bigCircleNorthCenter = {lat: 47.559258, lng: -122.251877}
+  var bigCircleNorthCenter = {lat: 47.559757, lng: -122.252027}; 
+
   const bigCircleNorth = new google.maps.Circle({
       strokeColor: "#0000FF",
       strokeOpacity: 1.0,
@@ -139,10 +142,13 @@ async function initMap(){
       fillColor: "#FFFFFF",
       fillOpacity: 0.00,
       map,
-      center: {lat: 47.559258, lng: -122.251877},
+      center: bigCircleNorthCenter,
       //center: {lat: 47.559674, lng: -122.251877},
-      radius: 160
+      radius: 100
       });
+
+  //bigCircleSouthCenter = {lat:  47.554286, lng: -122.249140}
+  var bigCircleSouthCenter = {lat:  47.554988, lng: -122.249278}
 
   const bigCircleSouth = new google.maps.Circle({
       strokeColor: "#0000FF",
@@ -151,10 +157,10 @@ async function initMap(){
       fillColor: "#FFFFFF",
       fillOpacity: 0.00,
       map,
-      center: {lat: 47.554286, lng: -122.249140},
-      radius: 160
+      center: bigCircleSouthCenter,
+      radius: 100
       });
-      *********/
+      /*********/
 
         
   map.addListener("click", (mapsMouseEvent) => {
@@ -204,6 +210,7 @@ async function drawTrees(map){
                "<li> overall health: " + tree["h"] +
                "<li> aspect: " + tree["aspect"] +
                "<li> slope: " + tree["slope"] + 
+               "<li> date: " + tree["date"] + 
                "</ul>" +
                tree["comments"]
            })
