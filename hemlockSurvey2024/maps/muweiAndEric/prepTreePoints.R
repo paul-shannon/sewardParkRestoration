@@ -21,6 +21,10 @@ toMarkerAndInfoWindow <- function(row)
 } # toMarker
 #--------------------------------------------------------------------------------
 tbl <- read.table("hemlocks.csv", sep=",", header=TRUE, as.is=TRUE, nrow=-1)
+tbl.2021 <- read.table("hemlocks-2021-clean.csv", sep=",", header=TRUE, quote="")
+stopifnot(colnames(tbl) == colnames(tbl.2021))
+tbl <- rbind(tbl, tbl.2021)
+
 healthSums <- apply(tbl[, c("h1", "h2", "h3")], 1, sum, na.rm=TRUE)
 goodValues <- apply(tbl[, c("h1", "h2", "h3")], 1, function(row) length(which(!is.na(row))))
 overallHealth <- round(healthSums/goodValues, digits=2)
@@ -28,6 +32,8 @@ hist(overallHealth)
 tbl$h <- overallHealth
 preferredColumnOrder <- c("id","lat","lon","dbh","h1","h2","h3","h","aspect","slope","date","comments","observer")
 tbl <- tbl[, preferredColumnOrder]
+
+
 
 # tbl <- subset(tbl, date=="2024-02-10") # & observer=="paul")
 
