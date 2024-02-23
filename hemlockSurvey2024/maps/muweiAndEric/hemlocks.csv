@@ -150,7 +150,7 @@ id,lat,lon,dbh,h1,h2,h3,aspect,slope,date,observer,wpDamage,canopy,dfAssoc,comme
 2014,47.5598111,-122.2516882,30,0,0,0,270,10,2024-02-13,muwei,1,False,False,wp1;stump no;canopy tree
 2015,47.5599455,-122.251651,45,0,1.5,2.5,270,20,2024-02-13,muwei,0,False,False,wp0;stump no;canopy tree;broken 40 feet above the ground
 2016,47.5599012,-122.2514874,30,0,0,0,300,15,2024-02-13,muwei,4,False,False,wp4;stump no;canopy tree;40 ft snag
-2017,47.5597933,-122.2510421,3,0,0,0,300,15,202 4-02-17,muwei,0,False,False,
+2017,47.5597933,-122.2510421,3,0,0,0,300,15,2024-02-17,muwei,0,False,False,
 2018,47.55949,-122.25071,14,0,0,1.5,30,5,2024-02-17,eric,0,False,False,
 2019,47.55949,-122.25068,3.5,1,2,2,30,5,2024-02-17,eric,0,True,False,
 2020,47.55938,-122.25032,0.5,3,3,3,30,5,2024-02-17,eric,0,False,True,one of 3 young trees growing out of a log w/in 5 ft
