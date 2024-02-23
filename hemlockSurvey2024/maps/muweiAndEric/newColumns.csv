@@ -1,7 +1,31 @@
-id,wpDamage,dfAssoc,canopy
-70,0,True,False
+id,wpDamage,canopy,dfAssoc
+70,0,False,True
 2007,0,False,False
 2006,0,False,False
+4029,0,False,False
+4027,4,False,False
+43,0,False,False
+44,0,False,False
+42,0,False,False
+45,3,True,False
+48,0,True,False
+49,0,True,False
+3008,5,True,False
+3005,2,True,False
+3006,1,True,False
+3009,0,True,False
+62,0,False,False
+63,0,False,False
+64,0,False,False
+66,0,False,True
+67,0,False,True
+68,0,False,True
+55,0,True,False
+56,0,True,False
+57,0,True,False
+
+
+
 # stump yes canopy no
 #2007 woodpecker 0 stump no canopy no
 #2006 woodpecker 0 stump no canopy no
@@ -30,4 +54,4 @@ id,wpDamage,dfAssoc,canopy
 #56 woodpecker 0 Douglas no canopy tree
 #57 woodpecker 0 Douglas no canopy tree
 
-A Male pileated feeding on tree #1
+# A Male pileated feeding on tree #1
