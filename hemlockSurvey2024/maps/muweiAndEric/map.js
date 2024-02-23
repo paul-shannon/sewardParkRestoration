@@ -196,10 +196,6 @@ async function drawTrees(map){
            title: tree["id"].toString(),
            icon: icon
            })
-       //let label = {text: tree["id"].toString,
-       //             color: "black",
-       //             fontSize: "32px"}
-       //marker.setLabel(label)
        let infoWindow = new google.maps.InfoWindow({
            content: "<h4> tree #" + tree["id"] + " (" + tree["observer"] + ")</h4>" +
              "<ul>" +
@@ -214,9 +210,6 @@ async function drawTrees(map){
                "</ul>" +
                tree["comments"]
            })
-       //marker.addListener("mouseover", () => {
-       //  console.log(tree["id"])
-       //  })
        marker.addListener("click", () => {
           infoWindow.open({
              anchor: marker,
@@ -226,11 +219,8 @@ async function drawTrees(map){
        }) // forEach
 
 
-
-
-  //google.maps.event.addListenerOnce(map, 'idle', function(){
-     setInterval(function(){
-        navigator.geolocation.getCurrentPosition(function(pos){
+    setInterval(function(){
+       navigator.geolocation.getCurrentPosition(function(pos){
            var latLng = {"lat": pos.coords.latitude, "lng": pos.coords.longitude};
            if(typeof(locationMarker) == "undefined"){
               locationMarker = new google.maps.Marker({

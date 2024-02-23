@@ -4,7 +4,7 @@ default:
 	@echo json
 	@echo venv
 	@echo server
-	@echo viewLocal
+	@echo view
 	@echo publish
 	@echo viewRemote
 
@@ -17,7 +17,7 @@ venv:
 server:
 	python -m http.server $(PORT) &
 
-viewLocal:
+view:
 	open http://localhost:$(PORT)/mapWithTabs.html
 
 DEST = paulshannnon@pshannon.net:public_html/pshannon.net/hemlockSurvey2024
