@@ -150,7 +150,7 @@ id,lat,lon,dbh,h1,h2,h3,h,wpDamage,canopy,dfAssoc,aspect,slope,date,comments,obs
 2014,47.5598111,-122.2516882,30,0,0,0,0,1,False,False,270,10,2024-02-13,wp1;stump no;canopy tree,muwei
 2015,47.5599455,-122.251651,45,0,1.5,2.5,1.33,0,False,False,270,20,2024-02-13,wp0;stump no;canopy tree;broken 40 feet above the ground,muwei
 2016,47.5599012,-122.2514874,30,0,0,0,0,4,False,False,300,15,2024-02-13,wp4;stump no;canopy tree;40 ft snag,muwei
-2017,47.5597933,-122.2510421,3,0,0,0,0,0,False,False,300,15,202 4-02-17,,muwei
+2017,47.5597933,-122.2510421,3,0,0,0,0,0,False,False,300,15,2024-02-17,,muwei
 2018,47.55949,-122.25071,14,0,0,1.5,0.5,0,False,False,30,5,2024-02-17,,eric
 2019,47.55949,-122.25068,3.5,1,2,2,1.67,0,True,False,30,5,2024-02-17,,eric
 2020,47.55938,-122.25032,0.5,3,3,3,3,0,False,True,30,5,2024-02-17,one of 3 young trees growing out of a log w/in 5 ft,eric
@@ -207,7 +207,7 @@ id,lat,lon,dbh,h1,h2,h3,h,wpDamage,canopy,dfAssoc,aspect,slope,date,comments,obs
 3040,47.55456,-122.249111,22,NA,1.5,3,2.25,0,False,False,105,5,2024-02-04,,nate
 3041,47.554578,-122.249241,11,2,3,3,2.67,0,False,False,90,5,2024-02-04,,nate
 4000,47.555329,-122.24944,49,NA,0,3,1.5,0,False,False,350,30,2024-02-06,middle has many recently died branches;not sure if this is self-pruning or disease; wp 0,muwei
-4001,475589041,-122.2508976,40,NA,0,0,0,5,False,False,350,0,2024-02-06,totem pole tree; bare fine branchlets top and middle; wp 100,muwei
+4001,47.5589041,-122.2508976,40,NA,0,0,0,5,False,False,350,0,2024-02-06,totem pole tree; bare fine branchlets top and middle; wp 100,muwei
 4002,47.5589235,-122.2504665,12,0,1.5,3,1.5,0,False,False,360,10,2024-02-06,wp 0,muwei
 4003,47.5590346,-122.2508835,2,0,0,1.5,0.5,0,False,False,360,0,2024-02-06,wp 0,muwei
 4004,47.5590021,-122.2505831,11,1,0.5,1,0.83,0,False,False,360,0,2024-02-06,,muwei
@@ -277,3 +277,22 @@ id,lat,lon,dbh,h1,h2,h3,h,wpDamage,canopy,dfAssoc,aspect,slope,date,comments,obs
 5021,47.5581054,-122.2498482,23,2.5,3,3,2.83,0,False,False,NA,NA,2024-02-18,,nate
 5022,47.5578312,-122.2499344,10,0,2,3,1.67,0,False,False,NA,NA,2024-02-18,,nate
 5023,47.5577063,-122.2498408,9,1.5,3,3,2.5,0,False,False,NA,NA,2024-02-18,,nate
+6000,47.5597433,-122.2503736,7,1,2,2,1.67,0,False,False,30,30,2024-02-25,,paul
+6001,47.5598946,-122.2504427,18,2,2,3,2.33,0,True,False,30,30,2024-02-25,unclear whether low west branch is self- pruned or diseased,paul
+6002,47.560246,-122.2505955,2,0,0,0,0,0,False,False,320,5,2024-02-25,six feet tall. fine branchlets covered with moss/lichen,paul
+6003,47.560246,-122.2505955,1,1,1,2,1.33,0,False,False,320,5,2024-02-25,todo: is this 6004?,paul
+6005,47.5607659,-122.2508477,2.5,2,3,3,2.67,0,False,True,330,5,2024-02-25,this and 6006 grow out of 6 ft diameter logged df stump,paul
+6006,47.560773,-122.250814,6,2,3,3,2.67,0,False,True,360,10,2024-02-25,overall thin needles - lower branches bare probably due to self-pruning,paul
+6007,47.5609713,-122.2516232,1,3,3,3,3,0,False,False,NA,0,2024-02-25,planted; tag has lost all color; orange inferred from 6009 and 6010,paul
+6008,47.5611259,-122.2516724,1.5,2,3,3,2.67,0,False,True,290,5,2024-02-25,grows off base of old stump (which might be hemlock),paul
+6009,47.5610476,-122.2517482,0.5,3,3,3,3,0,False,False,260,10,2024-02-25,planted - trace of orange on tag,paul
+6010,47.5610098,-122.2520235,0.5,3,3,3,3,0,False,False,275,5,2024-02-25,planted; orange trace on tag; six feet tall,paul
+6011,47.5612526,-122.2523484,1,1,3,3,2.33,0,False,False,300,5,2024-02-25,,paul
+6012,47.5611652,-122.2530907,3,2,2.5,3,2.5,0,False,False,330,10,2024-02-25,10 feet from seasonal stream - running now; todo: mislabeled as 6011,paul
+137,47.5592231,-122.2499964,3,2,2,3,2.33,0,False,True,70,10,2024-02-25,grows out of a maple stump,eric
+138,47.5592905,-122.2500836,7,0,0,2,0.67,0,False,False,70,10,2024-02-25,,eric
+139,47.5610856,-122.2512819,17,0.5,1.5,3,1.67,0,True,False,340,10,2024-02-25,,eric
+140,47.5612193,-122.251473,6,2,3,3,2.67,0,False,False,340,10,2024-02-25,,eric
+142,47.5612526,-122.2519125,5,1,2,3,2,0,False,False,340,10,2024-02-25,,eric
+143,47.5612897,-122.2521217,12,0,2.5,3,1.83,0,True,False,290,5,2024-02-25,,eric
+144,47.5612897,-122.2521217,3,2.5,3,3,2.83,0,False,False,280,5,2024-02-25,,eric
