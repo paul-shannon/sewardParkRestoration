@@ -296,3 +296,124 @@ id,lat,lon,dbh,h1,h2,h3,aspect,slope,date,observer,wpDamage,canopy,dfAssoc,comme
 142,47.5612526,-122.2519125,5,1,2,3,340,10,2024-02-25,eric,0,False,False,
 143,47.5612897,-122.2521217,12,0,2.5,3,290,5,2024-02-25,eric,0,True,False,
 144,47.5612897,-122.2521217,3,2.5,3,3,280,5,2024-02-25,eric,0,False,False,
+
+6020,47.5580237,-122.2497141,31,NA,NA,3, 40,20,2024-02-27,paul,0,True,False,
+6021,47.5580918,-122.2495934,18,0,0,0,    40,20,2024-02-27,paul,0,True,False,uprooted;fine branches at top;recent. 
+6022,47.5581362,-122.2496092,8.5,0,0,1.5,40,20,2024-02-27,paul,0,False,False, very thin needles at top; surplus cones
+6023,47.5581445,-122.2494982,6,NA,2,3,   40,20,2024-02-27,paul,0,False,False, broken top. 16 ft tall. dougFir-like lower bark
+6024,47.5581210,-122.2492967,15,2,2,3,   40,20,2024-02-27,paul,0,True,False,  lots of pruning vz 0; one fine branch; no dz evident 
+6025,47.5581029,-122.2493322,22,NA,NA,3, 40,20,2024-02-27,paul,0,True,False,  cluster of fine branches vz 0. And 1 East facing 0-16 ft. Much pruning north and west
+6026,47.5576282,-122.2489896,43,NA,NA,3, 40,20,2024-02-27,paul,0,True,False,  50 ft north of hatchery fence nw corner
+6027,47.5575794,-122.2490161,28,0,0,0,   40,20,2024-02-27,paul,3,False,False, 7 ft stump
+6028,47.5575151,-122.2489705,9.5,3,2,3,  40,20,2024-02-27,paul,0,False,False, 
+6029,47.5573922,-122.2493336,25,0,0,0,   40,20,2024-02-27,paul,5,False,False, 28 ft. Snag
+6030,47.5575171,-122.2493004,34,NA,2,3,  80,10,2024-02-27,paul,0,True,False,  vz 2 mix of self-pruning and health; Lots of holly nearby
+6031,47.5574468,-122.2492715,6,3,3,3,    80,15,2024-02-27,paul,0,False,False, 
+6032,47.5573787,-122.2494177,6,1,3,3,    80,15,2024-02-27,paul,0,False,False,  
+6033,47.5573792,-122.2494185,1,NA,2,3,   80,15,2024-02-27,paul,0,False,True,   grows out of a log  log 
+6034,47.5574257,-122.2494023,30,NA,2,3,  100,15,2024-02-27,paul,0,True,False,  
+6035,47.5574404,-122.2493641,4.5,0,2,3,  100,15,2024-02-27,paul,0,False,False,  
+6036,47.5574250,-122.2492296,35,NA,2,3,  100,15,2024-02-27,paul,2,True,False,  
+6037,47.5575669,-122.2495049,28,2,NA,3,  110,30,2024-02-27,paul,0,True,False, 
+6038,47.5575563,-122.2496383,10,3,3,3,   110,30,2024-02-27,paul,0,False,False, 
+6039,47.5575585,-122.2495126,36,0,0,0,   110,30,2024-02-27,paul,0,True,False,   35 ft  snag
+400,47.5582031,-122.2496601,18,NA,NA,2.5,90,10,2024-02-27,muwei,0,True,False,
+401,47.5581090,-122.2496108,24,NA,NA,3,90,15,2024-02-27,muwei,0,True,False,
+402,47.5580674,-122.2496947,24,NA,2.5,3,90,20,2024-02-27,muwei,0,True,False,
+403,47.5581511,-122.2497185,20,NA,1.5,2,90,15,2024-02-27,muwei,0,True,False,
+404,47.5582326,-122.2497537,12,NA,2,2.5,90,15,2024-02-27,muwei,0,True,False,likely breaking through the canopy and shedding lower branches naturally
+405,47.5580617,-122.2497721,19,NA,2,3,60,15,2024-02-27,muwei,0,True,False,
+406,47.5581007,-122.2496869,21,2,2.5,3,60,15,2024-02-27,muwei,0,True,False,
+407,47.5579448,-122.2495783,35,NA,NA,3,90,15,2024-02-27,muwei,0,True,False,
+408,47.5580581,-122.2496393,6.5,1,2,3,90,20,2024-02-27,muwei,0,False,False,
+409,47.5580737,-122.2496558,8.5,NA,2,3,90,20,2024-02-27,muwei,0,False,False,
+410,47.5579583,-122.2493929,8.5,NA,2,2.5,90,20,2024-02-27,muwei,0,False,False,
+
+145,47.5578893,-122.2502589,29,0,0,0,90,5,2024-03-02,eric,4,True,False, snag: 55 ft.
+146,47.5578255,-122.2503364,13,NA,1.5,3,90,5,2024-03-02,eric,0,False,False,growing out of a maple tree a few feet off the ground - had to climb it.
+147,47.5576594,-122.2500611,13,2,3,3,90,5,2024-03-02,eric,0,True,False,
+148,47.5576594,-122.2500611,18,0,0,0,90,5,2024-03-02,eric,2,False,False,Fallen tree - looks somewhat recent
+149,47.5576746,-122.2504460,12,0,0,0,90,5,2024-03-02,eric,0,False,False,Fallen tree - looks somewhat recent
+150,47.5577414,-122.2502281,13,1.5,2.5,3,90,5,2024-03-02,eric,0,True,False,
+151,47.5577260,-122.2502338,9,0.5,2,3,90,5,2024-03-02,eric,0,True,False,
+152,47.5577447,-122.2502241,10,2.5,2,2.5,90,5,2024-03-02,eric,0,True,False,Very strange snag. Looks like a normal tree but is chopped off 20 feet up.
+153,47.5576746,-122.2504460,13,0,0,0,90,5,2024-03-02,eric,0,False,False,Fallen tree - looks somewhat recent
+154,47.5575334,-122.2503437,13,3,3,3,90,5,2024-03-02,eric,0,False,False,
+155,47.5575334,-122.2503437,4,0,0,0,120,5,2024-03-02,eric,0,False,False,Fallen young tree - looks somewhat recent
+156,47.5575269,-122.2503531,8,NA,2,3,120,5,2024-03-02,eric,0,False,False,
+157,47.5575088,-122.2503867,6,1,1.5,3,120,5,2024-03-02,eric,0,False,False,
+158,47.5575228,-122.2503645,5,0,2,3,120,5,2024-03-02,eric,0,False,False,
+159,47.5575228,-122.2503645,5,0,1,2,120,5,2024-03-02,eric,0,False,False,
+#160-162 are all growing out of the same big fir stump.
+160,47.5573823,-122.2504701,4,1.5,2.5,2.5,120,5,2024-03-02,eric,0,False,True,
+161,47.5573823,-122.2504701,4,0,3,3,120,5,2024-03-02,eric,0,False,True,
+162,47.5573823,-122.2504701,3,1.5,2,3,120,5,2024-03-02,eric,0,False,True,
+163,47.5573780,-122.2504779,6,0,0,0,120,5,2024-03-02,eric,0,False,False,fallen tree
+164,47.5573531,-122.2505986,24,2,2,3,120,5,2024-03-02,eric,0,False,False,
+165,47.5573375,-122.2506378,26,NA,3,3,120,10,2024-03-02,eric,0,True,False,
+166,47.5573375,-122.2506378,27,NA,2,3,120,10,2024-03-02,eric,0,True,False,
+167,47.5573375,-122.2506378,18,1,1.5,3,120,10,2024-03-02,eric,0,True,False,
+168,47.5573375,-122.2506378,18,1,1.5,3,120,10,2024-03-02,eric,0,True,False,
+169,47.5573178,-122.2507008,4,1,2,2.5,120,10,2024-03-02,eric,0,True,False,
+170,47.5572481,-122.2509318,28,0,0,0,330,5,2024-03-02,eric,0,False,False,snag - 45 feet
+171,47.5573488,-122.2509841,32,NA,NA,3,330,5,2024-03-02,eric,0,True,False,
+172,47.5571834,-122.2508869,5,0,1.5,1.25,330,5,2024-03-02,eric,0,False,False,
+173,47.5571080,-122.2509057,5,0,1.5,2,80,5,2024-03-02,eric,0,False,False,
+174,47.5570775,-122.2508111,7,1,2.5,3,80,10,2024-03-02,eric,0,False,False,
+175,47.5571366,-122.2505734,22,NA,2,3,70,5,2024-03-02,eric,0,False,False,
+176,47.5571223,-122.2505546,26,NA,NA,3,70,5,2024-03-02,eric,0,True,False,
+177,47.5571223,-122.2505546,31,0,0,0,70,5,2024-03-02,eric,3,False,False, snag 45 ft.
+411,47.5578224,-122.2501238,16,NA,NA,NA,90,15,2024-03-02,muwei,0,True,False,fallen log
+412,47.5576615,-122.2500329,30,NA,NA,NA,90,10,2024-03-02,muwei,0,True,False,10 foot snag
+413,47.5575398,-122.2501868,8.5,2,2.5,3,120,10,2024-03-02,muwei,0,False,False,
+414,47.5574649,-122.2502096,1,1,2,3,90,15,2024-03-02,muwei,0,False,True,
+415,47.5575409,-122.2503364,0.5,3,3,3,90,15,2024-03-02,muwei,0,False,True,
+416,47.5575058,-122.2502995,1,2,3,3,90,15,2024-03-02,muwei,0,False,True,
+418,47.5574130,-122.2501932,3.5,1,1.5,2.5,120,20,2024-03-02,muwei,0,False,True,
+419,47.5573320,-122.2504909,8,NA,2.5,3,90,20,2024-03-02,muwei,0,False,False,
+420,47.5572701,-122.2504051,4.5,NA,0,3,90,20,2024-03-02,muwei,0,False,False,
+421,47.5571284,-122.2505691,22.5,2.5,3,3,90,20,2024-03-02,muwei,0,True,False,missing top
+422,47.5571501,-122.2505020,5,2,3,3,60,25,2024-03-02,muwei,0,False,False,
+423,47.5572977,-122.2506877,8,0,2.5,3,60,25,2024-03-02,muwei,0,False,False,
+424,47.5572449,-122.2506582,28,NA,NA,3,99,25,2024-03-02,muwei,0,True,False,zone 1 and 2 some failing branches - likely self-pruning
+425,47.5571673,-122.2506304,5,2,2.5,3,60,25,2024-03-02,muwei,0,False,False,
+426,47.5570859,-122.2507558,3.5,2.5,3,3,60,30,2024-03-02,muwei,0,False,False,
+427,47.5570264,-122.2507065,8,0,0,0,50,5,2024-03-02,muwei,0,False,False,very recently died
+5027,47.5556534,-122.2505231,5.5,3,3,3,90,5,2024-03-02,nate,0,False,True,growing out of df stump
+5028,47.5556672,-122.2505483,5.5,3,3,3,90,5,2024-03-02,nate,0,False,True,growing out of stump
+5029,47.5557068,-122.2505489,7,3,3,3,90,5,2024-03-02,nate,0,False,True,growing out of stump
+5030,47.5557305,-122.2506056,9,2.5,3,3,80,5,2024-03-02,nate,0,False,False,
+5031,47.5557867,-122.2505124,5,3,3,3,85,5,2024-03-02,nate,0,False,False,
+5032,47.5558190,-122.2507957,22,3,3,3,250,5,2024-03-02,nate,0,False,False,
+5033,47.5559220,-122.2508031,8,3,3,3,240,5,2024-03-02,nate,0,False,False,
+5034,47.5559428,-122.2506281,5,3,3,3,80,5,2024-03-02,nate,0,False,False,
+5035,47.5560521,-122.2507069,4,3,3,3,85,5,2024-03-02,nate,0,False,False,
+5036,47.5561156,-122.2508108,2,3,3,3,235,1,2024-03-02,nate,0,False,True,growing out of doug fir log
+5037,47.5560580,-122.2509995,5,2,3,3,215,1,2024-03-02,nate,0,False,False,
+5038,47.5562467,-122.2509543,51,0,0,0,250,5,2024-03-02,nate,5,False,False,big stump; may not be hemlock; tagging tape on west side base
+5039,47.5561808,-122.2506126,33,3,3,3,110,5,2024-03-02,nate,0,True,False,
+5040,47.5562808,-122.2506656,5,2,2,2,110,5,2024-03-02,nate,0,False,False,
+5041,47.5561881,-122.2503290,39,NA,3,3,125,5,2024-03-02,nate,0,True,False,
+5042,47.5561480,-122.2504118,30,NA,3,3,120,5,2024-03-02,nate,0,True,False,
+5043,47.5562396,-122.2503682,16,3,3,3,110,5,2024-03-02,nate,0,False,False,
+
+# id,lat,lon,dbh,h1,h2,h3,aspect,slope,date,observer,wpDamage,canopy,dfAssoc,comments
+
+6100,47.5552364,-122.2495609,26,NA,2,3,NA,0,2024-03-02,paul,0,True,False,natural pruning at level 2; flat
+6101,47.5556839,-122.2504359,36,3,3,3,80,30,2024-03-02,paul,0,True,False,
+6102,47.5557815,-122.2503639,35,NA,NA,3,80,30,2024-03-02,paul,0,True,False,
+6103,47.5559523,-122.2504554,17,NA,2,3,70,25,2024-03-02,paul,0,True,False,low branch needles show some brown. . Might be a sign of self pruning OR dz
+6104,47.5559878,-122.2504614,10,NA,2,2,70,10,2024-03-02,paul,0,False,False,bottom lack of needles seems more self-pruning - not disease
+6105,47.5560177,-122.2503018,9,2,2.5,2.5,70,30,2024-03-02,paul,0,False,False,needles all 3 sections - but a little thin
+6106,47.5561261,-122.2502536,3,3,3,3,100,20,2024-03-02,paul,0,False,True,grows out of base of fallen doug fir
+6107,47.5561485,-122.2502157,3,3,3,3,100,35,2024-03-02,paul,0,False,True,base of doug fir now fallen hemlock is now horizontal
+6108,47.5561480,-122.2502150,3,2,3,3,100,35,2024-03-02,paul,0,False,True, 12 feet normal vertical growht out of another hemlock stump near 6107
+6109,47.5561475,-122.2502145,27,0,0,0,100,35,2024-03-02,paul,0,False,False,10 years fallen?
+6110,47.5559604,-122.2501345,5,NA,3,3,65,20,2024-03-02,paul,0,False,True,grows out of 6 ft cut df stump
+6112,47.5558444,-122.2503317,11,3,3,3,75,30,2024-03-02,paul,0,False,False, 6 feet east southeast of 6102
+6113,47.5557554,-122.2501875,4,0,0,0,75,30,2024-03-02,paul,0,False,False,strange 6 ft tree; broken top; fine branches and cones survive
+6114,47.5556495,-122.2503092,24,0,0,0,70,30,2024-03-02,paul,0,False,False,fallen 10-20 years ago?
+6115,47.5556495,-122.2503080,0.5,3,3,3,70,30,2024-03-02,paul,0,False,True, 3 foot sampling growing out of a doug fir stump
+6116,47.5556767,-122.2499615,18,NA,1,3,55,15,2024-03-02,paul,0,True,False,
+6117,47.5559444,-122.2499967,7,1,1,2,50,10,2024-03-02,paul,0,False,False,may be actively dying down low
+6118,47.5560399,-122.2502207,37,NA,NA,3,50,10,2024-03-02,paul,0,True,False,few zone 0 and 1 branches failing but not from dz. Pruning more likely
