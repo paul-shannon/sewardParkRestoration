@@ -1,0 +1,277 @@
+---
+title: "Seward Park Hemlock Study"
+date: 2024-03-04
+output: html_document
+css: style.css
+---
+
+### Western Hemlock mortality reported throughout the Puget lowlands since at least 2015.
+
+
+Researchers initially believed that this unusual mortality was caused
+by <i>Rhizoctonia butini</i>, a fungus in the order Cantharellales.
+This mechanism has since lost favor (personal communication, Jared
+LeBoldus, OSU Corvallis, personal communication), but no replacement
+theory has arisen.
+
+<p>
+Scientists and citizens commonly suggest that the mortality is due
+simply to old age - normal senescence - due to changes in weather patterns
+due to climate change.   
+
+<p> We suggest that neither hypothesis fits our data, and that the
+search for the causes of hemlock decline should continue.
+
+<p>Seward Park's remnant old-growth urban forest, 120 acres on a peninsula
+in Lake Washington, offers the opportunity to study this problem.   This
+forest has in the neighborhood of 800 Western Hemlock trees, of all ages, from
+newborn seedlings to four foot diameter 250 year old giants.
+
+<p> Informal observation led forest steward Paul Shannon to suppose that
+Two small (hectare-sized) hemlock-rich sites at Seward have
+roughly equivalent age and density distributions, yet radically
+different health profiles.  These contrasting sites offer the
+opportunity to study contrasting health and disease, and perhaps to
+identify the mechanism of the regional hemlock decline, where
+confounding factors are eliminated:  age distributions are similar,
+weather patterns are identical, mortality is radically diffeent.
+
+<p> In the study reported here, we followed up on Shannon's informal
+observations by measuring hundreds of hemlocks of all sizes, ages, locations and
+health status.  This set the stage for tests of statistical signifcance shown
+below.
+
+
+```{r setup, include = TRUE, echo=FALSE}
+f <- "https://pshannon.net/hemlockSurvey2024/tblFinal.csv"
+tbl <- read.table(f, sep=",", header=TRUE, as.is=TRUE, nrow=-1, quote="")
+#dim(tbl)
+```
+### "Graveyard" and "Garden"
+
+These two dense hemlock sites, initially identified by informal
+inspection, have comparable age distribution - estimated from tree diameter -
+and contasting health.
+
+<p> Subsequent mapping and analysis refined these results - see below.
+
+```{r boxplots, include=TRUE, echo=FALSE}
+
+tbl.graveyard <- subset(tbl, lat >= 47.558934)
+tbl.garden    <- subset(tbl, lat <= 47.555554)
+boxplot(tbl.graveyard$h, tbl.garden$h, names=c("graveyard", "garden"), main="Hemlock Health scaled 0-3")
+boxplot(tbl.graveyard$dbh, tbl.garden$dbh, names=c("graveyard", "garden"),
+         main="Hemlock Diameter (DBH inches) a proxy for age")
+
+
+```
+
+### Students Mapped, Measured and Assessed 600 Hemlock Trees
+
+Between January and March, two Univeristy of Washington students from
+the Program on the Environment, in their senior Capstone Research Project,
+along with a Garfield High School junior, spent about 200 hours in the
+forest, collecting data to test the hypothesis that
+
+<ol>
+   <li> dense hemlock stands
+   <li> of similar age distrituion
+   <li> exposed to essentially identical weather patterns
+   <li> nonethess exhibed sharply contrasting health
+   <li> thereby complicating popular notions that hemlock decline is due to
+     <ul>
+        <li> normal senescence
+        <li> changing weather patterns associated with climate change
+     </ul>
+</ol>
+
+<p>
+Here is a screenshot of the resulting <a href="https://pshannon.net/hemlockSurvey2024" target="_blank">interactive map</a>.
+The blue circles are hand-drawn visual estimates of the boundaries of the two informally
+identified contrasting sites.   These are replace below by analytically derived
+boundaries.
+<p>
+
+```{r bigMap, echo=FALSE, out.width = '100%'}
+   knitr::include_graphics("hemlockStudyOverview.png")
+```
+
+```{r density, fig.width=10, fig.height=11, echo=FALSE, eval=FALSE,include=FALSE}
+library(sf)
+library(osmdata)
+library(ggplot2)
+library(ggpubr)
+
+#--------------------------------------------------------------------------------
+plotDensity <- function(tbl, title)
+{
+   tbl.loc <- tbl[, c("lat", "lon", "dbh")]
+   missing <- which(is.na(tbl.loc$dbh))
+   if(length(missing) > 0)
+       tbl.loc <- tbl.loc[-missing,]
+   repFactor = round(tbl.loc$dbh /12)+1
+   #repFactor = round(tbl.loc$dbh)+1
+   tbl.inflated <- data.frame()
+   for(i in seq_len(nrow(tbl.loc))){
+       tbl.inflated <- rbind(tbl.inflated, tbl.loc[rep(i, repFactor[i]),])
+       }
+
+   trees.sf <- st_as_sf(tbl.inflated, coords=c("lon", "lat"), crs=4326)
+   trees.sf <- st_transform(trees.sf, 4326)
+
+  x <- ggplot() +
+      stat_density_2d(data = trees.sf,
+                      mapping = aes(x = purrr::map_dbl(geometry, ~.[1]),
+                                    y = purrr::map_dbl(geometry, ~.[2]),
+                                    fill = stat(density)),
+                      geom = 'tile',
+                      contour = FALSE,
+                      alpha = 0.8) +
+       geom_sf(data = sf_seward, fill = NA) +
+       # geom_sf(data = trees.sf, color="red") +
+       scale_fill_viridis_c(option = 'magma', direction = -1) +
+       theme_test() +
+      ggtitle(title)
+
+   return (x)
+
+} # plotDensity
+#--------------------------------------------------------------------------------
+bottomLeft <- c(47.548233, -122.25676)
+topRight   <- c(47.562744, -122.248006)
+xMin <- bottomLeft[2]
+xMax <- topRight[2]
+yMin <- bottomLeft[1]
+yMax <- topRight[1]
+
+bbox <- c(xMin, yMin, xMax, yMax)
+
+q <- opq(bbox=bbox)
+sfData <- osmdata_sf(q)
+
+   # bbox overpass_call meta osm_points osm_lines osm_polygons
+   # osm_multilines osm_multipolygons
+
+xLimits = c(xMin, xMax)
+yLimits = c(yMin, yMax)
+
+    # this is it! just seward
+
+sf_seward <- st_geometry(sfData$osm_multilines)
+sf_seward <- st_transform(sf_seward, 4326)
+
+f <- "https://pshannon.net/hemlockSurvey2024/tblFinal.csv"
+tbl <- read.table(f, sep=",", header=TRUE, as.is=TRUE, nrow=-1, quote="")
+
+
+pdf(NULL)
+quartz()
+
+p.all <- plotDensity(tbl, "All Hemlocks")
+p.sick <- plotDensity(subset(tbl, h <= 1),  "Hemlocks (h <= 1)")
+p.healthy <- plotDensity(subset(tbl, h >= 2),  "Hemlocks (h >= 2)")
+figure <- ggarrange(p.all, p.sick, p.healthy,nrow=1, ncol=3)
+
+figure
+
+
+```
+
+### Density Maps:  All Hemlocks, dying and dead, health hemlocks
+
+Kernel Density solves the "overplotting" problem seen in the map above, in
+which the regional state of the forest is obscured by the large number of
+individulally measures trees.   The leftmost plot shows the density of
+all hemlocks.  The middle shows the density of dead and low health trees.
+The rightmost plot shows the distribution of healthy hemlocks.
+
+```{r densityMaps, echo=FALSE, out.width = '100%'}
+   knitr::include_graphics("hemlockHealthDensityMaps.png")
+```
+
+### Selecting Contrasting Candidate Sites for Further Study
+
+In the density maps above, middle and left, we have confirmation of
+our informal observation, that sites of contrasting health are
+geographically separated.
+<p>
+Out next step is to define two sites of
+<ol>
+   <li> similar size
+   <li> similar density of hemlocks
+   <li> contrasting health status
+</ol>
+
+Our method:
+<ol>
+   <li> subset the full observation table by latitude and longitude
+   <li> poor health: trees northwest of 47.558711, -122.250358
+   <li> good health: trees south and east of that point
+   <li> calculate kernel densities of hemlocks in both regions
+   <li> from these densities, identify the boundaries of comparable sites 
+</ol>
+
+```{r densityContours, echo=TRUE, eval=TRUE, include=TRUE}
+library(MASS)
+library(RColorBrewer)
+options(digits=12)
+
+
+f <- "https://pshannon.net/hemlockSurvey2024/tblFinal.csv"
+tbl <- read.table(f, sep=",", header=TRUE, as.is=TRUE, nrow=-1, quote="")
+     # get just the healthy trees
+tbl.x <- subset(tbl, h>=2) 
+min.density <- 30000
+cellCount <- 500
+osm.limits <- c(-122.25676, -122.248006, 47.548233, 47.562744) # open street map
+limits <- osm.limits
+
+f.healthy <- kde2d(tbl.x$lon, tbl.x$lat, n=cellCount, lims=limits)
+z <- f.healthy$z
+     # zero out low density cells
+z[z <min.density] <- 0
+f.healthy$z <- z
+     # display if you wish
+
+healthy.colors <- brewer.pal(8, "Greens")
+healthy.colors[1] <- "#FFFFFF"
+sick.colors <- brewer.pal(8, "Reds")
+sick.colors[1] <- "#FFFFFF"
+
+image(f.healthy, main="healthy", col=healthy.colors) #, zlim = c(0, 0.05))
+
+      # can we get the boundary of the highest density region
+      # from the contour?
+
+tbl.x <- subset(tbl, h<=1)
+f.sick <- kde2d(tbl.x$lon, tbl.x$lat, n=cellCount, lims=limits)
+z <- f.sick$z
+z[z <min.density] <- NA
+f.sick$z <- z
+range(f.sick$z)
+#pdf("sick.pdf")
+image(f.sick, main="sick", add=FALSE, col=sick.colors)
+boundaries.sick <- contourLines(f.sick)
+boundaries.healthy <- contourLines(f.healthy)
+print(as.numeric(unlist(lapply(boundaries.sick, "[", "level"))))
+print(length(boundaries.sick[[10]]$x))
+print(as.numeric(unlist(lapply(boundaries.healthy, "[", "level"))))
+print(length(boundaries.healthy[[11]]$x))
+# x <- boundaries.sick[[6]]$x
+# y <- boundaries.sick[[6]]$y
+# for(i in seq_len(length(x))){
+#   print(sprintf("{lat: %12.8f, lng: %12.8f},", y[i], x[i]))
+#   }
+
+# x <- boundaries.healthy[[6]]$x
+# y <- boundaries.healthy[[6]]$y
+# for(i in seq_len(length(x))){
+#   print(sprintf("{lat: %12.8f, lng: %12.8f},", y[i], x[i]))
+#   }
+
+```
+### New Density-derived Boundaries for Hemlock Graveyard and Garden
+
+```{r densityGraveyardAndGardenMap, echo=FALSE, out.width = '100%'}
+   knitr::include_graphics("hemlockGardenGraveyardByDensity.png")
+```
