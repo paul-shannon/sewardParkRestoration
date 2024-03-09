@@ -3,6 +3,7 @@ NAME=hemlockStudy
 default:
 	@echo knit
 	@echo publish
+	@echo viewRemote
 
 knit:
 	R -e "rmarkdown::render('$(NAME).Rmd')"
