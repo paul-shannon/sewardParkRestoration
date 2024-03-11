@@ -1,3 +1,4 @@
+# id,lat,lon,dbh,h1,h2,h3,aspect,slope,date,observer,wpDamage,canopy,dfAssoc,comments
 id,lat,lon,dbh,h1,h2,h3,aspect,slope,date,comments,wp,canopy,dfAssociated,observer
 2021-001,47.558333,-122.250825,10.5,0,1.5,3,NA,NA,2021-07-05,,NA,NA,NA,pshannon
 2021-002,47.55855,-122.25139,10,0,3,3,NA,NA,2021-07-14,,NA,NA,NA,all

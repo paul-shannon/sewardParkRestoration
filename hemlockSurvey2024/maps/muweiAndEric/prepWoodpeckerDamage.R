@@ -20,10 +20,8 @@ toMarkerAndInfoWindow <- function(row)
 
 } # toMarker
 #--------------------------------------------------------------------------------
-f <- "hemlocks-merged.csv"
-#f <- "hemlocks-tmp.csv"
-tbl <- read.table(f, sep=",", header=TRUE, as.is=TRUE, nrow=-1,quote="")
-#tbl.2021 <- read.table("hemlocks-2021-clean.csv", sep=",", header=TRUE, quote="")
+tbl <- read.table("hemlocks.csv", sep=",", header=TRUE, as.is=TRUE, nrow=-1)
+tbl.2021 <- read.table("hemlocks-2021-clean.csv", sep=",", header=TRUE, quote="")
 #stopifnot(colnames(tbl) == colnames(tbl.2021))
 #tbl <- rbind(tbl, tbl.2021)
 
@@ -62,7 +60,7 @@ exploreColors <- function()
 
 } # exploreColors
 #--------------------------------------------------------------------------------
-exploreContrasrts <- function()
+exploreContrasts <- function()
 {
    midpoint <- 47.556020
    dim(tbl)

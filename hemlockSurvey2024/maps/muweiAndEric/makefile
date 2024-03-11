@@ -7,6 +7,8 @@ default:
 	@echo view
 	@echo publish
 	@echo viewRemote
+	@echo wpPublish
+	@echo wpViewRemote
 
 json:
 	R -f prepTreePoints.R
@@ -28,8 +30,22 @@ publish:
 	scp map.css $(DEST)/
 	scp hemlocks.json $(DEST)/
 	scp tblFinal.csv $(DEST)/
+	scp hemlocks-merged.csv $(DEST)   
 
 viewRemote:
 	open https://pshannon.net/hemlockSurvey2024
+
+
+DESTWP = paulshannnon@pshannon.net:public_html/pshannon.net/hemlockSurvey2024-wp
+
+wpPublish:
+	scp mapWithTabs-woodpeckers.html $(DESTWP)/index.html
+	scp map-woodpeckerDamage.js $(DESTWP)/
+	scp map.css $(DESTWP)/
+	scp hemlocks.json $(DESTWP)/
+	scp tblFinal.csv $(DESTWP)/
+
+wpViewRemote:
+	open https://pshannon.net/hemlockSurvey2024-wp
 
 
