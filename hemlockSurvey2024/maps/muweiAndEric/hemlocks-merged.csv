@@ -357,8 +357,8 @@ id,lat,lon,dbh,h1,h2,h3,aspect,slope,date,observer,wpDamage,canopy,dfAssoc,comme
 175,47.5571366,-122.2505734,22,NA,2,3,70,5,2024-03-02,eric,0,False,False,
 176,47.5571223,-122.2505546,26,NA,NA,3,70,5,2024-03-02,eric,0,True,False,
 177,47.5571223,-122.2505546,31,0,0,0,70,5,2024-03-02,eric,3,False,False, snag 45 ft.
-411,47.5578224,-122.2501238,16,NA,NA,NA,90,15,2024-03-02,muwei,0,True,False,fallen log
-412,47.5576615,-122.2500329,30,NA,NA,NA,90,10,2024-03-02,muwei,0,True,False,10 foot snag
+411,47.5578224,-122.2501238,16,0,0,0,90,15,2024-03-02,muwei,0,True,False,fallen log
+412,47.5576615,-122.2500329,30,0,0,0,90,10,2024-03-02,muwei,0,True,False,10 foot snag
 413,47.5575398,-122.2501868,8.5,2,2.5,3,120,10,2024-03-02,muwei,0,False,False,
 414,47.5574649,-122.2502096,1,1,2,3,90,15,2024-03-02,muwei,0,False,True,
 415,47.5575409,-122.2503364,0.5,3,3,3,90,15,2024-03-02,muwei,0,False,True,
@@ -428,10 +428,10 @@ id,lat,lon,dbh,h1,h2,h3,aspect,slope,date,observer,wpDamage,canopy,dfAssoc,comme
 196,47.5567096,-122.2508242,16,NA,1.5,2.5,220,5,2024-03-03,eric,0,True,False,
 197,47.5567096,-122.2508242,19,NA,1.5,2.5,220,5,2024-03-03,eric,0,True,False,
 198,47.5566754,-122.2508544,3,NA,1.5,2,220,5,2024-03-03,eric,0,False,False,
-199,47.5566207,-122.2510602,41,0,0,0,220,5,2024-03-03,eric,0,False,False,40 foot snag
-200,47.5565908,-122.2511256,16,0,0,0,220,5,2024-03-03,eric,0,False,False,50 foot snag;NA-1-1.5 if counting live needles
+199,47.5566207,-122.2510602,41,0,0,0,220,3,2024-03-03,eric,0,False,False,40 foot snag
+200,47.5565908,-122.2511256,16,NA,1.5,2,0,220,5,2024-03-03,eric,0,False,False,50 foot snag;NA-1-1.5 if counting live needles;broken top
 201,47.5565616,-122.2510757,7,0,0,0,220,5,2024-03-03,eric,0,False,False,13 foot snag
-202,47.556598,-122.251255,33,0,0,0,220,5,2024-03-03,eric,0,False,False,Cannot see the top; not sure if a snag or just dying. 70-80 ft.
+202,47.556598,-122.251255,33,0,0,0,220,5,2024-03-03,eric,1,False,False,Cannot see the top; not sure if a snag or just dying. 70-80 ft.
 203,47.556534,-122.2508604,29,NA,1.5,3,220,5,2024-03-03,eric,0,False,False,
 204,47.556534,-122.2508604,20,NA,NA,2.25,220,5,2024-03-03,eric,0,False,False,
 205,47.5566361,-122.2507132,28,NA,3,3,220,5,2024-03-03,eric,0,True,False,
@@ -589,7 +589,7 @@ id,lat,lon,dbh,h1,h2,h3,aspect,slope,date,observer,wpDamage,canopy,dfAssoc,comme
 6201,47.5566361, -122.2512423,28,0,0,0,220,5,2024-03-05,paul,3,False,False,45 foot snag
 6202,47.5566105, -122.2512436,29,NA,1.5,2,220,5,2024-03-05,paul,0,False,False,
 # start transcription here, sunday 10 mary 130pm
-6203,47.5565118, -122.2510408,34,NA,0.5,1,220,5,2024-03-05,paul,3,True,False,
+6203,47.5565118, -122.2510408,34,0,0,0,220,5,2024-03-05,paul,3,True,False,
 # center of 04,5 and the 6-7 pair. 4 is 10 ft nw. 5 is 8 ft ne. 6-7 is 8 ft sw
 # center 47.5564530, -122.2510649
 6204,47.5564700, -122.2510709,10,1,2,3,220,5,2024-03-05,paul,0,False,False,
