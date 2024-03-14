@@ -1,0 +1,402 @@
+---
+title: "Seward Park Hemlock Study"
+output: html_document
+css: style.css
+---
+
+<div style="inline-block">
+<img src="hemlockGraveyard.png" width="200px">
+&nbsp;
+<img src="hopeAndHemlocks.jpeg" width="200px">
+&nbsp;
+<img src="nateHemlock.jpeg" width="200px">
+&nbsp;
+<img src="muweiHemlock.jpeg" width="200px">
+&nbsp;
+<img src="ericHemlock.jpeg" width="200px">
+&nbsp;
+<img src="muweiAndEric.jpeg" width="300px">
+&nbsp;
+<img src="hemlockMapWithDensityRegions-bordered.png" width="300px">
+</div>
+
+<p> The venerable Western Hemlock - Washington's state tree - has been
+in decline in the Puget Lowlands since at least 2015. These trees are
+dying - not everywhere all at once - as with HWA and the Eastern
+Hemlock - but intermittently, often in clusters throughout low
+elevations west of the Cascades.  This mortality is recent, and
+a departure from normal hemlock population dynamics, and the well-understood
+effects of endemic fungal diseases.
+
+<p> By 2017, researchers were attributing the mortality to <i>Rhizoctonia
+butini</i>, a fungus in the order Cantharellales.  This hypothesis has
+since been abandoned (according to personal communications form
+Jared LeBoldus, OSU Corvallis, and Kevin Zobrist, WSU).  No new  explanation has
+emerged, but we often hear the suggestion that the mortality is due to
+normal old age or climate change.
+
+<p>
+
+A few years of informal observation in Seward Park's 120-acre
+old-growth urban forest, however, leads us to suggest otherwise.  We see areas with many
+dead trees.  We have watched large trees die.  We also see areas nearby,
+sharing climate and weather, dense with healthy trees of all ages.
+
+<p> So we suspect other causes are at play.  To justify research into
+those possible other causes, we conducted an in-depth survey, mapping,
+measuring and assessing the health of 724 Western Hemlocks in Seward Park's forest.
+The survey, as you will see, provides strong statistical evidence that neither
+climate nor normal senesence is responsible the mortality.  
+<p>
+
+Futhermore, our findings suggest that this forest provides an ideal site for a <a
+href="https://en.wikipedia.org/wiki/Natural_experiment"
+target="_blank">natural experiment</a>, an excellent opportunity for deeper
+research into the mechanisms of Puget Lowland Western Hemlock decline.
+
+### Mapping and  Measuring at Seward Park
+
+Between January and March, two Univeristy of Washington students from
+the Program on the Environment in their senior Capstone Research Project,
+along with a Garfield High School junior, guided by Dr. Tim Billo of the UW,
+spent  nine weeks in the
+forest collecting data to test our hypothesis.  The study participants
+are listed in Appendix B, below.
+
+We also used data collected in the summer of 2021 by CHOOSE 180 interns.
+
+
+We took these steps in the study:
+
+<ol>
+  <li> We initially identified a two acre healthy site (the "hemlock garden") and
+      a six acre affected site (the "hemlock graveyard")
+  <li> We mapped, measured and assessed the health of all trees in these two sites.
+  <li> We found that the sites, separated within continuous old-growth forest by 700 meters,
+        were identical except for mortality: they have the same size distribution,
+        see the weather patterns, and have the same type of soil.
+  <li> We next expanded our survey to include 724 total hemlocks across most
+      of the 120-acre forest
+</ol>
+
+
+```{r setup, include = TRUE, echo=FALSE}
+f <- "https://pshannon.net/hemlockSurvey2024/tblFinal.csv"
+tbl <- read.table(f, sep=",", header=TRUE, as.is=TRUE, nrow=-1, quote="")
+#dim(tbl)
+```
+
+### Our Results
+<br>
+
+```{r finalMap, echo=FALSE, out.width = '100%'}
+   knitr::include_graphics("hemlockMapFinal.png")
+```
+
+<i>(An interactive version of the above map, along with the full dataset, is available
+<a href="https://pshannon.net/hemlockSurvey2024/" target="_blank">here</a>.)</i>
+
+After mapping, measuring, and assessing the health of 724 trees across a broad
+swath of the 120-acre forest, skipping over regions with few or no
+hemlocks, we partitioned the trees into those with good-to-excellent
+health (greater than 2 on a 0-3 scale, see Appendix C), and those with
+poor health (less than 1 on that same scale).
+
+<p> This mapping, and subsequent density calculations, allowed us to
+confirm the hemlock graveyard, and to define the "extended garden", which
+is much larger than our originally identified healthy site.  We see
+sick and dying trees are heavily concentrated in a contiguous region
+in the north of the forest.  Healthy hemlocks are found south, central
+and east in the forest.
+
+<p>
+We establish that the hemlock graveyard is a
+highly significant outlier with respect to hemlock mortality in this forest.  And
+we lay to rest claims that the mortality is due only to climate change or
+normal senescence.
+
+<p>
+
+
+### The Climate Change Claim
+
+This is easily dispensed with.  Or, at least, reduced to a minor role.   The two regions
+<i>may</i> have significant micro-climate differences, or micro-site
+characteristics which contribute to differential mortality.  But it is unlikely
+that decade-scale climate change phenomena, showing up as significant
+differences in micro-scale weather patterns, will explain the radical
+mortality difference of the two regions, graveyard and garden.
+
+### The Natural Senescence Claim
+
+Here we show that big old trees are roughly equally represented
+in the two regions, but that the health of those trees is dramatically different.
+(See Appendix A, below, explainiing omission of younger trees.)
+<p>
+
+```{r boxplots, include=TRUE, echo=FALSE}
+
+par(mfrow=c(1,1))
+dbh.threshold <- 15
+boxplot(subset(tbl, loc=="graveyard" & dbh > dbh.threshold)$dbh,
+        subset(tbl, loc=="garden" & dbh > dbh.threshold)$dbh,
+        main="Tree Diameter (a proxy for age; youngest trees omitted)",
+        names=c("Graveyard", "Garden"))
+
+boxplot(subset(tbl, loc=="graveyard" & dbh > dbh.threshold)$h,
+        subset(tbl, loc=="garden" & dbh > dbh.threshold)$h,
+        main="Health (youngest trees omitted)",
+        names=c("Graveyard", "Garden"))
+```
+
+### Significance Tests
+
+The Student's t-Test complements these boxplots, producing a numerical
+value for the contrasts you see visually above.
+<p>
+With respect to tree size (which roughly correlates with tree age) the two sites
+have the same distribution.   A p.value of larger that 0.7 attests that these
+groups are highly similar.
+
+```{r significanceTests.dbh, include=TRUE, echo=TRUE}
+
+dbh.threshold <- 15
+garden.bigTrees.dbh <- subset(tbl, loc=="garden" & dbh > dbh.threshold)$dbh
+graveyard.bigTrees.dbh <- subset(tbl, loc=="graveyard" & dbh > dbh.threshold)$dbh
+
+t.test(graveyard.bigTrees.dbh, garden.bigTrees.dbh)$p.value
+```
+
+This p.value, less than l0e-15, indicates that the contrast in hemlock
+health across the two regions is highly significant.  This is our
+our major finding.
+
+```{r significanceTests.health, include=TRUE, echo=TRUE}
+garden.bigTrees.health <- subset(tbl, loc=="garden" & dbh > dbh.threshold)$h
+graveyard.bigTrees.health <- subset(tbl, loc=="graveyard" & dbh > dbh.threshold)$h
+
+t.test(graveyard.bigTrees.health, garden.bigTrees.health)$p.value
+```
+<br><br><br>
+
+#### Conclusion
+
+<br>
+Our nine-week citizen and student science study establishes that
+<ol>
+  <li> Seward Park's old-growth forest hemlock die-off is dramatic and localized
+  <li> is not caused simply by senescence or weather patterns,
+  <li> that it provides an opportunity for further (professional) study.
+</ol>
+
+We predict that foliar and mycorrhizal DNA sequencing, entomological studies,
+and root rot analyses may all be needed to understand this problem.  Once understood,
+remedies may be found, further decline and symptom spread may be prevented.
+
+<br>
+<br>
+<br>
+<hr>
+
+### Appendix A: Filtering Trees by Size Before Comparing Health
+<p>
+When addressing the claim that hemlocks at Seward are dying because of
+old age - that is, due to normal Puget Lowland hemlock senescence - we above
+filtered out all trees less than 10 inches diameter at breast height, <b>dhb</b>.
+
+<p>
+We motivate and justify this filtering here.
+<p>
+First, let us examime  the relative ages of graveyard trees and garden trees. 
+
+
+```{r ageHistograms, include=TRUE, echo=TRUE}
+hist(subset(tbl, loc=="garden")$dbh, main="Garden DBH", xlab="inches", xlim=c(0,60), ylim=c(0,120))
+hist(subset(tbl, loc=="graveyard")$dbh, main="Graveyard DBH", xlab="inches", xlim=c(0,60), ylim=c(0,120))
+```
+<p>
+
+We see that there is an abundance of small diameter hemlocks in the
+garden, and comparitively few in the graveyard.  If we compare all
+sizes (all ages) in both groups, we will see that, and be misled by,
+their being approximately equal distribution in the graveyard across
+all sizes.
+
+<p> (Two explanations for the paucity of young trees in the graveyard occur to us;
+there may be others.   First, that this region is no longer conducive to hemlock
+growth for trees of any age, including seedlings and saplings.  Second, the
+heavy mortality of larger trees may have lead to diminished seed source in
+recent years.)
+
+
+```{r unfilteredAgeBoxplots, include=TRUE, echo=TRUE}
+boxplot(subset(tbl, loc=="graveyard")$dbh,
+           subset(tbl, loc=="garden")$dbh,
+        main="DBH (a proxy for age; all trees included)",
+        names=c("Graveyard", "Garden"))
+```
+<p>
+In this view, the distribution of trees in the graveyard - all trees - is
+somewhat larger.
+<p>
+However, this boxplot does not answer the question we are actually asking
+in this study:  are hemlocks dying due to old age?  We can
+best answer this by comparing the health of large trees in the two
+populations: apples to apples, big (old) trees to big (old) trees.
+<p>
+We can see that the distribution of older trees is
+roughly similar in the two groups:
+
+```{r filteredAgeBoxplots, include=TRUE, echo=TRUE}
+boxplot(subset(tbl, loc=="graveyard" & dbh >= 15)$dbh,
+        subset(tbl, loc=="garden" & dbh >= 15)$dbh,
+        main="DBH (a proxy for age; larger trees only)",
+        names=c("Graveyard", "Garden"))
+```
+<p>
+With a cutoff of 15 inches dbh, we have comparable populations.
+
+<p>
+Now let's compare their health.
+
+```{r filteredhealthBoxplots, include=TRUE, echo=TRUE}
+boxplot(subset(tbl, loc=="graveyard" & dbh >= 15)$h,
+        subset(tbl, loc=="garden" & dbh >= 15)$h,
+        main="Health - larger trees only",
+        names=c("Graveyard", "Garden"))
+```
+<p>
+And obtain their t.test pvalue, which estimates the likelihood
+that the population difference could occur by chance.
+
+```{r filteredHealthttest, include=TRUE, echo=TRUE}
+t.test(subset(tbl, loc=="graveyard" & dbh >= 15)$h,
+       subset(tbl, loc=="garden" & dbh >= 15)$h)$p.value
+
+```
+
+
+<br>
+<br>
+<br>
+<hr>
+
+### Appendix B: Participants
+
+<br>
+
+<ul>
+  <li> Tim Billo, UW Faculty, College of the Environment
+  <li> Nate Butcher, Garfield High School junior
+  <li> Eric Holmquist, UW Program on the Environement, senior
+  <li> Paul Shannon, Green Seattle Partnership Forest Steward
+  <li> Muwei Zhang, UW Program on the Environement, senior
+</ul>
+
+<br>
+<br>
+<br>
+<hr>
+
+### Appendix C: Hemlock Health Assessment
+
+<br>
+
+We adapted aspects of the DMR (Dwarf Mistletoe Rating) system,
+originally suggested to us by Marianne Elliott in 2021.  Our proxy
+for health was an informal estimate of the robustness and extent of
+needles on each third of the tree.
+
+<p> In our scheme, <b>h1</b> is
+the bottom third of the tree, <b>h2</b> is the middle third, and
+<b>h3</b> the top.  Each section received a number on a scale of 0 (no
+remaining needles) to 3 (abundant needles, no significant bare
+branches).
+<p>
+
+<p>
+We learned early in the project that mature hemlocks, especially those
+which are in the canopy exposed to direct sun, self-prune their lower
+branches. In these cases we assigned the value <b>NA</b> to the lower
+thirds of the tree, so that the tree's evolved response to canopy
+status is not counted as ill-health.
+
+<p>
+For each tree, we calculate a composite score, the average of
+the three section scores.
+
+<p> These ratings, and indeed the informal division of
+each tree’s trunk into thirds, are imprecise. Nonetheless, after the
+first few days in the field, all four of us easily reached consensus
+on each tree that we encountered, suggesting that these informal
+ratings can be easily reproduced by independent observers.
+
+
+<p>
+Understory trees usually fit the original model, in which bare, needle-sparese or recently
+fallen lower branches are a sign of ill-health.
+<p>
+Perhaps the best description of our method is that we assign grades of ill-health
+based on the evidence of failing needles, branchlets and branches where,
+according to healthy Western Hemlock needle and branch patterns, we
+expect them to flourish.  In essence, our method was a consensus arising from
+negotiation of four 'human <a href="https://esajournals.onlinelibrary.wiley.com/doi/full/10.1002/ecs2.4487" target="_blank">phenocams'</a>.
+
+The DMR (Dwarf Mistletoe Rating) is described
+<a href="https://forestpathology.org/parasitic-plants/dwarf-mistletoe/ecology/" target="_blank">here</a>.
+
+
+### Appendix D: Kernel Density Calculations
+
+<br>
+
+(To be expanded, will include working code and contour maps).
+
+The method, all carried out in R 4.3.1
+
+
+Using kde2d from the MASS package:
+
+```{r kde, echo=TRUE, eval=FALSE}
+
+tbl.h <- subset(tbl, h>=2) # | h <= 1)
+f.healthy <- kde2d(tbl.h$lon, tbl.h$lat, n=cellCount, lims=seward.limits)
+z <- f.healthy$z
+range(z)
+z[z <min.density] <- 0
+f.healthy$z <- z
+range(f.healthy$z)
+image(f.healthy, main="healthy", col=healthy.colors) #, zlim = c(0, 0.05))
+#dev.off()
+contour(f.healthy, xlab = "healthy", add=TRUE)
+contours.healthy <- contourLines(f.healthy)
+length(contours.healthy)  # 9
+
+```
+Using  pointsInPolygon from the secr package:
+
+```{r secr, echo=TRUE, eval=FALSE}
+fb1 <- "gardenBoundaries.json"
+fb2 <- "graveyardBoundaries.json"
+tbl.garden <- fromJSON(fb1)
+dim(tbl.garden)  # 949 2
+tbl.graveyard <- fromJSON(fb2)
+dim(tbl.graveyard) # 395 2
+
+colnames(tbl.garden) <- c("y", "x")
+tbl.garden <- tbl.garden[, c("x", "y")]
+
+colnames(tbl.graveyard) <- c("y", "x")
+tbl.graveyard <- tbl.graveyard[, c("x", "y")]
+
+
+in.garden <- which(pointsInPolygon(tbl[, c("lon", "lat")], tbl.garden))  # 448
+in.graveyard <- which(pointsInPolygon(tbl[, c("lon", "lat")], tbl.graveyard))  # 144
+length(intersect(in.garden, in.graveyard))  # 0
+location <- rep("none", nrow(tbl))
+location[in.garden] <- "garden"
+location[in.graveyard] <- "graveyard"
+table(location)
+tbl$loc <- location
+
+```
