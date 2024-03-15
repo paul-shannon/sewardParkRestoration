@@ -4,67 +4,67 @@ output: html_document
 css: style.css
 ---
 
-<div style="inline-block">
-<img src="hemlockGraveyard.png" width="200px">
-&nbsp;
-<img src="hopeAndHemlocks.jpeg" width="200px">
-&nbsp;
-<img src="nateHemlock.jpeg" width="200px">
-&nbsp;
-<img src="muweiHemlock.jpeg" width="200px">
-&nbsp;
-<img src="ericHemlock.jpeg" width="200px">
-&nbsp;
-<img src="muweiAndEric.jpeg" width="300px">
-&nbsp;
-<img src="hemlockMapWithDensityRegions-bordered.png" width="300px">
-</div>
+<img src="hemlockStudyPhotoGroup.jpeg" width="800px;">
+
 
 <p> The venerable Western Hemlock - Washington's state tree - has been
 in decline in the Puget Lowlands since at least 2015. These trees are
 dying - not everywhere all at once - as with HWA and the Eastern
 Hemlock - but intermittently, often in clusters throughout low
-elevations west of the Cascades.  This mortality is recent, and
-a departure from normal hemlock population dynamics, and the well-understood
-effects of endemic fungal diseases.
+elevations west of the Cascades.  This upsurge in mortality 
+is a departure from normal hemlock population dynamics, and from the
+historical intermittent effects of endemic fungal diseases.
 
 <p> By 2017, researchers were attributing the mortality to <i>Rhizoctonia
 butini</i>, a fungus in the order Cantharellales.  This hypothesis has
-since been abandoned (according to personal communications form
+since been abandoned (according to personal communications from
 Jared LeBoldus, OSU Corvallis, and Kevin Zobrist, WSU).  No new  explanation has
 emerged, but we often hear the suggestion that the mortality is due to
-normal old age or maybe climate change.
+normal old age or climate change.
 
 <p>
 
-A few years of informal observation in Seward Park's 120-acre
-old-growth urban forest, however, leads us to suggest otherwise.  We see areas with many
-dead trees.  We have watched large trees die.  We also see areas nearby,
-sharing climate and weather, dense with healthy trees of all ages.
+Our informal observations in Seward Park's 120-acre
+old-growth urban forest lead us to suggest otherwise.  We see  many
+dead trees, young and old, mostly concentrated in six acres in the northern
+forest.  We have watched these trees die.  We watch as this dead zone spreads.
 
-<p> So we suspect other causes are at play.  To justify research into
-those possible other causes, we conducted an in-depth survey, mapping,
-measuring and assessing the health of 724 Western Hemlocks in Seward Park's forest.
-The survey, as you will see, provides strong statistical evidence that neither
-climate nor normal senesence is responsible the mortality.  
+<p>
+Yet we also see many healthy hemlocks in the forest.
+We see trees of all ages, from young saplings to 250 year old giants.
+We see only intermittent normal mortality.
+
+<p> So we suspect that other causes are at play in the dead
+zone. Only comprehensive data and good statistics can turn that suspicion
+into robust scientific findings.  So four of us spent nine weeks
+mapping, measuring and assessing the health of 724 Western Hemlocks in
+Seward Park's forest.
+
+<p>
+We establish that neither climate nor normal
+senesence is killing the hemlocks.  We establish the need for further
+research to figure out the mechanisms of mortality - for the benefit
+of Seward's old-growth forest, and for forests throughout the
+region.
+
 <p>
 
-Futhermore, our findings suggest that this forest provides an ideal site for a <a
+We further propose that Seward's forest provides <b>an ideal site for a <a
 href="https://en.wikipedia.org/wiki/Natural_experiment"
-target="_blank">natural experiment</a>, an excellent opportunity for deeper
+target="_blank">natural experiment</a></b>, an excellent opportunity for deeper
 research into the mechanisms of Puget Lowland Western Hemlock decline.
 
 ### Mapping and  Measuring at Seward Park
 
 Between January and March, two Univeristy of Washington students from
 the Program on the Environment in their senior Capstone Research Project,
-along with a Garfield High School junior, guided by Dr. Tim Billo of the UW,
+along with a Garfield High School junior, and Seward's Green Seattle
+Partnership forest steward, guided by Dr. Tim Billo of the UW,
 spent  nine weeks in the
 forest collecting data to test our hypothesis.  The study participants
 are listed in Appendix B, below.
 
 We also used data collected in the summer of 2021 by CHOOSE 180 interns.
-
 
 We took these steps in the study:
 
@@ -73,18 +73,17 @@ We took these steps in the study:
       a six acre affected site (the "hemlock graveyard"). This site has been
       expanding slowly over the last five years.
   <li> We mapped, measured and assessed the health of all trees in these two sites.
-  <li> We found that the sites, separated within continuous old-growth forest by 700 meters,
+  <li> We found that the two sites, separated within continuous old-growth forest by 700 meters,
         were identical except for mortality: they have the same size distribution,
-        see the weather patterns, and have the same type of soil.
+        see the same weather patterns, and have the same type of soil.
   <li> We next expanded our survey to include 724 total hemlocks across most
-      of the 120-acre forest
+      of the 120-acre forest.
 </ol>
 
 
 ```{r setup, include = TRUE, echo=FALSE}
 f <- "https://pshannon.net/hemlockSurvey2024/tblFinal.csv"
 tbl <- read.table(f, sep=",", header=TRUE, as.is=TRUE, nrow=-1, quote="")
-#dim(tbl)
 ```
 
 ### Our Results
@@ -105,10 +104,10 @@ poor health (less than 1 on that same scale).
 
 <p> This mapping, and subsequent density calculations, allowed us to
 confirm the hemlock graveyard, and to define the "extended garden", which
-is much larger than our originally identified healthy site.  We see
+is much larger than our originally identified two acre healthy site.  We see
 sick and dying trees are heavily concentrated in a contiguous region
 in the north of the forest.  Healthy hemlocks are found south, central
-and east in the forest.
+and east throughout the forest.
 
 <p>
 We establish that the hemlock graveyard is a
@@ -152,8 +151,8 @@ boxplot(subset(tbl, loc=="graveyard" & dbh > dbh.threshold)$h,
 
 ### Significance Tests
 
-The Student's t-Test complements these boxplots, producing a numerical
-value for the contrasts you see visually above.
+The Student's t-Test complements these boxplots, attaching a number value to
+the contrasts shown in the boxplots.
 <p>
 With respect to tree size (which roughly correlates with tree age) the two sites
 have the same distribution.   A p.value of larger that 0.7 attests that these
@@ -169,8 +168,10 @@ t.test(graveyard.bigTrees.dbh, garden.bigTrees.dbh)$p.value
 ```
 
 This p.value, less than l0e-15, indicates that the contrast in hemlock
-health across the two regions is highly significant.  This is our
-our major finding.
+health across the two regions is highly significant: the difference
+is real, and not due to random variation.
+
+This statistically robust contrast is our major finding.
 
 ```{r significanceTests.health, include=TRUE, echo=TRUE}
 garden.bigTrees.health <- subset(tbl, loc=="garden" & dbh > dbh.threshold)$h
@@ -199,11 +200,11 @@ remedies may be found, further decline and symptom spread may be prevented.
 <p>
 <br>
 We offer one caveat in closing.  Our past visits to other affected sites suggested
-that Seward mortality, and regional mortality, look like  the same phenomenon.
+to us that Seward mortality, and regional mortality, are the same phenomenon.
 But in this study we did not collect observations at other
-locations.  Therefore we have not established that 
+sites.  Therefore we have not yet established that 
 Seward's hemlock mortality, and that of the region, are identical.  Detailed
-field observations may decide this.  Laboratory and molecular methods may be needed.
+field observations are needed, perhaps laboratory and molecular methods as well.
 
 
 
@@ -366,37 +367,83 @@ The DMR (Dwarf Mistletoe Rating) is described
 
 <br>
 
-(To be expanded, will include working code and contour maps).
+Here, for those interested, and providing a basis for re-analysis of the data,
+is the R code which
+<ul>
+   <li> partitions the trees into sick and healthy subsets
+   <li> calculates density plots for each subset
+   <li> saves selected contours for import into the interactive map
+   <li> assigns each tree in the data set into one of three groups:  garden, graveyard, none
+</ul>
 
-The method, all carried out in R 4.3.1
 
-
-Using kde2d from the MASS package:
-
-```{r kde, echo=TRUE, eval=FALSE}
-
+```{r kde, echo=TRUE, eval=TRUE}
+library(MASS)
+library(secr)
+library(jsonlite)
+f <- "https://pshannon.net/hemlockSurvey2024/tblFinal.csv"
+tbl <- read.table(f, sep=",", header=TRUE, as.is=TRUE, nrow=-1, quote="")
 tbl.h <- subset(tbl, h>=2) # | h <= 1)
+seward.limits <- c(-122.25676, -122.248006, 47.548233, 47.562744)
+cellCount <- 500
+min.density <- 30000
 f.healthy <- kde2d(tbl.h$lon, tbl.h$lat, n=cellCount, lims=seward.limits)
+   # remove low density microsites
 z <- f.healthy$z
 range(z)
 z[z <min.density] <- 0
 f.healthy$z <- z
 range(f.healthy$z)
-image(f.healthy, main="healthy", col=healthy.colors) #, zlim = c(0, 0.05))
+image(f.healthy, main="healthy") # col=healthy.colors)
 #dev.off()
 contour(f.healthy, xlab = "healthy", add=TRUE)
 contours.healthy <- contourLines(f.healthy)
 length(contours.healthy)  # 9
 
-```
-Using  pointsInPolygon from the secr package:
+tbl.s <- subset(tbl, h <= 1)
+f.sick <- kde2d(tbl.s$lon, tbl.s$lat, n=cellCount, lims=seward.limits)
+z <- f.sick$z
+range(z)
+z[z <min.density] <- 0
+f.sick$z <- z
+range(f.sick$z)
+image(f.sick, main="sick")
+contour(f.sick, xlab = "sick", add=TRUE)
+contours.sick <- contourLines(f.sick)
 
-```{r secr, echo=TRUE, eval=FALSE}
-fb1 <- "gardenBoundaries.json"
-fb2 <- "graveyardBoundaries.json"
-tbl.garden <- fromJSON(fb1)
+
+#--------------------------------------------------------------------------------
+# create a JSON data structure that looks like this:
+#  [{lat:  47.55686380, lng: -122.25135673},
+#   {lat:  47.55686981, lng: -122.25135821},
+#   {lat:  47.55689889, lng: -122.25136372}]
+contourAsJSON <- function(rec)
+{
+    stopifnot(names(rec) == c("level", "x", "y"))
+
+    iter.span <- seq_len(length(rec$x))
+    json <- toJSON(lapply(iter.span,
+                          function(i)list(lat=rec$y[i], lng=rec$x[i])),
+                   auto_unbox=TRUE,
+                   na="string", digits=6)
+    json
+
+} # contourAsJSON
+#--------------------------------------------------------------------------------
+level.h <- 1
+contours.healthy[[level.h]]$level
+jsonText = contourAsJSON(contours.healthy[[level.h]])
+writeLines(jsonText, con="gardenBoundaries.json")
+
+level.s <- 5
+contours.sick[[level.s]]$level
+jsonText = contourAsJSON(contours.sick[[level.s]])
+writeLines(jsonText, con="graveyardBoundaries.json")
+
+
+tbl.garden <- fromJSON("gardenBoundaries.json")
 dim(tbl.garden)  # 949 2
-tbl.graveyard <- fromJSON(fb2)
+tbl.graveyard <- fromJSON("graveyardBoundaries.json")
 dim(tbl.graveyard) # 395 2
 
 colnames(tbl.garden) <- c("y", "x")
@@ -405,7 +452,6 @@ tbl.garden <- tbl.garden[, c("x", "y")]
 colnames(tbl.graveyard) <- c("y", "x")
 tbl.graveyard <- tbl.graveyard[, c("x", "y")]
 
-
 in.garden <- which(pointsInPolygon(tbl[, c("lon", "lat")], tbl.garden))  # 448
 in.graveyard <- which(pointsInPolygon(tbl[, c("lon", "lat")], tbl.graveyard))  # 144
 length(intersect(in.garden, in.graveyard))  # 0
@@ -413,7 +459,6 @@ location <- rep("none", nrow(tbl))
 location[in.garden] <- "garden"
 location[in.graveyard] <- "graveyard"
 table(location)
-tbl$loc <- location
 
 ```
 
