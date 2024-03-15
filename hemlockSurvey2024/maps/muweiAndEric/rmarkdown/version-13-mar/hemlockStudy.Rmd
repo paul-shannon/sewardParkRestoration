@@ -33,7 +33,7 @@ butini</i>, a fungus in the order Cantharellales.  This hypothesis has
 since been abandoned (according to personal communications form
 Jared LeBoldus, OSU Corvallis, and Kevin Zobrist, WSU).  No new  explanation has
 emerged, but we often hear the suggestion that the mortality is due to
-normal old age or climate change.
+normal old age or maybe climate change.
 
 <p>
 
@@ -70,7 +70,8 @@ We took these steps in the study:
 
 <ol>
   <li> We initially identified a two acre healthy site (the "hemlock garden") and
-      a six acre affected site (the "hemlock graveyard")
+      a six acre affected site (the "hemlock graveyard"). This site has been
+      expanding slowly over the last five years.
   <li> We mapped, measured and assessed the health of all trees in these two sites.
   <li> We found that the sites, separated within continuous old-growth forest by 700 meters,
         were identical except for mortality: they have the same size distribution,
@@ -179,19 +180,34 @@ t.test(graveyard.bigTrees.health, garden.bigTrees.health)$p.value
 ```
 <br><br><br>
 
+
 #### Conclusion
 
 <br>
 Our nine-week citizen and student science study establishes that
 <ol>
-  <li> Seward Park's old-growth forest hemlock die-off is dramatic and localized
+  <li> Seward Park's old-growth forest hemlock die-off is dramatic and
+  concentrated in one (expanding) six acre region.
   <li> is not caused simply by senescence or weather patterns,
   <li> that it provides an opportunity for further (professional) study.
 </ol>
 
+
 We predict that foliar and mycorrhizal DNA sequencing, entomological studies,
 and root rot analyses may all be needed to understand this problem.  Once understood,
 remedies may be found, further decline and symptom spread may be prevented.
+<p>
+<br>
+We offer one caveat in closing.  Our past visits to other affected sites suggested
+that Seward mortality, and regional mortality, look like  the same phenomenon.
+But in this study we did not collect observations at other
+locations.  Therefore we have not established that 
+Seward's hemlock mortality, and that of the region, are identical.  Detailed
+field observations may decide this.  Laboratory and molecular methods may be needed.
+
+
+
+
 
 <br>
 <br>
@@ -400,3 +416,38 @@ table(location)
 tbl$loc <- location
 
 ```
+
+### Appendix E: Estimating the Age of Healthy Hemlocks in the Garden
+
+In a 1983 journal article, Mark Harmon and Jerry Franklin offer a linear
+model relating Western Hemlock age in years to diameter in centimeters:
+
+<div style="margin-left: 30px;">
+<a href="https://andrewsforest.oregonstate.edu/sites/default/files/lter/pubs/pdf/pub214.pdf"
+target="_blank">Age Distribution of Western Hemlock and Its Relation to
+Roosevelt Elk Populations in the South Fork
+Hoh River Valley, Washington</a>
+</div>
+
+<img src="hemlockAgeDbhFormula-franklin.png" width=800>
+
+Their model comes from direct measurment, of diameter at breast height, and
+of tree age by counting rings after increment boring.  If we apply their
+formula, while acknowledging that the Hoh River Valley receives four times as
+much rain as Seward Park, we find this profile of tree age.
+
+```{r treeAge, include=TRUE, echo=TRUE}
+dbh <- subset(tbl, loc=="garden" & h > 2.5)$dbh
+dbh.cm <- 2.54 * dbh
+age <- round(30.5 + (1.8 * dbh.cm))
+hist(age, main="Estimaged Age\n for 185 Healthy Hemlock Garden trees", xlab="years",
+     xlim=c(0,300))
+```
+
+The fire history of Seward's forest may be relevant here.  We believe that a stand
+replacement fire swept the peninsula about 1500.  A more moderate fire
+burned through about 1720, survived by about 100 firs and a dozen cedars.  Our
+oldest hemlocks may have seeded in within fify years of the more recent fire,
+as the surving douglas firs, and younger trees (maples? cedars?) formed a new
+canopy. [This fire history is drawn from diverse sources and is somewhat conjectural.]
+
