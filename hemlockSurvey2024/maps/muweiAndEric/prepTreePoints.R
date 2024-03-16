@@ -20,6 +20,37 @@ toMarkerAndInfoWindow <- function(row)
 
 } # toMarker
 #--------------------------------------------------------------------------------
+assignGardenOrGraveyard <- function(tbl)
+{
+   library(secr)
+   fb1 <- "gardenBoundaries.json"
+   fb2 <- "graveyardBoundaries.json"
+   tbl.garden <- fromJSON(fb1)
+   printf("polygon vertices in %s: %d", fb1, nrow(tbl.garden))
+   tbl.graveyard <- fromJSON(fb2)
+   printf("polygon vertices in %s: %d", fb2, nrow(tbl.graveyard))
+
+   colnames(tbl.garden) <- c("y", "x")
+   tbl.garden <- tbl.garden[, c("x", "y")]
+
+   colnames(tbl.graveyard) <- c("y", "x")
+   tbl.graveyard <- tbl.graveyard[, c("x", "y")]
+
+
+   in.garden <- which(pointsInPolygon(tbl[, c("lon", "lat")], tbl.garden))  # 448
+   in.graveyard <- which(pointsInPolygon(tbl[, c("lon", "lat")], tbl.graveyard))  # 144
+   location <- rep("none", nrow(tbl))
+   location[in.garden] <- "garden"
+   location[in.graveyard] <- "graveyard"
+   printf("--- total trees, distribution within current contours")
+   tbl$loc <- location
+   print(table(tbl$loc))
+
+   tbl
+
+} # assignGardenOrGraveyard
+#--------------------------------------------------------------------------------
+
 f <- "hemlocks-merged.csv"
 #f <- "hemlocks-tmp.csv"
 tbl <- read.table(f, sep=",", header=TRUE, as.is=TRUE, nrow=-1,quote="")
@@ -41,7 +72,7 @@ tbl$h <- overallHealth
 preferredColumnOrder <- c("id","lat","lon","dbh","h1","h2","h3","h","wpDamage", "canopy", "dfAssoc", "aspect","slope","date","comments","observer")
 tbl <- tbl[, preferredColumnOrder]
 
-
+tbl <- assignGardenOrGraveyard(tbl)
 
 # tbl <- subset(tbl, date=="2024-02-10") # & observer=="paul")
 
@@ -50,6 +81,7 @@ print(dim(tbl))
 jsonText = toJSON(tbl, na="string", digits=6)
 writeLines(jsonText, con="hemlocks.json")
 printf("wrote %d lines to hemlock.json", nrow(tbl))
+
 #for(i in 1:5)  # nrow(tbl))
 #    writeLines(toMarkerAndInfoWindow(tbl[i,]))
 #----------------------------------------------------------------------------------------------------

@@ -1,0 +1,74 @@
+## ----setup, include = TRUE, echo=TRUE-------------------------------------------------------------
+f <- "https://pshannon.net/hemlockSurvey2024/tblFinal.csv"
+tbl <- read.table(f, sep=",", header=TRUE, as.is=TRUE, nrow=-1, quote="")
+dim(tbl)
+
+
+## ----simpleCors, include=TRUE, echo=TRUE----------------------------------------------------------
+
+cor(tbl$wpDamage, tbl$dbh)
+cor(tbl$wpDamage, tbl$h, use="pairwise.complete.obs")
+
+
+## ----lm, include=TRUE, echo=TRUE------------------------------------------------------------------
+model <- lm(wpDamage ~ 0 + h + dbh, data=tbl)
+summary(model) 
+
+
+## ----interpret-lm, include=TRUE, echo=TRUE--------------------------------------------------------
+coef(model)
+hist(resid(model))  # 
+
+
+## ----lm2, include=TRUE, echo=TRUE-----------------------------------------------------------------
+model <- lm(wpDamage ~ h + canopy + dfAssoc + aspect + slope + h + dbh, data=tbl)
+summary(model) 
+
+
+## ----densities, include=TRUE, echo=TRUE-----------------------------------------------------------
+
+library(MASS)
+library(secr)
+tbl.sick <- subset(tbl, h<=1)
+cellCount <- 500
+limits <- c(-122.25676, -122.248006, 47.548233, 47.562744) # open street map
+
+f.graveyard <- kde2d(tbl.sick$lon, tbl.sick$lat, n=cellCount, lims=limits)
+
+ # look at the successively more inclusive graveyard boundaries
+contour(f.graveyard)
+
+ # now get the data, construct a polygon we can use to
+ # identify trees within the boundary
+ 
+boundaries.graveyard <- contourLines(f.graveyard)
+length(boundaries.graveyard) # 15
+# find out how many points define each boundary
+# this indicates the size of the boundary
+for(i  in seq_len(length(boundaries.graveyard)))
+   print(sprintf("%d) %d points in polygon", i, length(boundaries.graveyard[[i]]$x)))
+   
+
+# I know from earlier work that the level 10 boundary is useful, not too big
+# not too small, and close to what we see by observation
+
+contour.number <- 10
+graveyard.poly <- data.frame(x=boundaries.graveyard[[contour.number]]$x,
+                               y=boundaries.graveyard[[contour.number]]$y)
+
+# how many points are in this region? 214 of the 724 
+tbl.rows.in.boundary <- which(pointsInPolygon(tbl[, c("lon", "lat")], graveyard.poly))
+print(length(which(pointsInPolygon(tbl[, c("lon", "lat")], graveyard.poly))))
+# which tbl rows describe trees in this graveyard region?
+tbl.sub <- tbl[tbl.rows.in.boundary,]
+
+
+## -------------------------------------------------------------------------------------------------
+cor(tbl.sub$wpDamage, tbl.sub$dbh)
+cor(tbl.sub$wpDamage, tbl.sub$h, use="pairwise.complete.obs")
+
+
+## ----lm3, include=TRUE, echo=TRUE-----------------------------------------------------------------
+model <- lm(wpDamage ~ 0 + h + dbh, data=tbl.sub)
+summary(model) 
+

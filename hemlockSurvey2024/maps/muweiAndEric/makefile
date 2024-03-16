@@ -26,9 +26,11 @@ DEST = paulshannnon@pshannon.net:public_html/pshannon.net/hemlockSurvey2024
 
 publish:
 	scp mapWithTabs.html $(DEST)/index.html
-	scp map.js $(DEST)/
+	scp map-pluggable.js $(DEST)/
 	scp map.css $(DEST)/
 	scp hemlocks.json $(DEST)/
+	scp gardenBoundaries.json $(DEST)/
+	scp graveyardBoundaries.json $(DEST)/
 	scp tblFinal.csv $(DEST)/
 	scp hemlocks-merged.csv $(DEST)   
 

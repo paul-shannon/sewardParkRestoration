@@ -557,10 +557,13 @@ async function drawTrees(map){
                "<li> h1: " + tree["h1"] +
                "<li> h2: " + tree["h2"] +
                "<li> h3: " + tree["h3"] +
+               "<li> lat: " + tree["lat"] +
+               "<li> lon: " + tree["lon"] +
                "<li> overall health: " + tree["h"] +
                "<li> aspect: " + tree["aspect"] +
                "<li> slope: " + tree["slope"] + 
                "<li> date: " + tree["date"] + 
+               "<li> location: " + tree["loc"] + 
                "</ul>" +
                tree["comments"]
            })
