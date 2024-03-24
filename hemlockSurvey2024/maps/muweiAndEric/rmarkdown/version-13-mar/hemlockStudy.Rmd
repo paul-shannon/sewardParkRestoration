@@ -1,5 +1,5 @@
 ---
-title: "Seward Park Hemlock Study"
+title: "2024 Seward Park Hemlock Study"
 output: html_document
 css: style.css
 ---
@@ -367,15 +367,27 @@ The DMR (Dwarf Mistletoe Rating) is described
 
 <br>
 
-Here, for those interested, and providing a basis for re-analysis of the data,
-is the R code which
+For those interested in our method, and to provide a basis for possible future re-analysis of the data,
+here is the R code which
 <ul>
    <li> partitions the trees into sick and healthy subsets
    <li> calculates density plots for each subset
-   <li> saves selected contours for import into the interactive map
+   <li> saves selected density contours for import into the interactive map
    <li> assigns each tree in the data set into one of three groups:  garden, graveyard, none
 </ul>
 
+The kernel density algorithm consists of these steps, and may be applied to
+all trees, or to a filtered subset:
+<ol>
+    <li> Create a grid over the region
+    <li> The grid may be coarse or fine; after experimentation, we settled on a cell count of 500
+    <li> Every tree is assigned to a cell; 0, 1 or many trees are assigned to each cell
+    <li> <b>kde2d</b> fits a smooth 2d surface over the grid cell counts
+    <li> In the current version, we treat each tree equally, regardless of size and health status
+    <li> Reasonable alternative approaches would adjust cell counts for the diameter, or cross-sectional
+         area of each tree.
+</ol>
+    
 
 ```{r kde, echo=TRUE, eval=TRUE}
 library(MASS)
