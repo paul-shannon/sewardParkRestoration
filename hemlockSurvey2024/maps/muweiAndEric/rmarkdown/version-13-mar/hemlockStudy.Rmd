@@ -9,14 +9,13 @@ css: style.css
 
 <p> The venerable Western Hemlock - Washington's state tree - has been
 in decline in the Puget Lowlands since at least 2015. These trees are
-dying - not everywhere all at once - as with HWA and the Eastern
-Hemlock - but intermittently, often in clusters throughout low
-elevations west of the Cascades.  This upsurge in mortality 
-is a departure from normal hemlock population dynamics, and from the
-historical intermittent effects of endemic fungal diseases.
+dying - not everywhere all at once - but intermittently, often in
+clusters throughout low elevations west of the Cascades.  This is a
+departure from normal hemlock population dynamics and from the
+intermittent effects of endemic fungal diseases.
 
 <p> By 2017, researchers were attributing the mortality to <i>Rhizoctonia
-butini</i>, a fungus in the order Cantharellales.  This hypothesis has
+butini</i>, a fungus in the order Cantharellales.  But this hypothesis has
 since been abandoned (according to personal communications from
 Jared LeBoldus, OSU Corvallis, and Kevin Zobrist, WSU).  No new  explanation has
 emerged, but we often hear the suggestion that the mortality is due to
@@ -24,13 +23,13 @@ normal old age or climate change.
 
 <p>
 
-Our informal observations in Seward Park's 120-acre
-old-growth urban forest lead us to suggest otherwise.  We see  many
-dead trees, young and old, mostly concentrated in six acres in the northern
-forest.  We have watched these trees die.  We watch as this dead zone spreads.
+For a decade and more, we have watched an accelerating decline of Western
+Hemlock in Seward Park's 120-acre old-growth urban forest.  We see many
+dead trees, both young and old, most of them concentrated in six acres in a
+northern portion of the forest.  This dead zone continues to grow.
 
 <p>
-Yet we also see many healthy hemlocks in the forest.
+Yet we also see many healthy hemlocks.
 We see trees of all ages, from young saplings to 250 year old giants.
 We see only intermittent normal mortality.
 
@@ -41,7 +40,7 @@ mapping, measuring and assessing the health of 724 Western Hemlocks in
 Seward Park's forest.
 
 <p>
-We establish that neither climate nor normal
+Here, we establish that neither climate nor normal
 senesence is killing the hemlocks.  We establish the need for further
 research to figure out the mechanisms of mortality - for the benefit
 of Seward's old-growth forest, and for forests throughout the
@@ -53,16 +52,21 @@ We further propose that Seward's forest provides <b>an ideal site for a <a
 href="https://en.wikipedia.org/wiki/Natural_experiment"
 target="_blank">natural experiment</a></b>, an excellent opportunity for deeper
 research into the mechanisms of Puget Lowland Western Hemlock decline.
+We identify two dramatically different populations of hemlock at Seward.
+Their are no obvious differences in the site and age characteristics of
+the two populations.  Careful study is needed to identify the hidden factors
+responsible for these very different outcomes, for two essentially identical
+populations of trees.
 
 ### Mapping and  Measuring at Seward Park
 
-Between January and March, two Univeristy of Washington students from
+Between January and March 2024, two Univeristy of Washington students from
 the Program on the Environment in their senior Capstone Research Project,
 along with a Garfield High School junior, and Seward's Green Seattle
 Partnership forest steward, guided by Dr. Tim Billo of the UW,
 spent  nine weeks in the
 forest collecting data to test our hypothesis.  The study participants
-are listed in Appendix B, below.
+are listed in Appendix A, below.
 
 We also used data collected in the summer of 2021 by CHOOSE 180 interns.
 
@@ -70,7 +74,7 @@ We took these steps in the study:
 
 <ol>
   <li> We initially identified a two acre healthy site (the "hemlock garden") and
-      a six acre affected site (the "hemlock graveyard"). This site has been
+      a six acre affected site (the "hemlock graveyard").  The graveyard site has been
       expanding slowly over the last five years.
   <li> We mapped, measured and assessed the health of all trees in these two sites.
   <li> We found that the two sites, separated within continuous old-growth forest by 700 meters,
@@ -93,27 +97,24 @@ tbl <- read.table(f, sep=",", header=TRUE, as.is=TRUE, nrow=-1, quote="")
    knitr::include_graphics("hemlockMapFinal.png")
 ```
 
-<i>(An interactive version of the above map, along with the full dataset, is available
-<a href="https://pshannon.net/hemlockSurvey2024/" target="_blank">here</a>.)</i>
+<i>Green dots are healthy trees, black and gray dots are dead or diseased trees,
+and dot diameter indicates tree diameter.  The shaded regions indicate concentrations of
+healthy (green border) and affected trees (black border). An interactive version of the above map, along with the full dataset, is available
+<a href="https://pshannon.net/hemlockSurvey2024" target="_blank">here</a>.</i>
 
 After mapping, measuring, and assessing the health of 724 trees across a broad
 swath of the 120-acre forest, skipping over regions with few or no
 hemlocks, we partitioned the trees into those with good-to-excellent
 health (greater than 2 on a 0-3 scale, see Appendix C), and those with
-poor health (less than 1 on that same scale).
+poor health (less than 1 on that same scale).  
 
-<p> This mapping, and subsequent density calculations, allowed us to
-confirm the hemlock graveyard, and to define the "extended garden", which
-is much larger than our originally identified two acre healthy site.  We see
-sick and dying trees are heavily concentrated in a contiguous region
-in the north of the forest.  Healthy hemlocks are found south, central
-and east throughout the forest.
-
-<p>
-We establish that the hemlock graveyard is a
-highly significant outlier with respect to hemlock mortality in this forest.  And
-we lay to rest claims that the mortality is due only to climate change or
-normal senescence.
+<p> This mapping, and subsequent density calculations establish, with statistical
+rigor, that though healthy and failing trees are found throughout the forest,
+there are two distinct populations of Western Hemlock in Seward's Forest.   
+Sick and dying trees are heavily concentrated in a contiguous region
+in the north of the forest.  Healthy hemlocks are found south, centrally
+and east throughout the forest.  And as we will now show, the dramatic
+die-off is not the simple consequence of climate change or normal senescence.
 
 <p>
 
@@ -123,7 +124,7 @@ normal senescence.
 This is easily dispensed with.  Or, at least, reduced to a minor role.   The two regions
 <i>may</i> have significant micro-climate differences, or micro-site
 characteristics which contribute to differential mortality.  But it is unlikely
-that decade-scale climate change phenomena, showing up as significant
+that any decade-scale climate change phenomena, showing up as significant
 differences in micro-scale weather patterns, will explain the radical
 mortality difference of the two regions, graveyard and garden.
 
@@ -131,10 +132,11 @@ mortality difference of the two regions, graveyard and garden.
 
 Here we show that big old trees are roughly equally represented
 in the two regions, but that the health of those trees is dramatically different.
-(See Appendix A, below, explainiing omission of younger trees.)
+(See Appendix B, below, explaining omission of younger trees, and presenting statistical
+tests.)
 <p>
 
-```{r boxplots, include=TRUE, echo=FALSE}
+```{r boxplot1, include=TRUE, echo=FALSE}
 
 par(mfrow=c(1,1))
 dbh.threshold <- 15
@@ -142,61 +144,48 @@ boxplot(subset(tbl, loc=="graveyard" & dbh > dbh.threshold)$dbh,
         subset(tbl, loc=="garden" & dbh > dbh.threshold)$dbh,
         main="Tree Diameter (a proxy for age; youngest trees omitted)",
         names=c("Graveyard", "Garden"))
+```
+<p>
+<i> The two gray boxes indicate that most of the trees at both sites
+have the same 20-30 inch diameter, and that the very largest trees
+are found, as you might expect, in the healthy (garden) region.
+The black lines in the gray boxes indicate the median diameter in
+each region.</i>
+
+```{r boxplot2, include=TRUE, echo=FALSE}
 
 boxplot(subset(tbl, loc=="graveyard" & dbh > dbh.threshold)$h,
         subset(tbl, loc=="garden" & dbh > dbh.threshold)$h,
         main="Health (youngest trees omitted)",
         names=c("Graveyard", "Garden"))
 ```
-
-### Significance Tests
-
-The Student's t-Test complements these boxplots, attaching a number value to
-the contrasts shown in the boxplots.
 <p>
-With respect to tree size (which roughly correlates with tree age) the two sites
-have the same distribution.   A p.value of larger that 0.7 attests that these
-groups are highly similar.
+<i>Here we see that the graveyard hemlocks are mostly dead or in poor health,
+that the garden hemlocks are by and large healthy, though with some diseased
+and dead trees - as you would expect to find in any healthy forest.
+Calculation of statistical significance for this contrast is presented in
+Appendix D.</i>
 
-```{r significanceTests.dbh, include=TRUE, echo=TRUE}
-
-dbh.threshold <- 15
-garden.bigTrees.dbh <- subset(tbl, loc=="garden" & dbh > dbh.threshold)$dbh
-graveyard.bigTrees.dbh <- subset(tbl, loc=="graveyard" & dbh > dbh.threshold)$dbh
-
-t.test(graveyard.bigTrees.dbh, garden.bigTrees.dbh)$p.value
-```
-
-This p.value, less than l0e-15, indicates that the contrast in hemlock
-health across the two regions is highly significant: the difference
-is real, and not due to random variation.
-
-This statistically robust contrast is our major finding.
-
-```{r significanceTests.health, include=TRUE, echo=TRUE}
-garden.bigTrees.health <- subset(tbl, loc=="garden" & dbh > dbh.threshold)$h
-graveyard.bigTrees.health <- subset(tbl, loc=="graveyard" & dbh > dbh.threshold)$h
-
-t.test(graveyard.bigTrees.health, garden.bigTrees.health)$p.value
-```
 <br><br><br>
 
 
 #### Conclusion
 
 <br>
-Our nine-week citizen and student science study establishes that
+Our nine-week community and student science study establishes that
 <ol>
   <li> Seward Park's old-growth forest hemlock die-off is dramatic and
   concentrated in one (expanding) six acre region.
-  <li> is not caused simply by senescence or weather patterns,
-  <li> that it provides an opportunity for further (professional) study.
+  <li> Is not caused simply by senescence or weather patterns,
+  <li> It provides an opportunity for further (professional) study.
 </ol>
 
+So what is going on? Is it fungi? Insects? Plant diseases? Some
+combination of these? It seems likely that multiple lines of research
+-- such as DNA sequencing of leaves and the trees' mycorrhizal fungi,
+entomological studies, and root rot analyses -- may be needed to
+understand this problem.
 
-We predict that foliar and mycorrhizal DNA sequencing, entomological studies,
-and root rot analyses may all be needed to understand this problem.  Once understood,
-remedies may be found, further decline and symptom spread may be prevented.
 <p>
 <br>
 We offer one caveat in closing.  Our past visits to other affected sites suggested
@@ -215,11 +204,29 @@ field observations are needed, perhaps laboratory and molecular methods as well.
 <br>
 <hr>
 
-### Appendix A: Filtering Trees by Size Before Comparing Health
+### Appendix A: Participants
+
+<br>
+
+<ul>
+  <li> Tim Billo, UW Faculty, College of the Environment
+  <li> Nate Butcher, Garfield High School junior
+  <li> Eric Holmquist, UW Program on the Environement, senior
+  <li> Paul Shannon, Green Seattle Partnership Forest Steward
+  <li> Muwei Zhang, UW Program on the Environement, senior
+</ul>
+
+<br>
+<br>
+<br>
+<br>
+
+
+### Appendix B: Filtering Trees by Size Before Comparing Health
 <p>
 When addressing the claim that hemlocks at Seward are dying because of
 old age - that is, due to normal Puget Lowland hemlock senescence - we above
-filtered out all trees less than 10 inches diameter at breast height, <b>dhb</b>.
+filtered out all trees less than 10 inches diameter at breast height, <b>DBH</b>.
 
 <p>
 We motivate and justify this filtering here.
@@ -233,11 +240,13 @@ hist(subset(tbl, loc=="graveyard")$dbh, main="Graveyard DBH", xlab="inches", xli
 ```
 <p>
 
-We see that there is an abundance of small diameter hemlocks in the
-garden, and comparitively few in the graveyard.  If we compare all
-sizes (all ages) in both groups, we will see that, and be misled by,
-their being approximately equal distribution in the graveyard across
-all sizes.
+We see that there are many small diameter hemlocks in the
+garden, and comparatively few in the graveyard.  If we include those young
+trees, then the garden trees are, on average, younger than the graveyard trees.
+However, we want to test the narrower claim that older age (proxied by
+greater tree diamenter) does not, by itself, lead to mortality.  To
+do that, we look only at trees in the same size range in the two groups:
+we compare like to like by looking at only trees above 10 inches in diameter.
 
 <p> (Two explanations for the paucity of young trees in the graveyard occur to us;
 there may be others.   First, that this region is no longer conducive to hemlock
@@ -298,20 +307,6 @@ t.test(subset(tbl, loc=="graveyard" & dbh >= 15)$h,
 <br>
 <hr>
 
-### Appendix B: Participants
-
-<br>
-
-<ul>
-  <li> Tim Billo, UW Faculty, College of the Environment
-  <li> Nate Butcher, Garfield High School junior
-  <li> Eric Holmquist, UW Program on the Environement, senior
-  <li> Paul Shannon, Green Seattle Partnership Forest Steward
-  <li> Muwei Zhang, UW Program on the Environement, senior
-</ul>
-
-<br>
-<br>
 <br>
 <hr>
 
@@ -363,7 +358,32 @@ The DMR (Dwarf Mistletoe Rating) is described
 <a href="https://forestpathology.org/parasitic-plants/dwarf-mistletoe/ecology/" target="_blank">here</a>.
 
 
-### Appendix D: Kernel Density Calculations
+### Appendix D: Stastical Tests
+
+The Student's t-Test complements these boxplots, attaching a number value to
+the contrasts shown in the boxplots.
+<p>
+With respect to tree size (which roughly correlates with tree age) the two sites
+have the same distribution.   A P-value of larger that 0.7 attests that these
+groups are highly similar by size.
+
+```{r significanceTests.dbh, include=TRUE, echo=TRUE}
+
+dbh.threshold <- 15
+garden.bigTrees.dbh <- subset(tbl, loc=="garden" & dbh > dbh.threshold)$dbh
+graveyard.bigTrees.dbh <- subset(tbl, loc=="graveyard" & dbh > dbh.threshold)$dbh
+
+t.test(graveyard.bigTrees.dbh, garden.bigTrees.dbh)$p.value
+```
+
+This P-value, less than l0e-15, indicates that the contrast in hemlock
+health across the two regions is highly significant.  The difference
+is real, not due to random variation, and offers the opportunity
+for further study to determine what is causing the differential mortality.
+
+This statistically robust contrast is our major finding.
+
+### Appendix E: Kernel Density Calculations
 
 <br>
 
@@ -474,7 +494,7 @@ table(location)
 
 ```
 
-### Appendix E: Estimating the Age of Healthy Hemlocks in the Garden
+### Appendix F: Estimating the Age of Healthy Hemlocks in the Garden
 
 In a 1983 journal article, Mark Harmon and Jerry Franklin offer a linear
 model relating Western Hemlock age in years to diameter in centimeters:
