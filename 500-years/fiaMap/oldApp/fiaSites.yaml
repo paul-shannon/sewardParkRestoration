@@ -1,0 +1,4293 @@
+site: Seward Park
+date: 2020-08-08
+title: Magnficent Forest - Plots
+centerLat: 47.556656
+centerLon: -122.250784
+initialZoom: 15
+
+points:
+
+   - name: FIA-3-1
+     id: FIA-3-1
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55344250
+     lon:   -122.25028379
+     color: green
+     dbh: 45.200000
+     radius: 15
+     details: NA
+
+   - name: FIA-4-1
+     id: FIA-4-1
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55346221
+     lon:   -122.24850699
+     color: lightgreen
+     dbh: 40.300000
+     radius: 13
+     details: NA
+
+   - name: FIA-10-1
+     id: FIA-10-1
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55655208
+     lon:   -122.25239743
+     color: lightgreen
+     dbh: 47.100000
+     radius: 15
+     details: NA
+
+   - name: FIA-8-1
+     id: FIA-8-1
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55529589
+     lon:   -122.24850193
+     color: lightgreen
+     dbh: 38.500000
+     radius: 12
+     details: NA
+
+   - name: FIA-11-1
+     id: FIA-11-1
+     observer: Butcher, Billo
+     group: Western Hemlock
+     date: summer 2024
+     lat:     47.55705862
+     lon:   -122.25037492
+     color: darkgray
+     dbh: 25.100000
+     radius: 8
+     details: NA
+
+   - name: FIA-15-1
+     id: FIA-15-1
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55872256
+     lon:   -122.24852547
+     color: green
+     dbh: 30.300000
+     radius: 10
+     details: NA
+
+   - name: FIA-2-1
+     id: FIA-2-1
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55347310
+     lon:   -122.25241186
+     color: darkgreen
+     dbh: 14.800000
+     radius: 4
+     details: NA
+
+   - name: FIA-14-1
+     id: FIA-14-1
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55884949
+     lon:   -122.25042769
+     color: darkgreen
+     dbh: 12.500000
+     radius: 4
+     details: NA
+
+   - name: FIA-16-1
+     id: FIA-16-1
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56060314
+     lon:   -122.25434910
+     color: darkgreen
+     dbh: 13.500000
+     radius: 4
+     details: NA
+
+   - name: FIA-19-1
+     id: FIA-19-1
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56066481
+     lon:   -122.25027603
+     color: darkgreen
+     dbh: 10.600000
+     radius: 3
+     details: NA
+
+   - name: FIA-17-1
+     id: FIA-17-1
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56057374
+     lon:   -122.25239676
+     color: darkgreen
+     dbh: 26.900000
+     radius: 8
+     details: NA
+
+   - name: FIA-12-1
+     id: FIA-12-1
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55886176
+     lon:   -122.25434835
+     color: lightgreen
+     dbh: 18.500000
+     radius: 6
+     details: NA
+
+   - name: FIA-1-1
+     id: FIA-1-1
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55180999
+     lon:   -122.25192264
+     color: green
+     dbh: 17.400000
+     radius: 5
+     details: NA
+
+   - name: FIA-13-1
+     id: FIA-13-1
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55877842
+     lon:   -122.25239700
+     color: darkgreen
+     dbh: 32.400000
+     radius: 10
+     details: NA
+
+   - name: FIA-7-1
+     id: FIA-7-1
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55523203
+     lon:   -122.25071056
+     color: lightgreen
+     dbh: 11.100000
+     radius: 3
+     details: NA
+
+   - name: FIA-5-1
+     id: FIA-5-1
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55541380
+     lon:   -122.25409806
+     color: darkgreen
+     dbh: 6.300000
+     radius: 2
+     details: NA
+
+   - name: FIA-9-1
+     id: FIA-9-1
+     observer: Butcher, Billo
+     group: Pacific Madrone
+     date: summer 2024
+     lat:     47.55698285
+     lon:   -122.25392600
+     color: gray
+     dbh: 10.400000
+     radius: 3
+     details: NA
+
+   - name: FIA-6-1
+     id: FIA-6-1
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55532588
+     lon:   -122.25241415
+     color: green
+     dbh: 42.600000
+     radius: 14
+     details: NA
+
+   - name: FIA-4-2
+     id: FIA-4-2
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55348566
+     lon:   -122.24844501
+     color: green
+     dbh: 37.300000
+     radius: 12
+     details: NA
+
+   - name: FIA-3-2
+     id: FIA-3-2
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55332250
+     lon:   -122.25033083
+     color: lightgreen
+     dbh: 32.100000
+     radius: 10
+     details: NA
+
+   - name: FIA-13-2
+     id: FIA-13-2
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55870582
+     lon:   -122.25235645
+     color: green
+     dbh: 21.500000
+     radius: 7
+     details: NA
+
+   - name: FIA-16-2
+     id: FIA-16-2
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.56061660
+     lon:   -122.25425777
+     color: lightgreen
+     dbh: 32.800000
+     radius: 10
+     details: NA
+
+   - name: FIA-8-2
+     id: FIA-8-2
+     observer: Butcher, Billo
+     group: Western Hemlock
+     date: summer 2024
+     lat:     47.55532975
+     lon:   -122.24842747
+     color: darkgray
+     dbh: 24.300000
+     radius: 8
+     details: NA
+
+   - name: FIA-14-2
+     id: FIA-14-2
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55882308
+     lon:   -122.25040890
+     color: darkgreen
+     dbh: 21.700000
+     radius: 7
+     details: NA
+
+   - name: FIA-9-2
+     id: FIA-9-2
+     observer: Butcher, Billo
+     group: Coastal Redwood
+     date: summer 2024
+     lat:     47.55701379
+     lon:   -122.25390245
+     color: blue
+     dbh: 29.500000
+     radius: 9
+     details: NA
+
+   - name: FIA-6-2
+     id: FIA-6-2
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55528248
+     lon:   -122.25231396
+     color: darkgreen
+     dbh: 32.100000
+     radius: 10
+     details: NA
+
+   - name: FIA-2-2
+     id: FIA-2-2
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55354620
+     lon:   -122.25236907
+     color: darkgreen
+     dbh: 24.000000
+     radius: 8
+     details: NA
+
+   - name: FIA-10-2
+     id: FIA-10-2
+     observer: Butcher, Billo
+     group: Western Hemlock
+     date: summer 2024
+     lat:     47.55662164
+     lon:   -122.25234387
+     color: darkgray
+     dbh: 12.200000
+     radius: 4
+     details: NA
+
+   - name: FIA-12-2
+     id: FIA-12-2
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55878811
+     lon:   -122.25434427
+     color: lightgreen
+     dbh: 26.400000
+     radius: 8
+     details: NA
+
+   - name: FIA-19-2
+     id: FIA-19-2
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56060292
+     lon:   -122.25013836
+     color: darkgreen
+     dbh: 12.100000
+     radius: 4
+     details: NA
+
+   - name: FIA-1-2
+     id: FIA-1-2
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55176804
+     lon:   -122.25197921
+     color: darkgreen
+     dbh: 38.700000
+     radius: 12
+     details: NA
+
+   - name: FIA-7-2
+     id: FIA-7-2
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55518820
+     lon:   -122.25062083
+     color: lightgreen
+     dbh: 20.400000
+     radius: 6
+     details: NA
+
+   - name: FIA-15-2
+     id: FIA-15-2
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55876849
+     lon:   -122.24849409
+     color: darkgreen
+     dbh: 11.800000
+     radius: 3
+     details: NA
+
+   - name: FIA-11-2
+     id: FIA-11-2
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55697603
+     lon:   -122.25025336
+     color: darkgreen
+     dbh: 7.300000
+     radius: 2
+     details: NA
+
+   - name: FIA-17-2
+     id: FIA-17-2
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56058886
+     lon:   -122.25238313
+     color: darkgreen
+     dbh: 7.900000
+     radius: 2
+     details: NA
+
+   - name: FIA-5-2
+     id: FIA-5-2
+     observer: Butcher, Billo
+     group: Pacific Madrone
+     date: summer 2024
+     lat:     47.55540236
+     lon:   -122.25403780
+     color: gray
+     dbh: 21.300000
+     radius: 7
+     details: NA
+
+   - name: FIA-2-3
+     id: FIA-2-3
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55346608
+     lon:   -122.25238859
+     color: green
+     dbh: 62.800000
+     radius: 20
+     details: NA
+
+   - name: FIA-13-3
+     id: FIA-13-3
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55864032
+     lon:   -122.25226317
+     color: green
+     dbh: 44.000000
+     radius: 14
+     details: NA
+
+   - name: FIA-3-3
+     id: FIA-3-3
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55332796
+     lon:   -122.25036019
+     color: lightgreen
+     dbh: 45.300000
+     radius: 15
+     details: NA
+
+   - name: FIA-10-3
+     id: FIA-10-3
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55650237
+     lon:   -122.25236598
+     color: lightgreen
+     dbh: 42.500000
+     radius: 14
+     details: NA
+
+   - name: FIA-16-3
+     id: FIA-16-3
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.56054265
+     lon:   -122.25429639
+     color: lightgreen
+     dbh: 38.700000
+     radius: 12
+     details: NA
+
+   - name: FIA-8-3
+     id: FIA-8-3
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55527910
+     lon:   -122.24841927
+     color: lightgreen
+     dbh: 48.600000
+     radius: 16
+     details: NA
+
+   - name: FIA-12-3
+     id: FIA-12-3
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55877654
+     lon:   -122.25431765
+     color: green
+     dbh: 28.800000
+     radius: 9
+     details: NA
+
+   - name: FIA-15-3
+     id: FIA-15-3
+     observer: Butcher, Billo
+     group: Red Alder
+     date: summer 2024
+     lat:     47.55871338
+     lon:   -122.24828561
+     color: red
+     dbh: 21.600000
+     radius: 7
+     details: NA
+
+   - name: FIA-6-3
+     id: FIA-6-3
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55520025
+     lon:   -122.25239695
+     color: lightgreen
+     dbh: 18.500000
+     radius: 6
+     details: NA
+
+   - name: FIA-19-3
+     id: FIA-19-3
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56055046
+     lon:   -122.25021163
+     color: darkgreen
+     dbh: 10.800000
+     radius: 3
+     details: NA
+
+   - name: FIA-17-3
+     id: FIA-17-3
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56055316
+     lon:   -122.25238820
+     color: darkgreen
+     dbh: 7.300000
+     radius: 2
+     details: NA
+
+   - name: FIA-5-3
+     id: FIA-5-3
+     observer: Butcher, Billo
+     group: Pacific Madrone
+     date: summer 2024
+     lat:     47.55540606
+     lon:   -122.25403513
+     color: gray
+     dbh: 20.300000
+     radius: 6
+     details: NA
+
+   - name: FIA-4-3
+     id: FIA-4-3
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55348322
+     lon:   -122.24842696
+     color: lightgreen
+     dbh: 16.800000
+     radius: 5
+     details: NA
+
+   - name: FIA-1-3
+     id: FIA-1-3
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55177404
+     lon:   -122.25196101
+     color: green
+     dbh: 6.700000
+     radius: 2
+     details: NA
+
+   - name: FIA-14-3
+     id: FIA-14-3
+     observer: Butcher, Billo
+     group: Western Hemlock
+     date: summer 2024
+     lat:     47.55877153
+     lon:   -122.25041706
+     color: darkgray
+     dbh: 7.300000
+     radius: 2
+     details: NA
+
+   - name: FIA-9-3
+     id: FIA-9-3
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55702176
+     lon:   -122.25388219
+     color: darkgreen
+     dbh: 6.800000
+     radius: 2
+     details: NA
+
+   - name: FIA-11-3
+     id: FIA-11-3
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55697390
+     lon:   -122.25024866
+     color: darkgreen
+     dbh: 6.100000
+     radius: 2
+     details: NA
+
+   - name: FIA-7-3
+     id: FIA-7-3
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55518185
+     lon:   -122.25055275
+     color: darkgreen
+     dbh: 5.900000
+     radius: 1
+     details: NA
+
+   - name: FIA-9-4
+     id: FIA-9-4
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55692930
+     lon:   -122.25389735
+     color: green
+     dbh: 23.000000
+     radius: 7
+     details: NA
+
+   - name: FIA-10-4
+     id: FIA-10-4
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55652546
+     lon:   -122.25221823
+     color: lightgreen
+     dbh: 46.400000
+     radius: 15
+     details: NA
+
+   - name: FIA-6-4
+     id: FIA-6-4
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55516724
+     lon:   -122.25240715
+     color: lightgreen
+     dbh: 37.500000
+     radius: 12
+     details: NA
+
+   - name: FIA-2-4
+     id: FIA-2-4
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55353305
+     lon:   -122.25231130
+     color: lightgreen
+     dbh: 36.600000
+     radius: 12
+     details: NA
+
+   - name: FIA-4-4
+     id: FIA-4-4
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55349448
+     lon:   -122.24831949
+     color: lightgreen
+     dbh: 35.500000
+     radius: 11
+     details: NA
+
+   - name: FIA-14-4
+     id: FIA-14-4
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55879489
+     lon:   -122.25036678
+     color: darkgreen
+     dbh: 14.700000
+     radius: 4
+     details: NA
+
+   - name: FIA-15-4
+     id: FIA-15-4
+     observer: Butcher, Billo
+     group: Red Alder
+     date: summer 2024
+     lat:     47.55870477
+     lon:   -122.24829114
+     color: red
+     dbh: 16.700000
+     radius: 5
+     details: NA
+
+   - name: FIA-5-4
+     id: FIA-5-4
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55532819
+     lon:   -122.25401013
+     color: darkgreen
+     dbh: 22.300000
+     radius: 7
+     details: NA
+
+   - name: FIA-1-4
+     id: FIA-1-4
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55177606
+     lon:   -122.25189710
+     color: green
+     dbh: 12.700000
+     radius: 4
+     details: NA
+
+   - name: FIA-8-4
+     id: FIA-8-4
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55520076
+     lon:   -122.24851184
+     color: darkgreen
+     dbh: 19.900000
+     radius: 6
+     details: NA
+
+   - name: FIA-11-4
+     id: FIA-11-4
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55696474
+     lon:   -122.25028751
+     color: darkgreen
+     dbh: 9.100000
+     radius: 3
+     details: NA
+
+   - name: FIA-3-4
+     id: FIA-3-4
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55334081
+     lon:   -122.25049932
+     color: lightgreen
+     dbh: 13.300000
+     radius: 4
+     details: NA
+
+   - name: FIA-12-4
+     id: FIA-12-4
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55878723
+     lon:   -122.25420783
+     color: green
+     dbh: 6.500000
+     radius: 2
+     details: NA
+
+   - name: FIA-17-4
+     id: FIA-17-4
+     observer: Butcher, Billo
+     group: Cascara
+     date: summer 2024
+     lat:     47.56054515
+     lon:   -122.25222793
+     color: magenta
+     dbh: 5.700000
+     radius: 1
+     details: NA
+
+   - name: FIA-19-4
+     id: FIA-19-4
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.56051556
+     lon:   -122.25010699
+     color: green
+     dbh: 7.900000
+     radius: 2
+     details: NA
+
+   - name: FIA-13-4
+     id: FIA-13-4
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55863248
+     lon:   -122.25241020
+     color: darkgreen
+     dbh: 34.800000
+     radius: 11
+     details: NA
+
+   - name: FIA-7-4
+     id: FIA-7-4
+     observer: Butcher, Billo
+     group: Yew
+     date: summer 2024
+     lat:     47.55512190
+     lon:   -122.25061491
+     color: black
+     dbh: 6.300000
+     radius: 2
+     details: NA
+
+   - name: FIA-16-4
+     id: FIA-16-4
+     observer: Butcher, Billo
+     group: Red Alder
+     date: summer 2024
+     lat:     47.56049802
+     lon:   -122.25419407
+     color: red
+     dbh: 11.600000
+     radius: 3
+     details: NA
+
+   - name: FIA-13-5
+     id: FIA-13-5
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55869097
+     lon:   -122.25257607
+     color: green
+     dbh: 36.500000
+     radius: 12
+     details: NA
+
+   - name: FIA-10-5
+     id: FIA-10-5
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55644324
+     lon:   -122.25233221
+     color: lightgreen
+     dbh: 43.100000
+     radius: 14
+     details: NA
+
+   - name: FIA-9-5
+     id: FIA-9-5
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55688426
+     lon:   -122.25381680
+     color: green
+     dbh: 21.500000
+     radius: 7
+     details: NA
+
+   - name: FIA-17-5
+     id: FIA-17-5
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.56045303
+     lon:   -122.25225302
+     color: lightgreen
+     dbh: 55.200000
+     radius: 18
+     details: NA
+
+   - name: FIA-4-5
+     id: FIA-4-5
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55343979
+     lon:   -122.24837416
+     color: lightgreen
+     dbh: 28.700000
+     radius: 9
+     details: NA
+
+   - name: FIA-3-5
+     id: FIA-3-5
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55333634
+     lon:   -122.25055385
+     color: lightgreen
+     dbh: 35.500000
+     radius: 11
+     details: NA
+
+   - name: FIA-14-5
+     id: FIA-14-5
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55879304
+     lon:   -122.25035709
+     color: darkgreen
+     dbh: 37.500000
+     radius: 12
+     details: NA
+
+   - name: FIA-6-5
+     id: FIA-6-5
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55511984
+     lon:   -122.25238166
+     color: darkgreen
+     dbh: 25.000000
+     radius: 8
+     details: NA
+
+   - name: FIA-16-5
+     id: FIA-16-5
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.56032216
+     lon:   -122.25430425
+     color: lightgreen
+     dbh: 20.300000
+     radius: 6
+     details: NA
+
+   - name: FIA-7-5
+     id: FIA-7-5
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55516626
+     lon:   -122.25052164
+     color: darkgreen
+     dbh: 22.700000
+     radius: 7
+     details: NA
+
+   - name: FIA-12-5
+     id: FIA-12-5
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55876084
+     lon:   -122.25422990
+     color: darkgreen
+     dbh: 14.000000
+     radius: 4
+     details: NA
+
+   - name: FIA-2-5
+     id: FIA-2-5
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55344236
+     lon:   -122.25241070
+     color: darkgreen
+     dbh: 9.100000
+     radius: 3
+     details: NA
+
+   - name: FIA-19-5
+     id: FIA-19-5
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.56050222
+     lon:   -122.25014912
+     color: green
+     dbh: 9.400000
+     radius: 3
+     details: NA
+
+   - name: FIA-11-5
+     id: FIA-11-5
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55696118
+     lon:   -122.25027463
+     color: darkgreen
+     dbh: 6.600000
+     radius: 2
+     details: NA
+
+   - name: FIA-5-5
+     id: FIA-5-5
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55535670
+     lon:   -122.25394769
+     color: darkgreen
+     dbh: 15.100000
+     radius: 5
+     details: NA
+
+   - name: FIA-1-5
+     id: FIA-1-5
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55175971
+     lon:   -122.25192040
+     color: green
+     dbh: 7.500000
+     radius: 2
+     details: NA
+
+   - name: FIA-8-5
+     id: FIA-8-5
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55523805
+     lon:   -122.24840085
+     color: darkgreen
+     dbh: 17.500000
+     radius: 5
+     details: NA
+
+   - name: FIA-15-5
+     id: FIA-15-5
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55865648
+     lon:   -122.24833070
+     color: lightgreen
+     dbh: 7.900000
+     radius: 2
+     details: NA
+
+   - name: FIA-9-6
+     id: FIA-9-6
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55687854
+     lon:   -122.25377689
+     color: green
+     dbh: 18.400000
+     radius: 6
+     details: NA
+
+   - name: FIA-4-6
+     id: FIA-4-6
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55343599
+     lon:   -122.24844101
+     color: lightgreen
+     dbh: 28.500000
+     radius: 9
+     details: NA
+
+   - name: FIA-1-6
+     id: FIA-1-6
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55172234
+     lon:   -122.25187055
+     color: green
+     dbh: 23.600000
+     radius: 7
+     details: NA
+
+   - name: FIA-7-6
+     id: FIA-7-6
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55515094
+     lon:   -122.25053993
+     color: darkgreen
+     dbh: 18.400000
+     radius: 6
+     details: NA
+
+   - name: FIA-3-6
+     id: FIA-3-6
+     observer: Butcher, Billo
+     group: Red Alder
+     date: summer 2024
+     lat:     47.55335362
+     lon:   -122.25061243
+     color: red
+     dbh: 15.100000
+     radius: 5
+     details: NA
+
+   - name: FIA-6-6
+     id: FIA-6-6
+     observer: Butcher, Billo
+     group: Pacific Madrone
+     date: summer 2024
+     lat:     47.55511536
+     lon:   -122.25256780
+     color: gray
+     dbh: 36.600000
+     radius: 12
+     details: NA
+
+   - name: FIA-2-6
+     id: FIA-2-6
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55347981
+     lon:   -122.25231404
+     color: darkgreen
+     dbh: 15.700000
+     radius: 5
+     details: NA
+
+   - name: FIA-10-6
+     id: FIA-10-6
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55640172
+     lon:   -122.25225958
+     color: green
+     dbh: 10.100000
+     radius: 3
+     details: NA
+
+   - name: FIA-16-6
+     id: FIA-16-6
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56039377
+     lon:   -122.25434999
+     color: darkgreen
+     dbh: 24.300000
+     radius: 8
+     details: NA
+
+   - name: FIA-13-6
+     id: FIA-13-6
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55868684
+     lon:   -122.25263407
+     color: green
+     dbh: 14.600000
+     radius: 4
+     details: NA
+
+   - name: FIA-12-6
+     id: FIA-12-6
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55885351
+     lon:   -122.25432142
+     color: darkgreen
+     dbh: 9.200000
+     radius: 3
+     details: NA
+
+   - name: FIA-5-6
+     id: FIA-5-6
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55534327
+     lon:   -122.25393577
+     color: darkgreen
+     dbh: 16.100000
+     radius: 5
+     details: NA
+
+   - name: FIA-19-6
+     id: FIA-19-6
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56050170
+     lon:   -122.25018766
+     color: darkgreen
+     dbh: 13.900000
+     radius: 4
+     details: NA
+
+   - name: FIA-15-6
+     id: FIA-15-6
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55867235
+     lon:   -122.24845310
+     color: darkgreen
+     dbh: 22.700000
+     radius: 7
+     details: NA
+
+   - name: FIA-8-6
+     id: FIA-8-6
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55519042
+     lon:   -122.24847146
+     color: lightgreen
+     dbh: 31.200000
+     radius: 10
+     details: NA
+
+   - name: FIA-11-6
+     id: FIA-11-6
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55695787
+     lon:   -122.25029043
+     color: darkgreen
+     dbh: 10.500000
+     radius: 3
+     details: NA
+
+   - name: FIA-17-6
+     id: FIA-17-6
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56042823
+     lon:   -122.25220234
+     color: darkgreen
+     dbh: 14.700000
+     radius: 4
+     details: NA
+
+   - name: FIA-14-6
+     id: FIA-14-6
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55871824
+     lon:   -122.25043408
+     color: lightgreen
+     dbh: 7.000000
+     radius: 2
+     details: NA
+
+   - name: FIA-15-7
+     id: FIA-15-7
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55868408
+     lon:   -122.24851584
+     color: green
+     dbh: 60.200000
+     radius: 20
+     details: NA
+
+   - name: FIA-9-7
+     id: FIA-9-7
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55685103
+     lon:   -122.25376083
+     color: green
+     dbh: 27.000000
+     radius: 9
+     details: NA
+
+   - name: FIA-1-7
+     id: FIA-1-7
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55168618
+     lon:   -122.25189794
+     color: green
+     dbh: 19.200000
+     radius: 6
+     details: NA
+
+   - name: FIA-11-7
+     id: FIA-11-7
+     observer: Butcher, Billo
+     group: Western Hemlock
+     date: summer 2024
+     lat:     47.55694451
+     lon:   -122.25042148
+     color: darkgray
+     dbh: 33.100000
+     radius: 11
+     details: NA
+
+   - name: FIA-13-7
+     id: FIA-13-7
+     observer: Butcher, Billo
+     group: Western Hemlock
+     date: summer 2024
+     lat:     47.55871526
+     lon:   -122.25250584
+     color: darkgray
+     dbh: 22.000000
+     radius: 7
+     details: NA
+
+   - name: FIA-16-7
+     id: FIA-16-7
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.56034605
+     lon:   -122.25439577
+     color: green
+     dbh: 12.300000
+     radius: 4
+     details: NA
+
+   - name: FIA-14-7
+     id: FIA-14-7
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55870339
+     lon:   -122.25035657
+     color: darkgreen
+     dbh: 37.100000
+     radius: 12
+     details: NA
+
+   - name: FIA-3-7
+     id: FIA-3-7
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55350129
+     lon:   -122.25059367
+     color: darkgreen
+     dbh: 25.100000
+     radius: 8
+     details: NA
+
+   - name: FIA-10-7
+     id: FIA-10-7
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55637513
+     lon:   -122.25223503
+     color: lightgreen
+     dbh: 15.700000
+     radius: 5
+     details: NA
+
+   - name: FIA-2-7
+     id: FIA-2-7
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55349448
+     lon:   -122.25224993
+     color: darkgreen
+     dbh: 15.700000
+     radius: 5
+     details: NA
+
+   - name: FIA-12-7
+     id: FIA-12-7
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55875925
+     lon:   -122.25420301
+     color: darkgreen
+     dbh: 11.600000
+     radius: 3
+     details: NA
+
+   - name: FIA-5-7
+     id: FIA-5-7
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55522422
+     lon:   -122.25395265
+     color: darkgreen
+     dbh: 18.300000
+     radius: 6
+     details: NA
+
+   - name: FIA-6-7
+     id: FIA-6-7
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55518738
+     lon:   -122.25249994
+     color: green
+     dbh: 18.700000
+     radius: 6
+     details: NA
+
+   - name: FIA-8-7
+     id: FIA-8-7
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55518812
+     lon:   -122.24842298
+     color: lightgreen
+     dbh: 17.300000
+     radius: 5
+     details: NA
+
+   - name: FIA-17-7
+     id: FIA-17-7
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56041986
+     lon:   -122.25220093
+     color: darkgreen
+     dbh: 10.100000
+     radius: 3
+     details: NA
+
+   - name: FIA-19-7
+     id: FIA-19-7
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.56049990
+     lon:   -122.25024483
+     color: lightgreen
+     dbh: 42.000000
+     radius: 14
+     details: NA
+
+   - name: FIA-7-7
+     id: FIA-7-7
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55514129
+     lon:   -122.25049337
+     color: green
+     dbh: 24.700000
+     radius: 8
+     details: NA
+
+   - name: FIA-4-7
+     id: FIA-4-7
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55343542
+     lon:   -122.24845321
+     color: green
+     dbh: 13.100000
+     radius: 4
+     details: NA
+
+   - name: FIA-7-8
+     id: FIA-7-8
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55507469
+     lon:   -122.25064756
+     color: green
+     dbh: 45.600000
+     radius: 15
+     details: NA
+
+   - name: FIA-9-8
+     id: FIA-9-8
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55686741
+     lon:   -122.25387778
+     color: green
+     dbh: 39.200000
+     radius: 13
+     details: NA
+
+   - name: FIA-3-8
+     id: FIA-3-8
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55352866
+     lon:   -122.25059458
+     color: lightgreen
+     dbh: 50.700000
+     radius: 16
+     details: NA
+
+   - name: FIA-12-8
+     id: FIA-12-8
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55870131
+     lon:   -122.25431028
+     color: green
+     dbh: 57.700000
+     radius: 19
+     details: NA
+
+   - name: FIA-5-8
+     id: FIA-5-8
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55516445
+     lon:   -122.25396495
+     color: green
+     dbh: 27.000000
+     radius: 9
+     details: NA
+
+   - name: FIA-4-8
+     id: FIA-4-8
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55332187
+     lon:   -122.24837155
+     color: lightgreen
+     dbh: 34.300000
+     radius: 11
+     details: NA
+
+   - name: FIA-14-8
+     id: FIA-14-8
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55869319
+     lon:   -122.25045849
+     color: darkgreen
+     dbh: 28.000000
+     radius: 9
+     details: NA
+
+   - name: FIA-1-8
+     id: FIA-1-8
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55167411
+     lon:   -122.25188018
+     color: green
+     dbh: 25.600000
+     radius: 8
+     details: NA
+
+   - name: FIA-15-8
+     id: FIA-15-8
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55857787
+     lon:   -122.24845561
+     color: darkgreen
+     dbh: 18.000000
+     radius: 6
+     details: NA
+
+   - name: FIA-8-8
+     id: FIA-8-8
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55518542
+     lon:   -122.24846836
+     color: lightgreen
+     dbh: 39.400000
+     radius: 13
+     details: NA
+
+   - name: FIA-2-8
+     id: FIA-2-8
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55349292
+     lon:   -122.25224703
+     color: darkgreen
+     dbh: 18.800000
+     radius: 6
+     details: NA
+
+   - name: FIA-13-8
+     id: FIA-13-8
+     observer: Butcher, Billo
+     group: Western Hemlock
+     date: summer 2024
+     lat:     47.55875308
+     lon:   -122.25257570
+     color: darkgray
+     dbh: 14.800000
+     radius: 4
+     details: NA
+
+   - name: FIA-19-8
+     id: FIA-19-8
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56048425
+     lon:   -122.25008039
+     color: darkgreen
+     dbh: 42.900000
+     radius: 14
+     details: NA
+
+   - name: FIA-16-8
+     id: FIA-16-8
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56032870
+     lon:   -122.25442289
+     color: darkgreen
+     dbh: 12.000000
+     radius: 4
+     details: NA
+
+   - name: FIA-11-8
+     id: FIA-11-8
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55688784
+     lon:   -122.25038960
+     color: lightgreen
+     dbh: 7.600000
+     radius: 2
+     details: NA
+
+   - name: FIA-17-8
+     id: FIA-17-8
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56042720
+     lon:   -122.25225669
+     color: darkgreen
+     dbh: 8.000000
+     radius: 2
+     details: NA
+
+   - name: FIA-10-8
+     id: FIA-10-8
+     observer: Butcher, Billo
+     group: Red Alder
+     date: summer 2024
+     lat:     47.55641086
+     lon:   -122.25237839
+     color: red
+     dbh: 21.000000
+     radius: 7
+     details: NA
+
+   - name: FIA-6-8
+     id: FIA-6-8
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55522486
+     lon:   -122.25259664
+     color: green
+     dbh: 30.300000
+     radius: 10
+     details: NA
+
+   - name: FIA-7-9
+     id: FIA-7-9
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55504750
+     lon:   -122.25048646
+     color: green
+     dbh: 44.100000
+     radius: 14
+     details: NA
+
+   - name: FIA-3-9
+     id: FIA-3-9
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55349609
+     lon:   -122.25051963
+     color: green
+     dbh: 55.700000
+     radius: 18
+     details: NA
+
+   - name: FIA-13-9
+     id: FIA-13-9
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55875336
+     lon:   -122.25253348
+     color: green
+     dbh: 26.700000
+     radius: 8
+     details: NA
+
+   - name: FIA-10-9
+     id: FIA-10-9
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55637786
+     lon:   -122.25236875
+     color: green
+     dbh: 21.500000
+     radius: 7
+     details: NA
+
+   - name: FIA-17-9
+     id: FIA-17-9
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56037934
+     lon:   -122.25223006
+     color: darkgreen
+     dbh: 18.700000
+     radius: 6
+     details: NA
+
+   - name: FIA-12-9
+     id: FIA-12-9
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55869956
+     lon:   -122.25416248
+     color: lightgreen
+     dbh: 24.300000
+     radius: 8
+     details: NA
+
+   - name: FIA-2-9
+     id: FIA-2-9
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55337193
+     lon:   -122.25228668
+     color: lightgreen
+     dbh: 38.100000
+     radius: 12
+     details: NA
+
+   - name: FIA-6-9
+     id: FIA-6-9
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55528061
+     lon:   -122.25251502
+     color: darkgreen
+     dbh: 25.600000
+     radius: 8
+     details: NA
+
+   - name: FIA-4-9
+     id: FIA-4-9
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55331270
+     lon:   -122.24838140
+     color: lightgreen
+     dbh: 25.000000
+     radius: 8
+     details: NA
+
+   - name: FIA-5-9
+     id: FIA-5-9
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55524040
+     lon:   -122.25408764
+     color: darkgreen
+     dbh: 15.800000
+     radius: 5
+     details: NA
+
+   - name: FIA-8-9
+     id: FIA-8-9
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55507310
+     lon:   -122.24838762
+     color: lightgreen
+     dbh: 14.300000
+     radius: 4
+     details: NA
+
+   - name: FIA-19-9
+     id: FIA-19-9
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56045255
+     lon:   -122.25009207
+     color: darkgreen
+     dbh: 29.800000
+     radius: 9
+     details: NA
+
+   - name: FIA-16-9
+     id: FIA-16-9
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56037939
+     lon:   -122.25444411
+     color: darkgreen
+     dbh: 11.800000
+     radius: 3
+     details: NA
+
+   - name: FIA-14-9
+     id: FIA-14-9
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55855405
+     lon:   -122.25048163
+     color: lightgreen
+     dbh: 15.300000
+     radius: 5
+     details: NA
+
+   - name: FIA-1-9
+     id: FIA-1-9
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55171640
+     lon:   -122.25198675
+     color: green
+     dbh: 13.000000
+     radius: 4
+     details: NA
+
+   - name: FIA-9-9
+     id: FIA-9-9
+     observer: Butcher, Billo
+     group: Pacific Madrone
+     date: summer 2024
+     lat:     47.55682418
+     lon:   -122.25381354
+     color: gray
+     dbh: 6.800000
+     radius: 2
+     details: NA
+
+   - name: FIA-15-9
+     id: FIA-15-9
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55856635
+     lon:   -122.24844908
+     color: darkgreen
+     dbh: 11.200000
+     radius: 3
+     details: NA
+
+   - name: FIA-11-9
+     id: FIA-11-9
+     observer: Butcher, Billo
+     group: Western Hemlock
+     date: summer 2024
+     lat:     47.55686139
+     lon:   -122.25038212
+     color: darkgray
+     dbh: 28.300000
+     radius: 9
+     details: NA
+
+   - name: FIA-14-10
+     id: FIA-14-10
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55858589
+     lon:   -122.25061291
+     color: green
+     dbh: 52.500000
+     radius: 17
+     details: NA
+
+   - name: FIA-6-10
+     id: FIA-6-10
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55523173
+     lon:   -122.25245142
+     color: green
+     dbh: 54.300000
+     radius: 18
+     details: NA
+
+   - name: FIA-16-10
+     id: FIA-16-10
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.56041634
+     lon:   -122.25447602
+     color: green
+     dbh: 31.500000
+     radius: 10
+     details: NA
+
+   - name: FIA-11-10
+     id: FIA-11-10
+     observer: Butcher, Billo
+     group: Western Hemlock
+     date: summer 2024
+     lat:     47.55693882
+     lon:   -122.25047273
+     color: darkgray
+     dbh: 27.000000
+     radius: 9
+     details: NA
+
+   - name: FIA-12-10
+     id: FIA-12-10
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55869942
+     lon:   -122.25415033
+     color: green
+     dbh: 33.000000
+     radius: 11
+     details: NA
+
+   - name: FIA-4-10
+     id: FIA-4-10
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55330548
+     lon:   -122.24840368
+     color: lightgreen
+     dbh: 26.900000
+     radius: 8
+     details: NA
+
+   - name: FIA-17-10
+     id: FIA-17-10
+     observer: Butcher, Billo
+     group: Western Hemlock
+     date: summer 2024
+     lat:     47.56037523
+     lon:   -122.25224848
+     color: darkgray
+     dbh: 27.900000
+     radius: 9
+     details: NA
+
+   - name: FIA-7-10
+     id: FIA-7-10
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55504027
+     lon:   -122.25045994
+     color: darkgreen
+     dbh: 12.800000
+     radius: 4
+     details: NA
+
+   - name: FIA-8-10
+     id: FIA-8-10
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55505788
+     lon:   -122.24840607
+     color: green
+     dbh: 9.300000
+     radius: 3
+     details: NA
+
+   - name: FIA-1-10
+     id: FIA-1-10
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55167905
+     lon:   -122.25190427
+     color: green
+     dbh: 10.800000
+     radius: 3
+     details: NA
+
+   - name: FIA-10-10
+     id: FIA-10-10
+     observer: Butcher, Billo
+     group: Pacific Madrone
+     date: summer 2024
+     lat:     47.55637463
+     lon:   -122.25252336
+     color: gray
+     dbh: 13.300000
+     radius: 4
+     details: NA
+
+   - name: FIA-9-10
+     id: FIA-9-10
+     observer: Butcher, Billo
+     group: Pacific Madrone
+     date: summer 2024
+     lat:     47.55681605
+     lon:   -122.25383250
+     color: gray
+     dbh: 13.700000
+     radius: 4
+     details: NA
+
+   - name: FIA-5-10
+     id: FIA-5-10
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55521392
+     lon:   -122.25405242
+     color: darkgreen
+     dbh: 12.300000
+     radius: 4
+     details: NA
+
+   - name: FIA-19-10
+     id: FIA-19-10
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56046118
+     lon:   -122.25024938
+     color: darkgreen
+     dbh: 6.200000
+     radius: 2
+     details: NA
+
+   - name: FIA-2-10
+     id: FIA-2-10
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55334284
+     lon:   -122.25225348
+     color: darkgreen
+     dbh: 13.500000
+     radius: 4
+     details: NA
+
+   - name: FIA-15-10
+     id: FIA-15-10
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55855612
+     lon:   -122.24844327
+     color: darkgreen
+     dbh: 9.200000
+     radius: 3
+     details: NA
+
+   - name: FIA-7-11
+     id: FIA-7-11
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55496555
+     lon:   -122.25053713
+     color: green
+     dbh: 52.500000
+     radius: 17
+     details: NA
+
+   - name: FIA-5-11
+     id: FIA-5-11
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55516541
+     lon:   -122.25399284
+     color: green
+     dbh: 33.500000
+     radius: 11
+     details: NA
+
+   - name: FIA-10-11
+     id: FIA-10-11
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55645084
+     lon:   -122.25246297
+     color: green
+     dbh: 28.300000
+     radius: 9
+     details: NA
+
+   - name: FIA-11-11
+     id: FIA-11-11
+     observer: Butcher, Billo
+     group: Western Hemlock
+     date: summer 2024
+     lat:     47.55683114
+     lon:   -122.25062279
+     color: darkgray
+     dbh: 20.100000
+     radius: 6
+     details: NA
+
+   - name: FIA-4-11
+     id: FIA-4-11
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55329174
+     lon:   -122.24846405
+     color: green
+     dbh: 24.400000
+     radius: 8
+     details: NA
+
+   - name: FIA-9-11
+     id: FIA-9-11
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55675495
+     lon:   -122.25388454
+     color: green
+     dbh: 22.900000
+     radius: 7
+     details: NA
+
+   - name: FIA-8-11
+     id: FIA-8-11
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55507353
+     lon:   -122.24845470
+     color: lightgreen
+     dbh: 37.300000
+     radius: 12
+     details: NA
+
+   - name: FIA-15-11
+     id: FIA-15-11
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55856635
+     lon:   -122.24844908
+     color: darkgreen
+     dbh: 15.400000
+     radius: 5
+     details: NA
+
+   - name: FIA-6-11
+     id: FIA-6-11
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55531447
+     lon:   -122.25250089
+     color: darkgreen
+     dbh: 22.800000
+     radius: 7
+     details: NA
+
+   - name: FIA-12-11
+     id: FIA-12-11
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55860548
+     lon:   -122.25417978
+     color: green
+     dbh: 17.400000
+     radius: 5
+     details: NA
+
+   - name: FIA-14-11
+     id: FIA-14-11
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55859545
+     lon:   -122.25061084
+     color: darkgreen
+     dbh: 20.400000
+     radius: 6
+     details: NA
+
+   - name: FIA-17-11
+     id: FIA-17-11
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56039356
+     lon:   -122.25230931
+     color: darkgreen
+     dbh: 26.700000
+     radius: 8
+     details: NA
+
+   - name: FIA-16-11
+     id: FIA-16-11
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.56044218
+     lon:   -122.25446019
+     color: lightgreen
+     dbh: 36.000000
+     radius: 12
+     details: NA
+
+   - name: FIA-1-11
+     id: FIA-1-11
+     observer: Butcher, Billo
+     group: Cherry
+     date: summer 2024
+     lat:     47.55164674
+     lon:   -122.25204698
+     color: turquoise
+     dbh: 8.000000
+     radius: 2
+     details: NA
+
+   - name: FIA-2-11
+     id: FIA-2-11
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55338944
+     lon:   -122.25233848
+     color: darkgreen
+     dbh: 16.000000
+     radius: 5
+     details: NA
+
+   - name: FIA-19-11
+     id: FIA-19-11
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.56042717
+     lon:   -122.25021469
+     color: lightgreen
+     dbh: 6.600000
+     radius: 2
+     details: NA
+
+   - name: FIA-4-12
+     id: FIA-4-12
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55327690
+     lon:   -122.24853431
+     color: lightgreen
+     dbh: 36.700000
+     radius: 12
+     details: NA
+
+   - name: FIA-10-12
+     id: FIA-10-12
+     observer: Butcher, Billo
+     group: Pacific Madrone
+     date: summer 2024
+     lat:     47.55644492
+     lon:   -122.25259530
+     color: gray
+     dbh: 37.900000
+     radius: 12
+     details: NA
+
+   - name: FIA-14-12
+     id: FIA-14-12
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55860523
+     lon:   -122.25060272
+     color: darkgreen
+     dbh: 15.500000
+     radius: 5
+     details: NA
+
+   - name: FIA-7-12
+     id: FIA-7-12
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55495469
+     lon:   -122.25054451
+     color: darkgreen
+     dbh: 16.700000
+     radius: 5
+     details: NA
+
+   - name: FIA-2-12
+     id: FIA-2-12
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55331377
+     lon:   -122.25233543
+     color: lightgreen
+     dbh: 48.500000
+     radius: 16
+     details: NA
+
+   - name: FIA-9-12
+     id: FIA-9-12
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55678006
+     lon:   -122.25390348
+     color: green
+     dbh: 11.200000
+     radius: 3
+     details: NA
+
+   - name: FIA-11-12
+     id: FIA-11-12
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55693568
+     lon:   -122.25063309
+     color: darkgreen
+     dbh: 27.900000
+     radius: 9
+     details: NA
+
+   - name: FIA-1-12
+     id: FIA-1-12
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55169602
+     lon:   -122.25205200
+     color: darkgreen
+     dbh: 17.300000
+     radius: 5
+     details: NA
+
+   - name: FIA-5-12
+     id: FIA-5-12
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55517363
+     lon:   -122.25401631
+     color: darkgreen
+     dbh: 19.100000
+     radius: 6
+     details: NA
+
+   - name: FIA-19-12
+     id: FIA-19-12
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56038743
+     lon:   -122.25019954
+     color: darkgreen
+     dbh: 21.200000
+     radius: 7
+     details: NA
+
+   - name: FIA-15-12
+     id: FIA-15-12
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55856635
+     lon:   -122.24844908
+     color: darkgreen
+     dbh: 9.000000
+     radius: 3
+     details: NA
+
+   - name: FIA-16-12
+     id: FIA-16-12
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.56049133
+     lon:   -122.25459859
+     color: lightgreen
+     dbh: 11.800000
+     radius: 3
+     details: NA
+
+   - name: FIA-8-12
+     id: FIA-8-12
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55506464
+     lon:   -122.24860261
+     color: green
+     dbh: 58.700000
+     radius: 19
+     details: NA
+
+   - name: FIA-12-12
+     id: FIA-12-12
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55861395
+     lon:   -122.25422453
+     color: green
+     dbh: 7.100000
+     radius: 2
+     details: NA
+
+   - name: FIA-17-12
+     id: FIA-17-12
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56034180
+     lon:   -122.25234522
+     color: darkgreen
+     dbh: 8.300000
+     radius: 2
+     details: NA
+
+   - name: FIA-8-13
+     id: FIA-8-13
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55518927
+     lon:   -122.24860478
+     color: green
+     dbh: 41.300000
+     radius: 13
+     details: NA
+
+   - name: FIA-4-13
+     id: FIA-4-13
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55343252
+     lon:   -122.24854003
+     color: lightgreen
+     dbh: 58.900000
+     radius: 19
+     details: NA
+
+   - name: FIA-14-13
+     id: FIA-14-13
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55863301
+     lon:   -122.25062509
+     color: lightgreen
+     dbh: 30.400000
+     radius: 10
+     details: NA
+
+   - name: FIA-17-13
+     id: FIA-17-13
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.56038977
+     lon:   -122.25251043
+     color: lightgreen
+     dbh: 46.900000
+     radius: 15
+     details: NA
+
+   - name: FIA-7-13
+     id: FIA-7-13
+     observer: Butcher, Billo
+     group: Western Hemlock
+     date: summer 2024
+     lat:     47.55500418
+     lon:   -122.25069674
+     color: darkgray
+     dbh: 28.300000
+     radius: 9
+     details: NA
+
+   - name: FIA-10-13
+     id: FIA-10-13
+     observer: Butcher, Billo
+     group: Pacific Madrone
+     date: summer 2024
+     lat:     47.55644739
+     lon:   -122.25261044
+     color: gray
+     dbh: 52.000000
+     radius: 17
+     details: NA
+
+   - name: FIA-1-13
+     id: FIA-1-13
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55163902
+     lon:   -122.25210539
+     color: green
+     dbh: 20.200000
+     radius: 6
+     details: NA
+
+   - name: FIA-15-13
+     id: FIA-15-13
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55861998
+     lon:   -122.24862413
+     color: darkgreen
+     dbh: 15.200000
+     radius: 5
+     details: NA
+
+   - name: FIA-19-13
+     id: FIA-19-13
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56035315
+     lon:   -122.25026100
+     color: darkgreen
+     dbh: 20.100000
+     radius: 6
+     details: NA
+
+   - name: FIA-5-13
+     id: FIA-5-13
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55516021
+     lon:   -122.25403088
+     color: darkgreen
+     dbh: 17.500000
+     radius: 5
+     details: NA
+
+   - name: FIA-12-13
+     id: FIA-12-13
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55864704
+     lon:   -122.25432763
+     color: green
+     dbh: 13.200000
+     radius: 4
+     details: NA
+
+   - name: FIA-9-13
+     id: FIA-9-13
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55676352
+     lon:   -122.25390168
+     color: green
+     dbh: 8.500000
+     radius: 2
+     details: NA
+
+   - name: FIA-2-13
+     id: FIA-2-13
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55334909
+     lon:   -122.25236253
+     color: darkgreen
+     dbh: 10.500000
+     radius: 3
+     details: NA
+
+   - name: FIA-16-13
+     id: FIA-16-13
+     observer: Butcher, Billo
+     group: Pacific Madrone
+     date: summer 2024
+     lat:     47.56051022
+     lon:   -122.25446287
+     color: gray
+     dbh: 12.900000
+     radius: 4
+     details: NA
+
+   - name: FIA-11-13
+     id: FIA-11-13
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55696435
+     lon:   -122.25054440
+     color: darkgreen
+     dbh: 6.200000
+     radius: 2
+     details: NA
+
+   - name: FIA-12-14
+     id: FIA-12-14
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55856645
+     lon:   -122.25426252
+     color: green
+     dbh: 33.700000
+     radius: 11
+     details: NA
+
+   - name: FIA-17-14
+     id: FIA-17-14
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.56045061
+     lon:   -122.25244558
+     color: lightgreen
+     dbh: 48.600000
+     radius: 16
+     details: NA
+
+   - name: FIA-19-14
+     id: FIA-19-14
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.56038926
+     lon:   -122.25028476
+     color: lightgreen
+     dbh: 40.100000
+     radius: 13
+     details: NA
+
+   - name: FIA-16-14
+     id: FIA-16-14
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.56054354
+     lon:   -122.25454438
+     color: green
+     dbh: 19.400000
+     radius: 6
+     details: NA
+
+   - name: FIA-2-14
+     id: FIA-2-14
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55337012
+     lon:   -122.25237844
+     color: lightgreen
+     dbh: 32.700000
+     radius: 10
+     details: NA
+
+   - name: FIA-8-14
+     id: FIA-8-14
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55521293
+     lon:   -122.24856965
+     color: lightgreen
+     dbh: 25.400000
+     radius: 8
+     details: NA
+
+   - name: FIA-14-14
+     id: FIA-14-14
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55864860
+     lon:   -122.25066926
+     color: lightgreen
+     dbh: 15.900000
+     radius: 5
+     details: NA
+
+   - name: FIA-15-14
+     id: FIA-15-14
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55863987
+     lon:   -122.24867875
+     color: darkgreen
+     dbh: 17.100000
+     radius: 5
+     details: NA
+
+   - name: FIA-4-14
+     id: FIA-4-14
+     observer: Butcher, Billo
+     group: Western Hemlock
+     date: summer 2024
+     lat:     47.55345847
+     lon:   -122.24869749
+     color: darkgray
+     dbh: 23.000000
+     radius: 7
+     details: NA
+
+   - name: FIA-9-14
+     id: FIA-9-14
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55680522
+     lon:   -122.25392924
+     color: green
+     dbh: 6.800000
+     radius: 2
+     details: NA
+
+   - name: FIA-1-14
+     id: FIA-1-14
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55167881
+     lon:   -122.25213871
+     color: darkgreen
+     dbh: 19.300000
+     radius: 6
+     details: NA
+
+   - name: FIA-10-14
+     id: FIA-10-14
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55645703
+     lon:   -122.25255735
+     color: green
+     dbh: 7.500000
+     radius: 2
+     details: NA
+
+   - name: FIA-7-14
+     id: FIA-7-14
+     observer: Butcher, Billo
+     group: Pacific Madrone
+     date: summer 2024
+     lat:     47.55495099
+     lon:   -122.25072652
+     color: gray
+     dbh: 5.900000
+     radius: 1
+     details: NA
+
+   - name: FIA-5-14
+     id: FIA-5-14
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55514519
+     lon:   -122.25407686
+     color: green
+     dbh: 8.300000
+     radius: 2
+     details: NA
+
+   - name: FIA-11-14
+     id: FIA-11-14
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55696468
+     lon:   -122.25054206
+     color: darkgreen
+     dbh: 7.600000
+     radius: 2
+     details: NA
+
+   - name: FIA-2-15
+     id: FIA-2-15
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55331091
+     lon:   -122.25249685
+     color: green
+     dbh: 41.500000
+     radius: 13
+     details: NA
+
+   - name: FIA-4-15
+     id: FIA-4-15
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55348319
+     lon:   -122.24869121
+     color: green
+     dbh: 44.300000
+     radius: 14
+     details: NA
+
+   - name: FIA-16-15
+     id: FIA-16-15
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.56055991
+     lon:   -122.25454815
+     color: green
+     dbh: 24.500000
+     radius: 8
+     details: NA
+
+   - name: FIA-1-15
+     id: FIA-1-15
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55173615
+     lon:   -122.25211163
+     color: green
+     dbh: 33.200000
+     radius: 11
+     details: NA
+
+   - name: FIA-8-15
+     id: FIA-8-15
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55528468
+     lon:   -122.24864794
+     color: lightgreen
+     dbh: 33.700000
+     radius: 11
+     details: NA
+
+   - name: FIA-5-15
+     id: FIA-5-15
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55511674
+     lon:   -122.25413100
+     color: green
+     dbh: 18.900000
+     radius: 6
+     details: NA
+
+   - name: FIA-11-15
+     id: FIA-11-15
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55696567
+     lon:   -122.25054584
+     color: darkgreen
+     dbh: 14.300000
+     radius: 4
+     details: NA
+
+   - name: FIA-14-15
+     id: FIA-14-15
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55866913
+     lon:   -122.25064335
+     color: lightgreen
+     dbh: 13.700000
+     radius: 4
+     details: NA
+
+   - name: FIA-19-15
+     id: FIA-19-15
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56043499
+     lon:   -122.25029982
+     color: darkgreen
+     dbh: 14.000000
+     radius: 4
+     details: NA
+
+   - name: FIA-15-15
+     id: FIA-15-15
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55865197
+     lon:   -122.24865402
+     color: darkgreen
+     dbh: 12.500000
+     radius: 4
+     details: NA
+
+   - name: FIA-10-15
+     id: FIA-10-15
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55646531
+     lon:   -122.25261932
+     color: green
+     dbh: 7.400000
+     radius: 2
+     details: NA
+
+   - name: FIA-12-15
+     id: FIA-12-15
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55867341
+     lon:   -122.25440979
+     color: green
+     dbh: 7.200000
+     radius: 2
+     details: NA
+
+   - name: FIA-9-15
+     id: FIA-9-15
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55675231
+     lon:   -122.25397387
+     color: green
+     dbh: 8.900000
+     radius: 2
+     details: NA
+
+   - name: FIA-17-15
+     id: FIA-17-15
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56053714
+     lon:   -122.25244833
+     color: darkgreen
+     dbh: 7.000000
+     radius: 2
+     details: NA
+
+   - name: FIA-7-15
+     id: FIA-7-15
+     observer: Butcher, Billo
+     group: Pacific Madrone
+     date: summer 2024
+     lat:     47.55500192
+     lon:   -122.25079844
+     color: gray
+     dbh: 6.500000
+     radius: 2
+     details: NA
+
+   - name: FIA-7-16
+     id: FIA-7-16
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55503340
+     lon:   -122.25079824
+     color: green
+     dbh: 49.500000
+     radius: 16
+     details: NA
+
+   - name: FIA-9-16
+     id: FIA-9-16
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55682990
+     lon:   -122.25395850
+     color: green
+     dbh: 40.700000
+     radius: 13
+     details: NA
+
+   - name: FIA-11-16
+     id: FIA-11-16
+     observer: Butcher, Billo
+     group: Western Hemlock
+     date: summer 2024
+     lat:     47.55698819
+     lon:   -122.25058843
+     color: darkgray
+     dbh: 18.200000
+     radius: 6
+     details: NA
+
+   - name: FIA-12-16
+     id: FIA-12-16
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55868598
+     lon:   -122.25453744
+     color: lightgreen
+     dbh: 42.400000
+     radius: 14
+     details: NA
+
+   - name: FIA-4-16
+     id: FIA-4-16
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55348478
+     lon:   -122.24860274
+     color: green
+     dbh: 23.800000
+     radius: 7
+     details: NA
+
+   - name: FIA-2-16
+     id: FIA-2-16
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55335372
+     lon:   -122.25251145
+     color: darkgreen
+     dbh: 26.000000
+     radius: 8
+     details: NA
+
+   - name: FIA-14-16
+     id: FIA-14-16
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55871324
+     lon:   -122.25071156
+     color: darkgreen
+     dbh: 71.500000
+     radius: 23
+     details: NA
+
+   - name: FIA-16-16
+     id: FIA-16-16
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.56054637
+     lon:   -122.25445439
+     color: lightgreen
+     dbh: 35.600000
+     radius: 11
+     details: NA
+
+   - name: FIA-15-16
+     id: FIA-15-16
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55866493
+     lon:   -122.24864346
+     color: green
+     dbh: 8.500000
+     radius: 2
+     details: NA
+
+   - name: FIA-8-16
+     id: FIA-8-16
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55531609
+     lon:   -122.24865811
+     color: darkgreen
+     dbh: 17.200000
+     radius: 5
+     details: NA
+
+   - name: FIA-1-16
+     id: FIA-1-16
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55174945
+     lon:   -122.25228268
+     color: lightgreen
+     dbh: 27.300000
+     radius: 9
+     details: NA
+
+   - name: FIA-17-16
+     id: FIA-17-16
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.56057343
+     lon:   -122.25244824
+     color: lightgreen
+     dbh: 16.300000
+     radius: 5
+     details: NA
+
+   - name: FIA-10-16
+     id: FIA-10-16
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55647899
+     lon:   -122.25261088
+     color: green
+     dbh: 6.100000
+     radius: 2
+     details: NA
+
+   - name: FIA-19-16
+     id: FIA-19-16
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56035184
+     lon:   -122.25037431
+     color: darkgreen
+     dbh: 7.500000
+     radius: 2
+     details: NA
+
+   - name: FIA-5-16
+     id: FIA-5-16
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55514527
+     lon:   -122.25421501
+     color: darkgreen
+     dbh: 12.900000
+     radius: 4
+     details: NA
+
+   - name: FIA-15-17
+     id: FIA-15-17
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55871938
+     lon:   -122.24862184
+     color: green
+     dbh: 50.300000
+     radius: 16
+     details: NA
+
+   - name: FIA-4-17
+     id: FIA-4-17
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55347231
+     lon:   -122.24854648
+     color: green
+     dbh: 31.600000
+     radius: 10
+     details: NA
+
+   - name: FIA-14-17
+     id: FIA-14-17
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55882803
+     lon:   -122.25051358
+     color: lightgreen
+     dbh: 24.500000
+     radius: 8
+     details: NA
+
+   - name: FIA-1-17
+     id: FIA-1-17
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55180305
+     lon:   -122.25226789
+     color: green
+     dbh: 36.500000
+     radius: 12
+     details: NA
+
+   - name: FIA-12-17
+     id: FIA-12-17
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55872214
+     lon:   -122.25452206
+     color: lightgreen
+     dbh: 23.200000
+     radius: 7
+     details: NA
+
+   - name: FIA-8-17
+     id: FIA-8-17
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55531763
+     lon:   -122.24865492
+     color: darkgreen
+     dbh: 20.900000
+     radius: 6
+     details: NA
+
+   - name: FIA-11-17
+     id: FIA-11-17
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55700868
+     lon:   -122.25063183
+     color: lightgreen
+     dbh: 31.100000
+     radius: 10
+     details: NA
+
+   - name: FIA-2-17
+     id: FIA-2-17
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55336462
+     lon:   -122.25254138
+     color: lightgreen
+     dbh: 21.000000
+     radius: 7
+     details: NA
+
+   - name: FIA-16-17
+     id: FIA-16-17
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56063117
+     lon:   -122.25437706
+     color: darkgreen
+     dbh: 13.100000
+     radius: 4
+     details: NA
+
+   - name: FIA-10-17
+     id: FIA-10-17
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55649459
+     lon:   -122.25260784
+     color: green
+     dbh: 9.200000
+     radius: 3
+     details: NA
+
+   - name: FIA-9-17
+     id: FIA-9-17
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55679865
+     lon:   -122.25405124
+     color: darkgreen
+     dbh: 16.000000
+     radius: 5
+     details: NA
+
+   - name: FIA-5-17
+     id: FIA-5-17
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55519110
+     lon:   -122.25423252
+     color: darkgreen
+     dbh: 7.000000
+     radius: 2
+     details: NA
+
+   - name: FIA-19-17
+     id: FIA-19-17
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.56037333
+     lon:   -122.25038034
+     color: lightgreen
+     dbh: 8.000000
+     radius: 2
+     details: NA
+
+   - name: FIA-7-17
+     id: FIA-7-17
+     observer: Butcher, Billo
+     group: Pacific Madrone
+     date: summer 2024
+     lat:     47.55501695
+     lon:   -122.25084033
+     color: gray
+     dbh: 8.100000
+     radius: 2
+     details: NA
+
+   - name: FIA-7-18
+     id: FIA-7-18
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55505104
+     lon:   -122.25075945
+     color: green
+     dbh: 49.400000
+     radius: 16
+     details: NA
+
+   - name: FIA-11-18
+     id: FIA-11-18
+     observer: Butcher, Billo
+     group: Western Hemlock
+     date: summer 2024
+     lat:     47.55704987
+     lon:   -122.25055480
+     color: darkgray
+     dbh: 21.500000
+     radius: 7
+     details: NA
+
+   - name: FIA-8-18
+     id: FIA-8-18
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55531876
+     lon:   -122.24865608
+     color: darkgreen
+     dbh: 15.100000
+     radius: 5
+     details: NA
+
+   - name: FIA-1-18
+     id: FIA-1-18
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55183598
+     lon:   -122.25212424
+     color: darkgreen
+     dbh: 25.500000
+     radius: 8
+     details: NA
+
+   - name: FIA-12-18
+     id: FIA-12-18
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55872667
+     lon:   -122.25452685
+     color: darkgreen
+     dbh: 30.400000
+     radius: 10
+     details: NA
+
+   - name: FIA-9-18
+     id: FIA-9-18
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55681405
+     lon:   -122.25408161
+     color: green
+     dbh: 11.400000
+     radius: 3
+     details: NA
+
+   - name: FIA-15-18
+     id: FIA-15-18
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55872116
+     lon:   -122.24863162
+     color: darkgreen
+     dbh: 12.000000
+     radius: 4
+     details: NA
+
+   - name: FIA-2-18
+     id: FIA-2-18
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55338866
+     lon:   -122.25250786
+     color: lightgreen
+     dbh: 13.800000
+     radius: 4
+     details: NA
+
+   - name: FIA-19-18
+     id: FIA-19-18
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.56039330
+     lon:   -122.25038313
+     color: lightgreen
+     dbh: 13.000000
+     radius: 4
+     details: NA
+
+   - name: FIA-16-18
+     id: FIA-16-18
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56062989
+     lon:   -122.25436900
+     color: darkgreen
+     dbh: 6.400000
+     radius: 2
+     details: NA
+
+   - name: FIA-5-18
+     id: FIA-5-18
+     observer: Butcher, Billo
+     group: Red Alder
+     date: summer 2024
+     lat:     47.55520607
+     lon:   -122.25431694
+     color: red
+     dbh: 9.400000
+     radius: 3
+     details: NA
+
+   - name: FIA-11-19
+     id: FIA-11-19
+     observer: Butcher, Billo
+     group: Western Hemlock
+     date: summer 2024
+     lat:     47.55701846
+     lon:   -122.25052548
+     color: darkgray
+     dbh: 24.200000
+     radius: 8
+     details: NA
+
+   - name: FIA-1-19
+     id: FIA-1-19
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55183870
+     lon:   -122.25210569
+     color: darkgreen
+     dbh: 21.600000
+     radius: 7
+     details: NA
+
+   - name: FIA-12-19
+     id: FIA-12-19
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55869180
+     lon:   -122.25442156
+     color: green
+     dbh: 12.100000
+     radius: 4
+     details: NA
+
+   - name: FIA-19-19
+     id: FIA-19-19
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56040582
+     lon:   -122.25037489
+     color: darkgreen
+     dbh: 19.100000
+     radius: 6
+     details: NA
+
+   - name: FIA-15-19
+     id: FIA-15-19
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55874315
+     lon:   -122.24875290
+     color: darkgreen
+     dbh: 17.500000
+     radius: 5
+     details: NA
+
+   - name: FIA-9-19
+     id: FIA-9-19
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55688128
+     lon:   -122.25395861
+     color: green
+     dbh: 8.700000
+     radius: 2
+     details: NA
+
+   - name: FIA-2-19
+     id: FIA-2-19
+     observer: Butcher, Billo
+     group: Yew
+     date: summer 2024
+     lat:     47.55341606
+     lon:   -122.25246248
+     color: black
+     dbh: 5.700000
+     radius: 1
+     details: NA
+
+   - name: FIA-7-19
+     id: FIA-7-19
+     observer: Butcher, Billo
+     group: Pacific Madrone
+     date: summer 2024
+     lat:     47.55515568
+     lon:   -122.25088925
+     color: gray
+     dbh: 19.400000
+     radius: 6
+     details: NA
+
+   - name: FIA-5-19
+     id: FIA-5-19
+     observer: Butcher, Billo
+     group: Red Alder
+     date: summer 2024
+     lat:     47.55527697
+     lon:   -122.25429896
+     color: red
+     dbh: 12.500000
+     radius: 4
+     details: NA
+
+   - name: FIA-12-20
+     id: FIA-12-20
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55875398
+     lon:   -122.25446052
+     color: lightgreen
+     dbh: 7.100000
+     radius: 2
+     details: NA
+
+   - name: FIA-9-20
+     id: FIA-9-20
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55683654
+     lon:   -122.25407478
+     color: green
+     dbh: 16.900000
+     radius: 5
+     details: NA
+
+   - name: FIA-7-20
+     id: FIA-7-20
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55514667
+     lon:   -122.25080505
+     color: darkgreen
+     dbh: 30.000000
+     radius: 10
+     details: NA
+
+   - name: FIA-11-20
+     id: FIA-11-20
+     observer: Butcher, Billo
+     group: Western Hemlock
+     date: summer 2024
+     lat:     47.55703174
+     lon:   -122.25051467
+     color: darkgray
+     dbh: 25.800000
+     radius: 8
+     details: NA
+
+   - name: FIA-5-20
+     id: FIA-5-20
+     observer: Butcher, Billo
+     group: Red Alder
+     date: summer 2024
+     lat:     47.55534128
+     lon:   -122.25429242
+     color: red
+     dbh: 13.000000
+     radius: 4
+     details: NA
+
+   - name: FIA-15-20
+     id: FIA-15-20
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55874425
+     lon:   -122.24868858
+     color: darkgreen
+     dbh: 6.900000
+     radius: 2
+     details: NA
+
+   - name: FIA-1-20
+     id: FIA-1-20
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55184568
+     lon:   -122.25210080
+     color: darkgreen
+     dbh: 10.700000
+     radius: 3
+     details: NA
+
+   - name: FIA-2-20
+     id: FIA-2-20
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55337906
+     lon:   -122.25257180
+     color: lightgreen
+     dbh: 5.200000
+     radius: 1
+     details: NA
+
+   - name: FIA-19-20
+     id: FIA-19-20
+     observer: Butcher, Billo
+     group: Western Hemlock
+     date: summer 2024
+     lat:     47.56043266
+     lon:   -122.25040656
+     color: darkgray
+     dbh: 30.000000
+     radius: 10
+     details: NA
+
+   - name: FIA-5-21
+     id: FIA-5-21
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55538200
+     lon:   -122.25427597
+     color: green
+     dbh: 25.000000
+     radius: 8
+     details: NA
+
+   - name: FIA-7-21
+     id: FIA-7-21
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55515986
+     lon:   -122.25072194
+     color: darkgreen
+     dbh: 21.400000
+     radius: 7
+     details: NA
+
+   - name: FIA-9-21
+     id: FIA-9-21
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55682753
+     lon:   -122.25410448
+     color: green
+     dbh: 18.000000
+     radius: 6
+     details: NA
+
+   - name: FIA-19-21
+     id: FIA-19-21
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.56047456
+     lon:   -122.25043000
+     color: lightgreen
+     dbh: 18.700000
+     radius: 6
+     details: NA
+
+   - name: FIA-15-21
+     id: FIA-15-21
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55877531
+     lon:   -122.24873854
+     color: darkgreen
+     dbh: 14.600000
+     radius: 4
+     details: NA
+
+   - name: FIA-12-21
+     id: FIA-12-21
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55880819
+     lon:   -122.25448721
+     color: darkgreen
+     dbh: 9.400000
+     radius: 3
+     details: NA
+
+   - name: FIA-2-21
+     id: FIA-2-21
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55342193
+     lon:   -122.25248992
+     color: lightgreen
+     dbh: 5.600000
+     radius: 1
+     details: NA
+
+   - name: FIA-9-22
+     id: FIA-9-22
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55681906
+     lon:   -122.25414368
+     color: green
+     dbh: 9.600000
+     radius: 3
+     details: NA
+
+   - name: FIA-5-22
+     id: FIA-5-22
+     observer: Butcher, Billo
+     group: Red Alder
+     date: summer 2024
+     lat:     47.55534860
+     lon:   -122.25422471
+     color: red
+     dbh: 8.000000
+     radius: 2
+     details: NA
+
+   - name: FIA-15-22
+     id: FIA-15-22
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55874998
+     lon:   -122.24864876
+     color: darkgreen
+     dbh: 10.200000
+     radius: 3
+     details: NA
+
+   - name: FIA-12-22
+     id: FIA-12-22
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55876815
+     lon:   -122.25438623
+     color: darkgreen
+     dbh: 5.700000
+     radius: 1
+     details: NA
+
+   - name: FIA-2-22
+     id: FIA-2-22
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55340551
+     lon:   -122.25258839
+     color: lightgreen
+     dbh: 6.200000
+     radius: 2
+     details: NA
+
+   - name: FIA-19-22
+     id: FIA-19-22
+     observer: Butcher, Billo
+     group: Western Hemlock
+     date: summer 2024
+     lat:     47.56051586
+     lon:   -122.25040101
+     color: darkgray
+     dbh: 24.000000
+     radius: 8
+     details: NA
+
+   - name: FIA-12-23
+     id: FIA-12-23
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55880324
+     lon:   -122.25439537
+     color: green
+     dbh: 43.700000
+     radius: 14
+     details: NA
+
+   - name: FIA-9-23
+     id: FIA-9-23
+     observer: Butcher, Billo
+     group: Norway Maple
+     date: summer 2024
+     lat:     47.55685916
+     lon:   -122.25412072
+     color: yellow
+     dbh: 10.900000
+     radius: 3
+     details: NA
+
+   - name: FIA-15-23
+     id: FIA-15-23
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55881653
+     lon:   -122.24864447
+     color: darkgreen
+     dbh: 10.000000
+     radius: 3
+     details: NA
+
+   - name: FIA-5-23
+     id: FIA-5-23
+     observer: Butcher, Billo
+     group: Red Alder
+     date: summer 2024
+     lat:     47.55536705
+     lon:   -122.25418713
+     color: red
+     dbh: 6.500000
+     radius: 2
+     details: NA
+
+   - name: FIA-2-23
+     id: FIA-2-23
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55342261
+     lon:   -122.25252795
+     color: lightgreen
+     dbh: 7.300000
+     radius: 2
+     details: NA
+
+   - name: FIA-19-23
+     id: FIA-19-23
+     observer: Butcher, Billo
+     group: Pacific Madrone
+     date: summer 2024
+     lat:     47.56052144
+     lon:   -122.25045301
+     color: gray
+     dbh: 37.300000
+     radius: 12
+     details: NA
+
+   - name: FIA-2-24
+     id: FIA-2-24
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55342768
+     lon:   -122.25256599
+     color: darkgreen
+     dbh: 23.200000
+     radius: 7
+     details: NA
+
+   - name: FIA-15-24
+     id: FIA-15-24
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55883382
+     lon:   -122.24865735
+     color: darkgreen
+     dbh: 17.600000
+     radius: 5
+     details: NA
+
+   - name: FIA-9-24
+     id: FIA-9-24
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55689440
+     lon:   -122.25412418
+     color: green
+     dbh: 15.900000
+     radius: 5
+     details: NA
+
+   - name: FIA-19-24
+     id: FIA-19-24
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56054163
+     lon:   -122.25045362
+     color: darkgreen
+     dbh: 14.000000
+     radius: 4
+     details: NA
+
+   - name: FIA-5-24
+     id: FIA-5-24
+     observer: Butcher, Billo
+     group: Red Alder
+     date: summer 2024
+     lat:     47.55532307
+     lon:   -122.25415221
+     color: red
+     dbh: 7.500000
+     radius: 2
+     details: NA
+
+   - name: FIA-12-24
+     id: FIA-12-24
+     observer: Butcher, Billo
+     group: Pacific Madrone
+     date: summer 2024
+     lat:     47.55875408
+     lon:   -122.25437034
+     color: gray
+     dbh: 5.100000
+     radius: 1
+     details: NA
+
+   - name: FIA-2-25
+     id: FIA-2-25
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55344192
+     lon:   -122.25258693
+     color: green
+     dbh: 49.700000
+     radius: 16
+     details: NA
+
+   - name: FIA-19-25
+     id: FIA-19-25
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56054913
+     lon:   -122.25048407
+     color: darkgreen
+     dbh: 11.900000
+     radius: 3
+     details: NA
+
+   - name: FIA-9-25
+     id: FIA-9-25
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55691137
+     lon:   -122.25416258
+     color: green
+     dbh: 13.400000
+     radius: 4
+     details: NA
+
+   - name: FIA-15-25
+     id: FIA-15-25
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55880343
+     lon:   -122.24859271
+     color: darkgreen
+     dbh: 11.200000
+     radius: 3
+     details: NA
+
+   - name: FIA-5-25
+     id: FIA-5-25
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55541273
+     lon:   -122.25412379
+     color: darkgreen
+     dbh: 7.500000
+     radius: 2
+     details: NA
+
+   - name: FIA-9-26
+     id: FIA-9-26
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55692183
+     lon:   -122.25412662
+     color: green
+     dbh: 25.700000
+     radius: 8
+     details: NA
+
+   - name: FIA-19-26
+     id: FIA-19-26
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.56064040
+     lon:   -122.25036593
+     color: darkgreen
+     dbh: 14.300000
+     radius: 4
+     details: NA
+
+   - name: FIA-2-26
+     id: FIA-2-26
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55348936
+     lon:   -122.25250526
+     color: darkgreen
+     dbh: 12.800000
+     radius: 4
+     details: NA
+
+   - name: FIA-15-26
+     id: FIA-15-26
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55882485
+     lon:   -122.24859567
+     color: darkgreen
+     dbh: 19.100000
+     radius: 6
+     details: NA
+
+   - name: FIA-15-27
+     id: FIA-15-27
+     observer: Butcher, Billo
+     group: Western Red Cedar
+     date: summer 2024
+     lat:     47.55884788
+     lon:   -122.24860873
+     color: lightgreen
+     dbh: 26.500000
+     radius: 8
+     details: NA
+
+   - name: FIA-2-27
+     id: FIA-2-27
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55349945
+     lon:   -122.25252182
+     color: darkgreen
+     dbh: 9.100000
+     radius: 3
+     details: NA
+
+   - name: FIA-9-27
+     id: FIA-9-27
+     observer: Butcher, Billo
+     group: Pacific Madrone
+     date: summer 2024
+     lat:     47.55692035
+     lon:   -122.25406819
+     color: gray
+     dbh: 6.900000
+     radius: 2
+     details: NA
+
+   - name: FIA-15-28
+     id: FIA-15-28
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55882565
+     lon:   -122.24859249
+     color: darkgreen
+     dbh: 21.600000
+     radius: 7
+     details: NA
+
+   - name: FIA-9-28
+     id: FIA-9-28
+     observer: Butcher, Billo
+     group: Pacific Madrone
+     date: summer 2024
+     lat:     47.55694561
+     lon:   -122.25411418
+     color: gray
+     dbh: 11.000000
+     radius: 3
+     details: NA
+
+   - name: FIA-2-28
+     id: FIA-2-28
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55353577
+     lon:   -122.25246793
+     color: darkgreen
+     dbh: 15.300000
+     radius: 5
+     details: NA
+
+   - name: FIA-9-29
+     id: FIA-9-29
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55691909
+     lon:   -122.25399937
+     color: green
+     dbh: 61.500000
+     radius: 20
+     details: NA
+
+   - name: FIA-2-29
+     id: FIA-2-29
+     observer: Butcher, Billo
+     group: Big Leaf Maple
+     date: summer 2024
+     lat:     47.55353682
+     lon:   -122.25246286
+     color: darkgreen
+     dbh: 15.100000
+     radius: 5
+     details: NA
+
+   - name: FIA-9-30
+     id: FIA-9-30
+     observer: Butcher, Billo
+     group: Pacific Madrone
+     date: summer 2024
+     lat:     47.55697019
+     lon:   -122.25410719
+     color: gray
+     dbh: 12.700000
+     radius: 4
+     details: NA
+
+   - name: FIA-9-31
+     id: FIA-9-31
+     observer: Butcher, Billo
+     group: Pacific Madrone
+     date: summer 2024
+     lat:     47.55700116
+     lon:   -122.25405298
+     color: gray
+     dbh: 29.500000
+     radius: 9
+     details: NA
+
+   - name: FIA-9-32
+     id: FIA-9-32
+     observer: Butcher, Billo
+     group: Douglas Fir
+     date: summer 2024
+     lat:     47.55691303
+     lon:   -122.25395106
+     color: green
+     dbh: 12.300000
+     radius: 4
+     details: NA
+

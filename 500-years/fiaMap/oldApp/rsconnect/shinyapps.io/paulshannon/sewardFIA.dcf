@@ -1,0 +1,10 @@
+name: sewardFIA
+title:
+username: paulshannon
+account: paulshannon
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13638804
+bundleId: 9565768
+url: https://paulshannon.shinyapps.io/sewardFIA/
+version: 1

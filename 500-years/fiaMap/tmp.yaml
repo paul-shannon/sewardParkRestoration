@@ -1,0 +1,24 @@
+points.plot:
+- 1
+- 1
+points.tree:
+- 7
+- 6
+points.az:
+- 119
+- 100
+points.dist:
+- 43.5
+- 45.5
+points.status:
+- Healthy
+- Healthy
+points.species:
+- Douglas Fir
+- Douglas Fir
+points.dbh:
+- 19.2
+- 23.6
+points.ht:
+- 120.0
+- 116.0

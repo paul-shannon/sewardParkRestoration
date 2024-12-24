@@ -1,0 +1,124 @@
+site: 921
+date: 2020-07-24
+title: Sword Fern Die-off Reports from the Middle Fork of the Snoqualmie River
+centerLat: 47.534938 
+centerLon: -121.494774
+initialZoom: 14
+
+points:
+  - name: pts1
+    observer: PTS
+    group: Paul 7/20
+    date: 2020-07-24
+    lat: 47.523854
+    lon: -121.467958
+    color: orange
+    radius: 8
+    details: http://pshannon.net/swordFerns/snoq/pts1.html
+
+  - name: pts2
+    observer: PTS
+    group: Paul 7/20
+    date: 2020-07-24
+    lon: -121.467532
+    lat: 47.523592
+    color: orange
+    radius: 8
+    details: http://pshannon.net/swordFerns/snoq/pts2.html
+    
+  - name: pts3
+    observer: PTS
+    group: Paul 7/20
+    date: 2020-07-24
+    lon: -121.466989
+    lat: 47.523004
+    color: orange
+    radius: 8
+    details: http://pshannon.net/swordFerns/snoq/pts3.html
+    
+  - name: pts4
+    observer: PTS
+    group: Paul 7/20
+    date: 2020-07-24
+    lon: -121.467216
+    lat: 47.523685
+    color: orange
+    radius: 8
+    details: http://pshannon.net/swordFerns/snoq/pts4.html
+    
+  - name: pts5
+    observer: PTS
+    group: Paul 7/20
+    date: 2020-07-24
+    lon: -121.468391
+    lat: 47.523292
+    color: orange
+    radius: 8
+    details: http://pshannon.net/swordFerns/snoq/pts5.html
+    
+  - name: pts6
+    observer: PTS
+    group: Paul 7/20
+    date: 2020-07-24
+    lon: -121.522559
+    lat: 47.546791
+    color: orange
+    radius: 8
+    details: http://pshannon.net/swordFerns/snoq/pts6.html
+    
+
+  - name: cgm1
+    observer: CGM
+    group: Caleb 6/19
+    date: 2019-06-26
+    lon: -121.53273
+    lat: 47.55527
+    color: red
+    radius: 5
+    details: http://pshannon.net/swordFerns/snoq/cgm1.html
+
+  - name: cgm2
+    observer: CGM
+    group: Caleb 6/19
+    date: 2019-06-26
+    lon: -121.52263
+    lat: 47.54674
+    color: red
+    radius: 5
+    details: http://pshannon.net/swordFerns/snoq/cgm2.html
+
+
+  - name: cgm3
+    observer: CGM
+    group: Caleb 6/19
+    date: 2019-06-26
+    lon: -121.50508
+    lat: 47.53844
+    color: red
+    radius: 5
+    details: http://pshannon.net/swordFerns/snoq/cgm3.html
+
+
+
+  - name: cgm4 
+    observer: CGM
+    group: Caleb 6/19
+    date: 2019-06-26
+    lon: -121.48388
+    lat: 47.53503
+    color: red
+    radius: 5
+    details: http://pshannon.net/swordFerns/snoq/cgm4.html
+
+
+  - name: cgm5
+    observer: CGM
+    group: Caleb 6/19
+    date: 2019-06-26
+    lon: -121.46752
+    lat: 47.52351
+    color: red
+    radius: 5
+    details: http://pshannon.net/swordFerns/snoq/cgm5.html
+
+

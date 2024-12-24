@@ -1,0 +1,3496 @@
+site: Seward Park
+date: 2020-08-08
+title: Magnficent Forest - Damage and Repair 
+centerLat: 47.556656
+centerLon: -122.250784
+initialZoom: 15
+
+points:
+
+  - name: Salal Decline 001
+    id: id_001
+    observer: PTS
+    group: salal decline?
+    date: 2020-08-12
+    lat: 47.559997
+    lon: -122.250396
+    color: grey
+    radius: 6
+    details: http://pshannon.net/sewardParkRestoration/salalDecline_001
+
+  - name: Woodpecker Trail, Stone Steps
+    id: id_003
+    observer: CMA
+    group: overuse
+    date: 2020-08-12
+    lat: 47.554008
+    lon: -122.251148
+    color: red
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/woodpeckerTrail_steps
+
+
+  - name: Fairy Tree
+    id: id_004
+    observer: PTS
+    group: Deep Mulching
+    date: 2020-08-08
+    lat:  47.552852
+    lon: -122.251255
+    color: red
+    radius: 6
+    #details: http://localhost:9999/fairyTree
+    details: http://pshannon.net/sewardParkRestoration/fairyTree
+
+  - name: "Social Trail #1"
+    id: id_005
+    observer: PTS
+    group: social trails
+    date: 2020-07-27
+    lat: 47.560973
+    lon: -122.250910
+    color: red
+    radius: 2
+    details: http://pshannon.net/sewardParkRestoration/socialTrail_001
+
+
+  - name: "Social Trail #2"
+    id: id_006
+    observer: PTS
+    group: social trails
+    date: 2020-07-31
+    lat: 47.561301
+    lon: -122.251884
+    color: red
+    radius: 2
+    details: http://pshannon.net/sewardParkRestoration/socialTrail_002
+
+  - name: "Social Trail #3"
+    id: id_007
+    observer: PTS
+    group: social trails
+    date: 2020-07-31
+    lat: 47.561412
+    lon: -122.252411
+    color: red
+    radius: 2
+    details: http://pshannon.net/sewardParkRestoration/socialTrail_003_northeast
+
+  - name: "Social Trail #4"
+    id: id_008
+    observer: PTS
+    group: social trails
+    date: 2020-07-31
+    lat: 47.561361
+    lon: -122.252173
+    color: red
+    radius: 2
+    details: http://pshannon.net/sewardParkRestoration/socialTrail_004_northeast
+
+  - name: "Social Trail #5"
+    id: id_009
+    observer: PTS
+    group: social trails
+    date: 2020-07-31
+    lat: 47.561331
+    lon: -122.252030
+    color: red
+    radius: 2
+    details: http://pshannon.net/sewardParkRestoration/socialTrail_005_northeast
+
+  - name: Bar Mitzvah Destruction
+    id: id_010
+    observer: PTS
+    group: clearings
+    date: 2020-07-13
+    lat: 47.555469
+    lon: -122.251670
+    color: blue
+    radius: 6
+    details: http://pshannon.net/sewardParkRestoration/barmitzvah
+
+
+  - name: HBB removal experiment
+    id: id_011
+    observer: PTS
+    group: restorations
+    date: 2020-08-08
+    lat: 47.552363
+    lon: -122.256431
+    color: green
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/andrewsBayHBBexperiment
+
+#  - name: cherry snag
+#    id: id_012
+#    observer: PTS
+#    group: snags
+#    date: 2020-08-08
+#    lat: 47.552289
+#    lon: -122.256477
+#    color: brown
+#    radius: 2
+#    details: nop
+#
+#  - name: cedar snag
+#    id: id_013
+#    observer: PTS
+#    group: snags
+#    date: 2020-08-08
+#    lat: 47.552258
+#    lon: -122.256310
+#    color: brown
+#    radius: 2
+#    details: nop
+
+  - name: cistern graffiti
+    id: id_014
+    observer: PTS
+    group: grafitti
+    date: 2020-09-26
+    lat: 47.555406
+    lon: -122.250561
+    color: brown
+    radius: 2
+    details: http://pshannon.net/sewardParkRestoration/cisternAtJunction
+
+  - name: High ground die-off
+    id: id_015
+    observer: PTS
+    group: new 2020 die-off
+    date: 2020-10-02
+    lat: 47.556631
+    lon: -122.251311
+    color: black
+    radius: 2
+    details: http://pshannon.net/sewardParkRestoration/highGroundFernDieoff
+
+  - name: dougFir.036
+    observer: PTS
+    id: dougFir.36
+    group: big burned trees
+    date: 2020-10-17
+    lon: -122.2526
+    lat: 47.56166
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.036
+
+  - name: dougFir.037
+    observer: PTS
+    id: waypoint.37
+    group: big burned trees
+    date: 2020-10-17
+    lon: -122.2521
+    lat: 47.56164
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.037
+
+  - name: dougFir.038
+    observer: PTS
+    id: waypoint.38
+    group: big burned trees
+    date: 2020-10-17
+    lon: -122.2518
+    lat:  47.56173
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.038
+
+  - name: dougFir.039
+    observer: PTS
+    id: waypoint.39
+    group: big burned trees
+    date: 2020-10-17
+    lat: 47.560721
+    lon: -122.250737
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.039
+
+  - name: dougFir.040
+    observer: PTS
+    id: waypoint.40
+    group: big unburned trees
+    date: 2020-10-17
+    lon: -122.2501
+    lat: 47.55988
+    color: brown
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.040
+
+
+  - name: dougFir.041
+    observer: PTS
+    id: waypoint.41
+    group: big burned trees
+    date: 2020-10-17
+    lon: -122.2497
+    lat: 47.56016
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.041
+
+  - name: dougFir.042
+    observer: PTS
+    id: waypoint.42
+    group: big unburned trees
+    date: 2020-10-17
+    lon: -122.2494
+    lat: 47.55996
+    color: brown
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.042
+
+
+  - name: dougFir.043
+    observer: PTS
+    id: waypoint.43
+    group: big burned trees
+    date: 2020-10-25
+    lon: -122.24874
+    lat: 47.55229
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.043
+
+
+  - name: dougFir.044
+    observer: PTS
+    id: waypoint.44
+    group: big burned trees
+    date: 2020-10-25
+    lat: 47.556276
+    lon: -122.251682
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.044
+
+
+  - name: dougFir.045
+    observer: PTS
+    id: waypoint.45
+    group: big burned trees
+    date: 2020-10-25
+    lon: -122.25197
+    lat: 47.55722
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.045
+
+
+  - name: dougFir.046
+    observer: PTS
+    id: waypoint.46
+    group: big burned trees
+    date: 2020-10-25
+    lon: -122.25033
+    lat: 47.55973
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.046
+
+
+  - name: dougFir.047
+    observer: PTS
+    id: waypoint.47
+    group: big burned trees
+    date: 2020-11-02
+    lat: 47.55732
+    lon: -122.24829
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.047
+
+
+  - name: dougFir.048
+    observer: PTS
+    id: waypoint.48
+    group: big burned trees
+    date: 2020-11-02
+    lat: 47.55791
+    lon: -122.24916
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.048
+
+
+  - name: dougFir.049
+    observer: PTS
+    id: waypoint.49
+    group: big burned trees
+    date: 2020-11-02
+    lat: 47.55781
+    lon: -122.24956
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.049
+
+  - name: dougFir.050
+    observer: PTS
+    id: waypoint.50
+    group: big burned trees
+    date: 2020-11-02
+    lat: 47.55791
+    lon: -122.24966
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.050
+
+  - name: dougFir.051
+    observer: PTS
+    id: waypoint.51
+    group: big burned trees
+    date: 2020-11-12
+    lat: 47.55795
+    lon: -122.24990
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.051
+
+  - name: dougFir.052
+    observer: PTS
+    id: waypoint.52
+    group: big burned trees
+    date: 2020-11-12
+    lat: 47.55809
+    lon: -122.24986
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.052
+
+  - name: dougFir.054
+    observer: PTS
+    id: waypoint.54
+    group: big burned trees
+    date: 2020-11-14
+    lat: 47.55835
+    lon: -122.24947
+    color: black
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.054
+
+  - name: dougFir.055
+    observer: PTS
+    id: waypoint.55
+    group: big unburned trees
+    date: 2020-11-14
+    lat: 47.55855
+    lon: -122.24972
+    color: brown
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/dougFir.055
+
+  - name: dougFir.056
+    observer: PTS
+    id: waypoint.56
+    group: big burned trees
+    date: 2020-11-14
+    lat: 47.55828
+    lon: -122.24934
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.056
+
+  - name: dougFir.056b
+    observer: PTS
+    id: waypoint.56b
+    group: big burned trees
+    date: 2020-11-14
+    lat: 47.558279
+    lon: -122.249324
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.056b
+
+  - name: herbRobert.001
+    observer: PTS
+    id: waypoint.57
+    group: invasive herb robert
+    date: 2020-11-14
+    lat: 47.55820
+    lon: -122.24921
+    color: red
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/herbRobert.001
+
+
+
+  - name: dougFir.61
+    observer: PTS
+    id: waypoint.61
+    group: big burned trees
+    date: 2020-11-21
+    lat: 47.55925
+    lon: -122.24886
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.061
+
+  - name: dougFir.62a
+    observer: PTS
+    id: waypoint.62a
+    group: big burned trees
+    date: 2020-11-21
+    lat: 47.55948
+    lon: -122.24942
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.062a
+
+  - name: dougFir.62b
+    observer: PTS
+    id: waypoint.62b
+    group: big unburned trees
+    date: 2020-11-21
+    lat: 47.55948
+    lon: -122.249426
+    color: brown
+    radius: 1
+    details: http://pshannon.net/sewardParkRestoration/dougFir.062b
+
+  - name: dougFir.63
+    observer: PTS
+    id: waypoint.63
+    group: big burned trees
+    date: 2020-11-21
+    lat: 47.55981
+    lon: -122.24955
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.063
+
+  - name: dougFir.64
+    observer: PTS
+    id: waypoint.64
+    group: big burned trees
+    date: 2020-11-21
+    lat: 47.55959
+    lon: -122.24942
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.064
+
+  - name: dougFir.65
+    observer: PTS
+    id: waypoint.65
+    group: big burned trees
+    date: 2020-12-10
+    lat: 47.55747
+    lon: -122.25016
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.065
+
+  - name: dougFir.66
+    observer: PTS
+    id: waypoint.65
+    group: big burned trees
+    date: 2020-12-10
+    lat: 47.55743
+    lon: -122.25016
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.065
+
+  - name: cedar.67
+    observer: PTS
+    id: waypoint.67
+    group: big burned trees
+    date: 2020-12-10
+    lat: 47.55699
+    lon: -122.25083
+    color: brown
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cedar.067
+
+  - name: dougFir.68
+    observer: PTS
+    id: waypoint.68
+    group: big burned trees
+    date: 2020-12-12
+    lat: 47.55682
+    lon: -122.25073
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.068
+
+  - name: dougFir.69
+    observer: PTS
+    id: waypoint.69
+    group: big burned trees
+    date: 2020-12-12
+    lat: 47.55671
+    lon: -122.25063
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.069
+
+  - name: dougFir.70
+    observer: PTS
+    id: waypoint.70
+    group: big burned trees
+    date: 2020-12-12
+    lat: 47.55619
+    lon: -122.24984
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.070
+
+  - name: dougFir.71
+    observer: PTS
+    id: waypoint.71
+    group: big burned trees
+    date: 2020-12-19
+    lat: 47.56125
+    lon: -122.25328
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.071
+
+  - name: cedar.72
+    observer: PTS
+    id: waypoint.72
+    group: big burned trees
+    date: 2020-12-19
+    lat: 47.56088
+    lon: -122.25315
+    color: brown
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cedar.072
+
+  - name: cedar.72b
+    observer: PTS
+    id: waypoint.72b
+    group: big burned trees
+    date: 2020-12-19
+    lat: 47.560893
+    lon: -122.253126
+    color: brown
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cedar.072b
+
+  - name: dougFir.73
+    observer: PTS
+    id: waypoint.73
+    group: big burned trees
+    date: 2020-12-12
+    lat: 47.56097
+    lon: -122.25410
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.073
+
+  - name: cedar.74
+    observer: PTS
+    id: waypoint.70
+    group: big burned trees
+    date: 2020-12-19
+    lat: 47.56023
+    lon: -122.25417
+    color: brown
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cedar.074
+
+  - name: dougFir.75
+    observer: PTS
+    id: waypoint.75
+    group: big burned trees
+    date: 2020-12-19
+    lat: 47.56013
+    lon: -122.25373
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.075
+
+  - name: dougFir.76
+    observer: PTS
+    id: waypoint.76
+    group: big burned trees
+    date: 2020-12-23
+    lat: 47.56007
+    lon: -122.25291
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.076
+    
+
+  - name: dougFir.77
+    observer: PTS
+    id: waypoint.77
+    group: big burned trees
+    date: 2020-12-23
+    lat: 47.55988
+    lon: -122.25291
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.077
+    
+  - name: dougFir.78
+    observer: PTS
+    id: waypoint.78
+    group: big burned trees
+    date: 2020-12-23
+    lat: 47.559514
+    lon: -122.252492
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.078
+    
+  - name: dougFir.79
+    observer: PTS
+    id: waypoint.79
+    group: big burned trees
+    date: 2020-12-23
+    lat: 47.559486
+    lon: -122.252348
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.079
+    
+  - name: cedar.80
+    observer: PTS
+    id: waypoint.80
+    group: big burned trees
+    date: 2020-12-23
+    lat: 47.55955
+    lon: -122.25257
+    color: brown
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cedar.080
+    
+
+
+
+  - name: "Delfino Live Stakes 12/20"
+    observer: delfino
+    id: delfino.001
+    date: 2020-12-19
+    group: Delfino's Restorations
+    lat: 47.556054
+    lon: -122.252564
+    color: green
+    radius: 4
+    details: http://pshannon.net/sewardParkRestoration/delfinoPlanting.001
+
+
+  - name: cliffIvy.001
+    observer: PTS
+    id: waypoint.80
+    group: invasive ivy
+    date: 2021-01-10
+    lat: 47.55218
+    lon: -122.25647
+    color: red
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cliffIvy.001
+
+  - name: cliffIvy.002
+    observer: PTS
+    id: waypoint.81
+    group: invasive ivy
+    date: 2021-01-10
+    lat: 47.552487
+    lon: -122.255816
+    color: red
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cliffIvy.002
+
+  - name: cliffIvy.003
+    observer: PTS
+    id: waypoint.82
+    group: invasive ivy
+    date: 2021-01-10
+    lat: 47.55268
+    lon: -122.25532
+    color: red
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cliffIvy.003
+
+  - name: cliffIvy.004
+    observer: PTS
+    id: waypoint.83
+    group: invasive ivy
+    date: 2021-01-10
+    lat: 47.55284
+    lon: -122.25494
+    color: red
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cliffIvy.004
+
+  - name: dougFir.85
+    observer: PTS
+    id: waypoint.85
+    group: big burned trees
+    date: 2020-12-23
+    lat: 47.55932
+    lon: -122.25335
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.085
+    
+  - name: dougFir.86
+    observer: PTS, Leo, Alex
+    id: waypoint.86
+    group: big burned trees
+    date: 2021-01-23
+    lat: 47.55919
+    lon: -122.25359
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.086
+    
+
+  - name: dougFir.87
+    observer: PTS, Leo, Alex
+    id: waypoint.87
+    group: big burned trees
+    date: 2021-01-23
+    lat: 47.55911
+    lon: -122.25372
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.087
+    
+  - name: dougFir.88
+    observer: PTS, Leo, Alex
+    id: waypoint.88
+    group: big unburned trees
+    date: 2021-01-23
+    lat: 47.55867
+    lon: -122.25433
+    color: brown
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.088
+    
+  - name: dougFir.89
+    observer: PTS, Leo, Alex
+    id: waypoint.89
+    group: big burned trees
+    date: 2021-01-23
+    lat: 47.55815
+    lon: -122.25402
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.089
+    
+
+  - name: dougFir.90
+    observer: PTS, Leo, Alex
+    id: waypoint.90
+    group: big burned trees
+    date: 2021-01-23
+    lat: 47.55804
+    lon: -122.25327
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.090
+    
+
+  - name: dougFir.91
+    observer: PTS, Leo, Alex
+    id: waypoint.91
+    group: big burned trees
+    date: 2021-01-23
+    lat: 47.55822
+    lon: -122.25332
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.091
+    
+
+# new on 31 jan 2021
+
+  - name: dougFir.92
+    observer: Paul
+    id: waypoint.92
+    group: big burned trees
+    date: 2021-01-30
+    lat: 47.56046
+    lon: -122.25094
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.092
+    
+  - name: dougFir.94
+    observer: Paul
+    id: waypoint.94
+    group: big burned trees
+    date: 2021-01-31
+    lat: 47.56000
+    lon: -122.25178
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.094
+    
+  - name: dougFir.95
+    observer: Paul
+    id: waypoint.95
+    group: big burned trees
+    date: 2021-01-30
+    lat: 47.55976
+    lon: -122.25188
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.095
+    
+  - name: dougFir.96
+    observer: Paul
+    id: waypoint.96
+    group: big burned trees
+    date: 2021-01-30
+    lat: 47.55964
+    lon: -122.25150
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.096
+    
+  - name: dougFir.98
+    observer: Paul
+    id: waypoint.98
+    group: big burned trees
+    date: 2021-01-30
+    lat: 47.55963
+    lon: -122.25154
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.098
+    
+  - name: cedar.93
+    observer: Paul
+    id: waypoint.93
+    group: big burned trees
+    date: 2021-01-30
+    lat: 47.56032
+    lon: -122.25163
+    color: brown
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cedar.093
+    
+  - name: cedar.97
+    observer: Paul
+    id: waypoint.97
+    group: big burned trees
+    date: 2021-01-30
+    lat: 47.55980
+    lon: -122.25148
+    color: brown
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cedar.097
+    
+  - name: cedar.99
+    observer: Paul
+    id: waypoint.99
+    group: big burned trees
+    date: 2021-01-30
+    lat: 47.55958
+    lon: -122.25144
+    color: brown
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cedar.099
+    
+
+  - name: dougFir.101
+    observer: Paul
+    id: waypoint.101
+    group: big burned trees
+    date: 2021-02-20
+    lat: 47.56001
+    lon: -122.25067
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.101
+    
+  - name: dougFir.102
+    observer: Paul
+    id: waypoint.102
+    group: big burned trees
+    date: 2021-02-20
+    lat: 47.55982
+    lon: -122.25079
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.102
+    
+  - name: dougFir.103
+    observer: Paul
+    id: waypoint.103
+    group: big burned trees
+    date: 2021-02-20
+    lat: 47.55993
+    lon: -122.25062
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.103
+    
+  - name: dougFir.104
+    observer: Paul
+    id: waypoint.104
+    group: big burned trees
+    date: 2021-02-20
+    lat: 47.55939
+    lon: -122.25105
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.104
+    
+  - name: dougFir.105
+    observer: Paul
+    id: waypoint.105
+    group: big burned trees
+    date: 2021-02-20
+    lat: 47.55937
+    lon: -122.25137
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.105
+    
+  - name: dougFir.106
+    observer: Paul
+    id: waypoint.106
+    group: big burned trees
+    date: 2021-02-20
+    lat: 47.55933
+    lon: -122.25130
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.106
+    
+  - name: dougFir.107
+    observer: Paul
+    id: waypoint.107
+    group: big burned trees
+    date: 2021-02-20
+    lat: 47.55905
+    lon: -122.25101
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.107
+    
+  - name: dougFir.108
+    observer: Paul
+    id: waypoint.108
+    group: big burned trees
+    date: 2021-02-28
+    lat: 47.55898
+    lon: -122.25079
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.108
+    
+    
+  - name: dougFir.109
+    observer: Paul
+    id: waypoint.109
+    group: big burned trees
+    date: 2021-02-28
+    lat: 47.55870
+    lon: -122.25105
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.109
+    
+    
+  - name: dougFir.110
+    observer: Paul
+    id: waypoint.110
+    group: big burned trees
+    date: 2021-02-28
+    lat: 47.55853
+    lon: -122.25072
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.110
+    
+    
+  - name: dougFir.111
+    observer: Paul
+    id: waypoint.111
+    group: big burned trees
+    date: 2021-02-28
+    lat: 47.55795
+    lon: -122.25147
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.111
+    
+    
+  - name: dougFir.112
+    observer: Paul
+    id: waypoint.112
+    group: big burned trees
+    date: 2021-02-28
+    lat: 47.55793
+    lon: -122.25171
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.112
+    
+  - name: cedar.113
+    observer: Pail
+    id: waypoint.113
+    group: big burned trees
+    date: 2021-02-28
+    lat: 47.556547
+    lon: -122.251512
+    color: brown
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cedar.113
+
+  - name: cedar.114
+    observer: Pail
+    id: waypoint.114
+    group: big burned trees
+    date: 2021-02-28
+    lat: 47.556515
+    lon: -122.251468
+    color: brown
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/cedar.113
+
+  - name: dougFir.114a
+    observer: Paul, Tia, Catherine
+    id: waypoint.114a
+    group: big burned trees
+    date: 2021-03-07
+    lat: 47.55862
+    lon: -122.25253
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.114a
+    
+  - name: dougFir.115
+    observer: Paul, Tia, Catherine
+    id: waypoint.115
+    group: big burned trees
+    date: 2021-03-07
+    lat: 47.55835
+    lon: -122.25240
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.115
+    
+  - name: dougFir.116
+    observer: Paul, Tia, Catherine
+    id: waypoint.116
+    group: big burned trees
+    date: 2021-03-07
+    lat: 47.55814
+    lon: -122.25266
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.116
+    
+  - name: dougFir.117
+    observer: Paul, Tia, Catherine
+    id: waypoint.117
+    group: big burned trees
+    date: 2021-03-07
+    lat: 47.55802
+    lon: -122.25235
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.117
+    
+  - name: dougFir.119
+    observer: Paul, Tia, Catherine
+    id: waypoint.119
+    group: big burned trees
+    date: 2021-03-07
+    lat: 47.55790
+    lon: -122.25251
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.119
+    
+  - name: dougFir.120
+    observer: Paul, Tia, Catherine
+    id: waypoint.120
+    group: big burned trees
+    date: 2021-03-07
+    lat: 47.55773
+    lon: -122.25278
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.120
+    
+  - name: dougFir.121
+    observer: Paul, Tia, Catherine
+    id: waypoint.121
+    group: big burned trees
+    date: 2021-03-07
+    lat: 47.55764
+    lon: -122.25270
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.121
+    
+  - name: dougFir.122
+    observer: Paul, Tia, Catherine
+    id: waypoint.122
+    group: big burned trees
+    date: 2021-03-07
+    lat: 47.55774
+    lon: -122.25315
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.122
+    
+  - name: dougFir.123
+    observer: Paul, Tia, Catherine
+    id: waypoint.123
+    group: big burned trees
+    date: 2021-03-07
+    lat: 47.55783
+    lon: -122.25317
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.123
+    
+  - name: dougFir.124
+    observer: Paul, Tia, Catherine
+    id: waypoint.124
+    group: big burned trees
+    date: 2021-03-07
+    lat: 47.557620
+    lon: -122.253104
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.124
+    
+  - name: dougFir.127
+    observer: Catherine and Tony
+    id: waypoint.127
+    group: big burned trees
+    date: 2021-03-19
+    lat: 47.55891
+    lon: -122.25297
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.127
+
+    
+  - name: dougFir.128
+    observer: Catherine and Tony
+    id: waypoint.128
+    group: big burned trees
+    date: 2021-03-19
+    lat: 47.55831
+    lon: -122.25346
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.128
+
+    
+  - name: dougFir.129
+    observer: Paul, Tia, Catherine
+    id: waypoint.129
+    group: big burned trees
+    date: 2021-03-19
+    lat: 47.55722
+    lon: -122.25256
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.129
+
+  - name: dougFir.131
+    observer: Paul,  Catherine
+    id: waypoint.131
+    group: big burned trees
+    date: 2021-04-11
+    lat: 47.55650
+    lon: -122.25189
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.131
+
+  - name: dougFir.132
+    observer: Paul,  Catherine
+    id: waypoint.132
+    group: big burned trees
+    date: 2021-04-11
+    lat: 47.55643
+    lon: -122.25172
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.132
+
+  - name: dougFir.133
+    observer: Paul,  Catherine
+    id: waypoint.133
+    group: big burned trees
+    date: 2021-04-11
+    lat: 47.55625
+    lon: -122.25207
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.133
+
+  - name: dougFir.134
+    observer: Paul,  Catherine
+    id: waypoint.134
+    group: big burned trees
+    date: 2021-04-11
+    lat: 47.556184
+    lon: -122.251967
+    color: black
+    radius: 3
+    details: http://pshannon.net/sewardParkRestoration/dougFir.134
+
+
+
+# hemlock decline study starts here
+  - name: hemlock.001
+    observer: pshannon
+    id: waypoint.140
+    group: Hemlock Decline
+    date: '2021-07-05'
+    lat: 47.558333
+    lon: -122.250825
+    color: '#007F00'
+    radius: 3.0
+    details: NA
+  - name: hemlock.002
+    observer: all
+    id: waypoint.144
+    group: Hemlock Decline
+    date: '2021-07-14'
+    lat: 47.55855
+    lon: -122.25139
+    color: '#00AA00'
+    radius: 3.0
+    details: NA
+  - name: hemlock.003
+    observer: all
+    id: waypoint.145
+    group: Hemlock Decline
+    date: '2021-07-14'
+    lat: 47.558316
+    lon: -122.250828
+    color: '#007F00'
+    radius: 6.0
+    details: NA
+  - name: hemlock.004
+    observer: all
+    id: waypoint.146
+    group: Hemlock Decline
+    date: '2021-07-14'
+    lat: 47.55785
+    lon: -122.25077
+    color: '#002A00'
+    radius: 3.0
+    details: NA
+  - name: hemlock.005
+    observer: all
+    id: waypoint.147
+    group: Hemlock Decline
+    date: '2021-07-14'
+    lat: 47.557763
+    lon: -122.250862
+    color: '#000000'
+    radius: 3.0
+    details: NA
+  - name: hemlock.006
+    observer: all
+    id: waypoint.148
+    group: Hemlock Decline
+    date: '2021-07-14'
+    lat: 47.55779
+    lon: -122.250823
+    color: '#007F00'
+    radius: 5.0
+    details: NA
+  - name: hemlock.007
+    observer: all
+    id: waypoint.149
+    group: Hemlock Decline
+    date: '2021-07-14'
+    lat: 47.55788
+    lon: -122.25083
+    color: '#007F00'
+    radius: 5.0
+    details: NA
+  - name: hemlock.008
+    observer: all
+    id: waypoint.150
+    group: Hemlock Decline
+    date: '2021-07-14'
+    lat: 47.557862
+    lon: -122.250839
+    color: '#007F00'
+    radius: 6.0
+    details: NA
+  - name: hemlock.009
+    observer: all
+    id: waypoint.151
+    group: Hemlock Decline
+    date: '2021-07-14'
+    lat: 47.557847
+    lon: -122.250935
+    color: '#007F00'
+    radius: 2.0
+    details: NA
+  - name: hemlock.010
+    observer: all
+    id: waypoint.152
+    group: Hemlock Decline
+    date: '2021-07-14'
+    lat: 47.55812
+    lon: -122.25134
+    color: '#007F00'
+    radius: 2.0
+    details: NA
+  - name: hemlock.014
+    observer: all
+    id: waypoint.153
+    group: Hemlock Decline
+    date: '2021-07-15'
+    lat: 47.55804
+    lon: -122.25145
+    color: '#002A00'
+    radius: 4.0
+    details: NA
+  - name: hemlock.015
+    observer: all
+    id: waypoint.154
+    group: Hemlock Decline
+    date: '2021-07-15'
+    lat: 47.55792
+    lon: -122.25169
+    color: '#007F00'
+    radius: 4.0
+    details: NA
+  - name: hemlock.016
+    observer: all
+    id: waypoint.162
+    group: Hemlock Decline
+    date: '2021-07-15'
+    lat: 47.55784
+    lon: -122.25197
+    color: '#00FF00'
+    radius: 2.0
+    details: NA
+  - name: hemlock.017
+    observer: all
+    id: waypoint.162
+    group: Hemlock Decline
+    date: '2021-07-15'
+    lat: 47.55786
+    lon: -122.25196
+    color: '#00FF00'
+    radius: 2.0
+    details: NA
+  - name: hemlock.018
+    observer: all
+    id: waypoint.162
+    group: Hemlock Decline
+    date: '2021-07-15'
+    lat: 47.55788
+    lon: -122.25195
+    color: '#00FF00'
+    radius: 2.0
+    details: NA
+  - name: hemlock.019
+    observer: all
+    id: waypoint.156
+    group: Hemlock Decline
+    date: '2021-07-15'
+    lat: 47.55796
+    lon: -122.25182
+    color: '#00D400'
+    radius: 1.0
+    details: NA
+  - name: hemlock.025
+    observer: all
+    id: waypoint.161
+    group: Hemlock Decline
+    date: '2021-07-19'
+    lat: 47.55797
+    lon: -122.2514
+    color: '#00FF00'
+    radius: 1.0
+    details: NA
+  - name: hemlock.026
+    observer: pshannon
+    id: waypoint.163
+    group: Hemlock Decline
+    date: '2021-07-19'
+    lat: 47.5577
+    lon: -122.25167
+    color: '#002A00'
+    radius: 7.0
+    details: NA
+  - name: hemlock.027
+    observer: all
+    id: waypoint.164
+    group: Hemlock Decline
+    date: '2021-07-19'
+    lat: 47.55772
+    lon: -122.25148
+    color: '#00D400'
+    radius: 3.0
+    details: NA
+  - name: hemlock.028
+    observer: all
+    id: waypoint.164
+    group: Hemlock Decline
+    date: '2021-07-19'
+    lat: 47.5577
+    lon: -122.2515
+    color: '#00D400'
+    radius: 3.0
+    details: NA
+  - name: hemlock.029
+    observer: all
+    id: waypoint.164
+    group: Hemlock Decline
+    date: '2021-07-19'
+    lat: 47.55765
+    lon: -122.25153
+    color: '#000000'
+    radius: 4.0
+    details: NA
+  - name: hemlock.030
+    observer: all
+    id: waypoint.166
+    group: Hemlock Decline
+    date: '2021-07-10'
+    lat: 47.55689
+    lon: -122.25172
+    color: '#00D400'
+    radius: 2.0
+    details: NA
+  - name: hemlock.031
+    observer: all
+    id: waypoint.166
+    group: Hemlock Decline
+    date: '2021-07-10'
+    lat: 47.55688
+    lon: -122.25171
+    color: '#00D400'
+    radius: 3.0
+    details: NA
+  - name: hemlock.032
+    observer: all
+    id: waypoint.166
+    group: Hemlock Decline
+    date: '2021-07-10'
+    lat: 47.55689
+    lon: -122.2517
+    color: '#00D400'
+    radius: 3.0
+    details: NA
+  - name: hemlock.033
+    observer: all
+    id: waypoint.166
+    group: Hemlock Decline
+    date: '2021-07-10'
+    lat: 47.5569
+    lon: -122.25171
+    color: '#00D400'
+    radius: 3.0
+    details: NA
+  - name: hemlock.035
+    observer: all
+    id: waypoint.167
+    group: Hemlock Decline
+    date: '2021-07-22'
+    lat: 47.55674
+    lon: -122.25144
+    color: '#00FF00'
+    radius: 2.0
+    details: NA
+  - name: hemlock.036
+    observer: all
+    id: waypoint.167
+    group: Hemlock Decline
+    date: '2021-07-22'
+    lat: 47.55673
+    lon: -122.25143
+    color: '#002A00'
+    radius: 5.0
+    details: NA
+  - name: hemlock.037
+    observer: all
+    id: waypoint.167
+    group: Hemlock Decline
+    date: '2021-07-22'
+    lat: 47.55674
+    lon: -122.25141
+    color: '#007F00'
+    radius: 4.0
+    details: NA
+  - name: hemlock.038
+    observer: all
+    id: waypoint.168
+    group: Hemlock Decline
+    date: '2021-07-22'
+    lat: 47.5569
+    lon: -122.25131
+    color: '#002A00'
+    radius: 6.0
+    details: NA
+  - name: hemlock.039
+    observer: all
+    id: waypoint.169
+    group: Hemlock Decline
+    date: '2021-07-22'
+    lat: 47.55696
+    lon: -122.25105
+    color: '#007F00'
+    radius: 4.0
+    details: NA
+  - name: hemlock.040
+    observer: all
+    id: waypoint.169
+    group: Hemlock Decline
+    date: '2021-07-22'
+    lat: 47.55696
+    lon: -122.25105
+    color: '#00AA00'
+    radius: 4.0
+    details: NA
+  - name: hemlock.041
+    observer: all
+    id: waypoint.170
+    group: Hemlock Decline
+    date: '2021-07-22'
+    lat: 47.557048
+    lon: -122.250969
+    color: '#002A00'
+    radius: 3.0
+    details: NA
+  - name: hemlock.042
+    observer: all
+    id: waypoint.170
+    group: Hemlock Decline
+    date: '2021-07-22'
+    lat: 47.557053
+    lon: -122.250983
+    color: '#002A00'
+    radius: 5.0
+    details: NA
+  - name: hemlock.043
+    observer: all
+    id: waypoint.171
+    group: Hemlock Decline
+    date: '2021-07-22'
+    lat: 47.557215
+    lon: -122.250998
+    color: '#002A00'
+    radius: 5.0
+    details: NA
+  - name: hemlock.044
+    observer: all
+    id: waypoint.171
+    group: Hemlock Decline
+    date: '2021-07-22'
+    lat: 47.557209
+    lon: -122.250989
+    color: '#000000'
+    radius: 1.0
+    details: NA
+  - name: hemlock.045
+    observer: all
+    id: waypoint.171
+    group: Hemlock Decline
+    date: '2021-07-22'
+    lat: 47.557199
+    lon: -122.250986
+    color: '#000000'
+    radius: 1.0
+    details: NA
+  - name: hemlock.046
+    observer: all
+    id: waypoint.172
+    group: Hemlock Decline
+    date: '2021-07-22'
+    lat: 47.55697
+    lon: -122.25134
+    color: '#00AA00'
+    radius: 5.0
+    details: NA
+  - name: hemlock.047
+    observer: all
+    id: waypoint.173
+    group: Hemlock Decline
+    date: '2021-07-22'
+    lat: 47.556944
+    lon: -122.251338
+    color: red
+    radius: 5.0
+    details: NA
+  - name: hemlock.048
+    observer: all
+    id: waypoint.173
+    group: Hemlock Decline
+    date: '2021-07-22'
+    lat: 47.556972
+    lon: -122.251306
+    color: red
+    radius: 6.0
+    details: NA
+  - name: hemlock.049
+    observer: all
+    id: waypoint.173
+    group: Hemlock Decline
+    date: '2021-07-22'
+    lat: 47.556963
+    lon: -122.25134
+    color: red
+    radius: 5.0
+    details: NA
+  - name: hemlock.050
+    observer: all
+    id: waypoint.173
+    group: Hemlock Decline
+    date: '2021-07-22'
+    lat: 47.556969
+    lon: -122.251373
+    color: red
+    radius: 6.0
+    details: NA
+  - name: hemlock.051
+    observer: all
+    id: waypoint.173
+    group: Hemlock Decline
+    date: '2021-07-22'
+    lat: 47.556986
+    lon: -122.251364
+    color: red
+    radius: 4.0
+    details: NA
+  - name: hemlock.052
+    observer: all
+    id: waypoint.173
+    group: Hemlock Decline
+    date: '2021-07-22'
+    lat: 47.556988
+    lon: -122.251338
+    color: red
+    radius: 5.0
+    details: NA
+  - name: hemlock.053
+    observer: all
+    id: waypoint.173
+    group: Hemlock Decline
+    date: '2021-07-22'
+    lat: 47.55697
+    lon: -122.25134
+    color: red
+    radius: 5.0
+    details: NA
+  - name: hemlock.054
+    observer: all
+    id: waypoint.175
+    group: Hemlock Decline
+    date: '2021-07-26'
+    lat: 47.55708
+    lon: -122.25144
+    color: '#005500'
+    radius: 3.0
+    details: NA
+  - name: hemlock.055
+    observer: all
+    id: waypoint.176
+    group: Hemlock Decline
+    date: '2021-07-27'
+    lat: 47.55765
+    lon: -122.25109
+    color: '#00FF00'
+    radius: 7.0
+    details: NA
+  - name: hemlock.056
+    observer: all
+    id: waypoint.177
+    group: Hemlock Decline
+    date: '2021-07-27'
+    lat: 47.5577
+    lon: -122.2511
+    color: '#007F00'
+    radius: 2.0
+    details: NA
+  - name: hemlock.057
+    observer: all
+    id: waypoint.177
+    group: Hemlock Decline
+    date: '2021-07-27'
+    lat: 47.5577
+    lon: -122.2511
+    color: '#00FF00'
+    radius: 3.0
+    details: NA
+  - name: hemlock.058
+    observer: all
+    id: waypoint.178
+    group: Hemlock Decline
+    date: '2021-07-27'
+    lat: 47.5577
+    lon: -122.25088
+    color: '#007F00'
+    radius: 2.0
+    details: NA
+  - name: hemlock.059
+    observer: all
+    id: waypoint.178
+    group: Hemlock Decline
+    date: '2021-07-27'
+    lat: 47.5577
+    lon: -122.25088
+    color: '#007F00'
+    radius: 3.0
+    details: NA
+  - name: hemlock.060
+    observer: all
+    id: waypoint.179
+    group: Hemlock Decline
+    date: '2021-07-29'
+    lat: 47.55724
+    lon: -122.25193
+    color: '#00AA00'
+    radius: 3.0
+    details: NA
+  - name: hemlock.061
+    observer: all
+    id: waypoint.180
+    group: Hemlock Decline
+    date: '2021-07-29'
+    lat: 47.557259
+    lon: -122.251957
+    color: '#005500'
+    radius: 3.0
+    details: NA
+  - name: hemlock.062
+    observer: all
+    id: waypoint.180
+    group: Hemlock Decline
+    date: '2021-07-29'
+    lat: 47.557282
+    lon: -122.251935
+    color: '#00D400'
+    radius: 2.0
+    details: NA
+  - name: hemlock.063
+    observer: all
+    id: waypoint.180
+    group: Hemlock Decline
+    date: '2021-07-29'
+    lat: 47.557283
+    lon: -122.251931
+    color: '#00AA00'
+    radius: 4.0
+    details: NA
+  - name: hemlock.064
+    observer: all
+    id: waypoint.180
+    group: Hemlock Decline
+    date: '2021-07-29'
+    lat: 47.557214
+    lon: -122.25193
+    color: '#007F00'
+    radius: 4.0
+    details: NA
+  - name: hemlock.065
+    observer: all
+    id: waypoint.180
+    group: Hemlock Decline
+    date: '2021-07-29'
+    lat: 47.557201
+    lon: -122.25193
+    color: '#00FF00'
+    radius: 6.0
+    details: NA
+  - name: hemlock.066
+    observer: all
+    id: waypoint.180
+    group: Hemlock Decline
+    date: '2021-07-29'
+    lat: 47.55719
+    lon: -122.251928
+    color: '#007F00'
+    radius: 4.0
+    details: NA
+
+  - name: hemlock.decline.0001
+    observer: ISB.esore
+    id: hemlock.decline.0001
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.553742660274
+    lon: -122.250183332644
+    color: '#00AA00'
+    radius: 4.0
+    details: diseased
+    
+  - name: grandfir.decline.0002
+    observer: ISB.esore
+    id: grandfir.decline.0002
+    group: grandfir.decline.assay
+    date: '2023-08-01'
+    lat: 47.553140437677
+    lon: -122.250469487173
+    color: '#007100'
+    radius: 2.0
+    details: diseased
+    
+  - name: alder.decline.0003
+    observer: ISB.esore
+    id: alder.decline.0003
+    group: alder.decline.assay
+    date: '2023-08-01'
+    lat: 47.552989880309
+    lon: -122.250656874786
+    color: '#000000'
+    radius: 4.0
+    details: dead
+    
+  - name: cedar.decline.0004
+    observer: ISB.esore
+    id: cedar.decline.0004
+    group: cedar.decline.assay
+    date: '2023-08-01'
+    lat: 47.553114306537
+    lon: -122.25041084507
+    color: '#005500'
+    radius: 6.0
+    details: diseased
+    
+  - name: cedar.decline.0005
+    observer: ISB.esore
+    id: cedar.decline.0005
+    group: cedar.decline.assay
+    date: '2023-08-01'
+    lat: 47.553060624193
+    lon: -122.250386800907
+    color: '#007100'
+    radius: 8.0
+    details: diseased
+    
+  - name: cedar.decline.0006
+    observer: ISB.esore
+    id: cedar.decline.0006
+    group: cedar.decline.assay
+    date: '2023-08-01'
+    lat: 47.553763373298
+    lon: -122.250146999833
+    color: '#000000'
+    radius: 6.0
+    details: snag
+    
+  - name: cherry.decline.0007
+    observer: ISB.esore
+    id: cherry.decline.0007
+    group: cherry.decline.assay
+    date: '2023-08-01'
+    lat: 47.553671109321
+    lon: -122.250081274433
+    color: '#003800'
+    radius: 2.0
+    details: diseased
+    
+  - name: dougfir.decline.0008
+    observer: ISB.esore
+    id: dougfir.decline.0008
+    group: dougfir.decline.assay
+    date: '2023-08-01'
+    lat: 47.553922265475
+    lon: -122.250208780008
+    color: '#000000'
+    radius: 12.0
+    details: snag
+    
+  - name: madrone.decline.0009
+    observer: ISB.esore
+    id: madrone.decline.0009
+    group: madrone.decline.assay
+    date: '2023-08-01'
+    lat: 47.555693906839
+    lon: -122.250791403272
+    color: '#005500'
+    radius: 4.0
+    details: diseased
+    
+  - name: hemlock.decline.0010
+    observer: ISB.esore
+    id: hemlock.decline.0010
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.553742660274
+    lon: -122.250183332644
+    color: '#000000'
+    radius: 12.0
+    details: snag
+    
+  - name: yew.decline.0011
+    observer: ISB.esore
+    id: yew.decline.0011
+    group: yew.decline.assay
+    date: '2023-08-01'
+    lat: 47.55321812221
+    lon: -122.250468533891
+    color: '#003800'
+    radius: 1.0
+    details: diseased
+    
+  - name: hemlock.decline.0012
+    observer: ISB.esore
+    id: hemlock.decline.0012
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.55323335331
+    lon: -122.250324372947
+    color: '#007100'
+    radius: 4.0
+    details: diseased
+    
+  - name: madrone.decline.0013
+    observer: ISB.esore
+    id: madrone.decline.0013
+    group: madrone.decline.assay
+    date: '2023-08-01'
+    lat: 47.555889474277
+    lon: -122.251199281386
+    color: '#000000'
+    radius: 4.0
+    details: dead
+    
+  - name: dougfir.decline.0014
+    observer: ISB.esore
+    id: dougfir.decline.0014
+    group: dougfir.decline.assay
+    date: '2023-08-01'
+    lat: 47.555080342614
+    lon: -122.249953222489
+    color: '#000000'
+    radius: 6.0
+    details: snag
+    
+  - name: maple.decline.0015
+    observer: ISB.esore
+    id: maple.decline.0015
+    group: maple.decline.assay
+    date: '2023-08-01'
+    lat: 47.554864843633
+    lon: -122.250349333282
+    color: '#001C00'
+    radius: 2.0
+    details: dead
+    
+  - name: madrone.decline.0016
+    observer: ISB.esore
+    id: madrone.decline.0016
+    group: madrone.decline.assay
+    date: '2023-08-01'
+    lat: 47.556039956334
+    lon: -122.25089558721
+    color: '#000000'
+    radius: 2.0
+    details: dead
+    
+  - name: maple.decline.0017
+    observer: ISB.esore
+    id: maple.decline.0017
+    group: maple.decline.assay
+    date: '2023-08-01'
+    lat: 47.554744719339
+    lon: -122.250102929479
+    color: '#001C00'
+    radius: 2.0
+    details: diseased
+    
+  - name: hemlock.decline.0018
+    observer: ISB.esore
+    id: hemlock.decline.0018
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.554142866405
+    lon: -122.250108163864
+    color: '#000000'
+    radius: 2.0
+    details: dead
+    
+  - name: hemlock.decline.0019
+    observer: ISB.esore
+    id: hemlock.decline.0019
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.553584640927
+    lon: -122.250248862035
+    color: '#007100'
+    radius: 2.0
+    details: diseased
+    
+  - name: maple.decline.0020
+    observer: ISB.esore
+    id: maple.decline.0020
+    group: maple.decline.assay
+    date: '2023-08-01'
+    lat: 47.558673302537
+    lon: -122.251215891687
+    color: '#005500'
+    radius: 1.0
+    details: diseased
+    
+  - name: hemlock.decline.0021
+    observer: ISB.esore
+    id: hemlock.decline.0021
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.558412243032
+    lon: -122.251123122203
+    color: '#003800'
+    radius: 2.0
+    details: diseased
+    
+  - name: maple.decline.0022
+    observer: ISB.esore
+    id: maple.decline.0022
+    group: maple.decline.assay
+    date: '2023-08-01'
+    lat: 47.558273797831
+    lon: -122.250744808822
+    color: '#000000'
+    radius: 0.5
+    details: dead
+    
+  - name: hemlock.decline.0023
+    observer: ISB.esore
+    id: hemlock.decline.0023
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.558310073006
+    lon: -122.250773197004
+    color: '#000000'
+    radius: 5.0
+    details: stump
+    
+  - name: alder.decline.0024
+    observer: ISB.esore
+    id: alder.decline.0024
+    group: alder.decline.assay
+    date: '2023-08-01'
+    lat: 47.558089718258
+    lon: -122.250564065777
+    color: '#000000'
+    radius: 4.0
+    details: dead
+    
+  - name: dougfir.decline.0025
+    observer: ISB.esore
+    id: dougfir.decline.0025
+    group: dougfir.decline.assay
+    date: '2023-08-01'
+    lat: 47.558278281633
+    lon: -122.250067388875
+    color: '#001C00'
+    radius: 10.0
+    details: stump
+    
+  - name: alder.decline.0026
+    observer: ISB.esore
+    id: alder.decline.0026
+    group: alder.decline.assay
+    date: '2023-08-01'
+    lat: 47.558281945341
+    lon: -122.250058137143
+    color: '#000000'
+    radius: 3.0
+    details: stump
+    
+  - name: hemlock.decline.0027
+    observer: ISB.esore
+    id: hemlock.decline.0027
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.558406286937
+    lon: -122.249826989198
+    color: '#001C00'
+    radius: 4.0
+    details: diseased
+    
+  - name: cedar.decline.0028
+    observer: ISB.esore
+    id: cedar.decline.0028
+    group: cedar.decline.assay
+    date: '2023-08-01'
+    lat: 47.558429278282
+    lon: -122.249917880369
+    color: '#000000'
+    radius: 5.0
+    details: dead
+    
+  - name: maple.decline.0029
+    observer: ISB.esore
+    id: maple.decline.0029
+    group: maple.decline.assay
+    date: '2023-08-01'
+    lat: 47.558803174559
+    lon: -122.249851113454
+    color: '#007100'
+    radius: 10.0
+    details: diseased
+    
+  - name: hemlock.decline.0030
+    observer: ISB.esore
+    id: hemlock.decline.0030
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.558937846292
+    lon: -122.249780311218
+    color: '#003800'
+    radius: 1.0
+    details: diseased
+    
+  - name: hemlock.decline.0031
+    observer: ISB.esore
+    id: hemlock.decline.0031
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.559634826246
+    lon: -122.249939216917
+    color: '#005500'
+    radius: 1.0
+    details: diseased
+    
+  - name: hemlock.decline.0032
+    observer: ISB.esore
+    id: hemlock.decline.0032
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.558937846292
+    lon: -122.249780311218
+    color: '#003800'
+    radius: 0.84
+    details: diseased
+    
+  - name: hemlock.decline.0033
+    observer: ISB.esore
+    id: hemlock.decline.0033
+    group: hemlock.decline.assay
+    date: '2023-08-01'
+    lat: 47.559634826246
+    lon: -122.249939216917
+    color: '#005500'
+    radius: 1.0
+    details: diseased
+    
+  - name: hemlock.decline.0034
+    observer: ISB.esore
+    id: hemlock.decline.0034
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.558896682916
+    lon: -122.24976799997
+    color: '#005500'
+    radius: 12.0
+    details: diseased
+    
+  - name: cedar.decline.0035
+    observer: ISB.esore
+    id: cedar.decline.0035
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.559432596061
+    lon: -122.249957485094
+    color: '#00AA00'
+    radius: 6.0
+    details: diseased
+    
+  - name: hemlock.decline.0036
+    observer: ISB.esore
+    id: hemlock.decline.0036
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.559288236789
+    lon: -122.249875431201
+    color: '#008D00'
+    radius: 0.5
+    details: diseased
+    
+  - name: dougfir.decline.0037
+    observer: ISB.esore
+    id: dougfir.decline.0037
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.332512931626
+    lon: -122.157060246366
+    color: '#005500'
+    radius: 1.34
+    details: diseased
+    
+  - name: cedar.decline.0038
+    observer: ISB.esore
+    id: cedar.decline.0038
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: .na.real
+    lon: .na.real
+    color: '#00AA00'
+    radius: 7.0
+    details: diseased
+    
+  - name: dougfir.decline.0039
+    observer: ISB.esore
+    id: dougfir.decline.0039
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.560440248531
+    lon: -122.250299711513
+    color: .na.character
+    radius: 4.0
+    details: snag
+    
+  - name: hemlock.decline.0040
+    observer: ISB.esore
+    id: hemlock.decline.0040
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.332766625733
+    lon: -122.156962049621
+    color: '#00AA00'
+    radius: 3.0
+    details: diseased
+    
+  - name: cedar.decline.0041
+    observer: ISB.esore
+    id: cedar.decline.0041
+    group: cedar.decline.assay
+    date: '2023-08-01'
+    lat: 47.560593453051
+    lon: -122.2505286208
+    color: '#005500'
+    radius: 4.0
+    details: diseased
+    
+  - name: dougfir.decline.0042
+    observer: ISB.esore
+    id: dougfir.decline.0042
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: .na.real
+    lon: .na.real
+    color: '#000000'
+    radius: 10.0
+    details: snag
+    
+  - name: cottonwood.decline.0043
+    observer: ISB.esore
+    id: cottonwood.decline.0043
+    group: cottonwood.decline.assay
+    date: '2023-08-02'
+    lat: 47.332631732811
+    lon: -122.157068327728
+    color: '#000000'
+    radius: 5.0
+    details: dead
+    
+  - name: madrone.decline.0044
+    observer: ISB.esore
+    id: madrone.decline.0044
+    group: madrone.decline.assay
+    date: '2023-08-02'
+    lat: 47.333041667755
+    lon: -122.157974188528
+    color: '#005500'
+    radius: 4.0
+    details: diseased
+    
+  - name: hemlock.decline.0045
+    observer: ISB.esore
+    id: hemlock.decline.0045
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.555061891915
+    lon: -122.251191018715
+    color: '#005500'
+    radius: 5.0
+    details: diseased
+    
+  - name: maple.decline.0046
+    observer: ISB.esore
+    id: maple.decline.0046
+    group: maple.decline.assay
+    date: '2023-08-02'
+    lat: 47.555299496228
+    lon: -125.250991238128
+    color: '#000000'
+    radius: 4.0
+    details: dead
+    
+  - name: hemlock.decline.0047
+    observer: ISB.esore
+    id: hemlock.decline.0047
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.554986527498
+    lon: -122.25107651013
+    color: '#000000'
+    radius: 2.0
+    details: dead
+    
+  - name: cedar.decline.0048
+    observer: ISB.esore
+    id: cedar.decline.0048
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.554862130725
+    lon: -122.252286419709
+    color: '#00C600'
+    radius: 4.0
+    details: diseased
+    
+  - name: hemlock.decline.0049
+    observer: ISB.esore
+    id: hemlock.decline.0049
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.556128372369
+    lon: -122.251492323454
+    color: '#007100'
+    radius: 4.0
+    details: diseased
+    
+  - name: cedar.decline.0050
+    observer: ISB.esore
+    id: cedar.decline.0050
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555062984346
+    lon: -122.252742626105
+    color: '#00FF00'
+    radius: 3.0
+    details: diseased
+    
+  - name: hemlock.decline.0051
+    observer: ISB.esore
+    id: hemlock.decline.0051
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.552870897708
+    lon: -122.252948110364
+    color: '#000000'
+    radius: 2.0
+    details: snag
+    
+  - name: hemlock.decline.0052
+    observer: ISB.esore
+    id: hemlock.decline.0052
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.555455448388
+    lon: -122.252685453772
+    color: '#000000'
+    radius: 2.0
+    details: snag
+    
+  - name: cedar.decline.0053
+    observer: ISB.esore
+    id: cedar.decline.0053
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555437056399
+    lon: -122.249838925962
+    color: '#00C600'
+    radius: 7.0
+    details: diseased
+    
+  - name: dougfir.decline.0054
+    observer: ISB.esore
+    id: dougfir.decline.0054
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555271407859
+    lon: -122.250020320962
+    color: '#00AA00'
+    radius: 3.0
+    details: diseased
+    
+  - name: dougfir.decline.0055
+    observer: ISB.esore
+    id: dougfir.decline.0055
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555496693951
+    lon: -122.253056863216
+    color: '#000000'
+    radius: 9.0
+    details: snag
+    
+  - name: dougfir.decline.0056
+    observer: ISB.esore
+    id: dougfir.decline.0056
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555527719843
+    lon: -122.253062498318
+    color: '#00C600'
+    radius: 6.0
+    details: diseased
+    
+  - name: maple.decline.0057
+    observer: ISB.esore
+    id: maple.decline.0057
+    group: maple.decline.assay
+    date: '2023-08-02'
+    lat: 47.555472930991
+    lon: -122.252730601845
+    color: '#000000'
+    radius: 5.0
+    details: snag
+    
+  - name: dougfir.decline.0058
+    observer: ISB.esore
+    id: dougfir.decline.0058
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555379580225
+    lon: -122.252745358061
+    color: '#000000'
+    radius: 4.0
+    details: dead
+    
+  - name: dougfir.decline.0059
+    observer: ISB.esore
+    id: dougfir.decline.0059
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555508908415
+    lon: -122.253063208745
+    color: '#000000'
+    radius: 5.0
+    details: snag
+    
+  - name: maple.decline.0060
+    observer: ISB.esore
+    id: maple.decline.0060
+    group: maple.decline.assay
+    date: '2023-08-02'
+    lat: 47.555523437039
+    lon: -122.253293813782
+    color: '#005500'
+    radius: 2.0
+    details: diseased
+    
+  - name: cedar.decline.0061
+    observer: ISB.esore
+    id: cedar.decline.0061
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555499553999
+    lon: -122.253625771695
+    color: '#00C600'
+    radius: 6.0
+    details: diseased
+    
+  - name: dougfir.decline.0062
+    observer: ISB.esore
+    id: dougfir.decline.0062
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555445678753
+    lon: -122.253543236483
+    color: '#005500'
+    radius: 2.0
+    details: diseased
+    
+  - name: cedar.decline.0063
+    observer: ISB.esore
+    id: cedar.decline.0063
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555532701335
+    lon: -122.253565714887
+    color: '#005500'
+    radius: 4.0
+    details: diseased
+    
+  - name: maple.decline.0064
+    observer: ISB.esore
+    id: maple.decline.0064
+    group: maple.decline.assay
+    date: '2023-08-02'
+    lat: 47.555695012234
+    lon: -122.253538083175
+    color: '#008D00'
+    radius: 2.0
+    details: diseased
+    
+  - name: madrone.decline.0065
+    observer: ISB.esore
+    id: madrone.decline.0065
+    group: madrone.decline.assay
+    date: '2023-08-02'
+    lat: 47.555604662519
+    lon: -122.253539343234
+    color: '#005500'
+    radius: 3.0
+    details: diseased
+    
+  - name: maple.decline.0066
+    observer: ISB.esore
+    id: maple.decline.0066
+    group: maple.decline.assay
+    date: '2023-08-02'
+    lat: 47.555572546287
+    lon: -122.253397721372
+    color: '#008D00'
+    radius: 3.0
+    details: diseased
+    
+  - name: cedar.decline.0067
+    observer: ISB.esore
+    id: cedar.decline.0067
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555512946569
+    lon: -122.253358816345
+    color: '#00E200'
+    radius: 6.0
+    details: diseased
+    
+  - name: dougfir.decline.0068
+    observer: ISB.esore
+    id: dougfir.decline.0068
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555196093207
+    lon: -122.253383744326
+    color: '#005500'
+    radius: 8.0
+    details: diseased
+    
+  - name: maple.decline.0069
+    observer: ISB.esore
+    id: maple.decline.0069
+    group: maple.decline.assay
+    date: '2023-08-02'
+    lat: 47.555638725288
+    lon: -122.253829360667
+    color: '#005500'
+    radius: 1.0
+    details: diseased
+    
+  - name: cedar.decline.0070
+    observer: ISB.esore
+    id: cedar.decline.0070
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555648665703
+    lon: -122.253391183923
+    color: '#007100'
+    radius: 3.0
+    details: diseased
+    
+  - name: dougfir.decline.0071
+    observer: ISB.esore
+    id: dougfir.decline.0071
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555322703597
+    lon: -122.790097491564
+    color: '#00C600'
+    radius: 3.0
+    details: diseased
+    
+  - name: cedar.decline.0072
+    observer: ISB.esore
+    id: cedar.decline.0072
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.55537819393
+    lon: -122.249990958804
+    color: '#005500'
+    radius: 8.0
+    details: diseased
+    
+  - name: dougfir.decline.0073
+    observer: ISB.esore
+    id: dougfir.decline.0073
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555438152767
+    lon: -122.249733707097
+    color: '#005500'
+    radius: 1.0
+    details: diseased
+    
+  - name: dougfir.decline.0074
+    observer: ISB.esore
+    id: dougfir.decline.0074
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555323037251
+    lon: -122.249674888843
+    color: '#007100'
+    radius: 2.0
+    details: diseased
+    
+  - name: dougfir.decline.0075
+    observer: ISB.esore
+    id: dougfir.decline.0075
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555335871887
+    lon: -122.249747681971
+    color: '#001C00'
+    radius: 1.0
+    details: dead
+    
+  - name: cedar.decline.0076
+    observer: ISB.esore
+    id: cedar.decline.0076
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555470616788
+    lon: -122.249560944457
+    color: '#00C600'
+    radius: 8.0
+    details: diseased
+    
+  - name: cedar.decline.0077
+    observer: ISB.esore
+    id: cedar.decline.0077
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.55551800012
+    lon: -122.24983084653
+    color: '#005500'
+    radius: 8.0
+    details: diseased
+    
+  - name: maple.decline.0078
+    observer: ISB.esore
+    id: maple.decline.0078
+    group: maple.decline.assay
+    date: '2023-08-02'
+    lat: 47.555420395242
+    lon: -122.249881936582
+    color: '#000000'
+    radius: 4.0
+    details: snag
+    
+  - name: dougfir.decline.0079
+    observer: ISB.esore
+    id: dougfir.decline.0079
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555528640648
+    lon: -122.249736281547
+    color: '#000000'
+    radius: 0.66
+    details: dead
+    
+  - name: dougfir.decline.0080
+    observer: ISB.esore
+    id: dougfir.decline.0080
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555552854939
+    lon: -122.249701982037
+    color: '#000000'
+    radius: 0.5
+    details: dead
+    
+  - name: cedar.decline.0081
+    observer: ISB.esore
+    id: cedar.decline.0081
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555242328365
+    lon: -122.249869192482
+    color: '#008D00'
+    radius: 4.4
+    details: diseased
+    
+  - name: cedar.decline.0082
+    observer: ISB.esore
+    id: cedar.decline.0082
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555608819369
+    lon: -122.249593059365
+    color: '#007100'
+    radius: 5.0
+    details: diseased
+    
+  - name: dougfir.decline.0083
+    observer: ISB.esore
+    id: dougfir.decline.0083
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555543120843
+    lon: -122.249017257197
+    color: '#008D00'
+    radius: 3.4
+    details: diseased
+    
+  - name: hemlock.decline.0084
+    observer: ISB.esore
+    id: hemlock.decline.0084
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.555519565801
+    lon: -122.249437847926
+    color: '#007100'
+    radius: 2.0
+    details: diseased
+    
+  - name: cedar.decline.0085
+    observer: ISB.esore
+    id: cedar.decline.0085
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555458994788
+    lon: -122.249248112116
+    color: '#000000'
+    radius: 7.0
+    details: snag
+    
+  - name: cedar.decline.0086
+    observer: ISB.esore
+    id: cedar.decline.0086
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555631695684
+    lon: -122.249257586553
+    color: '#00AA00'
+    radius: 7.0
+    details: diseased
+    
+  - name: cedar.decline.0087
+    observer: ISB.esore
+    id: cedar.decline.0087
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555512929551
+    lon: -122.249310556783
+    color: '#007100'
+    radius: 7.0
+    details: diseased
+    
+  - name: hemlock.decline.0088
+    observer: ISB.esore
+    id: hemlock.decline.0088
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.555494820245
+    lon: -122.249201921938
+    color: '#000000'
+    radius: 1.34
+    details: snag
+    
+  - name: cedar.decline.0089
+    observer: ISB.esore
+    id: cedar.decline.0089
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555816179652
+    lon: -122.248974172954
+    color: '#000000'
+    radius: 8.0
+    details: snag
+    
+  - name: dougfir.decline.0090
+    observer: ISB.esore
+    id: dougfir.decline.0090
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555523522665
+    lon: -122.249118281662
+    color: '#007100'
+    radius: 1.0
+    details: dead
+    
+  - name: madrone.decline.0091
+    observer: ISB.esore
+    id: madrone.decline.0091
+    group: madrone.decline.assay
+    date: '2023-08-02'
+    lat: 47.555569650676
+    lon: -122.254289473749
+    color: '#005500'
+    radius: 2.0
+    details: diseased
+    
+  - name: maple.decline.0092
+    observer: ISB.esore
+    id: maple.decline.0092
+    group: maple.decline.assay
+    date: '2023-08-02'
+    lat: 47.555727818042
+    lon: -122.253299841652
+    color: '#000000'
+    radius: 3.0
+    details: dead
+    
+  - name: dougfir.decline.0093
+    observer: ISB.esore
+    id: dougfir.decline.0093
+    group: dougfir.decline.assay
+    date: '2023-08-03'
+    lat: 47.556289585439
+    lon: -222.352268533041
+    color: '#000000'
+    radius: 1.0
+    details: snag
+    
+  - name: hemlock.decline.0094
+    observer: ISB.esore
+    id: hemlock.decline.0094
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.559820902305
+    lon: -122.251810525561
+    color: '#001C00'
+    radius: 5.0
+    details: diseased
+    
+  - name: dougfir.decline.0095
+    observer: ISB.esore
+    id: dougfir.decline.0095
+    group: dougfir.decline.assay
+    date: '2023-08-03'
+    lat: 47.555940763003
+    lon: -122.252918194477
+    color: '#005500'
+    radius: 2.0
+    details: diseased
+    
+  - name: hemlock.decline.0096
+    observer: ISB.esore
+    id: hemlock.decline.0096
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.559821905533
+    lon: -122.251694602932
+    color: '#000000'
+    radius: 4.0
+    details: dead
+    
+  - name: cedar.decline.0097
+    observer: ISB.esore
+    id: cedar.decline.0097
+    group: cedar.decline.assay
+    date: '2023-08-03'
+    lat: 47.556169559779
+    lon: -122.251976777606
+    color: '#000000'
+    radius: 6.0
+    details: snag
+    
+  - name: maple.decline.0098
+    observer: ISB.esore
+    id: maple.decline.0098
+    group: maple.decline.assay
+    date: '2023-08-02'
+    lat: 47.560099794236
+    lon: -122.251634699363
+    color: '#000000'
+    radius: 4.0
+    details: dead
+    
+  - name: cedar.decline.0099
+    observer: ISB.esore
+    id: cedar.decline.0099
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.559969328024
+    lon: -122.251895225113
+    color: '#000000'
+    radius: 8.0
+    details: stump
+    
+  - name: hemlock.decline.0100
+    observer: ISB.esore
+    id: hemlock.decline.0100
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.56016401153
+    lon: -122.251713866146
+    color: '#000000'
+    radius: 4.0
+    details: snag
+    
+  - name: maple.decline.0101
+    observer: ISB.esore
+    id: maple.decline.0101
+    group: maple.decline.assay
+    date: '2023-08-02'
+    lat: 47.560178573946
+    lon: -122.252074596758
+    color: '#000000'
+    radius: 2.0
+    details: snag
+    
+  - name: cedar.decline.0102
+    observer: ISB.esore
+    id: cedar.decline.0102
+    group: cedar.decline.assay
+    date: '2023-08-03'
+    lat: 47.556189606955
+    lon: -122.252034691164
+    color: '#000000'
+    radius: 2.0
+    details: dead
+    
+  - name: maple.decline.0103
+    observer: ISB.esore
+    id: maple.decline.0103
+    group: maple.decline.assay
+    date: '2023-08-03'
+    lat: 47.556189114856
+    lon: -122.252449488813
+    color: '#000000'
+    radius: 3.0
+    details: snag
+    
+  - name: dougfir.decline.0104
+    observer: ISB.esore
+    id: dougfir.decline.0104
+    group: dougfir.decline.assay
+    date: '2023-08-03'
+    lat: 47.556555191354
+    lon: -122.252467049044
+    color: '#003800'
+    radius: 6.0
+    details: diseased
+    
+  - name: maple.decline.0105
+    observer: ISB.esore
+    id: maple.decline.0105
+    group: maple.decline.assay
+    date: '2023-08-03'
+    lat: 47.556702
+    lon: -122.252624759205
+    color: '#003800'
+    radius: 4.0
+    details: diseased
+    
+  - name: dougfir.decline.0106
+    observer: ISB.esore
+    id: dougfir.decline.0106
+    group: dougfir.decline.assay
+    date: '2023-08-03'
+    lat: 47.557024609552
+    lon: -122.252863805122
+    color: '#005500'
+    radius: 3.0
+    details: diseased
+    
+  - name: maple.decline.0107
+    observer: ISB.esore
+    id: maple.decline.0107
+    group: maple.decline.assay
+    date: '2023-08-03'
+    lat: 47.557374191101
+    lon: -122.252968922205
+    color: '#000000'
+    radius: 1.0
+    details: snag
+    
+  - name: dougfir.decline.0108
+    observer: ISB.esore
+    id: dougfir.decline.0108
+    group: dougfir.decline.assay
+    date: '2023-08-03'
+    lat: 47.253179586091
+    lon: -122.253147279457
+    color: '#000000'
+    radius: 8.0
+    details: snag
+    
+  - name: dougfir.decline.0109
+    observer: ISB.esore
+    id: dougfir.decline.0109
+    group: dougfir.decline.assay
+    date: '2023-08-03'
+    lat: 47.559072776384
+    lon: -122.253078086409
+    color: '#000000'
+    radius: 8.0
+    details: dead
+    
+  - name: dougfir.decline.0110
+    observer: ISB.esore
+    id: dougfir.decline.0110
+    group: dougfir.decline.assay
+    date: '2023-08-03'
+    lat: 47.559608404566
+    lon: -122.253458486423
+    color: '#000000'
+    radius: 5.0
+    details: dead
+    
+  - name: dougfir.decline.0111
+    observer: ISB.esore
+    id: dougfir.decline.0111
+    group: dougfir.decline.assay
+    date: '2023-08-03'
+    lat: 47.559769874046
+    lon: -122.25181924924
+    color: '#003800'
+    radius: 6.0
+    details: diseased
+    
+  - name: dougfir.decline.0112
+    observer: ISB.esore
+    id: dougfir.decline.0112
+    group: dougfir.decline.assay
+    date: '2023-08-03'
+    lat: 47.559685796257
+    lon: -122.251661492764
+    color: '#000000'
+    radius: 8.0
+    details: snag
+    
+  - name: cedar.decline.0113
+    observer: ISB.esore
+    id: cedar.decline.0113
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555654600326
+    lon: -122.248387415938
+    color: '#000000'
+    radius: 3.0
+    details: snag
+    
+  - name: hemlock.decline.0114
+    observer: ISB.esore
+    id: hemlock.decline.0114
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.555630853135
+    lon: -122.248251265188
+    color: '#000000'
+    radius: 2.0
+    details: dead
+    
+  - name: cedar.decline.0115
+    observer: ISB.esore
+    id: cedar.decline.0115
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555658103924
+    lon: -122.248648121713
+    color: '#008D00'
+    radius: 6.0
+    details: diseased
+    
+  - name: cedar.decline.0116
+    observer: ISB.esore
+    id: cedar.decline.0116
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555695727004
+    lon: -122.248811535411
+    color: '#003800'
+    radius: 4.0
+    details: diseased
+    
+  - name: hemlock.decline.0117
+    observer: ISB.esore
+    id: hemlock.decline.0117
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.555544757035
+    lon: -122.21452512222
+    color: '#000000'
+    radius: 3.0
+    details: snag
+    
+  - name: dougfir.decline.0118
+    observer: ISB.esore
+    id: dougfir.decline.0118
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555497073185
+    lon: -122.24865957547
+    color: '#00AA00'
+    radius: 3.0
+    details: dead
+    
+  - name: cedar.decline.0119
+    observer: ISB.esore
+    id: cedar.decline.0119
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555298552731
+    lon: -122.248799302556
+    color: '#003800'
+    radius: 2.0
+    details: diseased
+    
+  - name: hemlock.decline.0120
+    observer: ISB.esore
+    id: hemlock.decline.0120
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.55541333302
+    lon: -122.248896318196
+    color: '#000000'
+    radius: 4.0
+    details: snag
+    
+  - name: cedar.decline.0121
+    observer: ISB.esore
+    id: cedar.decline.0121
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555691832716
+    lon: -122.249033750564
+    color: '#000000'
+    radius: 4.0
+    details: snag
+    
+  - name: cedar.decline.0122
+    observer: ISB.esore
+    id: cedar.decline.0122
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555599610958
+    lon: -122.248506006808
+    color: '#000000'
+    radius: 3.0
+    details: snag
+    
+  - name: cedar.decline.0123
+    observer: ISB.esore
+    id: cedar.decline.0123
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555667429623
+    lon: -122.248390267264
+    color: '#005500'
+    radius: 5.0
+    details: snag
+    
+  - name: dougfir.decline.0124
+    observer: ISB.esore
+    id: dougfir.decline.0124
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555780509435
+    lon: -122.247986390875
+    color: '#007100'
+    radius: 4.0
+    details: diseased
+    
+  - name: dougfir.decline.0125
+    observer: ISB.esore
+    id: dougfir.decline.0125
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.55589341324
+    lon: -122.248296491789
+    color: '#003800'
+    radius: 4.4
+    details: diseased
+    
+  - name: cedar.decline.0126
+    observer: ISB.esore
+    id: cedar.decline.0126
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555678642541
+    lon: -122.248112713953
+    color: '#008D00'
+    radius: 5.4
+    details: diseased
+    
+  - name: dougfir.decline.0127
+    observer: ISB.esore
+    id: dougfir.decline.0127
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555616822291
+    lon: -122.248182218039
+    color: '#007100'
+    radius: 3.0
+    details: diseased
+    
+  - name: dougfir.decline.0128
+    observer: ISB.esore
+    id: dougfir.decline.0128
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.55570044254
+    lon: -122.248184603364
+    color: '#007100'
+    radius: 2.0
+    details: diseased
+    
+  - name: dougfir.decline.0129
+    observer: ISB.esore
+    id: dougfir.decline.0129
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555646969753
+    lon: -122.248183131878
+    color: '#005500'
+    radius: 1.0
+    details: diseased
+    
+  - name: cedar.decline.0130
+    observer: ISB.esore
+    id: cedar.decline.0130
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555711491908
+    lon: -122.248225761964
+    color: '#008D00'
+    radius: 5.0
+    details: diseased
+    
+  - name: hemlock.decline.0131
+    observer: ISB.esore
+    id: hemlock.decline.0131
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.555631790423
+    lon: -122.248214659534
+    color: '#000000'
+    radius: 2.5
+    details: snag
+    
+  - name: maple.decline.0132
+    observer: ISB.esore
+    id: maple.decline.0132
+    group: maple.decline.assay
+    date: '2023-08-02'
+    lat: 47.555635198033
+    lon: -122.247885689833
+    color: '#001C00'
+    radius: 2.0
+    details: dead
+    
+  - name: dougfir.decline.0133
+    observer: ISB.esore
+    id: dougfir.decline.0133
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555733012316
+    lon: -122.248132989566
+    color: '#008D00'
+    radius: 2.0
+    details: diseased
+    
+  - name: dougfir.decline.0134
+    observer: ISB.esore
+    id: dougfir.decline.0134
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555829054453
+    lon: -122.248212783419
+    color: '#005500'
+    radius: 2.0
+    details: diseased
+    
+  - name: dougfir.decline.0135
+    observer: ISB.esore
+    id: dougfir.decline.0135
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555157104165
+    lon: -122.248062657957
+    color: '#00FF00'
+    radius: 3.0
+    details: diseased
+    
+  - name: dougfir.decline.0136
+    observer: ISB.esore
+    id: dougfir.decline.0136
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555929503113
+    lon: -122.248288229386
+    color: '#008D00'
+    radius: 2.0
+    details: diseased
+    
+  - name: cedar.decline.0137
+    observer: ISB.esore
+    id: cedar.decline.0137
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555861230601
+    lon: -122.247960748464
+    color: '#000000'
+    radius: 3.0
+    details: snag
+    
+  - name: dougfir.decline.0138
+    observer: ISB.esore
+    id: dougfir.decline.0138
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555870093431
+    lon: -122.247950955566
+    color: '#003800'
+    radius: 0.8
+    details: dead
+    
+  - name: cedar.decline.0139
+    observer: ISB.esore
+    id: cedar.decline.0139
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555880689578
+    lon: -122.248060104316
+    color: '#005500'
+    radius: 3.0
+    details: diseased
+    
+  - name: cedar.decline.0140
+    observer: ISB.esore
+    id: cedar.decline.0140
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.55558056977
+    lon: -122.248025436767
+    color: '#008D00'
+    radius: 5.0
+    details: diseased
+    
+  - name: cedar.decline.0141
+    observer: ISB.esore
+    id: cedar.decline.0141
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.555867360399
+    lon: -122.248028481
+    color: '#003800'
+    radius: 3.0
+    details: diseased
+    
+  - name: maple.decline.0142
+    observer: ISB.esore
+    id: maple.decline.0142
+    group: maple.decline.assay
+    date: '2023-08-02'
+    lat: 47.555972872567
+    lon: -122.24811114086
+    color: '#001C00'
+    radius: 1.4
+    details: diseased
+    
+  - name: dougfir.decline.0143
+    observer: ISB.esore
+    id: dougfir.decline.0143
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555897477687
+    lon: -122.247679733351
+    color: '#000000'
+    radius: 0.8
+    details: dead
+    
+  - name: dougfir.decline.0144
+    observer: ISB.esore
+    id: dougfir.decline.0144
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.555506272711
+    lon: -122.248451275488
+    color: '#000000'
+    radius: 6.0
+    details: dead
+    
+  - name: hemlock.decline.0145
+    observer: ISB.esore
+    id: hemlock.decline.0145
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.558951689578
+    lon: -122.249913104316
+    color: '#003800'
+    radius: 1.0
+    details: diseased
+    
+  - name: hemlock.decline.0146
+    observer: ISB.esore
+    id: hemlock.decline.0146
+    group: hemlock.decline.assay
+    date: '2023-08-03'
+    lat: 47.560036361379
+    lon: -122.250262784455
+    color: '#000000'
+    radius: 2.0
+    details: dead
+    
+  - name: dougfir.decline.0147
+    observer: ISB.esore
+    id: dougfir.decline.0147
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.559452370428
+    lon: -122.251777360836
+    color: '#001C00'
+    radius: 4.0
+    details: diseased
+    
+  - name: dougfir.decline.0148
+    observer: ISB.esore
+    id: dougfir.decline.0148
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.558852562336
+    lon: -122.251874487281
+    color: '#000000'
+    radius: 6.0
+    details: dead
+    
+  - name: dougfir.decline.0149
+    observer: ISB.esore
+    id: dougfir.decline.0149
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.55862987941
+    lon: -122.251919587466
+    color: '#003800'
+    radius: 6.0
+    details: diseased
+    
+  - name: hemlock.decline.0150
+    observer: ISB.esore
+    id: hemlock.decline.0150
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.558654583066
+    lon: -122.249927452927
+    color: '#000000'
+    radius: 1.0
+    details: dead
+    
+  - name: dougfir.decline.0151
+    observer: ISB.esore
+    id: dougfir.decline.0151
+    group: dougfir.decline.assay
+    date: '2023-08-02'
+    lat: 47.558307560304
+    lon: -122.250222937905
+    color: '#007100'
+    radius: 4.0
+    details: diseased
+    
+  - name: cedar.decline.0152
+    observer: ISB.esore
+    id: cedar.decline.0152
+    group: cedar.decline.assay
+    date: '2023-08-02'
+    lat: 47.558211589295
+    lon: -122.250850638207
+    color: '#005500'
+    radius: 2.0
+    details: diseased
+    
+  - name: hemlock.decline.0153
+    observer: ISB.esore
+    id: hemlock.decline.0153
+    group: hemlock.decline.assay
+    date: '2023-08-02'
+    lat: 47.558542000031
+    lon: -122.251040729879
+    color: '#001C00'
+    radius: 3.0
+    details: diseased
